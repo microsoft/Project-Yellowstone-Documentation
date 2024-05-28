@@ -35,7 +35,7 @@ with
 In this article, you learn how to install the Power BI apps for Business Central. The apps are specific to each functional area of Business Central and include APIs for reading data, Power BI semantic models and reports, and pages that embeds the Power BI reports in the Business Central client including navigation links from relevant role centers.
 
 > [!IMPORTANT]
-> Power BI apps for Finance, Sales, Purchase, Inventory, Manufacturing, and Projects in [!INCLUDE [prod_short](includes/prod_short.md)] is currently in PREVIEW.
+> Power BI apps for Finance, Sales, Purchase, Inventory, Manufacturing, and Projects in Business Central is currently in PREVIEW.
 > This information relates to a prerelease product that may be substantially modified before it's released. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.
 
 <!-- TODO: replace with 
