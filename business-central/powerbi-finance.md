@@ -18,9 +18,9 @@ This article explains how to use the built-in **Power BI reports** to analyze fi
 
 The Power BI reports on finance data supports many analytics scenarios relevant for finance processes, such as
 
-- Scenario 1 
 - Scenario 2 
-- Scenario 3 
+- Scenario 10 
+- Scenario 12
 
 
 ## Available KPIs for finance
@@ -29,7 +29,7 @@ The following sections provide an overview of all the available KPIs that are sh
 
 | KPI | Usage example | Available on Report | Learn more |
 | --- | ------------- | ------------------- | ---------- |
-| KPI 1 | TODO | Finance overview | []() |
+| KPI 1 | TODO | Finance overview | [Finance overview Report](#finance-overview-report) |
 
 
 ## Available Power BI report for finance
@@ -38,7 +38,7 @@ The following sections provide an overview of all the available Power BI reports
 
 | Report | Usage examples | Learn more |
 | ------ | -------------- | ---------- |
-| Finance overview | TODO | []() |
+| Finance overview | TODO | [Finance overview Report](#finance-overview-report) |
 
 
 ### Finance overview Report
@@ -51,7 +51,7 @@ The _Finance overview_ report is meant to provide... and is typically used for t
 
 ![Screenshot of the Finance overview report](./media/finance-powerbi-finance-overview.png "Finance Overview (screenshot)")
 
-The report show the following KPIs:
+The report shows the following KPIs:
 
 - KPI 1
 - KPI 2
