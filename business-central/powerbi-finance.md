@@ -30,15 +30,17 @@ The following sections provide an overview of all the available KPIs that are sh
 | KPI | Usage example | Available on Report | Learn more |
 | --- | ------------- | ------------------- | ---------- |
 | KPI 1 | TODO | Finance overview | [Finance overview Report](#finance-overview-report) |
+| KPI 2 | TODO | Finance overview | [Finance overview Report](#finance-overview-report) |
 
 
-## Available Power BI report for finance
+## Available Power BI reports for finance
 
 The following sections provide an overview of all the available Power BI reports for finance:
 
 | Report | Usage examples | Learn more |
 | ------ | -------------- | ---------- |
 | Finance overview | TODO | [Finance overview Report](#finance-overview-report) |
+| Liquidity KPIs | TODO | [Liquidity KPIs Report](#liquidity-kpis-report) |
 
 
 ### Finance overview Report
@@ -74,6 +76,11 @@ KPI 1 is calculated as follows: ...
 **Data source(s)**
 
 To calcuate KPI 1, data from the following tables is used: _table 1_, _table 2_, and _table 3_...
+
+
+### Liquidity KPIs Report
+
+TODO
 
 
 ## Data foundation for the Power BI reports on finance
