@@ -49,6 +49,8 @@ The _Finance overview_ report is meant to provide... and is typically used for t
 - Scenario 2 
 - Scenario 3 
 
+![Screenshot of the Finance overview report](./media/finance-powerbi-finance-overview.png "Finance Overview (screenshot)")
+
 The report show the following KPIs:
 
 - KPI 1
