@@ -45,8 +45,6 @@ The following sections provide an overview of all the available Power BI reports
 
 ### Finance overview Report
 
-The _Finance overview_ report is meant to provide... and is typically used for the following scenarios
-
 The _Financial overview_ is designed to provide a comprehensive snapshot of an organization's financial health and performance. This dashboard displays key financial metrics (KPIs) to give stakeholders a clear view of revenue, cost management, profitability, and financial stability. The Finance overview is typically used in the following scenarios:
 
 - Executive Decision-Making: Helping executives and senior management make informed strategic decisions by providing a high-level view of the financial status.
@@ -96,7 +94,7 @@ To calcuate Revenue, data from the following tables is used:
 - Revenue (Level 1 Category)
 
 
-### Liquidity KPIs Report (also known as ABC or XYZ)
+### Expenses
 
 **KPI description**
 
