@@ -45,21 +45,56 @@ The following sections provide an overview of all the available Power BI reports
 
 ### Finance overview Report
 
-The _Finance overview_ report is meant to provide... and is typically used for the following scenarios
+The _Financial overview_ is designed to provide a comprehensive snapshot of an organization's financial health and performance. This dashboard displays key financial metrics (KPIs) to give stakeholders a clear view of revenue, cost management, profitability, and financial stability. The Finance overview is typically used in the following scenarios:
 
-- Scenario 1 
-- Scenario 2 
-- Scenario 3 
+- Executive Decision-Making: Helping executives and senior management make informed strategic decisions by providing a high-level view of the financial status.
+- Financial Analysis: Supports financial analysts in assessing trends, identifying anomalies, and making data-driven recommendations for improvements.
+- Operational Monitoring: Assists operational managers in monitoring financial performance against targets and budgets to ensure operational efficiency and effectiveness.
 
 ![Screenshot of the Finance overview report](./media/finance-powerbi-finance-overview.png "Finance Overview (screenshot)")
 
 The report shows the following KPIs:
 
-- KPI 1
-- KPI 2
-- ...
+- Revenue
+- Expenses
+- Gross Profit
+- Gross Profit Margin
+- Net Profit
+- Net Profit Margin
+- Liabilities
+- Assets
+- Debt Ratio
+- Operating Profit- EBIT
+- EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
+- Operating Expenses
+- Balance (AP)
+- Balance (AR)
+- Cost of Goods Sold across time
+- Net Profit across time
 
-#### KPI 1 (also known as ABC or XYZ)
+#### Revenue (also known as Gross Revenue)
+
+**KPI description**
+
+Revenue is all earned income on the income statement exclusive of any expenditures, such as the cost of goods sold. 
+
+**Usage scenario(s)**
+
+You use Revenue to measure the gross earnings from income producing business activities. 
+
+**Calculation**
+
+Revenue is calculated as follows: The Net Change for all accounts categorized by the Revenue (Level 1 Category) parameter.
+
+**Data source(s)**
+
+To calcuate Revenue, data from the following tables is used: 
+- G/L Entries
+- G/L Account Category
+- Revenue (Level 1 Category)
+
+
+### Expenses
 
 **KPI description**
 
@@ -76,11 +111,6 @@ KPI 1 is calculated as follows: ...
 **Data source(s)**
 
 To calcuate KPI 1, data from the following tables is used: _table 1_, _table 2_, and _table 3_...
-
-
-### Liquidity KPIs Report
-
-TODO
 
 
 ## Data foundation for the Power BI reports on finance
