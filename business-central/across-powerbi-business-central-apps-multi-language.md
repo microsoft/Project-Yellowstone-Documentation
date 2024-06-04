@@ -44,11 +44,14 @@ In this article, you learn how to test multi-language capabilities in the Power 
 
 ## Languages and locales in the preview
 
-As a starting point, the following languages and locales are available in the preview: 
+In the preview, the following languages and locales are available: 
 * en-US, 
 * es-ES, 
-*fr-FR, and 
+* fr-FR, and 
 * de-DE.
+
+The following apps are currently available in multi-language
+* finance
 
 
 ## How to try a Power BI app in a languages/locales
