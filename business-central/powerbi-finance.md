@@ -32,6 +32,8 @@ The following sections provide an overview of all the available KPIs that are sh
 - [Income Statement Measures](#income-statement-measures)
 - [Liquidity KPIs](#liquidity-kpis)
 - [Profitability KPIs](#profitability-kpis)
+- [Customer Ledger Measures](#customer-ledger-measures)
+- [Vendor Ledger Measures](#vendor-ledger-measures)
 
 #### Activity KPIs
 | KPI | Usage example | Available on Report | Learn more | 
@@ -56,7 +58,7 @@ The following sections provide an overview of all the available KPIs that are sh
 | Accounts Receivable | - | - | TODO |
 | Accounts Receivable (Average) | - | - | TODO |
 | Accounts Receivable (Beginning Balance) | - | - | TODO |
-| Assets | - | - | TODO |
+| Assets | - | [Finance overview](#finance-overview-report) | TODO |
 | Capital Employed | - | - | TODO |
 | Current Assets | - | - | TODO |
 | Equity | - | - | TODO |
@@ -64,7 +66,7 @@ The following sections provide an overview of all the available KPIs that are sh
 | Inventory | - | - | TODO |
 | Inventory (Average) | - | - | TODO |
 | Inventory (Beginning Balance) | - | - | TODO |
-| Liabilities | - | - | TODO |
+| Liabilities | - | [Finance overview](#finance-overview-report) | TODO |
 | Liabilities & Equity | - | - | TODO |
 | Liabilities (Neg) | - | - | TODO |
 | Liquid Assets | - | - | TODO |
@@ -78,9 +80,9 @@ The following sections provide an overview of all the available KPIs that are sh
 #### Income Statement Measures
 | KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
-| Cost of Goods Sold | - | Finance overview | [Cost of Goods Sold](#revenue) |
+| Cost of Goods Sold | - | [Finance overview](#finance-overview-report) | [Cost of Goods Sold](#revenue) |
 | Depreciation and Amortization | TODO | - | - |
-| Expense | - | Finance overview | [Expense](#revenue) |
+| Expense | - | [Finance overview](#finance-overview-report) | [Expense](#revenue) |
 | Expense (Balance at Date) | - | - | [Expense](#revenue) |
 | Expense (Beginning Balance) | - | - | [Expense](#revenue) |
 | Extraordinary Expense | - | - | - |
@@ -101,16 +103,16 @@ The following sections provide an overview of all the available KPIs that are sh
 | Interest Revenue  | - | - | - |
 | Interest Revenue (Balance at Date) | - | - | - |
 | Interest Revenue (Beginning Balance) | - | - | - |
-| Operating Expense - OPEX | - | Finance overview | [Operating Expense - OPEX](#revenue) |
+| Operating Expense - OPEX | - | [Finance overview](#finance-overview-report) | [Operating Expense - OPEX](#revenue) |
 | Operating Expense - OPEX (Balance at Date) | - | - | - |
 | Operating Expense - OPEX (Beginning Balance)  | - | - | - |
 | Operating Revenue | - | - | - |
 | Operating Revenue (Balance at Date) | - | - | - |
 | Operating Revenue (Beginning Balance) | - | - | - |
 | Purchases | - | - | - |
-| Revenue | Revenue is used to measure overall performance and growth, as well as the effectiveness of sales and marketing strategies. | Finance overview | [Revenue](#revenue) |
-| Revenue (Balance at Date) | - | Finance overview | - | 
-| Revenue (Beginning Balance) | - | Finance overview | - | 
+| Revenue | Revenue is used to measure overall performance and growth, as well as the effectiveness of sales and marketing strategies. | [Finance overview](#finance-overview-report) | [Revenue](#revenue) |
+| Revenue (Balance at Date) | - | [Finance overview](#finance-overview-report) | - | 
+| Revenue (Beginning Balance) | - | [Finance overview](#finance-overview-report) | - | 
 | Tax Expense | - | - | - |
 | Tax Expense (Balance at Date) | - | - | - |
 | Tax Expense (Beginning Balance) | - | - | - |
@@ -125,14 +127,14 @@ The following sections provide an overview of all the available KPIs that are sh
 #### Profitability KPIs
 | KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
-| Debt Ratio | - | Finance overview | TODO |
+| Debt Ratio | - | [Finance overview](#finance-overview-report) | TODO |
 | Debt/Equity Ratio | - | - | TODO |
-| EBITDA | - | - | TODO |
-| Gross Profit | - | - | TODO |
-| Gross Profit Margin | - | - | TODO |
-| Net Profit | - | - | TODO |
-| Net Profit Margin | - | - | TODO |
-| Operating Profit - EBIT | - | - | TODO |
+| EBITDA | - | [Finance overview](#finance-overview-report) | TODO |
+| Gross Profit | - | [Finance overview](#finance-overview-report) | TODO |
+| Gross Profit Margin | - | [Finance overview](#finance-overview-report) | TODO |
+| Net Profit | - | [Finance overview](#finance-overview-report) | TODO |
+| Net Profit Margin | - | [Finance overview](#finance-overview-report) | TODO |
+| Operating Profit - EBIT | - | [Finance overview](#finance-overview-report) | TODO |
 | Operating Profit Margin | - | - | TODO |
 | Return On Assets - ROA | - | - | TODO |
 | Return On Capital Employed - ROCE | - | - | TODO |
@@ -140,7 +142,19 @@ The following sections provide an overview of all the available KPIs that are sh
 | Return On Net Assets - RONA | - | - | TODO |
 | Shareholder Equity Ratio | - | - | TODO |
 
+#### Customer Ledger Measures
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Amount Receivable (LCY) | - | - | TODO |
+| Balance (AR) | - | [Finance overview](#finance-overview-report) | TODO |
+| Original Amount (LCY) | - | - | TODO |
 
+#### Vendor Ledger Measures
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Amount Payable (LCY) | - | - | TODO |
+| Balance (AP) | - | [Finance overview](#finance-overview-report) | TODO |
+| Original Amount | - | - | TODO |
 
 ## Available Power BI reports for finance
 
