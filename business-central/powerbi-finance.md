@@ -76,11 +76,15 @@ The report shows the following KPIs:
 
 **KPI description**
 
-Revenue is all earned income on the income statement exclusive of any expenditures, such as the cost of goods sold. 
+Revenue is the amount of money that a company receives from its customers for the products or services it sells. It is also called gross revenue, sales, or income. Revenue is the top line of the income statement and reflects the total value of transactions with customers before deducting any expenses, such as the cost of goods sold (COGS), operating expenses, taxes, or interest. 
 
 **Usage scenario(s)**
 
-You use Revenue to measure the gross earnings from income producing business activities. 
+You can use revenue to measure the overall performance and growth of your business, as well as the effectiveness of your sales and marketing strategies. Revenue indicates the demand and value of your products or services in the market, as well as your ability to attract and retain customers.
+
+- **Business Segment Profitability:** By analyzing Revenue by different business segments (dimensions), companies can identify which areas are contributing the most to the top line and adjust their focus and resources accordingly.
+- **Financial Planning:** Revenue recognition is crucial for financial planning, forecasting, and budgeting, helping businesses to make informed decisions about future investments and expenses.
+- **Sales Team Evaluation:** Analyzing Revenue KPI can help in evaluating the performance of sales teams, understanding the effectiveness of sales strategies, and identifying areas for improvement.
 
 **Calculation**
 
@@ -94,7 +98,7 @@ To calcuate Revenue, data from the following tables is used:
 - Revenue (Level 1 Category)
 
 
-### Expenses
+### Gross Profit Margin
 
 **KPI description**
 
