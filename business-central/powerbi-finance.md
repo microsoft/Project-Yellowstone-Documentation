@@ -29,7 +29,7 @@ The following sections provide an overview of all the available KPIs that are sh
 
 | KPI | Usage example | Available on Report | Learn more |
 | --- | ------------- | ------------------- | ---------- |
-| KPI 1 | TODO | Finance overview | [Finance overview Report](#finance-overview-report) |
+| Revenue | Revenue is used to measure overall performance and growth, as well as the effectiveness of sales and marketing strategies. | Finance overview | [Revenue](#revenue) |
 | KPI 2 | TODO | Finance overview | [Finance overview Report](#finance-overview-report) |
 
 
@@ -39,7 +39,7 @@ The following sections provide an overview of all the available Power BI reports
 
 | Report | Usage examples | Learn more |
 | ------ | -------------- | ---------- |
-| Finance Overview | TODO | [Finance Overview Report](#finance-overview-report) |
+| Finance Overview | The Finance Overview can be used in executive decision-making, supporting financial analysis, and guiding operational monitoring to ensure the company's financial operations run smoothly and efficiently. | [Finance Overview Report](#finance-overview-report) |
 | Income Statement by Month | TODO | [Income Statement by Month Report](#income-statement-report) |
 | Balance Sheet by Month | TODO | [Balance Sheet by Month Report](#balance-sheet-report) |
 | Budget Comparison | TODO | [Budget Comparison Report](#budget-comparison-report) |
@@ -51,9 +51,9 @@ The following sections provide an overview of all the available Power BI reports
 | Aged Receivables (Back Dating) | TODO | [Aged Receivables (Back Dating) Report](#aged-receivables-back-dating-report) |
 | Aged Payables (Back Dating) | TODO | [Aged Payables (Back Dating) Report](#aged-payables-back-dating-report) |
 
-### Finance overview Report
+### Finance Overview Report
 
-The _Financial overview_ is designed to provide a comprehensive snapshot of an organization's financial health and performance. This dashboard displays key financial metrics (KPIs) to give stakeholders a clear view of revenue, cost management, profitability, and financial stability. The Finance overview is typically used in the following scenarios:
+The _Financial Overview_ is designed to provide a comprehensive snapshot of an organization's financial health and performance. This dashboard displays key financial metrics (KPIs) to give stakeholders a clear view of revenue, cost management, profitability, and financial stability. The Finance overview is typically used in the following scenarios:
 
 - Executive Decision-Making: Helping executives and senior management make informed strategic decisions by providing a high-level view of the financial status.
 - Financial Analysis: Supports financial analysts in assessing trends, identifying anomalies, and making data-driven recommendations for improvements.
@@ -80,7 +80,7 @@ The report shows the following KPIs:
 - Cost of Goods Sold across time
 - Net Profit across time
 
-#### Revenue (also known as Gross Revenue)
+### Revenue
 
 **KPI description**
 
