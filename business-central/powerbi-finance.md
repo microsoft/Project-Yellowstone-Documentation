@@ -39,9 +39,17 @@ The following sections provide an overview of all the available Power BI reports
 
 | Report | Usage examples | Learn more |
 | ------ | -------------- | ---------- |
-| Finance overview | TODO | [Finance overview Report](#finance-overview-report) |
+| Finance Overview | TODO | [Finance Overview Report](#finance-overview-report) |
+| Income Statement by Month | TODO | [Income Statement by Month Report](#income-statement-report) |
+| Balance Sheet by Month | TODO | [Balance Sheet by Month Report](#balance-sheet-report) |
+| Budget Comparison | TODO | [Budget Comparison Report](#budget-comparison-report) |
 | Liquidity KPIs | TODO | [Liquidity KPIs Report](#liquidity-kpis-report) |
-
+| Profitability | TODO | [Profitability Report](#profitability-report) |
+| Liabilities | TODO | [Liabilities Report](#liabilities-report) |
+| EBITDA | TODO | [EBITDA Report](#ebitda-report) |
+| Average Collection Period | TODO | [LAverage Collection Period Report](#average-collection-period-report) |
+| Aged Receivables (Back Dating) | TODO | [Aged Receivables (Back Dating) Report](#aged-receivables-back-dating-report) |
+| Aged Payables (Back Dating) | TODO | [Aged Payables (Back Dating) Report](#aged-payables-back-dating-report) |
 
 ### Finance overview Report
 
