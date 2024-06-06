@@ -27,10 +27,119 @@ The Power BI reports on finance data supports many analytics scenarios relevant 
 
 The following sections provide an overview of all the available KPIs that are shown on the Power BI reports for finance:
 
-| KPI | Usage example | Available on Report | Learn more |
+- [Acitvity KPIs](#activity-kpis)
+- [Balance Sheet Measures](#balance-sheet-measures)
+- [Income Statement Measures](#income-statement-measures)
+- [Liquidity KPIs](#liquidity-kpis)
+- [Profitability KPIs](#profitability-kpis)
+
+#### Activity KPIs
+| KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
+| % Change in Operating Profit - EBIT | - | - | TODO |
+| % Change in Revenue | - | - | TODO |
+| Asset Turnover Ratio | - | - | TODO |
+| Average Collection Period (Days) | - | - | TODO |
+| Cash Conversion Cycle - CCC | - | - | TODO |
+| Days Payable Outstanding - DPO | - | - | TODO |
+| Days Sales Of Inventory - DSI | - | - | TODO |
+| Days Sales Outstanding - DSO | - | - | TODO |
+| Degree Of Operating Leverage - DOL | - | - | TODO |
+| Inventory Turnover | - | - | TODO |
+
+
+#### Balance Sheet Measures
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Accounts Payable | - | - | TODO |
+| Accounts Payable (Neg) | - | - | TODO |
+| Accounts Receivable | - | - | TODO |
+| Accounts Receivable (Average) | - | - | TODO |
+| Accounts Receivable (Beginning Balance) | - | - | TODO |
+| Assets | - | - | TODO |
+| Capital Employed | - | - | TODO |
+| Current Assets | - | - | TODO |
+| Equity | - | - | TODO |
+| Fixed Assets | - | - | TODO |
+| Inventory | - | - | TODO |
+| Inventory (Average) | - | - | TODO |
+| Inventory (Beginning Balance) | - | - | TODO |
+| Liabilities | - | - | TODO |
+| Liabilities & Equity | - | - | TODO |
+| Liabilities (Neg) | - | - | TODO |
+| Liquid Assets | - | - | TODO |
+| Longterm Liabilities | - | - | TODO |
+| Payroll Liabilities | - | - | TODO |
+| Purchase Prepayments | - | - | TODO |
+| Shareholders' Equity | - | - | TODO |
+| Working Capital | - | - | TODO |
+
+
+#### Income Statement Measures
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Cost of Goods Sold | - | Finance overview | [Cost of Goods Sold](#revenue) |
+| Depreciation and Amortization | TODO | - | - |
+| Expense | - | Finance overview | [Expense](#revenue) |
+| Expense (Balance at Date) | - | - | [Expense](#revenue) |
+| Expense (Beginning Balance) | - | - | [Expense](#revenue) |
+| Extraordinary Expense | - | - | - |
+| Extraordinary Expense (Balance at Date) | - | - | - |
+| Extraordinary Expense (Beginning Balance) | - | - | - |
+| Extraordinary Revenue | - | - | - |
+| Extraordinary Revenue (Balance at Date) | - | - | - |
+| Extraordinary Revenue (Beginning Balance) | - | - | - |
+| FX Gains Revenue | - | - | - |
+| FX Gains Revenue (Balance at Date) | - | - | - |
+| FX Gains Revenue (Beginning Balance) | - | - | - |
+| FX Losses Expense | - | - | - |
+| FX Losses Expense (Balance at Date) | - | - | - |
+| FX Losses Expense (Beginning Balance) | - | - | - |
+| Interest Expense | - | - | - |
+| Interest Expense (Balance at Date) | - | - | - |
+| Interest Expense (Beginning Balance) | - | - | - |
+| Interest Revenue  | - | - | - |
+| Interest Revenue (Balance at Date) | - | - | - |
+| Interest Revenue (Beginning Balance) | - | - | - |
+| Operating Expense - OPEX | - | Finance overview | [Operating Expense - OPEX](#revenue) |
+| Operating Expense - OPEX (Balance at Date) | - | - | - |
+| Operating Expense - OPEX (Beginning Balance)  | - | - | - |
+| Operating Revenue | - | - | - |
+| Operating Revenue (Balance at Date) | - | - | - |
+| Operating Revenue (Beginning Balance) | - | - | - |
+| Purchases | - | - | - |
 | Revenue | Revenue is used to measure overall performance and growth, as well as the effectiveness of sales and marketing strategies. | Finance overview | [Revenue](#revenue) |
-| KPI 2 | TODO | Finance overview | [Finance overview Report](#finance-overview-report) |
+| Revenue (Balance at Date) | - | Finance overview | - | 
+| Revenue (Beginning Balance) | - | Finance overview | - | 
+| Tax Expense | - | - | - |
+| Tax Expense (Balance at Date) | - | - | - |
+| Tax Expense (Beginning Balance) | - | - | - |
+
+#### Liquidity KPIs
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Cash Ratio | - | - | - |
+| Current Ratio | - | - | - |
+| Quick Ratio | - | - | - |
+
+#### Profitability KPIs
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Debt Ratio | - | Finance overview | TODO |
+| Debt/Equity Ratio | - | - | TODO |
+| EBITDA | - | - | TODO |
+| Gross Profit | - | - | TODO |
+| Gross Profit Margin | - | - | TODO |
+| Net Profit | - | - | TODO |
+| Net Profit Margin | - | - | TODO |
+| Operating Profit - EBIT | - | - | TODO |
+| Operating Profit Margin | - | - | TODO |
+| Return On Assets - ROA | - | - | TODO |
+| Return On Capital Employed - ROCE | - | - | TODO |
+| Return On Equity - ROE | - | - | TODO |
+| Return On Net Assets - RONA | - | - | TODO |
+| Shareholder Equity Ratio | - | - | TODO |
+
 
 
 ## Available Power BI reports for finance
