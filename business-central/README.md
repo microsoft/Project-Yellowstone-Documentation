@@ -9,3 +9,4 @@ This repo has the following articles
 ## Administration
 
 - [Install Power BI apps for Business Central](./across-powerbi-install-business-central-apps.md)
+- [Configure the Power BI finance app for Business Central](powerbi-configure-business-central-finance-apps.md)
