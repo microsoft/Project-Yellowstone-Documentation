@@ -246,26 +246,32 @@ Revenue is calculated as follows: The Net Change for all accounts categorized by
 To calcuate Revenue, data from the following tables is used: 
 - G/L Entries
 - G/L Account Category
-- Revenue (Level 1 Category)
+- **Parameter**: Revenue (Level 1 Category)
 
 
 ### Gross Profit Margin
 
 **KPI description**
 
-Gross Profit Margin is a financial metric that indicates the percentage of revenue remaining after deducting the cost of goods sold (COGS), reflecting a company's operational efficiency. It is calculated by subtracting COGS from net sales and expressing the result as a percentage of sales. This metric is essential for understanding a company's profitability before accounting for other expenses like selling, general, and administrative costs.
+Gross Profit Margin is a financial metric that indicates the percentage of revenue remaining after deducting the cost of goods sold (COGS). It is calculated by subtracting COGS from revenue and expressing the result as a percentage of revenue. This metric is essential for understanding a company's profitability before accounting for other expenses like selling, general, and administrative costs.
 
 **Usage scenario(s)**
 
-You use KPI 1 to...
+- **Performance Benchmarking:** Gross Profit Margin can be used to benchmark performance against competitors. This helps in understanding competitive positioning and identifying areas where the company can improve its cost structure or pricing strategies to match or exceed industry standards.
+- **Evaluating Cost Efficiency:** To assess how well a company manages its cost of goods sold relative to its revenue. By analyzing Gross Profit Margin, businesses can identify inefficiencies in their production processes or supply chains and take measures to reduce costs, thereby improving profitability.
+- **Pricing Strategy Assessment:** To determine the effectiveness of current pricing strategies businesses can compare Gross Profit Margin across different dimensions such as product lines or services. A low margin might indicate the need for a price increase or cost reduction, while a high margin might suggest pricing power or the potential to lower prices to gain market share.
 
 **Calculation**
 
-KPI 1 is calculated as follows: ...
+Gross Profit Margin is calculated as follows: Gross Profit divided by Revenue, expressed as a percentage. 
 
 **Data source(s)**
 
-To calcuate KPI 1, data from the following tables is used: _table 1_, _table 2_, and _table 3_...
+To calcuate Gross Profit Margin, data from the following tables is used: 
+- G/L Entries
+- G/L Account Category
+- **Parameter**: Revenue (Level 1 Category)
+- **Parameter**: Cost of Goods Sole (Level 1 Category)
 
 
 ## Data foundation for the Power BI reports on finance
