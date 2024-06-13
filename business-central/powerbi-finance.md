@@ -34,6 +34,8 @@ The following sections provide an overview of all the available KPIs that are sh
 - [Profitability KPIs](#profitability-kpis)
 - [Customer Ledger Measures](#customer-ledger-measures)
 - [Vendor Ledger Measures](#vendor-ledger-measures)
+- [G/L Entry Meaures](#gl-entry-measures)
+- [G/L Budget Entry Meaures](#gl-budget-entry-measures)
 
 #### Activity KPIs
 | KPI | Usage example | Available on Report | Learn more | 
@@ -180,17 +182,17 @@ The following sections provide an overview of all the available Power BI reports
 
 | Report | Usage examples | Learn more |
 | ------ | -------------- | ---------- |
-| Finance Overview | The Finance Overview can be used in executive decision-making, supporting financial analysis, and guiding operational monitoring to ensure the company's financial operations run smoothly and efficiently. | [Finance Overview Report](#finance-overview-report) |
-| Income Statement by Month | TODO | [Income Statement by Month Report](#income-statement-report) |
-| Balance Sheet by Month | TODO | [Balance Sheet by Month Report](#balance-sheet-report) |
-| Budget Comparison | TODO | [Budget Comparison Report](#budget-comparison-report) |
-| Liquidity KPIs | TODO | [Liquidity KPIs Report](#liquidity-kpis-report) |
-| Profitability | TODO | [Profitability Report](#profitability-report) |
-| Liabilities | TODO | [Liabilities Report](#liabilities-report) |
-| EBITDA | TODO | [EBITDA Report](#ebitda-report) |
-| Average Collection Period | TODO | [LAverage Collection Period Report](#average-collection-period-report) |
-| Aged Receivables (Back Dating) | TODO | [Aged Receivables (Back Dating) Report](#aged-receivables-back-dating-report) |
-| Aged Payables (Back Dating) | TODO | [Aged Payables (Back Dating) Report](#aged-payables-back-dating-report) |
+| Finance Overview | The Finance Overview can be used in executive decision-making, supporting financial analysis, and guiding operational monitoring to ensure the company's financial operations run smoothly and efficiently. | [Finance Overview](#finance-overview-report) |
+| Income Statement by Month | TODO | [Income Statement by Month](#income-statement-report) |
+| Balance Sheet by Month | TODO | [Balance Sheet by Month](#balance-sheet-report) |
+| Budget Comparison | TODO | [Budget Comparison](#budget-comparison-report) |
+| Liquidity KPIs | TODO | [Liquidity KPIs](#liquidity-kpis-report) |
+| Profitability | TODO | [Profitability](#profitability-report) |
+| Liabilities | TODO | [Liabilities](#liabilities-report) |
+| EBITDA | TODO | [EBITDA](#ebitda-report) |
+| Average Collection Period | TODO | [Average Collection Period](#average-collection-period-report) |
+| Aged Receivables (Back Dating) | TODO | [Aged Receivables (Back Dating)](#aged-receivables-back-dating-report) |
+| Aged Payables (Back Dating) | TODO | [Aged Payables (Back Dating)](#aged-payables-back-dating-report) |
 
 ### Finance Overview Report
 
