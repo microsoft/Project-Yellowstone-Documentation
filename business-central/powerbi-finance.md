@@ -273,6 +273,24 @@ To calculate Gross Profit Margin, data from the following tables is used:
 - **Parameter**: Revenue (Level 1 Category)
 - **Parameter**: Cost of Goods Sole (Level 1 Category)
 
+### Balance (AP)
+
+**KPI description**
+
+Balance (AP) also known as Accounts Payable Balance is a metric that represents the total amount of a company's outstanding payables.
+
+**Usage scenario(s)**
+
+
+**Calculation**
+
+Balance (AP) is calculated as follows: 
+
+**Data source(s)**
+
+To calculate Balance (AP), data from the following tables is used: 
+- Vendor Ledger Entries
+
 
 ## Data foundation for the Power BI reports on finance
 
