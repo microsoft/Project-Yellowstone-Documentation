@@ -133,7 +133,7 @@ The following sections provide an overview of all the available KPIs that are sh
 | Debt/Equity Ratio | - | - | TODO |
 | EBITDA | - | [Finance overview](#finance-overview-report) | TODO |
 | Gross Profit | - | [Finance overview](#finance-overview-report) | TODO |
-| Gross Profit Margin | - | [Finance overview](#finance-overview-report) | TODO |
+| Gross Profit Margin | - | [Finance overview](#finance-overview-report) | [Gross Profit Margin](#gross-profit-margin) |
 | Net Profit | - | [Finance overview](#finance-overview-report) | TODO |
 | Net Profit Margin | - | [Finance overview](#finance-overview-report) | TODO |
 | Operating Profit - EBIT | - | [Finance overview](#finance-overview-report) | TODO |
