@@ -159,3 +159,33 @@ Level 3 categories are the subcategories of Level 2 with indentation.
 | Purchases (Level 3 Category)              | Purchases                 |
 | Purchase Prepayments (Level 3 Category)   | Prepaid Expenses          |
 | Liquid Assets (Level 3 Category)          | Cash                      |
+
+
+## Fixing problems 
+### "Column ‘G/L Account No.’ in Table ‘G/L Account’ contains a duplicate value"
+
+When refreshing data from your Business Central environment into the Finance Power BI app, a refresh error may occur due to how your **Begin-Total** and **End-Total** accounts are configured in your **Chart of Accounts**. 
+
+If you receive this error, please review the totalling accounts.
+
+```
+Something went wrong
+There was an error when processing the data in the dataset.
+Please try again later or contact support. If you contact support, please provide these details.
+
+Data source error: Column 'G/L Account No.' in Table 'G/L Account' contains a duplicate value 'X' and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
+```
+
+### Cause
+
+This is due to the Finance Connector app relying on the totalling accounts for hierarchy and indentation purposes.
+
+Your totalling for an **End-Total** account must exactly reference both the **Begin-Total** and **End-Total** accounts. This means one **Begin-Total** account can only be used in one **End-Total** account.
+
+### Fixing the totalling on your G/L Accounts
+The totalling accounts should be set up such as the following example:
+
+1. A Begin-Total account of **1300 (Vehicles)** and the End-Total account of **1390 (Vehicles, Total)**.
+2. The totalling defined on the End-Total is **1300..1390**. 
+3. If your totalling account is defined as any other combination (such as 1300..1340, 1310..1390, or 1310..1340, etc.), this will cause the error.
+4. One **Begin-Total** account can only be used in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, then the Finance Power BI app cannot match it to an **End-Total** account.
