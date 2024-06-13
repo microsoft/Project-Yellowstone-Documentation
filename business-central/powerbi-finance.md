@@ -253,7 +253,7 @@ To calcuate Revenue, data from the following tables is used:
 
 **KPI description**
 
-KPI 1 is...
+Gross Profit Margin is a financial metric that indicates the percentage of revenue remaining after deducting the cost of goods sold (COGS), reflecting a company's operational efficiency. It is calculated by subtracting COGS from net sales and expressing the result as a percentage of sales. This metric is essential for understanding a company's profitability before accounting for other expenses like selling, general, and administrative costs.
 
 **Usage scenario(s)**
 
