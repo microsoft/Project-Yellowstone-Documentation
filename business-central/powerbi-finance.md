@@ -243,7 +243,7 @@ Revenue is calculated as follows: The Net Change for all accounts categorized by
 
 **Data source(s)**
 
-To calcuate Revenue, data from the following tables is used: 
+To calculate Revenue, data from the following tables is used: 
 - G/L Entries
 - G/L Account Category
 - **Parameter**: Revenue (Level 1 Category)
@@ -267,7 +267,7 @@ Gross Profit Margin is calculated as follows: Gross Profit divided by Revenue, e
 
 **Data source(s)**
 
-To calcuate Gross Profit Margin, data from the following tables is used: 
+To calculate Gross Profit Margin, data from the following tables is used: 
 - G/L Entries
 - G/L Account Category
 - **Parameter**: Revenue (Level 1 Category)
