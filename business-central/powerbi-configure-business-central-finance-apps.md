@@ -55,13 +55,12 @@ For more information, see [Install Power BI apps for Business Central](across-po
 
 
 
-## Configure date filtering for finance dataset
+## Configure date filtering for the Finance Connector
 
-The Finance Report can be configured to load data based on Start Date and End Date. This helps improve performance of your Business Central environment and reduce Power BI load times by only loading the data you intend to analyze.
+This section describes how to configure the date filtering for the Finance Connector app. The Finance Report can be configured to load data based on the **Start Date** and **End Date**. This filter helps improve performance of your Business Central environment and reduce Power BI load times by only loading the data you intend to analyze.
 
-Start Date and End Date can be applied to the following tables:
-
-- G/L Entries related to the Income Statement
+The **Start Date** and **End Date** can be applied to the following tables:
+- G/L Entries (related to the Income Statement)
 - G/L Budget Entries
 - Customer Ledger Entries
 - Vendor Ledger Entries
@@ -75,6 +74,9 @@ Start Date and End Date can be applied to the following tables:
 Repeat steps 2-3 for the date setup under **Customer Ledger Entry Filters** and **Vendor Ledger Entry Filters**.
 
 
+The following fields are available on the **Setup for Power BI Connector** page:
+
+
 |No.| Data Area                         | Field Name    | Description                                                                                               |
 |---| ---                               | ---           | ---                                                                                                       |
 |1  | Income Statement and G/L Budgets	| Start Date    | Specifies the starting date to apply to a range of Income Statement G/L entries and G/L Budget entries.   |
@@ -86,35 +88,34 @@ Repeat steps 2-3 for the date setup under **Customer Ledger Entry Filters** and 
 
 ## Configure the G/L account category mapping
 
-In Microsoft Dynamics 365 Business Central, G/L Account Categories allow you to group accounts in your chart for reporting purposes and these categories are essential for using the Power BI Finance app.
+In Business Central, **G/L Account Categories** allow you to group accounts in your chart for reporting purposes and these categories are essential for using the **Power BI Finance** app.
 
 ### What do I need to set up?
 
-For each posting account in the Chart of Accounts, an Account Category and Account Subcategory need to be set. Totalling accounts do not require this to be set up.
+For each posting account in the Chart of Accounts, you must set an **Account Category** and **Account Subcategory**. You do not need to set up the totalling accounts.
 
 ### How do I assign G/L Accounts to categories?
 
-The Account Category and Account Subcategory can be assigned directly to the G/L Account via the G/L Account Card.
-
-Alternatively, the G/L Account Categories summary page can be used.
+The **Account Category** and **Account Subcategory** can be assigned on the **G/L Account Card** page. Alternatively, the **G/L Account Categories** list page can be used.
 
 ### Can I create my own categories?
 
-Yes. However, you must leave the following top-level categories as-is:
-- Assets
-- Liabilities
-- Equity
-- Income
-- Cost of Goods Sold
-- Expense
+Yes. However, you must leave the following top-level categories as is:
+- **Assets**
+- **Liabilities**
+- **Equity**
+- **Income**
+- **Cost of Goods Sold**
+- **Expense**
 
-The subcategories can be created through **the G/L Account Categories** page, in conjunction with the **the Indent**, **Outdent**, **Move Up** and **Move Down** actions.
+The subcategories can be created through **the G/L Account Categories** page, in conjunction with the **Indent**, **Outdent**, **Move Up** and **Move Down** actions.
 
 ### What is the standard configuration?
 
-This standard configuration is the default mapping of Business Central G/L account categories to the corresponding parameters in the Power BI Finance report semantic model.
+This standard configuration is the default mapping of the corresponding parameters in the Power BI Finance semantic model to the **G/L Account Categories** in Business Central.
 
 ### Level 1 Categories
+Level 1 categories are the top-level categories without any indentation.
 
 | Parameter                                 | Business Central Category |
 | ---                                       | ---                       |
@@ -127,6 +128,7 @@ This standard configuration is the default mapping of Business Central G/L accou
 
 
 ### Level 2 Categories
+Level 2 categories are the second-level categories with indentation.
 
 | Parameter                                        	| Business Central Category     	|
 |--------------------------------------------------	|-------------------------------	|
@@ -147,6 +149,7 @@ This standard configuration is the default mapping of Business Central G/L accou
 
 
 ### Level 3 Categories
+Level 3 categories are the subcategories of Level 2 with indentation.
 
 | Parameter                                 | Business Central Category |
 | ---                                       | ---                       |
