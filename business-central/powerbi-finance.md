@@ -156,6 +156,24 @@ The following sections provide an overview of all the available KPIs that are sh
 | Balance (AP) | - | [Finance overview](#finance-overview-report) | TODO |
 | Original Amount | - | - | TODO |
 
+#### G/L Entry Measures
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Amount | - | - | TODO |
+| Balance | - | - | TODO |
+| Balance at Date | - | [Balance Sheet by Month](#balance-sheet-report) | TODO |
+| Balance at Date (Neg) | - | - | TODO |
+| Net Change | - | <ul><li>[Income Statement by Month](#income-statement-report)</li><li>[Budget Comparison](#budget-comparison-report)</li></ul> | TODO |
+| Net Change (Neg) | - | - | TODO |
+| Variance to Budget | - | - | TODO |
+| Variance to Budget % | - | - | TODO |
+
+#### G/L Budget Entry Measures
+| KPI | Usage example | Available on Report | Learn more | 
+| --- | ------------- | ------------------- | ---------- |
+| Budget Amount | - | - | TODO |
+| Budget Balance at Date | - | - | TODO |
+
 ## Available Power BI reports for finance
 
 The following sections provide an overview of all the available Power BI reports for finance:
