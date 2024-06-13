@@ -77,14 +77,14 @@ Repeat steps 2-3 for the date setup under **Customer Ledger Entry Filters** and 
 The following fields are available on the **Setup for Power BI Connector** page:
 
 
-|No.| Data Area                         | Field Name    | Description                                                                                               |
-|---| ---                               | ---           | ---                                                                                                       |
-|1  | Income Statement and G/L Budgets	| Start Date    | Specifies the starting date to apply to a range of Income Statement G/L entries and G/L Budget entries.   |
-|2  | Income Statement and G/L Budgets	| End Date      | Specifies the end date to apply to a range of Income Statement G/L entries and G/L Budget entries.        |
-|3  | Customer Ledger Entries	        | Start Date    | Specifies the starting date to apply to a range of Customer Ledger Entries.                               |  
-|4  | Customer Ledger Entries	        | End Date      | Specifies the end date to apply to a range of Customer Ledger Entries.                                    |
-|5  | Vendor Ledger Entries	            | Start Date    | Specifies the starting date to apply to a range of Vendor Ledger Entries.                                 |
-|6  | Vendor Ledger Entries	            | End Date      | Specifies the end date to apply to a range of Vendor Ledger Entries.                                      |
+|No.| Data Area                           | Field Name      | Description                                                                                               |
+|---| ---                                 | ---             | ---                                                                                                       |
+|1  | Income Statement and G/L Budgets	   | Start Date      | Specifies the starting date to apply to a range of Income Statement G/L entries and G/L Budget entries.   |
+|2  | Income Statement and G/L Budgets	   | End Date        | Specifies the end date to apply to a range of Income Statement G/L entries and G/L Budget entries.        |
+|3  | Customer Ledger Entries	            | Start Date      | Specifies the starting date to apply to a range of Customer Ledger Entries.                               |  
+|4  | Customer Ledger Entries	            | End Date        | Specifies the end date to apply to a range of Customer Ledger Entries.                                    |
+|5  | Vendor Ledger Entries	            | Start Date      | Specifies the starting date to apply to a range of Vendor Ledger Entries.                                 |
+|6  | Vendor Ledger Entries	            | End Date        | Specifies the end date to apply to a range of Vendor Ledger Entries.                                      |
 
 ## Configure the G/L account category mapping
 
@@ -130,19 +130,19 @@ Level 1 categories are the top-level categories without any indentation.
 ### Level 2 Categories
 Level 2 categories are the second-level categories with indentation.
 
-| Parameter                                        	| Business Central Category     	|
-|--------------------------------------------------	|-------------------------------	|
-| Current Assets (Level 2 Category)                	| Current Assets                	|
-| Current Liabilities (Level 2 Category)           	| Current Liabilities           	|
-| Shareholder's Equity (Level 2 Category)          	| Common Stock                  	|
-| Interest Expense (Level 2 Category)             	| Interest Expense                 	|
-| Tax Expense (Level 2 Category)                   	| Tax Expense                   	|
+| Parameter                                        	| Business Central Category     	   |
+|---	                                                |---	                              |
+| Current Assets (Level 2 Category)                	| Current Assets                	   |
+| Current Liabilities (Level 2 Category)           	| Current Liabilities           	   |
+| Shareholder's Equity (Level 2 Category)          	| Common Stock                  	   |
+| Interest Expense (Level 2 Category)             	   | Interest Expense                  |
+| Tax Expense (Level 2 Category)                   	| Tax Expense                   	   |
 | Extraordinary Expense (Level 2 Category)         	| Extraordinary Expense             |
 | FX Losses Expense (Level 2 Category)             	| FX Losses Expense                 |      	
 | Depreciation and Amortization (Level 2 Category) 	| Depreciation and Amortization     |
 | Interest Revenue (Level 2 Category)              	| Interest Income                	|
 | FX Gains Revenue (Level 2 Category)              	| FX Gains Income                   |
-| Extraordinary Revenue (Level 2 Category)         	| Extraordinary Income          	|
+| Extraordinary Revenue (Level 2 Category)         	| Extraordinary Income          	   |
 | Fixed Assets (Level 2 Category)                  	| Fixed Assets                      |
 | Payroll Liabilities (Level 2 Category)           	| Payroll Liabilities               |
 | Longterm Liabilities (Level 2 Category)          	| Long Term Liabilities           	|
