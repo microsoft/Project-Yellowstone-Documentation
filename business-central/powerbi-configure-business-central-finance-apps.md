@@ -44,17 +44,49 @@ In this article, you learn how to configure the Power BI finance app for Busines
 
 ## Prerequisites
 
-Before you can configure the Power BI finance app for Business Central, you need to install both the connector app (provides the APIs for reading data, configuration pages, and embed pages) and the Power BI app (provides the semantic model and reports)
+Before configuring the Power BI finance app for Business Central, you must have:
+
+1. The Finance Connector app:
+   - This app provides the APIs for data access, configuration pages, and embed pages. Make sure that the app is installed in your environment.
+2. The Finance Power BI app: 
+   - This app provides the semantic model and reports. Make sure that the app is installed in your Power BI workspace.
 
 For more information, see [Install Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
 
-## Configure the Power BI workspace
 
 
+## Configure date filtering for finance dataset
+
+The Finance Report can be configured to load data based on Start Date and End Date. This helps improve performance of your Business Central environment and reduce Power BI load times by only loading the data you intend to analyze.
+
+Start Date and End Date can be applied to the following tables:
+
+- G/L Entries related to the Income Statement
+- G/L Budget Entries
+- Customer Ledger Entries
+- Vendor Ledger Entries
+
+
+### Setup Procedure
+1. Search and open the **Setup for Power BI Connector** page.
+2. Expand the **Finance Report** section in this page.
+3. Set **Start Date** and **End Date** under the **Income Statement & G/L Budget Entry Filters** group.
+
+Repeat steps 2-3 for the date setup under **Customer Ledger Entry Filters** and **Vendor Ledger Entry Filters**.
+
+
+|No.| Data Area                         | Field Name    | Description                                                                                               |
+|---| ---                               | ---           | ---                                                                                                       |
+|1  | Income Statement and G/L Budgets	| Start Date    | Specifies the starting date to apply to a range of Income Statement G/L entries and G/L Budget entries.   |
+|2  | Income Statement and G/L Budgets	| End Date      | Specifies the end date to apply to a range of Income Statement G/L entries and G/L Budget entries.        |
+|3  | Customer Ledger Entries	        | Start Date    | Specifies the starting date to apply to a range of Customer Ledger Entries.                               |  
+|4  | Customer Ledger Entries	        | End Date      | Specifies the end date to apply to a range of Customer Ledger Entries.                                    |
+|5  | Vendor Ledger Entries	            | Start Date    | Specifies the starting date to apply to a range of Vendor Ledger Entries.                                 |
+|6  | Vendor Ledger Entries	            | End Date      | Specifies the end date to apply to a range of Vendor Ledger Entries.                                      |
 
 ## Configure the G/L account category mapping
 
-G/L Account Categories in Microsoft Dynamics 365 Business Central allow you to group accounts in your chart to specific categories used for reporting. They are required set up to use the Power BI Finance app for Business Central.
+In Microsoft Dynamics 365 Business Central, G/L Account Categories allow you to group accounts in your chart for reporting purposes and these categories are essential for using the Power BI Finance app.
 
 ### What do I need to set up?
 
@@ -76,7 +108,7 @@ Yes. However, you must leave the following top-level categories as-is:
 - Cost of Goods Sold
 - Expense
 
-Subcategories can be created through the G/L Account Categories screen, in conjunction with the Indent, Outdent, Move Up and Move Down actions.
+The subcategories can be created through **the G/L Account Categories** page, in conjunction with the **the Indent**, **Outdent**, **Move Up** and **Move Down** actions.
 
 ### What is the standard configuration?
 
