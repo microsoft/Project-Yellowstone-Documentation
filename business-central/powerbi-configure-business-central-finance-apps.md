@@ -133,8 +133,10 @@ The standard **Configuration Packages** offer a structured approach to importing
 6. Return to Business Central, navigate to the Actions menu and select the **Import to Excel** action, 
 7. To apply the imported data, select the **Apply Data** action under the Tables fast tab to apply the changes.
 
-After completing one of the previous methods, you can use the available **Move Up** and **Move Down** actions to move the new categories to their parent categories, and use **Indent** and **Outdent** to break down into subcategories.
-
+#### Post Setup Adjustments
+Once you have established the new categories using either method, you can organize them within the G/L Account Categories page:
+1. Utilize the **Move Up** and **Move Down** actions to position the categories in relation to their parent categories.
+2. Apply the **Indent** and **Outdent** actions to structure the categories into a hierarchy of main and subcategories.
 
 #### Additional Tips
 1. Always attempt in a Sandbox environment first before applying the changes in Production.
