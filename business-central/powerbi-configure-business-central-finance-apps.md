@@ -134,7 +134,7 @@ The standard **Configuration Packages** offer a structured approach to importing
 7. To apply the imported data, select the **Apply Data** action under the Tables fast tab to apply the changes.
 
 #### Post Setup Adjustments
-Once you have established the new categories using either method, you can organize them within the G/L Account Categories page:
+Once you have established the new categories using either method, you can organize them within the **G/L Account Categories** page:
 1. Utilize the **Move Up** and **Move Down** actions to position the categories in relation to their parent categories.
 2. Apply the **Indent** and **Outdent** actions to structure the categories into a hierarchy of main and subcategories.
 
