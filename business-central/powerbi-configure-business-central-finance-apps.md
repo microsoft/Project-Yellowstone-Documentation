@@ -110,8 +110,8 @@ Yes. However, you must leave the following top-level categories as is:
 
 ### Setup Procedure
 In Business Central, the **G/L Account Categories** page does not support direct creation of new categories. To incorporate new categories into your financial structure, you can employ one of the following methods:
-1. Edit in Excel
-2. Configuration Packages
+1. [Edit in Excel](#method-1-edit-in-excel)
+2. [Configuration Packages](#method-2-configuration-packages)
 
 #### Method 1: Edit in Excel
 The **Edit in Excel** feature is accessible on most list pages within Business Central. It allows for seamless integration with the Microsoft Excel desktop app. Here’s how to use it:
