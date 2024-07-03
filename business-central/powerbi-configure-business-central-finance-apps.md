@@ -127,11 +127,11 @@ For detailed guidance on using, refer to the [Edit in Excel](https://learn.micro
 The standard **Configuration Packages** offer a structured approach to importing and exporting data in Business Central:
 1. Search and open the **Configuration Packages** page,
 2. Select **New** to create a new configuration package or select an existing package to add the table,
-3. In the Config. Package Card, under the Tables fast tab, find and select the “**G/L Account Category**” table (Table 570).
+3. In the **Config. Package Card**, under the **Tables** fast tab, find and select the “**G/L Account Category**” table (Table 570).
 4. After adding the table, go to the Actions menu, and select the **Export to Excel** action,
 5. In the exported Excel file, insert the new categories as needed.
 6. Return to Business Central, navigate to the Actions menu and select the **Import to Excel** action, 
-7. To apply the imported data, select the **Apply Data** action under the Tables fast tab to apply the changes.
+7. To apply the imported data, select the **Apply Data** action under the **Tables** fast tab to apply the changes.
 
 #### Post Setup Adjustments
 Once you have established the new categories using either method, you can organize them within the **G/L Account Categories** page:
