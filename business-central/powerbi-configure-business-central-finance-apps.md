@@ -108,7 +108,39 @@ Yes. However, you must leave the following top-level categories as is:
 - **Cost of Goods Sold**
 - **Expense**
 
-The subcategories can be created through **the G/L Account Categories** page, in conjunction with the **Indent**, **Outdent**, **Move Up** and **Move Down** actions.
+### Setup Procedure
+In Business Central, the **G/L Account Categories** page does not support direct creation of new categories. To incorporate new categories into your financial structure, you can employ one of the following methods:
+1. Edit in Excel
+2. Configuration Packages
+
+#### Method 1: Edit in Excel
+The **Edit in Excel** feature is accessible on most list pages within Business Central. It allows for seamless integration with the Microsoft Excel desktop app. Here’s how to use it:
+
+1. Navigate to the the **G/L Account Categories** page and select the **Edit in Excel** action.
+2. In Excel, add your new categories and subcategories.
+3. Save your changes in Excel.
+4. Use the **Publish** function to update the changes back to Business Central.
+
+For detailed guidance on using, refer to the [Edit in Excel](https://learn.microsoft.com/en-au/dynamics365/business-central/across-work-with-excel#edit-in-excel) article.
+
+#### Method 2: Configuration Packages
+The standard **Configuration Packages** offer a structured approach to importing and exporting data in Business Central:
+1. Search and open the **Configuration Packages** page,
+2. Select **New** to create a new configuration package or select an existing package to add the table,
+3. In the Config. Package Card, under the Tables fast tab, find and select the “**G/L Account Category**” table (Table 570).
+4. After adding the table, go to the Actions menu, and select the **Export to Excel** action,
+5. In the exported Excel file, insert the new categories as needed.
+6. Return to Business Central, navigate to the Actions menu and select the **Import to Excel** action, 
+7. To apply the imported data, select the **Apply Data** action under the Tables fast tab to apply the changes.
+
+After completing one of the previous methods, you can use the available **Move Up** and **Move Down** actions to move the new categories to their parent categories, and use **Indent** and **Outdent** to break down into subcategories.
+
+
+#### Additional Tips
+1. Always attempt in a Sandbox environment first before applying the changes in Production.
+2. Ensure that you have the necessary permissions to edit or import data into Business Central.
+3. Always backup your data before making bulk changes through Excel.
+4. Review the changes in Excel carefully before publishing or importing, as this will affect your financial reporting structure.
 
 ### What is the standard configuration?
 
