@@ -155,7 +155,7 @@ The following sections provide an overview of all the available KPIs that are sh
 | KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
 | Amount Payable (LCY) | - | - | TODO |
-| Balance (AP) | - | [Finance overview](#finance-overview-report) | TODO |
+| Balance (AP) | - | [Finance overview](#finance-overview-report) | [Balance (AP)](#balance-ap) |
 | Original Amount | - | - | TODO |
 
 #### G/L Entry Measures
@@ -218,7 +218,7 @@ The report shows the following KPIs:
 - Operating Profit- EBIT
 - EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
 - Operating Expenses
-- Balance (AP)
+- [Balance (AP)](#balance-ap)
 - Balance (AR)
 - Cost of Goods Sold across time
 - Net Profit across time
