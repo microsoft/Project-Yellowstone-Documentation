@@ -155,7 +155,7 @@ The following sections provide an overview of all the available KPIs that are sh
 | KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
 | Amount Payable (LCY) | - | - | TODO |
-| Balance (AP) | - | [Finance overview](#finance-overview-report) | TODO |
+| Balance (AP) | - | [Finance overview](#finance-overview-report) | [Balance (AP)](#balance-ap) |
 | Original Amount | - | - | TODO |
 
 #### G/L Entry Measures
@@ -218,7 +218,7 @@ The report shows the following KPIs:
 - Operating Profit- EBIT
 - EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
 - Operating Expenses
-- Balance (AP)
+- [Balance (AP)](#balance-ap)
 - Balance (AR)
 - Cost of Goods Sold across time
 - Net Profit across time
@@ -277,19 +277,21 @@ To calculate Gross Profit Margin, data from the following tables is used:
 
 **KPI description**
 
-Balance (AP) also known as Accounts Payable Balance is a metric that represents the total amount of a company's outstanding payables.
+Balance (AP) also known as Accounts Payable Balance is a metric that represents the total amount of a company's outstanding payables. By tracking the Balance of Aged Payables, businesses can manage cash flow, maintain supplier relationships, and ensure timely payments to avoid late fees and interest charges. 
 
 **Usage scenario(s)**
-
+- **Financial health assessment**: To assess the company’s financial obligations and stability. A high Accounts Payables Balance, especially with many overdue invoices, can indicate cash flow problems or poor financial management. Conversely, a well-managed payables balance can indicate strong financial health and prudent cash management practices.
+- **Risk management**: Monitoring the Aged Payables Balance helps businesses avoid penalties and interest on overdue invoices, reducing the risk of damaging credit ratings or supplier relationships.
 
 **Calculation**
 
-Balance (AP) is calculated as follows: 
+Balance (AP) is calculated as follows: The measure is calculating the [Amount Payable (LCY)] up to and including the maximum date in the Date filter context.
 
 **Data source(s)**
 
 To calculate Balance (AP), data from the following tables is used: 
 - Vendor Ledger Entries
+- Date 
 
 
 ## Data foundation for the Power BI reports on finance
