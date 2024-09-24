@@ -293,6 +293,25 @@ To calculate Balance (AP), data from the following tables is used:
 - Vendor Ledger Entries
 - Date 
 
+### EBITDA
+
+**KPI description**
+EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization. It provides insight into a company's core profitability by focusing on earnings generated from 
+
+**Usage scenario(s)**
+- **Financial health assessment**: To assess the company’s financial obligations and stability. A high Accounts Payables Balance, especially with many overdue invoices, can indicate cash flow problems or poor financial management. Conversely, a well-managed payables balance can indicate strong financial health and prudent cash management practices.
+- **Risk management**: Monitoring the Aged Payables Balance helps businesses avoid penalties and interest on overdue invoices, reducing the risk of damaging credit ratings or supplier relationships.
+
+**Calculation**
+
+Balance (AP) is calculated as follows: The measure is calculating the [Amount Payable (LCY)] up to and including the maximum date in the Date filter context.
+
+**Data source(s)**
+
+To calculate Balance (AP), data from the following tables is used: 
+- Vendor Ledger Entries
+- Date 
+
 
 ## Data foundation for the Power BI reports on finance
 
