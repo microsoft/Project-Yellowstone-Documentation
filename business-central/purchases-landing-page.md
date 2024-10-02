@@ -1,7 +1,7 @@
-# Purchase for Business Central
+# Purchases for Business Central
 
 
-This article outlines what is included in the Purchase for Business Central report.
+This article outlines what is included in the Purchases for Business Central report.
 
 ## Overview
 
