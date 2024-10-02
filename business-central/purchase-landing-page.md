@@ -26,7 +26,7 @@ This Power BI report is designed to provide you with comprehensive insights into
 
 ## How to use this report
 
-- **Navigation**: Use the tabs at the left of the report to navigate between different pages.
+- **Navigation**: Use the tabs at the bottom of the report to navigate between different pages.
 - **Filters**: Apply filters to narrow down the data to specific time periods, categories, or other dimensions.
 - **Drill-Down**: Click on data points to drill down into more detailed views and uncover deeper insights.
 
