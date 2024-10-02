@@ -8,8 +8,8 @@ This article outlines what is included in the Purchases for Business Central rep
 This Power BI report is designed to provide you with comprehensive insights into your purchasing activities, enabling you to make informed decisions and optimize your procurement processes. The report is divided into several pages, each focusing on different aspects of purchasing to give you a detailed and actionable view of your data in Dynamics 365 Business Central.
 
 
-|Page|Description | 
-|----|------------|
+|Page|Description |Learn more|
+|----|------------|----------|
 |Purchases Overview|The **Purchases Overview** page provides a high-level summary of all purchasing activities. Key metrics include purchase amount, outstanding amount, amount received not invoiced, invoiced amount, and other chart visuals on purchasing. This page serves as a starting point for understanding the overall purchasing landscape.|
 |Purchase Decomposition|The **Purchase Decomposition** page breaks down purchases into various components such as categories, vendor names, fiscal period, document type and document number. This detailed breakdown helps identify spending patterns and areas for potential cost savings.|
 |Daily Purchases|The **Daily Purchases** page displays daily purchasing activities, highlighting trends and anomalies in daily spend. This page is useful for monitoring day-to-day fluctuations and identifying unusual spending patterns.|
@@ -29,6 +29,15 @@ This Power BI report is designed to provide you with comprehensive insights into
 - **Navigation**: Use the tabs at the bottom of the report to navigate between different pages.
 - **Filters**: Apply filters to narrow down the data to specific time periods, categories, or other dimensions.
 - **Drill-Down**: Click on data points to drill down into more detailed views and uncover deeper insights.
+
+## Understanding the data model
+The following data is used to populate the report content:
+- Item
+- Location
+- Purchase Budget
+- Purchaser
+- Purchases
+- Vendor
 
 ## Additional Resources
 
