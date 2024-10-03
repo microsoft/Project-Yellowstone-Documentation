@@ -20,42 +20,40 @@ The report shows the following KPIs:
 - **Invoiced Amount**
 
 ### Purchase Amount
-
-**KPI Description**  
-This KPI represents the total monetary value of all purchases made within a specified period. This metric helps in understanding the overall expenditure on procurement activities.
+This measure represents the total monetary value of all purchases made within a specified period. This metric helps in understanding the overall expenditure on procurement activities.
 
 **Calculation**  
-The Purchase Amount is calculated by summing the total value of all purchase orders within the selected time frame.
+This measure is calculated by summing the total amount of all value entries associated with purchases within the selected time frame.
 
-**Data Source(s)**  
-TODO: To be added
+**Data Sources**  
+This measure is calculated from the following tables:
+- "Item Ledger Entry"
+- "Value Entry"
 
-### Outstanding Amount (excluding VAT)
-
-**KPI Description**  
-The Outstanding Amount KPI indicates the total value of purchases that have been ordered but not yet paid for, excluding VAT. This helps in tracking the organization's liabilities.
+### Outstanding Amount (excluding VAT)  
+The Outstanding Amount measure indicates the total value of purchases that have been ordered but not yet paid for, excluding VAT. This helps in tracking the organization's liabilities.
 
 **Calculation**  
-Outstanding Amount is calculated by summing the value of all unpaid purchase orders, excluding VAT.
+This measure is calculated by summing the value of all unpaid purchase orders, excluding VAT.
 
-**Data Source(s)**  
-TODO: To be added
+**Data Source(s)**
+This measure is calculated from the following tables:
+- "Purchase Header"
+- "Purchase Line"
 
 ### Amount Received Not Invoiced (excluding VAT)
-
-**KPI Description**  
-This KPI shows the value of goods that have been received but not yet invoiced, excluding VAT. It helps in identifying potential discrepancies between received goods and invoiced amounts.
+The Amount Received Not Invoiced measure shows the value of goods that have been received but not yet invoiced, excluding VAT. It helps in identifying potential discrepancies between received goods and invoiced amounts.
 
 **Calculation**  
-Amount Received Not Invoiced is calculated by summing the value of all goods received but not yet invoiced, excluding VAT.
+This measure is calculated by summing the value of goods received but not yet invoiced on all purchase orders, excluding VAT.
 
-**Data Source(s)**  
-TODO: To be added
+**Data Source(s)**
+This measure is calculated from the following tables:
+- "Purchase Header"
+- "Purchase Line"
 
 ### Invoiced Amount
-
-**KPI Description**  
-Ths KPI represents the total value of purchases that have been invoiced. This metric is crucial for understanding the financial commitments made by the organization.
+The Invoiced Amount measure represents the total value of purchases that have been invoiced. This metric is crucial for understanding the financial commitments made by the organization.
 
 **Calculation**  
 Invoiced Amount is calculated by summing the total value of all purchase invoices within the selected period.
