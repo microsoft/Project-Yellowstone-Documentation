@@ -22,7 +22,7 @@ The _Financial Overview_ is designed to provide a comprehensive snapshot of an o
 - Financial Analysis: Supports financial analysts in assessing trends, identifying anomalies, and making data-driven recommendations for improvements.
 - Operational Monitoring: Assists operational managers in monitoring financial performance against targets and budgets to ensure operational efficiency and effectiveness.
 
-![Screenshot of the Finance overview report](./media/finance-powerbi-finance-overview.png "Finance Overview (screenshot)")
+![Screenshot of the Finance overview report](./media/Financial_Overview.png "Finance Overview (screenshot)")
 
 The report shows the following KPIs:
 
