@@ -1,6 +1,6 @@
 ---
 title: Power BI reports on sales data
-description: Learn how to use the Power BI reports to analyze finance data.
+description: Learn how to use the Power BI reports to analyze sales data.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -11,12 +11,17 @@ ms.date: 05/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+# Power BI Sales Analytics Landing Page
+
+In todays dynamics and fast paced business world, having quick access to your data is more important than ever. With the embedded Sales Report in Business Central powered by Power BI, users can now have quick access to key metrics and make more informed business decisions. 
+
+With dedicated report pages highlighting key sales metrics such as Sales by Customers and empowering leadership to be able to track crucial performance data through Actual vs Budget reporting. With this data at their finger tips, it allows executives to make more informed decisions regarding business direction.
 
 # Power BI reports on Sales Data
 
-This article explains how to use the built-in **Power BI reports** to analyze finance data. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data in curated reports with pre-defined KPIs. 
+This article explains how to use the built-in **Power BI reports** to analyze sales data. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data in curated reports with pre-defined KPIs. 
 
-The Power BI reports on finance data supports many analytics scenarios relevant for finance processes, such as
+The Power BI reports on sales data supports many analytics scenarios relevant for sales processes, such as
 
 - Scenario 2 
 - Scenario 10 
@@ -25,7 +30,7 @@ The Power BI reports on finance data supports many analytics scenarios relevant 
 
 ## Available KPIs for Sales
 
-The following sections provide an overview of all the available KPIs that are shown on the Power BI reports for finance:
+The following sections provide an overview of all the available KPIs that are shown on the Power BI reports for sales:
 
 - [Sales KPIs](#sales-kpis)
 - [Cost KPIs](#cost-kpis)
@@ -35,8 +40,8 @@ The following sections provide an overview of all the available KPIs that are sh
 #### Sales KPIs
 | KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
-| Sales Amount | - | - | TODO |
-| Sales Quantity | - | - | TODO |
+| Sales Amount | A total sum of the dollar amount sold based on the given period | - | TODO |
+| Sales Quantity | A sum of the quantity sold across a given period. | - | TODO |
 | No. of Distinct Items | A distinct count used to determine how many different items have been used across a given period.| N/A | TODO |
 | No. of Outstanding Sales Orders | A distinct count used to determine the exact number of Sales Orders that have not been actioned. This is neither shipped or invoiced. |Sales Overview| TODO |
 | No. of Posted Sales Invoices | A distinct count used to determine the exact number of posted sales invoices that have been fully processed. | Sales Overview | TODO |
@@ -47,7 +52,7 @@ The following sections provide an overview of all the available KPIs that are sh
 #### Cost KPIs
 | KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
-| Cost Amount | - | - | TODO |
+| Cost Amount | A sum of the cost amount for the entry. This can be represented against the Item or the total order | - | TODO |
 | Cost Amount Non-Inv | - | - | TODO |
 
 
@@ -61,14 +66,14 @@ The following sections provide an overview of all the available KPIs that are sh
 #### Sales Budget Measures
 | KPI | Usage example | Available on Report | Learn more | 
 | --- | ------------- | ------------------- | ---------- |
-| Amount Receivable (LCY) | - | - | TODO |
-| Balance (AR) | - | [Finance overview](#finance-overview-report) | TODO |
+| Budget Amount | - | - | TODO |
+| Budget Quantity | - | [sales overview](#sales-overview-report) | TODO |
 | Original Amount (LCY) | - | - | TODO |
 
 
 ## Available Power BI reports for sales
 
-The following sections provide an overview of all the available Power BI reports for finance:
+The following sections provide an overview of all the available Power BI reports for sales:
 
 | Report | Usage examples | Learn more |
 | ------ | -------------- | ---------- |
@@ -81,8 +86,8 @@ The following sections provide an overview of all the available Power BI reports
 | Sales by Item | The Sales by Item report can be use to show how each customer is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Item](#TODO) |
 | Sales by Customer | The Sales by Customer report can be use to show how each customer is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Customer](#TODO) |
 | Sales by Salesperson | The Sales by Salesperson report can be use to show how each customer is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Salesperson](#TODO) |
-| Actual vs. Budget Quantity | The Actual vs Budget Quantity report can be used to make informed comparisons for sales reporting how sales quantity is going compared to the budget quantity. | [Actual vs. Budget Quantity](#TODO) |
-| Actual vs. Budget Amount | The Actual vs Budget Amount report can be used to make informed comparisons for sales reporting how sales amount is going compared to the budget amount.  | [Actual vs. Budget Amount](#TODO) |
+| Sales by Location | TODO | [TODO](#TODO) |
+| Actual vs. Budget | The Actual vs Budget report can be used to make informed comparisons for sales reporting how sales is going compared to the budget. | [Actual vs. Budget Quantity](#TODO) |
 
 
 ### Budget Amount
@@ -205,9 +210,9 @@ To calculate Budget Quantity Variance %, data from the following tables is used:
 
 
 
-## Data foundation for the Power BI reports on finance
+## Data foundation for the Power BI reports on sales
 
-The Power BI reports on finance is based on the following tables in Business Central:
+The Power BI reports on sales is based on the following tables in Business Central:
 
 - Table 1
 - Table 2
