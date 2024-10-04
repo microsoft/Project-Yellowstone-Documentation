@@ -1,6 +1,6 @@
 ---
 title: Finance Overview Report
-description: Learn how to use the Power BI reports to analyze finance data.
+description: 
 author: johnathan gonzalez
 ms.author: kepontop
 ms.reviewer: 
@@ -22,11 +22,11 @@ The _Financial Overview_ is designed to provide a comprehensive snapshot of an o
 - Financial Analysis: Supports financial analysts in assessing trends, identifying anomalies, and making data-driven recommendations for improvements.
 - Operational Monitoring: Assists operational managers in monitoring financial performance against targets and budgets to ensure operational efficiency and effectiveness.
 
-![Screenshot of the Finance overview report](./media/Financial_Overview.png "Finance Overview (screenshot)")
+![Screenshot of the Finance overview report](../media/Financial_Overview.png "Finance Overview (screenshot)")
 
-The report shows the following KPIs:
+## KPIs on the Financial Overview Report
 
-- Revenue
+- [Revenue](#revenue)
 - Expenses
 - Gross Profit
 - Gross Profit Margin
@@ -42,7 +42,7 @@ The report shows the following KPIs:
 - Balance (AR)
 - Cost of Goods Sold across time
 - Net Profit across time
-
+ 
 ### Revenue
 
 **KPI description**

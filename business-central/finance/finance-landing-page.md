@@ -1,6 +1,6 @@
 ---
 title: Finance App for Business Central
-description: Learn how to use the Finance Power BI reports to analyze finance data.
+description: Learn how to use the Power BI Finance App to analyze finance data.
 author: johnathan gonzalez
 ms.author: kepontop
 ms.reviewer: 

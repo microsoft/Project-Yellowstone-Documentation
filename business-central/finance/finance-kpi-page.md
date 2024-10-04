@@ -1,6 +1,6 @@
 ---
-title: KPI's in Finance App
-description: Learn how to use the Power BI reports to analyze finance data.
+title: KPI's in the Finance App
+description: 
 author: johnathan gonzalez
 ms.author: kepontop
 ms.reviewer: 
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# KPIs in Finance App
+# KPIs in the Finance App
 
 ## Overview
 
