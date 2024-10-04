@@ -293,6 +293,22 @@ To calculate Balance (AP), data from the following tables is used:
 - Vendor Ledger Entries
 - Date 
 
+### EBITDA
+
+**KPI description**
+EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization. It provides insight into a company's core profitability by focusing on earnings generated from 
+
+**Usage scenario(s)**
+- PLACEHOLDER
+- PLACEHOLDER
+
+**Calculation**
+
+PLACEHOLDER
+
+**Data source(s)**
+
+PLACEHOLDER
 
 ## Data foundation for the Power BI reports on finance
 
