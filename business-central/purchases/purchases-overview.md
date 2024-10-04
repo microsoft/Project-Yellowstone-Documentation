@@ -1,33 +1,51 @@
-# Purchases Overview
+# Purchase Overview (Power BI report)
 
-The _Purchases Overview_ report gives a clear picture of your organization's purchasing activities. It highlights important metrics like total purchase amounts, outstanding liabilities, and invoiced purchases. By breaking down purchase quantities by location and item category, and providing vendor information, this report helps with financial analysis, budget management, and compliance. This report is a must-have for finance and procurement teams to track spending, manage budgets, and evaluate vendor performance.
+The _Purchases Overview_ report gives a clear picture of your organization's purchasing activities. It highlights important metrics like total purchase amounts, outstanding liabilities, and invoiced purchases. By breaking down purchase quantities by location and item category, and providing vendor information, this report helps with financial analysis, budget management, and compliance. 
 
-## Target Audience
-- CEOs, CFOs, COOs
-- Purchasing Managers
+This report is meant for finance and procurement teams to track spending, manage budgets, and evaluate vendor performance.
 
-## Use Cases
-The _Purchases Overview_ report can be used in various uses cases:
+:::image type="content" source="media/powerbi/powerbi-purchase-purchase-overview.png" alt-text="Screenshot of the Purchase Overview Power BI report" lightbox="media/powerbi/powerbi-purchase-purchase-overview.png":::
+
+## What the report shows
+
+The *Purchase Overview* reports shows ...
+
+
+## How to use the Purchases Overview report
+
+The _Purchases Overview_ report can be used in various ways, such as 
 - **Financial Analysis**: Helps finance teams track and manage purchasing expenses.
 - **Vendor Management**: Assists procurement teams in evaluating and managing vendor relationships.
 - **Budgeting and Forecasting**: Supports budgeting by providing historical purchasing data and trends.
 
+
 ## Key Performance Indicators (KPIs)
-This report includes the following KPIs:
+
+The _Purchases Overview_ report includes the following KPIs:
+
 - **Total Purchase Amount**
 - **Outstanding Amount (excluding VAT)**
 - **Amount Received but Not Invoiced (excluding VAT)**
 - **Invoiced Amount**
 
+Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 ### Total Purchase Amount
-This KPI shows the total value of all purchases made within a specific period, helping you understand overall procurement spending.
 
-**Calculation**  
-By summing the total amount of all value entries related to purchases within the selected timeframe.
+The *Total Purchase Amount* KPI is important because... (insert text here) This KPI shows the total value of all purchases made within a specific period, helping you understand overall procurement spending.
 
-**Data Sources**  
+**Formula**  
+
+*Total Purchase Amount* = sum of the total amount of all value entries related to purchases within the selected timeframe.
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Total Purchase Amount* KPI:
 - "Item Ledger Entry"
 - "Value Entry"
+
 
 ### Outstanding Amount (excluding VAT)
 This KPI indicates the total value of purchases ordered but not yet paid for, excluding VAT. It helps track your organization's liabilities.
@@ -102,3 +120,13 @@ This chart highlights the purchase amounts from the top 5 vendors, helping you e
 **Data Sources:**
 - "Value Entry"
 - Vendor
+
+
+## Data used in the Purchases Overview report
+
+Data from the following tables are used on the *Purchases Overview* report
+- "Item Ledger Entry"
+- "Value Entry"
+
+
+## See also
