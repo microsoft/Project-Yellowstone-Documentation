@@ -10,7 +10,7 @@ This report is designed for the purchasing team, particularly for purchasing man
 
 The *Daily Purchases* reports provides a snapshot of purchasing activities within the organization.
 
-## How to use the Purchases Overview report
+## How to use the Daily Purchases report
 
 The _Daily Purchases_ report can be used in various ways, such as 
 - **Tracking Expenses**: Helps the purchasing team to track their daily spending for all purchasing activties.
