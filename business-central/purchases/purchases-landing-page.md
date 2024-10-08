@@ -11,7 +11,7 @@ Use the app for
 
 ## Use case examples 
 
-The reports in the purchase Power BI app can be used for different purposes depending on your role. Below, you can read some examples of use cases for different roles in your organization. 
+The purchasing reports can be used for different purposes depending on your role. Below, you can read some examples of use cases for different roles in your organization. 
 
 ### If your role is in the leadership team...
 
@@ -54,7 +54,7 @@ The following table describes how you can use the Power BI reports in the Purcha
 
 |To... | Open in Business Central (CTRL+click) | Learn more	|
 |------|---------------------------------------|----------- |
-| Get a high-level summary of all purchasing activities and see purchase statistics such as summaries of amounts, outstanding amounts, amounts received not invoiced, and invoiced amounts.|Purchases Overview|[About *Purchases Overview*](purchasing-powerbi-purchasing-overview.md)|
+| Get a high-level summary of all purchasing activities and see purchase statistics such as summaries of amounts, outstanding amounts, amounts received not invoiced, and invoiced amounts.|Purchases Overview|[About *Purchases Overview*](purchases-overview.md)|
 | Use AI to help investigate purchase statistics and to explore how various components such as categories, vendors, and fiscal periods impact your purchases. |Purchase Decomposition|[About *Purchase Decomposition*](purchasing-powerbi-purchase-decomposition.md)|
 | Analyze daily purchasing activities, highlighting trends and anomalies in daily spend. Monitor day-to-day purchases fluctuations and identify unusual spending patterns | Daily Purchases|[About *Daily Purchases*](purchasing-powerbi-daily-purchases.md)|
 
