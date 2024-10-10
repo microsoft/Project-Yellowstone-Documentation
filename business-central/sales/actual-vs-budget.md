@@ -1,4 +1,4 @@
-# Actual vs. Budget
+# Actual vs. Budget (Power BI Report)
 
 The _Actual vs. Budget_ report gives a clear picture of your organization's sales activities and how these are tracking against the sales budget. It showcases the sales amounts and quantities and the counterparts of these as budget amount and quantity. This report can provide a clear picture for organizations about how speciifc Item Categories and Items are tracking against there budget. This can allows key decisions to be made in improving sales ensuring budget figures are met. 
 

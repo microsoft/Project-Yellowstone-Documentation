@@ -1,4 +1,4 @@
-# Sales by Salesperson
+# Sales by Salesperson (Power BI Report)
 
 The _Sales by Salesperson_ report gives a clear picture of your organization's sales people and their activities.It showcases key metrics against each salesperson such as Sales Amount and Quantities. This can be broken down further by the specific customers they are selling to. By breaking down Sales by Salesperson, this report provides clear information on how your organizations salespeople are tracking and where improvements or changes can be made, ensuring targets are being met. 
 

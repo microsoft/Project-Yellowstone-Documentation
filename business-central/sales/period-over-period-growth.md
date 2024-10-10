@@ -1,8 +1,8 @@
-# Period-Over-Period Growth
+# Period-Over-Period Growth (Power BI Report)
 
-The _Period-Over-Period Growth_ report gives a clear picture of your organization's sales activities. It highlights important metrics like outstanding amounts, shipped not invoiced amounts and invoiced Sales. These then sum up to show the organization's total Sales Amount. By breaking down Sales quantities by location and item category, and providing customer information, this report helps with financial analysis, customer management, and ensuring targets are being met. 
+The _Period-Over-Period Growth_ report gives a clear picture of your organization's sales activities per period. This breaks up the Sales Amount metric by different date period and compares then against that same date but a year earlier. This highlights important sales performance metrics and how organizations are comparing across that other period.
 
-This report is meant for finance and sales teams to track spending, manage budgets, and evaluate vendor performance.
+This report is meant to be used by leaderships and sales team to identify sales performance as opposed to the same period of time last year.
 
 //PERIOD-OVER-PERIOD GROWTH IMAGE
 

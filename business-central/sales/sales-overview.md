@@ -1,4 +1,4 @@
-# Sales Overview
+# Sales Overview (Power BI Report)
 
 The _Sales Overview_ report gives a clear picture of your organization's sales activities. It highlights important metrics like outstanding amounts, shipped not invoiced amounts and invoiced Sales. These then sum up to show the organization's total Sales Amount. By breaking down Sales quantities by location and item category, and providing customer information, this report helps with financial analysis, customer management, and ensuring targets are being met. 
 

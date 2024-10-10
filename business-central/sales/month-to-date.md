@@ -1,8 +1,8 @@
-# Month-To-Date
+# Month-To-Date (Power BI Report)
 
-The _Month-To-Date_ report gives a clear picture of your organization's sales activities. It highlights important metrics like outstanding amounts, shipped not invoiced amounts and invoiced Sales. These then sum up to show the organization's total Sales Amount. By breaking down Sales quantities by location and item category, and providing customer information, this report helps with financial analysis, customer management, and ensuring targets are being met. 
+The _Month-To-Date_ report shows the month growth of sales. This gives organizations an indicator on the growth of sales over any given month.
 
-This report is meant for finance and sales teams to track spending, manage budgets, and evaluate vendor performance.
+This report is meant for leadership and sales teams to track sale growth per month.
 
 //MONTH-TO-DATE IMAGE
 

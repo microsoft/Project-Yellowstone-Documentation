@@ -1,4 +1,4 @@
-# Sales by Customer
+# Sales by Customer (Power BI Report)
 
 The _Sales by Customer_ report gives a clear picture of your organization's customers and their sales activities. It higlights key metrics against each Customer such as Sales Amount and Quantities. This can be broken down further by the specific items that are being sold per customer to identify key trends.By breaking down Sales by Customer, this report provides clear information on your organizations customers.
 

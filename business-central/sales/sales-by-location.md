@@ -1,4 +1,4 @@
-# Sales by Location
+# Sales by Location (Power BI Report)
 
 The _Sales by Location_ report gives a clear picture of your organization's sales broken down by each location. It showcases the key metrics against each Location such as Sales Amount, Quantities and Costs per Location. This can be broken down further by the specific Items that are being sold out of these locations. By breaking down Sales by Location, this report provides clear information on how your organizations locations are performing. are tracking and where improvements or changes can be made, ensuring targets are being met. 
 

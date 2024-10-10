@@ -1,16 +1,3 @@
----
-title: Power BI reports on sales data
-description: Learn how to use the Power BI reports to analyze sales data.
-author: kennienp
-ms.author: kepontop
-ms.reviewer: bholtorf
-ms.topic: conceptual
-ms.search.keywords: bi, power BI, analysis, KPI
-# ms.search.form: 516, 9300, 5119, 9301, 9305
-ms.date: 05/28/2024
-ms.service: dynamics-365-business-central
-ms.custom: bap-template
----
 # Sales Power BI Report for Business Central
 
 ## Overview

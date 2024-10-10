@@ -1,8 +1,8 @@
-# Daily Sales
+# Daily Sales (Power BI Report)
 
-The _Daily Sales_ report gives a clear picture of your organization's sales activities. It highlights important metrics like outstanding amounts, shipped not invoiced amounts and invoiced Sales. These then sum up to show the organization's total Sales Amount. By breaking down Sales quantities by location and item category, and providing customer information, this report helps with financial analysis, customer management, and ensuring targets are being met. 
+The _Daily Sales_ report gives a clear picture of your organization's sales activities over specific days. This report can showcase the days with a higher volume of sales. This can be broken down further to view variations across different years, quarters or months to identify trends with sales.
 
-This report is meant for finance and sales teams to track spending, manage budgets, and evaluate vendor performance.
+This report is meant for sales teams to track sales across different dates and periods.
 
 //DAILY SALES IMAGE
 

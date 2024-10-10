@@ -1,8 +1,8 @@
-# Sales by Item
+# Sales by Item (Power BI Report)
 
-The _Sales by Item_ report gives a clear picture of your organization's sales people and their activities.It showcases key metrics against each Item such as Sales Amount and Quantities. This can be broken down further by the specific customers they are selling to. By breaking down Sales by Item, this report provides clear information on how your organizations salespeople are tracking and where improvements or changes can be made, ensuring targets are being met. 
+The _Sales by Item_ report gives a clear picture of your organization's Item sales.It showcases key metrics against each Item or Item Category such as Sales Amount and Quantities. This can be broken down further by the specific customers they are purchasing these items. By breaking down Sales by Item, this report provides clear information on how your organization is tracking in terms of key Items being sold.
 
-This report is meant for executives and sales teams to track sales. This report can be given to salespeople so they can see clear and concise information on how they are tracking.
+This report is meant for executives and sales teams to track sales. 
 
 //SALES BY ITEM IMAGE
 
