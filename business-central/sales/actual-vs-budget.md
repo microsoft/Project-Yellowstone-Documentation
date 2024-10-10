@@ -1,6 +1,6 @@
 # Actual vs. Budget (Power BI Report)
 
-The _Actual vs. Budget_ report gives a clear picture of your organization's sales activities and how these are tracking against the sales budget. It showcases the sales amounts and quantities and the counterparts of these as budget amount and quantity. This report can provide a clear picture for organizations about how speciifc Item Categories and Items are tracking against there budget. This can allows key decisions to be made in improving sales ensuring budget figures are met. 
+The _Actual vs. Budget_ report gives a clear picture of your organization's sales activities and how these are tracking against the sales budget. It showcases the sales amounts and quantities and the counterparts of these as budget amount and quantity. This report can provide a clear picture for organizations about how specific Item Categories and Items are tracking against their budget. This can allows key decisions to be made in improving sales ensuring budget figures are met. 
 
 This report is meant for finance and sales teams to track performance of sales against budgets.
 
@@ -8,47 +8,42 @@ This report is meant for finance and sales teams to track performance of sales a
 
 ## What the report shows
 
-The *Actual vs. Budget* reports shows ...
+The _Actual vs. Budget_ report shows the actual sales quantities and amounts and how they are tracking against the sales budget. Specifically, the report provides insights into how specific item categories and items are tracking against their budget and highlights the variance amount and percentage.
 
 
 ## Use Cases for Actual vs. Budget
 
-TO DO //**For the leadership team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+For the Leadership Team, the *Actual vs. Budget* report helps to track the overall performance against the organizational goals and to make informed decisions.
 
 **Target Audience**
+- CEO
+- Head of Sales & Marketing
+- Head of Finance
 
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** A Head of Sales & Marketing wants to monitor the sales activities and track how it is tracking against the budget. The *Actual vs. Budget* report provides them with a clear picture of sales figures and helps them identify areas of improvement for budget allocation.
 
 ---
 
-TO DO//**For the management team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+For the Management Team, the *Actual vs. Budget* report serves as a valuable tool to monitor sales activities and track actual sales figures against budgets. This report helps them to identify potential areas where sales are exceeeding or falling short of expections by analyzing the variance figures.
 
 **Target Audience**
 
-- Sales Staff
-- Sales People
+- Sales Manager
+- Regional Sales Manager
+- Business Development Manager
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario**: A Business Development Manager needs to identify new business opportunities and expand the customer base. The *Actual vs. Budget* report provides them with accurate data to make decisions about sales strategies and which item categories to focus on.
 
 ---
 
-TO DO//**For the sales team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+For the Sales team,the *Actual vs. Budget* report ...
 
 **Target Audience**
 
-- Sales Staff
-- Sales People
+- Salesperson
+- Sales Representative
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** A Salesperson needs to promote and sell products to the customers. The *Actual vs. Budget* report helps them track their sales figures of each item category against sales budgets and identify which products to promote to meet their sales KPIs.
 
 
 ## Key Performance Indicators (KPIs)
