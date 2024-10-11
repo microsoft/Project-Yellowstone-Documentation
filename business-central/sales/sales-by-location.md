@@ -1,6 +1,8 @@
 # Sales by Location (Power BI Report)
 
-The _Sales by Location_ report provides an overview of sales performance broken down by location. It showcases key metrics such as total sales amount, total quantity sold, and cost of goods sold. This information can be further broken down by specific items sold at each location. This report is useful for organizations to track and monitor sales performance at each location, and quickly identify which locations are generating the most revenue. It helps ensure that sales targets are being met and allows organizations to make informed decisions about inventory management and pricing strategies.
+The _Sales by Location_ report provides an overview of sales performance broken down by location. It showcases key metrics such as total sales amount, total quantity sold, and cost of goods sold. This information can be further broken down by specific items sold at each location.
+
+This report is useful for organizations to track and monitor sales performance at each location, and quickly identify which locations are generating the most revenue. It helps ensure that sales targets are being met and allows organizations to make informed decisions about inventory management and pricing strategies.
 
 This report is targeted towards leadership and management teams to help them track revenue and cost breakdown per location, making it an essential report for any organization that operates across multiple locations.
 
