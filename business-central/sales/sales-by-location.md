@@ -93,7 +93,7 @@ The *Gross Profit* shows the difference between the sales revenue and the cost o
 
 **Formula**  
 
-*Gross Profit* = sales Amount - (Cost Amount + Cost Amount Non-Inv) 
+*Gross Profit* = Sales Amount - (Cost Amount + Cost Amount Non-Inv) 
 
 **Data Sources**
 
