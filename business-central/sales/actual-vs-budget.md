@@ -5,14 +5,14 @@ The _Actual vs. Budget_ report provides a clear overview of your organization's 
 
 This report is meant for finance and sales teams to track performance of actual sales against budgets.
 
-//ACTUAL VS BUDGET IMAGE
+![Sales Actual vs. Budget screenshot](/business-central/media/sales/sales-actual-vs-budget.png "Sales Actual vs. Budget - Screenshot")
 
 ## What the report shows
 
 The _Actual vs. Budget_ report shows the actual sales quantities and amounts and how they are tracking against the sales budget. Specifically, the report provides insights into how specific item categories and items are tracking against their budget and highlights the variance amount and percentage.
 
 
-## Use Cases for Actual vs. Budget
+## Use Cases
 
 For the Leadership Team, the *Actual vs. Budget* report helps to track the overall performance against the organizational goals and to make informed decisions.
 
@@ -37,7 +37,7 @@ For the Management Team, the *Actual vs. Budget* report serves as a valuable too
 
 ---
 
-For the Sales team,the *Actual vs. Budget* report ...
+For the Sales Team, the *Actual vs. Budget* report helps to track their sales performance and achieve their sales targets with better clarity. This report compares the actual sales figures and budget amounts for each item category to help the team identify which products are selling well and which ones need more promotion to adjust their sales strategies accordingly.
 
 **Target Audience**
 
