@@ -5,7 +5,7 @@ The _Actual vs. Budget_ report provides a clear overview of your organization's 
 
 This report is meant for finance and sales teams to track performance of actual sales against budgets.
 
-//ACTUAL VS BUDGET IMAGE
+![Sales Actual vs. Budget screenshot](/business-central/media/sales/sales-actual-vs-budget.png "Sales Actual vs. Budget - Screenshot")
 
 ## What the report shows
 
