@@ -1,8 +1,9 @@
 # Actual vs. Budget (Power BI Report)
 
-The _Actual vs. Budget_ report gives a clear picture of your organization's sales activities and how these are tracking against the sales budget. It showcases the sales amounts and quantities and the counterparts of these as budget amount and quantity. This report can provide a clear picture for organizations about how specific Item Categories and Items are tracking against their budget. This can allows key decisions to be made in improving sales ensuring budget figures are met. 
+The _Actual vs. Budget_ report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures. This report helps the organization to track progress towards meeting sales targets and analyze sales data by item categories and items for making key business decisions.
 
-This report is meant for finance and sales teams to track performance of sales against budgets.
+
+This report is meant for finance and sales teams to track performance of actual sales against budgets.
 
 //ACTUAL VS BUDGET IMAGE
 
@@ -56,7 +57,7 @@ The _Actual vs. Budget_ report includes the following KPIs:
 - [**Budget Amount**](#budget-amount)  
 - [**Budget Amount Variance**](#budget-amount-variance)  
 - [**Budget Amount Variance %**](#budget-amount-variance-)  
-- [**Variance**](#Variance)  
+- [**Variance**](#variance)  
 - [**Variance %**](#variance-)  
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
