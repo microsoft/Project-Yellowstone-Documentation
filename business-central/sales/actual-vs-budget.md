@@ -50,14 +50,14 @@ For the Sales team,the *Actual vs. Budget* report ...
 
 The _Actual vs. Budget_ report includes the following KPIs:
 
-- **Sales Quantity**
-- **Sales Amount**
-- **Budget Quantity**
-- **Budget Amount**
-- **Budget Amount Variance**
-- **Budget Amount Variance %**
-- **Variance**
-- **Variance %**
+- [**Sales Quantity**](sSales-quantity)  
+- [**Sales Amount**](#sales-amount)  
+- [**Budget Quantity**](#budget-quantity)  
+- [**Budget Amount**](#budget-amount)  
+- [**Budget Amount Variance**](#budget-amount-variance)  
+- [**Budget Amount Variance %**](#budget-amount-variance-)  
+- [**Variance**](#Variance)  
+- [**Variance %**](#variance-)  
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
@@ -169,7 +169,7 @@ The *Variance %* shows the variance quantity as a percentage of the budget quant
 
 **Formula**  
 
-*Variance %* = (Variance / Budget Quanity) x 100
+*Variance %* = (Variance / Budget Quantity) x 100
 
 **Data Sources**
 
