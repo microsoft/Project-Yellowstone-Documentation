@@ -50,7 +50,7 @@ For the Sales team,the *Actual vs. Budget* report ...
 
 The _Actual vs. Budget_ report includes the following KPIs:
 
-- [**Sales Quantity**](sSales-quantity)  
+- [**Sales Quantity**](#sales-quantity)  
 - [**Sales Amount**](#sales-amount)  
 - [**Budget Quantity**](#budget-quantity)  
 - [**Budget Amount**](#budget-amount)  
