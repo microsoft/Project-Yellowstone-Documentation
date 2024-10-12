@@ -23,9 +23,9 @@ This article explains how to use the built-in **Power BI reports** to analyze sa
 
 The Power BI reports on sales data supports many analytics scenarios relevant for sales processes, such as
 
-- Scenario 2 
-- Scenario 10 
-- Scenario 12
+- Executive: The CEO of the company wants to monitor the sales performance of the organization on a quarterly basis. They want to see a high-level view of the sales figures across all departments and regions. They also want to be able to drill down into the data to see which products are selling well and which ones are not. With the Power BI sales report, the CEO can easily visualize sales data through various dashboards and reports. They can view sales performance across different time periods, regions, and product categories. They can also use the drill-down feature to analyze sales data in more detail.
+- Manager: The Sales Manager of the company wants to monitor the performance of their sales team on a monthly basis. They want to see how each salesperson is performing, which products are selling well, and which customers are generating the most revenue. With the Power BI sales report, the Sales Manager can easily track the performance of their team by viewing sales data by salesperson, product, and customer. They can also set targets for their team and track progress towards those targets.
+- Operational Staff: The Sales Representative of the company wants to monitor their own performance on a daily basis. They want to see which customers they need to follow up with, which products are selling well, and which products are out of stock. With the Power BI sales report, the Sales Representative can easily track their own performance by viewing sales data by customer, product, and stock level. They can also set reminders for follow-up tasks and view the status of their orders.
 
 
 ## Available KPIs for Sales
