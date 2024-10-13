@@ -21,10 +21,10 @@ The _Sales by Salesperson_ report provides a comprehensive view of the total rev
 
 The _Sales by Salesperson_ report includes the following KPIs:
 
-- **Sales Amount**
-- **Sales Quantity Amount**
-- **Gross Profit**
-- **Gross Profit Margin**
+- [**Sales Amount**](#sales-amount)
+- [**Sales Quantity**](#sales-quantity)
+- [**Gross Profit**](#gross-profit)
+- [**Gross Profit Margin**](#gross-profit-margin)
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
