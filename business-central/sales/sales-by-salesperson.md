@@ -1,6 +1,6 @@
 # Sales by Salesperson (Power BI Report)
 
-The _Sales by Salesperson_ report provides an overview of sales performance broken down by saleperson. It showcases key metrics such as total sales amount and quantity. This information can be further broken down by specific customers they are selling and items sold to the customers.
+The _Sales by Salesperson_ report provides an overview of sales performance broken down by salesperson. It showcases key metrics such as total sales amount and quantity. This information can be further broken down by specific customers they are selling and items sold to the customers.
 
 This report is targeted towards leadership and management teams to help them track the sales amount generated from each salesperson and their contribution to the overall revenue.
 
@@ -11,42 +11,11 @@ The _Sales by Salesperson_ report provides a comprehensive view of the total rev
 
 ## Use Cases for Sales by Salesperson
 
-TO DO //**For the leadership team**
+- For the Leadership Team, the _Sales by Salesperson_ report tracks the performance of your sales team over time and gives an overview of how each salesperson in your team is performing. This report can help to identify top performers and best selling products by each salesperson.
 
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+- For the Management Team, the _Sales by Salesperson_ report ensures that the salespersons meet their sales targets. This report can help to determine if a salesperson is struggling to sell a particular product or to identify which customers are and provide targeted traininig and support to help them improve their sales performance.
 
-**Target Audience**
-
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
-
----
-
-TO DO//**For the management team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
-**Target Audience**
-
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
-
----
-
-TO DO//**For the sales team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
-**Target Audience**
-
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+- For the Sales Team, salespersons can use the report to track their own sales performance and identify areas where they can improve. This report reveals how much items are sold for a particular period and to which customers the items are sold to. This report provides insights into top customers and the items they are buying the most. This information can help salespersons to focus their sales efforts and tailor their approach to different customers.
 
 
 ## Key Performance Indicators (KPIs)
