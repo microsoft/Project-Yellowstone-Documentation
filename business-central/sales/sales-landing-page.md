@@ -2,11 +2,11 @@
 
 ## Overview
 
-The Power BI Sales Report provides comprehensive sales analytics to stakeholders at all levels of the organization. Executives and the leadership team can use the Sales Overview report, Period-Over-Period Growth, and Month-To-Date reports to identify trends in sales performance.
+The Power BI Sales Report provides comprehensive sales analytics to stakeholders at all levels of the organization. Executives and the leadership team can use the [Sales Overview](#TODO) report,  [Period-Over-Period Growth](#TODO), and [Month-To-Date](#TODO) reports to identify trends in sales performance.
 
-Managers and team leaders can track sales team performance by using the Sales by Salesperson report, and they can monitor revenue to ensure that the organization is on track to meet its sales goals with the Actual vs. Budget report.
+Managers and team leaders can track sales team performance by using the [Sales by Salesperson](#TODO) report, and they can monitor revenue to ensure that the organization is on track to meet its sales goals with the [Actual vs. Budget](actual-vs-budget.md) report.
 
-Sales teams and other operational staff can use aggregated reports, such as Sales by Item and Sales by Customer, to understand what sells best and who is buying the most. By drilling down from these aggregated views, users can seamlessly dive deep into transaction-level data for a more detailed analysis.
+Sales teams and other operational staff can use aggregated reports, such as [Sales by Item](#TODO) and [Sales by Customer](#TODO), to understand what sells best and who is buying the most. By drilling down from these aggregated views, users can seamlessly dive deep into transaction-level data for a more detailed analysis.
 
 ## Use Cases
 
@@ -66,4 +66,4 @@ The following sections provide an overview of all the available Power BI reports
 | Sales by Customer | The Sales by Customer report can be use to show how each customer is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Customer](#TODO) |
 | Sales by Salesperson | The Sales by Salesperson report can be use to show how each salesperson is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Salesperson](#TODO) |
 | Sales by Location |  The Sales by Salesperson report can be use to show how each location is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Location](sales-by-location.md)  |
-| Actual vs. Budget | The Actual vs Budget report can be used to make informed comparisons for sales reporting how sales is going compared to the budget. | [Actual vs. Budget Quantity](actual-vs-budget.md) |
+| Actual vs. Budget | The Actual vs Budget report can be used to make informed comparisons for sales reporting how sales is going compared to the budget. | [Actual vs. Budget](actual-vs-budget.md) |
