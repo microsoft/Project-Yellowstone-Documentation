@@ -15,7 +15,7 @@ The _Sales by Salesperson_ report provides a comprehensive view of the total rev
 
 - For the Management Team, the _Sales by Salesperson_ report is an essential tool for ensuring that your sales team meets their sales targets. This report provides valuable insights into the sales performance of each salesperson, allowing you to identify any areas where additional training or support is needed. You can use this report to determine if a salesperson is struggling to sell a particular product or to identify which customers are buying the most. This information helps you to provide targeted training and support to help your team improve their sales performance.
 
-- For the Sales Team, the_ Sales by Salesperson_ report is a dashboard for tracking your own sales performance and identifying areas for improvement. This report shows you how much you have sold and to which customers as well as the top-selling items. You can use this information to focus your sales efforts and tailor your approach to different customers, improving your overall sales performance.
+- For the Sales Team, the _Sales by Salesperson_ report is a dashboard for tracking your own sales performance and identifying areas for improvement. This report shows you how much you have sold and to which customers as well as the top-selling items. You can use this information to focus your sales efforts and tailor your approach to different customers, improving your overall sales performance.
 
 ## Key Performance Indicators (KPIs)
 
