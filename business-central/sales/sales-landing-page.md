@@ -1,21 +1,26 @@
-# Sales Power BI Report for Business Central
+# Sales for Business Central Power BI report
 
 ## Overview
 
-The Sales for Business Central Power BI report is designed to highlight crucial sales data. This can be based on numerous factors such as Sales by Items, Customer or Salesperson. This infromation is then easily viewable for executives to assist them in making enhanced buinsess decisions. By leveraging this report, business can see enhanced data and make more informed decisions identifying key sales trends and highlighting where and when to push sales
+The Power BI Sales Report provides comprehensive sales analytics to stakeholders at all levels of the organization. Executives and the leadership team can use the Sales Overview report, Period-Over-Period Growth, and Month-To-Date reports to identify trends in sales performance.
+
+Managers and team leaders can track sales team performance by using the Sales by Salesperson report, and they can monitor revenue to ensure that the organization is on track to meet its sales goals with the Actual vs. Budget report.
+
+Sales teams and other operational staff can use aggregated reports, such as Sales by Item and Sales by Customer, to understand what sells best and who is buying the most. By drilling down from these aggregated views, users can seamlessly dive deep into transaction-level data for a more detailed analysis.
 
 ## Use Cases
 
 TO DO //**For the leadership team**
 
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+
 
 **Target Audience**
 
-- Sales Staff
-- Sales People
+- Executives
+- Directors
+- Other high-level decision makers
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** The CEO of the company wants to monitor the sales performance of the organization on a monthly basis. They want to see a high-level view of the invoiced sales amounts across the first quarter of the fiscal year. With the [Period-Over-Period Growth](#TODO) report, the CEO can easily filter and track the sales growth for the desired period. 
 
 ---
 
