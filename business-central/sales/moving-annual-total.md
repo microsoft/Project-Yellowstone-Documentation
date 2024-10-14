@@ -57,11 +57,11 @@ For the Sales team, the report can be used to idenfity sales amounts over any gi
 
 The _Moving Annual Total_ report includes the following KPIs:
 
-- **Moving Annual Total (MAT)**
-- **Previous Year Moving Annual Total (PYMAT)**
-- **Moving Annual Total Growth Amount**
-- **Moving Annual Total Growth %**
-- **Sales Amount**
+- [**Moving Annual Total (MAT)**](#moving-annual-total-mat)
+- [**Previous Year Moving Annual Total (PYMAT)**](#previous-year-moving-annual-total-pymat)
+- [**Moving Annual Total Growth Amount**](#moving-annual-total-growth-amount)
+- [**Moving Annual Total Growth %**](#moving-annual-total-total-growth-)
+- [**Sales Amount**](#sales-amount)
 
 ---
 ### Moving Annual Total (MAT)
