@@ -4,7 +4,7 @@ The Month-to-Date (MTD) report is a must-have report for executives, investors, 
 
 This report is meant for leadership and management teams to monitor sales growth per month.
 
-//MONTH-TO-DATE IMAGE
+![Sales Month-to-Date screenshot](/business-central/media/sales/sales-month-to-date.png "Sales Month-to-Date - Screenshot")
 
 
 ## What the report shows
@@ -28,6 +28,49 @@ The _Month-To-Date_ report includes the following KPIs:
 - **Gross Profit MTD**
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+
+---
+### Sales Amount
+
+The *Sales Amount* shows the total sales revenue earned in the current year. This KPI enables you to track your total sales revenue for the year thus far.
+
+**Formula**  
+
+*Sales Amount* is the total amount of all value entries related to sales is added up for the selected year.
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Sales Amount*:
+- Value Entry
+
+---
+### Sales Amount MTD
+
+The *Sales Amount MTD* is the total sales amount earned in the current month, up until yesterday.
+
+**Formula**  
+
+*Sales Amount MTD* is the total amount of all value entries related to sales is added up for the selected month, excluding today's date. 
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Sales Amount MTD*:
+- Value Entry
+
+---
+### Gross Profit MTD
+
+The *Gross Profit MTD* is the gross profit earned in the current month, up until yesterday.
+
+**Formula**  
+
+*Gross Profit MTD* is the total gross profit amount of all value entries related to sales is added up for the selected month, excluding today's date.
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Gross Profit MTD*:
+- Value Entry
+
 
 ## Data used in the Month-To-Date report
 
