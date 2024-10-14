@@ -60,7 +60,7 @@ The _Moving Annual Total_ report includes the following KPIs:
 - [**Moving Annual Total (MAT)**](#moving-annual-total-mat)
 - [**Previous Year Moving Annual Total (PYMAT)**](#previous-year-moving-annual-total-pymat)
 - [**Moving Annual Total Growth Amount**](#moving-annual-total-growth-amount)
-- [**Moving Annual Total Growth %**](#moving-annual-total-total-growth-)
+- [**Moving Annual Total Growth %**](#moving-annual-total-growth-)
 - [**Sales Amount**](#sales-amount)
 
 ---
