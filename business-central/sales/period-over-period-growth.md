@@ -49,10 +49,10 @@ For the Sales Team, the *Period-over-Period Growth* report reveals sales amounts
 
 The _Period-Over-Period Growth_ report includes the following KPIs:
 
-- **Sales Amount**
-- **Previous Period**
-- **Period-over-Period Growth Amount**
-- **Period-over-Period Growth %**
+- [**Sales Amount**](#sales-amount)
+- [**Previous Period**](#previous-period)
+- [**Period-over-Period Growth Amount**](#period-over-period-growth-amount)
+- [**Period-over-Period Growth %**](#period-over-period-growth-)
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
