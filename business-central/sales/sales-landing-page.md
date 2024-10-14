@@ -10,17 +10,13 @@ Sales teams and other operational staff can use aggregated reports, such as [Sal
 
 ## Use Cases
 
-TO DO //**For the leadership team**
-
-
-
 **Target Audience**
 
 - Executives
 - Directors
 - Other high-level decision makers
 
-**Example Scenario:** The CEO of the company wants to monitor the sales performance of the organization on a monthly basis. They want to see a high-level view of the invoiced sales amounts across the first quarter of the fiscal year. With the [Period-Over-Period Growth](#TODO) report, the CEO can easily filter and track the sales growth for the desired period. 
+**Example Scenario:** To prepare for a sales performance meeting, the CEO reviews the [Period-Over-Period Growth](#TODO) report for the current fiscal year. They can quickly see that sales growth has slowed as the year progressed, outlined by the declining [Period-over-Period Growth %](#TODO) metric. To better understand this trend the CEO begins to filter the report by several key dimensions such as Region and Item Category, quickly identifying underperforming combinations. This analysis allows them to bring new insights to the board and begin building a strategic plan to address the underperforming areas. 
 
 ---
 
