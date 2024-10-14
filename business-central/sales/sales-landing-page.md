@@ -6,7 +6,7 @@ The Power BI Sales Report provides comprehensive sales analytics to stakeholders
 
 Managers and team leaders can track sales team performance by using the [Sales by Salesperson](#TODO) report, and they can monitor revenue to ensure that the organization is on track to meet its sales goals with the [Actual vs. Budget](actual-vs-budget.md) report.
 
-Sales teams and other operational staff can use aggregated reports, such as [Sales by Item](#TODO) and [Sales by Customer](#TODO), to understand what sells best and who is buying the most. By drilling down from these aggregated views, users can seamlessly dive deep into transaction-level data for a more detailed analysis.
+Sales teams and other operational staff can use aggregated reports, such as [Sales by Item](#TODO) and [Sales by Customer](#TODO), to understand which items sells best and which customers are generating the most revenue. By drilling down from these aggregated views, users can seamlessly dive deep into transaction-level data for even more detailed analysis.
 
 ## Use Cases
 
