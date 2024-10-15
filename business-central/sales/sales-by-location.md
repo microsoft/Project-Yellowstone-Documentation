@@ -23,7 +23,7 @@ The COO of a retail company with multiple warehouse locations wants to know a hi
 ---
 For the Management Team:
 
-A Regional Manager responsible who oversees several store locations can track revenue and cost breakdown per location to identify areas for improvement and to adjust sales strategies. By using the _Sales by Location_ report, the manager can quickly see the total sales amount, quantity sold, cost of goods sold, and gross profit for each location. With the drill-through table, the manager can dive deeper into the specific items sold at each location and adjust the product prices accordingly. 
+A Regional Manager responsible who oversees several warehouse locations can track revenue and cost breakdown per location to identify areas for improvement and to adjust sales strategies. By using the _Sales by Location_ report, the manager can quickly see the total sales amount, quantity sold, cost of goods sold, and gross profit for each location. With the drill-through table, the manager can dive deeper into the specific items sold at each location and adjust the product prices accordingly. 
 
 **Target Audience**
 
