@@ -1,10 +1,10 @@
-# Sales for Business Central Power BI report
+# Power BI Sales App
 
 ## Overview
 
 The Power BI Sales Report provides comprehensive sales analytics to stakeholders at all levels of the organization. Executives and the leadership team can use the [Sales Overview](#TODO) report,  [Period-Over-Period Growth](#TODO), and [Month-To-Date](#TODO) reports to identify trends in sales performance.
 
-Managers and team leaders can track sales team performance by using the [Sales by Salesperson](#TODO) report, and they can monitor revenue to ensure that the organization is on track to meet its sales goals with the [Actual vs. Budget](actual-vs-budget.md) report.
+Managers and team leaders can track sales team performance by using the [Sales by Salesperson](#TODO) report, and they can team performance to ensure that the organization is on track to meet its sales goals with the [Actual vs. Budget](actual-vs-budget.md) report.
 
 Sales teams and other operational staff can use aggregated reports, such as [Sales by Item](#TODO) and [Sales by Customer](#TODO), to understand which items sells best and which customers are generating the most revenue. By drilling down from these aggregated views, users can seamlessly dive deep into transaction-level data for even more detailed analysis.
 
@@ -16,33 +16,36 @@ Sales teams and other operational staff can use aggregated reports, such as [Sal
 - Directors
 - Other high-level decision makers
 
-**Example Scenario:** To prepare for a sales performance meeting, the CEO reviews the [Period-Over-Period Growth](#TODO) report for the current fiscal year. They can quickly see that sales growth has slowed as the year progressed, outlined by the declining [Period-over-Period Growth %](#TODO) metric. To better understand this trend the CEO begins to filter the report by several key dimensions such as Region and Item Category, quickly identifying underperforming combinations. This analysis allows them to bring new insights to the board and begin building a strategic plan to address the underperforming areas. 
+**Example Scenario:** To prepare for an upcoming board meeting the CEO reviews two key reports: [Period-Over-Period Growth](#TODO) and [Moving Averages](#TODO) reports. 
+
+Using the 
+They can quickly see that sales growth has slowed as the year progressed, outlined by the declining [Period-over-Period Growth %](#TODO) metric. To better understand this trend the CEO begins to slice the report by several key dimensions such as Region and Item Category, quickly identifying underperforming combinations. 
+
+Next, the CEO reviews the [Moving Averages](#TODO) report to get a better understanding of the sales trends over the fiscal year. 
+
+These insights allow them to set new strategic goals and reallocate resources.
 
 ---
+**Target Audience**
 
-TO DO//**For the management team**
+- Sales Manager
+- Sales Team Leader
 
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+**Example Scenario:** 
+After meeting with the CEO, the Sales Manager is tasked with improving sales over the next two quarters. 
+
+To understand the root cause of the decline, the Sales Manager turns to the Powre BI Sales Report, specifically focusing on the [Sales by Salesperson](#TODO) page to evaluate individual team performance. They quickly identify both high and underperforming salespeople and establish a new sales budget with revised targets for each salesperson. Using the [Daily Sales](#TODO) report and the [Actual vs. Budget](actual-vs-budget.md) report, the Sales Manager monitors progress to ensure the team is on track to meet their new goals in the upcoming period. 
+
+---
 
 **Target Audience**
 
 - Sales Staff
 - Sales People
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** After receiving new sales targets from the Sales Manager, the sales team is eager to improve their performance and meet these revised goals. To strategize effectively, they turn to the Power BI Sales Report for insights into their sales patterns. The team begins by analyzing the [Sales by Item](#TODO) and [Sales by Customer](#TODO) reports to identify high-potential products and key customers. These aggregated reports provide a clear view of where opportunities lie, allowing the sales team to focus their efforts on areas most likely to generate growth and help them achieve their targets. 
 
----
-
-TO FINALISE//**For the sales team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
-**Target Audience**
-
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+The [Sales by Item](#TODO) report highlights product performance by clearly identifying which items generate the most revenue and conversely which items have experienced a decline in sales. Targeting key products will allow the sales team to prioritize their efforts on highly profitable items and those with growing demand. 
 
 
 ---
