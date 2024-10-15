@@ -11,13 +11,25 @@ This report is meant for leadership and management teams to monitor sales growth
 
 The _Month-To-Date_ report presents three key visuals to give users a comprehensive view of sales performance for the current month. The top bar chart displays the MTD sales figures for the current month and previous months. The drill-through table that compares the MTD sales amounts with those from previous years and the year-to-date sales amount. The treemap shows a breakdown of sales contributions from top customers.
 
-## Use Cases for Month-To-Date
+## Use Cases
 
-For the Leadership Team, the _Month-to-Date_ report enables business leaders to track the overall sales performance for the current month and previous months. With this information, the leaders can assess their financial health, identify trends, make strategic decisions and communicate sales figures to stakeholders effectively.
+A CEO can view sales performance for the current month to make informed decisions. With the _Month-to-Date_ report, the CEO can easily monitor our sales revenue progress from the beginning of the month up until the present day. This report also highlights sales figures for the current month and previous months, allowing the CEO to identify trends and make strategic decisions.
 
-For the Management Team, the _Month-to-Date_ report is designed for sales and finance managers to monitor their sales performance for the current month. Managers can use this report to analyse the data and take informed actions to improve their sales strategy, driving revenue growth.
+**Target Audience**
 
-For the Sales Team, the _Month-to-Date_ report serves as an important indicator to monitor sales figures and track targets for the current month. for monitoring sales figures and tracking targets for the current month. Salespersons can use this report to assess their daily sales activities and take actions.
+- CEO
+- CFO
+
+---
+
+For the Management Team:
+
+A Sales Manager can analyse and compare the month-to-date sales amounts with those from previous years and the gross profit, providing a broader context for the current sales performance. This report also shows a breakdown of sales contributions from top customers, enabling the manager to identify which customers the team should focus on to improve their sales performance. With these insights, the manager can guide the team better and make decisions to improve their sales.
+
+**Target Audience**
+
+- Sales Manager
+- Business Development Manager
 
 ## Key Performance Indicators (KPIs)
 
