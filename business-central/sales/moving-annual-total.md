@@ -2,55 +2,15 @@
 
 The _Moving Annual Total (MAT)_ report calculates a total of sales over the last 12 months. This is a rolling calculation where the date is continual moving. This report will showcase the Sales Amount MAT and compare this against the MAT for the previous period. 
 
-This report is meant for leadership teams to identify how the MAT is perofrming across the period.
+This report is meant for business leaders and managers to identify how the MAT is performing across the period.
 
-//MOVING ANNUAL TOTAL IMAGE
+![Sales Moving Annual Total screenshot](/business-central/media/sales/sales-moving-annual-total.png "Sales Moving Annual Total - Screenshot")
 
 ## What the report shows
 
-The *Moving Annual Total* reports shows ...
-
+The *Moving Annual Total* reports shows a bar graph for moving annual totals over time and a drill-through table for detailed monthly analysis of moving annual total and how it compares to the previous year moving annual totals.
 
 ## Use Cases for Moving Annual Total
-
-TO DO //**For the leadership team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
-**Target Audience**
-
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
-
----
-
-TO DO//**For the management team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
-**Target Audience**
-
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
-
----
-
-TO DO//**For the sales team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
-**Target Audience**
-
-- Sales Staff
-- Sales People
-
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
-
-
 
 
 ## Key Performance Indicators (KPIs)
