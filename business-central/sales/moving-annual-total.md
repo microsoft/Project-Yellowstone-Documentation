@@ -10,7 +10,26 @@ This report is meant for business leaders and managers to identify how the MAT i
 
 The *Moving Annual Total* reports shows a bar graph for moving annual totals over time and a drill-through table for detailed monthly analysis of moving annual total and how it compares to the previous year moving annual totals.
 
-## Use Cases for Moving Annual Total
+## Use Cases
+
+A CEO can use this report to keep track of the sales performance in the last 12 months and come up with a strategic plan for the upcoming year to increase the company's sales and profits. For example, the CEO might realize that the company's sales have been declining after the company's competitor introduced a new product in the market. The CEO can make informed decisions to allocate more resources to the region to improve the company's sales and better compete with the competitor.
+
+
+**Target Audience**
+
+- CEO
+- COO
+
+---
+
+For the Management Team:
+
+The Sales Manager of a retail company can use this report to see how sales have been performing over the last 12 months. The manager might notice that the sales of a particular category of items have been declining over the last few months. The manager can drill down to the monthly analysis to see when the sales started to decline. After analyzing the data, the manager can take actions to introduce items that align with the new trend to increase sales and meet customer demand.
+
+**Target Audience**
+
+- Sales Manager
+- Finance Manager
 
 
 ## Key Performance Indicators (KPIs)
