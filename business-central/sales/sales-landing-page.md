@@ -16,14 +16,17 @@ Sales teams and other operational staff can use aggregated reports, such as [Sal
 - Directors
 - Other high-level decision makers
 
-**Example Scenario:** To prepare for an upcoming board meeting the CEO reviews two key reports: [Period-Over-Period Growth](#TODO) and [Moving Averages](#TODO) reports. 
+**Example Scenario:** The CEO is preparing for an upcoming board meeting where they need to present an analysis of the organization's sales performance for the current fiscal year. To better understand the company's current position the CEO reaches for two key reports: [Period-Over-Period Growth](#TODO) and [Moving Averages](#TODO). 
 
-Using the 
-They can quickly see that sales growth has slowed as the year progressed, outlined by the declining [Period-over-Period Growth %](#TODO) metric. To better understand this trend the CEO begins to slice the report by several key dimensions such as Region and Item Category, quickly identifying underperforming combinations. 
+The [Period-Over-Period Growth](#TODO) provides a quick comparitive view of the current year versus the previous year. They can quickly see that sales are up by 35%, outlined by the [Period-over-Period Growth %](#TODO) metric. 
 
-Next, the CEO reviews the [Moving Averages](#TODO) report to get a better understanding of the sales trends over the fiscal year. 
+![Sales Period-Over-Period screenshot](/business-central/media/sales/sales-period-over-period-fiscal-year.png "Sales Period-Over-Period - Screenshot")
 
-These insights allow them to set new strategic goals and reallocate resources.
+Next, they review the [Sales by Customer](#TODO) report, to see which group of customers contributed most to sales. Reviewing the Sales by Customer matrix they can see that domestic customers outperformed foreign customers by contributing 56.59% to the total annual sales. 
+![Sales-by-customer-matrix screenshot](/business-central/media/sales/sales-by-customer-matrix.png "Sales-by-customer-matrix - Screenshot")
+
+Finally, the CEO reviews the [Moving Averages](#TODO) report, which visualizes [Sales Amount](#TODO) and [Sales Amount Average 30D](#TODO). This 30 day average smoothes out the sales trend for the year and provides more good news for the CEO. They can clearly see that on average, sales were stable through the first half of the year and then increased through the back half of the year. 
+![30-Day-Moving-Average screenshot](/business-central/media/sales/30-Day-Moving-Average.png "30-Day-Moving-Average - Screenshot")
 
 ---
 **Target Audience**
