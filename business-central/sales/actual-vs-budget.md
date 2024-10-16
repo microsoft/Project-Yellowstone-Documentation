@@ -11,41 +11,37 @@ This report is meant for finance and sales teams to track performance of actual 
 
 The _Actual vs. Budget_ report shows the actual sales quantities and amounts and how they are tracking against the sales budget. Specifically, the report provides insights into how specific item categories and items are tracking against their budget and highlights the variance amount and percentage.
 
-
 ## Use Cases
 
-For the Leadership Team, the *Actual vs. Budget* report helps to track the overall performance against the organizational goals and to make informed decisions.
+For the Leadership Team:
+
+The CEO of a retail company can use the _Actual vs. Budget_ report to ensure the sales targets are being met and understand how the sales performance of the entire organization are tracking against their budget. This report helps the CEO to make informed decisions for managing the budget.
 
 **Target Audience**
 - CEO
-- Head of Sales & Marketing
-- Head of Finance
-
-**Example Scenario:** A Head of Sales & Marketing wants to monitor the sales activities and track how it is tracking against the budget. The *Actual vs. Budget* report provides them with a clear picture of sales figures and helps them identify areas of improvement for budget allocation.
+- Head of Sales
 
 ---
 
-For the Management Team, the *Actual vs. Budget* report serves as a valuable tool to monitor sales activities and track actual sales figures against budgets. This report helps them to identify potential areas where sales are exceeeding or falling short of expections by analyzing the variance figures.
+For the Management Team:
+
+The Sales Manager of a retail store wants to analyze sales data to make decisions about inventory management. By analyzing the Variance and Budget Amount Variance indicators, the manager can see how the specific item categories and items are tracking against their allocated budget. This report helps the manager to understand which items are selling well and which items need to be restocked or discontinued.
 
 **Target Audience**
 
 - Sales Manager
-- Regional Sales Manager
 - Business Development Manager
-
-**Example Scenario**: A Business Development Manager needs to identify new business opportunities and expand the customer base. The *Actual vs. Budget* report provides them with accurate data to make decisions about sales strategies and which item categories to focus on.
 
 ---
 
-For the Sales Team, the *Actual vs. Budget* report helps to track their sales performance and achieve their sales targets with better clarity. This report compares the actual sales figures and budget amounts for each item category to help the team identify which products are selling well and which ones need more promotion to adjust their sales strategies accordingly.
+For the Sales Team:
+
+A salesperson at a retail store wants to ensure that he is meeting his sales targets. Using the _Actual vs. Budget_ report, he can see the sales performance of the specific item categories and items he is responsible for selling. This report helps him to understand the budget amount and variance figures and where he may need to focus his efforts to improve his sales performance.
 
 **Target Audience**
 
 - Salesperson
 - Sales Representative
-
-**Example Scenario:** A Salesperson needs to promote and sell products to the customers. The *Actual vs. Budget* report helps them track their sales figures of each item category against sales budgets and identify which products to promote to meet their sales KPIs.
-
 
 ## Key Performance Indicators (KPIs)
 

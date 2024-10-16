@@ -8,47 +8,44 @@ This report is meant for sales teams to track sales across different dates and p
 
 ## What the report shows
 
-The *Daily Sales* reports shows ...
+The *Daily Sales* report showcases a daily sales figure spread across each indiviudal date. This can showcase high and low demand days. This report visuals this data in both a matrix view and a standard table view. The figures can also be drilled into opening up the Sales drill-through page.
 
 
 ## Use Cases for Daily Sales
 
-TO DO //**For the leadership team**
+**For the leadership team**
 
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+For the leadership team, the *Daily Sales* report can be used to idenfity the sales performance on a day by day basis to make more informed decisions. 
 
 **Target Audience**
 
-- Sales Staff
-- Sales People
+- Executives
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** An executive want to view detailed sales information on a day by day basis.
 
 ---
 
-TO DO//**For the management team**
+**For the management team**
 
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+For the management team, the *Daily Sales* can be used to monitor the daily sales overall sales performance.
 
 **Target Audience**
 
-- Sales Staff
-- Sales People
+- Sales Managers
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** A sales manager wants to view the daily sales statistics of a specific sales person.
 
 ---
 
-TO DO//**For the sales team**
+**For the sales team**
 
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
+For the Sales team, the *Daily Sales* report can be used to gain a clearer understanding of customer metrics and identify any stands out.  
 
 **Target Audience**
 
-- Sales Staff
 - Sales People
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer and see what days they usually purchase items.
 
 
 
