@@ -7,7 +7,7 @@ The Fact tables contains information about individual transactions from sources 
 ## Fact Tables
 Fact tables store transactional data and support summarizations such as SUM, AVG, COUNT and more. There are two fact tables in the Power BI Sales app: 
 - [Sales](#sales)
-- [Sales Budget](#sales-budgets)
+- [Sales Budget](#sales-budget)
 
 ### Sales
 Source table(s):
@@ -28,7 +28,7 @@ Sales Lines are broken down into Shipped Not Invoiced and Outstanding Sales Line
 | Source Type |  - | A delineating field used to define the source table of the record. |
 
 
-### Sales Budgets
+### Sales Budget
 Source table(s):
 - Item Budget Entries
 
