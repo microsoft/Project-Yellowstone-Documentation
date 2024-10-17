@@ -6,8 +6,8 @@ The Fact tables contains information about individual transactions from sources 
 
 ## Fact Tables
 Fact tables store transactional data and support summarizations such as SUM, AVG, COUNT and more. There are two fact tables in the Power BI Sales app: 
-- Sales
-- Sales Budget
+- [Sales](#sales)
+- [Sales Budget](#sales-budgets)
 
 ### Sales
 Source table(s):
@@ -42,6 +42,11 @@ Source table(s):
 
 ## Dimension Tables
 In the star schema model, the dimension tables are used to support the data model and allow filtering and grouping.
+
+- [Customer](#customer)
+- [Item](#item)
+- [Location](#location)
+- [Salesperson](#salesperson)
 
 ### Customer
 Source table(s):
