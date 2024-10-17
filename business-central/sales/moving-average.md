@@ -1,6 +1,6 @@
 # Moving Average (Power BI Report)
 
-The _Moving Average_ report gives a clear picture of your organization's average sales over a 30 day period. This can be used to identify key trends over a set period of time. This report focuses on teh Sales Amount averages and comparing this against a 30 day average. 
+The _Moving Average_ report gives a clear picture of your organization's average sales over a 30 day period. This can be used to identify key trends over a set period of time. This report focuses on the Sales Amount and comparing the current sales amount value against a 30 day average. 
 
 This report is meant for higher level employees to identify key trends and make changes based on average sales.
 
@@ -22,13 +22,13 @@ For the leadership team, the *Moving Average* report can be used to view a high-
 - CEO
 - CFO
 
-**Example Scenario:** An executive needs a report that shows them the moving average of key sales metrics over a specific period. This report can assist them to make strategic decisions for the future of the company.
+**Example Scenario:** An executive needs a report that shows them the moving average of key sales metrics over a specific period. This report can assist them to make strategic decisions for the shorter term future of the company based on the recent trends.
 
 ---
 
 **For the management team**
 
-For the management team, the *Moving Average* report can to analyze the sales trends of specific items and identify which items can be pushed. This report will let them see the moving average of each product over a specfic period.
+For the management team, the *Moving Average* report can to analyze the sales trends of specific items and identify which items can be pushed. This report will let them see the moving average of each product over a specfic period and compare this against the sales amount..
 
 **Target Audience**
 
