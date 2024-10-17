@@ -1,34 +1,38 @@
-# Sales Data Model
+# Sales App Semantic Model
 
-The Sales Data model is built on the premise of a [Star Schema Model](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema#star-schema-overview). This has multiple Fact and Dimension tables to create the entire model available in the Power BI Sales App.
+The Sales semantic model is organized in a  [Star Schema Model](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema#star-schema-overview). 
+
+The Fact tables contains information about individual transactions from sources such as sales orders, posted sales invoices and posted credit memos. Dimension tables provide additional context and attributes to the transactional data, such as customer and product information.
 
 ## Fact Tables
-The fact tables store the transactional data that is pulled into Power BI from Business Central. There is two primary fact tables in the Power BI Sales app being the Sales and Sales Budget tables.
+Fact tables store transactional data and support summarizations such as SUM, AVG, COUNT and more. There are two fact tables in the Power BI Sales app: 
+- Sales
+- Sales Budget
 
 ### Sales
-The Sales table in Power BI pulls data from two separate tables in Business Central
+Source table(s):
 - Value Entries
 - Sales Lines
 
-Sales Lines are then broken up into Sales Lines that are Shipped Not Invoiced and Outstanding Sales Lines. This allows users to filter to specific Sales Metrics using the Source Type.
+Sales Lines are broken down into Shipped Not Invoiced and Outstanding Sales Lines. The Source Type field allows for filtering by these sources. 
 
-The following sections provide an overview of the **Sales** fact table:
+##### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
-| Date | Order Date/Posting Date | Order Date is used from the Sales Line and Posting Date is used from the Value Entries. This is linked to the Date table in Power BI to allow filtering on specifc date values. |
+| Date | Order Date / Posting Date | Order Date is used for data from Sales Lines. Posting Date is used for data from Value Entries. |
 | Document No. |  Document No. | Specifies the documents no. |
 | Document Type |  Document Type | Specifies the documents type |
-| Entry No. |  Entry No. | Used for reporting on Value Entries, this outlines the unique no. of the value entry. When reporting on sales lines, this will show the sales line no. |
-| Entry Type |  Entry Type | Used for reporting on Value Entries, this outlines the entry type of the value entry. When reporting on sales lines, this will show the type as "Sales Line" |
-| Source Type |  - | A unqiue field added in Power BI used to differentiate the different Sales Type used in Power BI. This can be Sales Order (Outstanding), Sales Orders (Shipped Not Invoiced) or Value Entries (Invoiced). This is editable through the data model settings updating the parameter |
+| Entry No. |  Entry No. / Sales Line No. | When reporting on Value Entries this represents the value entry no. When reporting on sales lines this represents the sales line no. |
+| Entry Type |  Entry Type | When reporting on Value Entries this represents the entry type of the value entry. When reporting on sales lines the value reads "Sales Line" |
+| Source Type |  - | A delineating field used to define the source table of the record. |
 
 
 ### Sales Budgets
-The Sales Budget table in Power BI pulls data from the below table in Business Central
+Source table(s):
 - Item Budget Entries
 
-The following sections provide an overview of the **Sales Budget** fact table:
+##### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
@@ -40,10 +44,10 @@ The following sections provide an overview of the **Sales Budget** fact table:
 In the star schema model, the dimension tables are used to support the data model and allow filtering and grouping.
 
 ### Customer
-The Customer table in Power BI pulls data from the below table in Business Central
+Source table(s):
 - Customer
 
-The following sections provide an overview of the **Customer** dimension table:
+##### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
@@ -61,11 +65,11 @@ The following sections provide an overview of the **Customer** dimension table:
 | Customer Disc. Group |  Customer Disc Group | Specifies the discount group |
 
 ### Item
-The Item table in Power BI pulls data from the below tables in Business Central
+Source table(s):
 - Item
 - Item Category
 
-The following sections provide an overview of the **Item** dimension table:
+##### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
@@ -79,10 +83,10 @@ The following sections provide an overview of the **Item** dimension table:
 | Item Category Description |  Description | Specifies the description of the Item Category the item belongs to |
 
 ### Location
-The Location table in Power BI pulls data from the below table in Business Central
+Source table(s):
 - Location
 
-The following sections provide an overview of the **Location** dimension table:
+##### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
@@ -90,10 +94,10 @@ The following sections provide an overview of the **Location** dimension table:
 | Location Name |  Name | Specifices the Name of the Location |
 
 ### Salesperson
-The Customer table in Power BI pulls data from the below table in Business Central
+Source table(s):
 - Salesperson/Purchaser
 
-The following sections provide an overview of the **Salesperon** dimension table:
+##### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
