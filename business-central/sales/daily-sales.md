@@ -75,6 +75,7 @@ The *Sales Quantity* is the total number of items sold within a specific time pe
 
 Data from the following tables are used to calculate the *Sales Quantity*:
 - Value Entry
+- Sales Line
 
 ---
 ### Sales Amount
@@ -89,6 +90,7 @@ The *Sales Amount* is the actual amount of items sold within a specific time per
 
 Data from the following tables are used to calculate the *Sales Amount*:
 - Value Entry
+- Sales Line
 
 ---
 ### Cost Amount
@@ -103,6 +105,7 @@ The *Cost Amount* represents the total cost of goods sold incured by a location 
 
 Data from the following tables are used to calculate the *Cost Amount*:
 - Value Entry
+- Sales Line
 
 ---
 ### Gross Profit
@@ -117,6 +120,7 @@ The *Gross Profit* shows the difference between the sales revenue and the cost o
 
 Data from the following tables are used to calculate the *Gross Profit*:
 - Value Entry
+- Sales Line
 
 ---
 ### Gross Profit Margin
@@ -131,6 +135,7 @@ The *Gross Profit Margin* shows the gross profit as a percentage over the sales 
 
 Data from the following tables are used to calculate the *Gross Profit Margin*:
 - Value Entry
+- Sales Line
 
 
 ## Data used in the Daily Sales report
