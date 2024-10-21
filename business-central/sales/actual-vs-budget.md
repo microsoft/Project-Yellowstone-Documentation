@@ -15,33 +15,33 @@ The _Actual vs. Budget_ report shows the actual sales quantities and amounts and
 
 For the Leadership Team:
 
-The CEO of a retail company can use the _Actual vs. Budget_ report to ensure the sales targets are being met and understand how the sales performance of the entire organization are tracking against their budget. This report helps the CEO to make informed decisions for managing the budget.
-
 **Target Audience**
 - CEO
 - Head of Sales
 
+**Example Scenario:** As a CEO of a retail company, you can easily track and compare your sales performance against your budget to ensure that your sales targets are being met. This report provides a comprehensive overview of the entire organization's sales performance, allowing you to make informed decisions when managing your budget.
+
 ---
 
 For the Management Team:
-
-The Sales Manager of a retail store wants to analyze sales data to make decisions about inventory management. By analyzing the Variance and Budget Amount Variance indicators, the manager can see how the specific item categories and items are tracking against their allocated budget. This report helps the manager to understand which items are selling well and which items need to be restocked or discontinued.
 
 **Target Audience**
 
 - Sales Manager
 - Business Development Manager
 
+**Example Scenario:** As a Sales Manager of a retail store, you can use this report to analyze your sales data and make decisions about inventory management. By analyzing the Variance and Budget Amount Variance indicators in the report, you can see how specific item categories and items are tracking against their allocated budget. This report will help you to understand which items are selling well and which ones need to be restocked or discontinued. With this information, you can optimize your inventory and ensure that your store is always stocked with the products that your customers want to buy.
+
 ---
 
 For the Sales Team:
-
-A salesperson at a retail store wants to ensure that he is meeting his sales targets. Using the _Actual vs. Budget_ report, he can see the sales performance of the specific item categories and items he is responsible for selling. This report helps him to understand the budget amount and variance figures and where he may need to focus his efforts to improve his sales performance.
 
 **Target Audience**
 
 - Salesperson
 - Sales Representative
+
+**Example Scenario:** As a Salesperson of a retail company, you can monitor the variance metrics to ensure that you are meeting your sales targets. This report allows you to see the sales performance of the specific item categories and items that you are responsible for selling. By analyzing the budget amount and variance figures in the report, you can understand where you may need to focus your efforts to improve your sales performance. With this information, you can identify areas of opportunity to increase sales and optimize your approach to selling specific items, helping you to meet and exceed your sales targets.
 
 ## Key Performance Indicators (KPIs)
 
