@@ -13,23 +13,25 @@ The _Month-To-Date_ report presents three key visuals to give users a comprehens
 
 ## Use Cases
 
-A CEO can view sales performance for the current month to make informed decisions. With the _Month-to-Date_ report, the CEO can easily monitor our sales revenue progress from the beginning of the month up until the present day. This report also highlights sales figures for the current month and previous months, allowing the CEO to identify trends and make strategic decisions.
+For the Leadership Team:
 
 **Target Audience**
 
 - CEO
 - CFO
 
+**Example Scenario**: As a CEO, you can use the _Month-to-Date_ report to view your organization's sales performance for the current month. This report provides you with an easy way to monitor your sales revenue progress from the beginning of the month up until the present day. By analyzing the sales figures for the current month and previous months, you can to identify trends and make strategic decisions for your organization. With this information at your fingertips, you can make data-driven decisions that will help you to optimize your sales strategy and drive revenue growth for your business.
+
 ---
 
 For the Management Team:
-
-A Sales Manager can analyse and compare the month-to-date sales amounts with those from previous years and the gross profit, providing a broader context for the current sales performance. This report also shows a breakdown of sales contributions from top customers, enabling the manager to identify which customers the team should focus on to improve their sales performance. With these insights, the manager can guide the team better and make decisions to improve their sales.
 
 **Target Audience**
 
 - Sales Manager
 - Business Development Manager
+
+**Example Scenario**: As a Sales Manager, you can use the _Month-to-Date_ report to analyze and compare your organization's sales performance with those from previous years. By examining the gross profit figures, you can provide a broader context for the current sales performance. The report also shows a breakdown of sales contributions from top customers, which enables you to identify which customers your team should focus on and maintain good relationship to improve their sales performance. With these insights, you can guide your team better and take actions to improve their sales.
 
 ## Key Performance Indicators (KPIs)
 
