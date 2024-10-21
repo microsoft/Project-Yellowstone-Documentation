@@ -13,30 +13,30 @@ This report is meant for business leaders and managers.
 The *Period-Over-Period Growth* reports shows a bar graph for comparison of sales amounts between the current year and the previous year and a drill-through table for detailed monthly analysis.
 
 
-## Use Cases for Period-Over-Period Growth
+## Use Cases
 
 For the Leadership Team: 
-
-A CEO is responsible for making strategic decisions that will drive growth for your organization. The _Period-over-Period Growth_ report provides valuable insights into your organization's sales performance over time. By comparing sales amounts for different time periods to the same period in the previous year, this report helps the CEO identify growth trends and areas for improvement.
-
-For example, the CEO might notice that sales have been consistently declining in a particular region or product category, and use this information to make strategic decisions about investments or changes to their sales strategy.
-
 
 **Target Audience**
 
 - CEO
 - COO
 
+
+As a CEO, you are responsible for making strategic decisions that will drive growth for your organization. The _Period-over-Period Growth_ report provides valuable insights into your organization's sales performance over time. By comparing sales amounts for different time periods to the same period in the previous year, this report helps you identify growth trends and areas for improvement.
+
+For example, you might notice that sales have been consistently declining in a particular region or product category, and use this information to make decisions about investments or changes to your sales strategy. This might include increasing your marketing efforts in that region, or improving your product offerings to be more competitive.
+
 ---
 
 For the Management Team:
-
-As a Sales Manager who oversees the day-to-day sales activities, this report can help the manager to identify areas where the sales team is excelling and areas where they need additional support. Additionally, the manager can analyse the growth amount and growth %, and evaluate their team's performance over the current fiscal year compared to the previous fiscal year. This information can help them adjust sales strategies and coach team members to improve overall sales performance.
 
 **Target Audience**
 
 - Sales Managers
 - Operations Managers
+
+As a Sales Manager who oversees the day-to-day sales activities, the _Period-over-Period Growth_ report can help you to identify areas where the sales team is excelling and areas where they need additional support. By analyzing the growth amount and growth %, you can evaluate your team's performance over the current fiscal year compared to the previous fiscal year. This information can help you to adjust sales strategies and coach team members to improve overall sales performance.
 
 ## Key Performance Indicators (KPIs)
 
