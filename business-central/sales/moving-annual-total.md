@@ -20,17 +20,18 @@ A CEO can use this report to keep track of the sales performance in the last 12 
 - CEO
 - COO
 
+**Example Scenario**: As a CEO, you can use this report to keep track of your organization's sales performance in the last 12 months and come up with a strategic plan for the upcoming year to increase sales and profits. By analyzing the sales figures over the last year, you can identify patterns that can inform your decision-making process. For example, you might realize that your organization's sales have been declining after a competitor introduced a new product in the market. With this information, you can make informed decisions to allocate more resources to the affected region, improve your sales, and better compete with the competitor.
+
 ---
 
 For the Management Team:
-
-The Sales Manager of a retail company can use this report to see how sales have been performing over the last 12 months. The manager might notice that the sales of a particular category of items have been declining over the last few months. The manager can drill down to the monthly analysis to see when the sales started to decline. After analyzing the data, the manager can take actions to introduce items that align with the new trend to increase sales and meet customer demand.
 
 **Target Audience**
 
 - Sales Manager
 - Finance Manager
 
+**Example Scenario**: As a Sales Manager of a clothing company, you can use this report to analyze your sales data over the last 12 months and identify trends. By analyzing the sales figures for specific item categories, you can see how sales have been performing over time and identify any areas of concern. For instance, you might notice that the sales of a particular category of items have been declining over the last few months. Using the monthly analysis, you can drill down to see when the sales started to decline. With this information, you can take necessary actions to introduce items that align with the new trend to increase sales and meet customer demand.
 
 ## Key Performance Indicators (KPIs)
 
