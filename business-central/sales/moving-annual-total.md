@@ -12,8 +12,7 @@ The *Moving Annual Total* reports shows a bar graph for moving annual totals ove
 
 ## Use Cases
 
-A CEO can use this report to keep track of the sales performance in the last 12 months and come up with a strategic plan for the upcoming year to increase the company's sales and profits. For example, the CEO might realize that the company's sales have been declining after the company's competitor introduced a new product in the market. The CEO can make informed decisions to allocate more resources to the region to improve the company's sales and better compete with the competitor.
-
+For the Leadership Team:
 
 **Target Audience**
 
