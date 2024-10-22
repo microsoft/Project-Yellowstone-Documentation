@@ -1,28 +1,18 @@
 # Purchase Power BI app
 
-The purchase Power BI app for Business Central is designed to provide procurement personnel, purchasing managers, and executives with actionable insights into their purchasing activities. This app with its multiple reports aims to help you streamline procurement processes, enhance decision-making, and optimize spending by offering detailed analytics and visualizations of purchasing data. By leveraging this report, your organization can achieve greater transparency, efficiency, and cost savings in your procurement operations.
- 
-Use the app for
-- **Enhanced Decision-Making:** Provides data-driven insights to support strategic and operational decisions.
-- **Increased Transparency:** Offers a clear view of procurement activities, promoting accountability and compliance.
-- **Cost Optimization:** Identifies opportunities for cost savings and efficiency improvements.
+The Purchase Power BI app for Business Central is designed to provide executives, purchasing managers, and procurement teams with valuable insights into your purchasing activities. This app with its multiple reports aims to help you streamline purchasing processes, improve decision-making at all levels of the organization, and optimize spending by offering detailed analytics and visualizations of purchasing data. By leveraging this report, your organization can achieve greater transparency, efficiency, and cost savings in your daily operations.
 
-:::image type="content" source="media/powerbi/powerbi-purchase-app.png" alt-text="Screenshot of the Power BI app for purchase" lightbox="media/powerbi/powerbi-purchase-app.png":::
+## Use Cases
 
-## Use case examples 
+The reports in the purchase Power BI app can be used for different purposes depending on your role. Below, you can read some examples of use cases for different roles in your organization.
 
-The reports in the purchase Power BI app can be used for different purposes depending on your role. Below, you can read some examples of use cases for different roles in your organization. 
+**Target Audience**
 
-### If your role is in the leadership team...
+- Chief Executive Officers
+- Chief Procurement Officers
+  
+**Example scenario:** As the CEO of a manufacturing company, you need to stay on top of rising raw material costs to maintain profitability. For the leadership team, it is important to understand your organization's spendings. By analyzing the Purchases Overview and Moving Annual Total reports, you can get a better understanding into how much money is spent all purchasing activites and quickly spot any increases in raw material costs. You can also use the Actual and Budget report to monitor the actual spending against the allocated budget and make informed descisions to plan ahead of the coming months and years, allowing you to enforce better budget control.
 
-For the leadership team, the purpose of using this app is to gain a high-level overview of your organization's purchasing trends and financial health. The app helps leaders identify spending patterns, monitor budget adherence, and make strategic decisions to improve financial performance. It provides a clear picture of procurement efficiency and highlights areas for potential cost reduction.
-
-To fit this category, you might have a job title such as 
-- Chief Fiancial Officer
-- Chief Operating Officer
-- Chief Executive Officer
-
-**Example scenario:** As a CFO of a manufacturing company, you uses the app to spot a rise in raw material costs. By identifying that a supplier has increased prices, you can negotiate better terms or find new suppliers to save money. Additionally, the app shows which warehouse locations are overspending, helping you to enforce better budget controls.
 
 ### If you work in management...
 
@@ -54,31 +44,17 @@ The following table describes how you can use the Power BI reports in the Purcha
 
 |To... | Open in Business Central (CTRL+click) | Learn more	|
 |------|---------------------------------------|----------- |
-| Get a high-level summary of all purchasing activities and see purchase statistics such as summaries of amounts, outstanding amounts, amounts received not invoiced, and invoiced amounts.|Purchases Overview|[About *Purchases Overview*](purchasing-powerbi-purchasing-overview.md)|
-| Use AI to help investigate purchase statistics and to explore how various components such as categories, vendors, and fiscal periods impact your purchases. |Purchase Decomposition|[About *Purchase Decomposition*](purchasing-powerbi-purchase-decomposition.md)|
-| Analyze daily purchasing activities, highlighting trends and anomalies in daily spend. Monitor day-to-day purchases fluctuations and identify unusual spending patterns | Daily Purchases|[About *Daily Purchases*](purchasing-powerbi-daily-purchases.md)|
-
-
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
-
-
-
-<!-- Move content from this format into the format above
-
-|Report|Description |Learn more|
-|----|------------|----------|
-|Purchases Overview|The **Purchases Overview** page provides a high-level summary of all purchasing activities. Key metrics include purchase amount, outstanding amount, amount received not invoiced, invoiced amount, and other chart visuals on purchasing. This page serves as a starting point for understanding the overall purchasing landscape.|[Purchases Overview](purchases-overview.md)|
-|Purchase Decomposition|The **Purchase Decomposition** page breaks down purchases into various components such as categories, vendor names, fiscal period, document type and document number. This detailed breakdown helps identify spending patterns and areas for potential cost savings.|[Purchase Decomposition](#temp-link)|
-|Daily Purchases|The **Daily Purchases** page displays daily purchasing activities, highlighting trends and anomalies in daily spend. This page is useful for monitoring day-to-day fluctuations and identifying unusual spending patterns.|[Daily Purchases](#temp-link)|
-|Moving Averages|The **Moving Averages** page shows 30-days moving average and the purchase amount throughout the year. This page helps in understanding the underlying trends without the noise of daily variations.|[Moving Averages](#temp-link)|
-|Moving Annual Total|The **Moving Annual Total** page presents the moving annual total of purchases, providing a cumulative view of spending over a rolling 12-month period. This page is useful for long-term trend analysis and forecasting.|[Moving Annual Total](#temp-link)|
-|Period-over-Period|The **Period-over-Period** page compares purchasing data across different periods to identify growth or decline trends. This comparison helps in understanding how purchasing activities are evolving over time.|[Period-over-Period](#temp-link)|
-|Year-over-Year|The **Year-over-Year** page analyzes year-over-year changes in purchasing activities to understand trends and annual growth rates. This page is essential for identifying long-term growth patterns.|[Year-over-Year](#temp-link)|
-|Purchases by Item|The **Purchases by Item** page breaks down purchases by item, showing which products or materials are being bought most frequently and their associated costs. This analysis helps in managing inventory and supplier relationships.|[Purchases by Item](#temp-link)|
-|Purchases by Vendor|The **Purchases by Vendor** page provides insights into vendor performance, including total spend per vendor and purchase amount breakdown by item. This page is crucial for evaluating supplier performance and negotiating better terms.|[Purchases by Vendor](#temp-link)|
-|Purchases by Purchaser|The **Purchases by Purchaser** page analyzes purchasing activities by individual purchasers, helping to identify top items and their spending patterns. This information is useful for managing procurement teams and individual performance.|[Purchases by Purchaser](#temp-link)|
-|Purchases by Location|The **Purchases by Location** page provides a detailed analysis of purchasing activities across different warehouse locations. This page helps in identifying trends, optimizing inventory management, and making informed decisions about procurement strategies.|[Purchases by Location](#temp-link)|
-|Actual vs Budget|The **Actual vs Budget** page compares the budgeted versus actual spending for various item categories. This page is essential for budget management and ensuring that spending aligns with financial plans.|[Actual vs Budget](#temp-link)| -->
-
+| Get a high-level summary of all purchasing activities and see purchase statistics such as summaries of amounts, outstanding amounts, amounts received not invoiced, and invoiced amounts.|Purchases Overview|[About *Purchases Overview*](purchasing-powerbi-purchasing-overview.md)|  
+| Explore the costs of various components on your purchases with a detailed breakdown of your purchasing data by categories, vendors, fiscal month year and document types.|Purchase Decomposition|[About *Purchase Decomposition*](purchasing-powerbi-purchase-decomposition.md)|  
+| Analyze daily purchasing activities, highlighting trends and anomalies in daily spend. Monitor day-to-day purchases fluctuations and identify unusual spending patterns | Daily Purchases|[About *Daily Purchases*](purchasing-powerbi-daily-purchases.md)|  
+| Analyze the 30-day moving average of your purchases and compare it against the total purchase amount to identify purchasing trends and patterns. | Moving Averages |[About *Moving Averages*](purchasing-powerbi-moving-averages.md)|  
+| Get an overview of total of all  purchases over a rolling 12-month period for long-term trend analysis and forecasting.| Moving Annual Total|[About *Moving Annual Total*](purchasing-powerbi-moving-annual-total.md)|  
+| Compare your purchasing data across different time periods. This can be reviewed at the year, quarter or month level and can identify how purchases are tracking across these periods.| Period-Over-Period|[About *Period-Over-Period*](purchasing-powerbi-period-over-period.md)|  
+| Gain insights into your organization's purchasing performance over time, allowing you to identify any trends or patterns that have emerged over time.| Year-Over-Year|[About *Year-Over-Year*](purchasing-powerbi-year-over-year.md)|  
+| Analyze purchasing activities by vendo by item to gain a better understanding of which items are consuming a significant portion of your purchasing budget.| Purchases by Item|[About *Purchases by Item*](purchasing-powerbi-purchases-by-item.md)|  
+| Analyze purchasing activities by vendor to identify which vendors are responsible for the majority of your purchasing activity.| Purchases by Vendor|[About *Purchases by Vendor*](purchasing-powerbi-purchases-by-vendor.md)|  
+| Analyze purchasing activities by purchaser to manage purchasing teams and individual performance. | Purchases by Purchaser|[About *Purchases by Purchaser*](purchasing-powerbi-purchases-by-purchaser.md)|  
+| Gain a comprehensive view of your purchase data across different warehouse locations to identify trends and patterns in their purchasing activities. | Purchases by Location|[About *Purchases by Location*](purchasing-powerbi-purchases-by-location.md)|  
+| Compare your actual spending against your allocated budget to ensure that spending aligns with financial plans. | Actual vs Budget|[About *Actual vs Budget*](purchasing-powerbi-actual-vs-budget.md)|
 
 ## See also
