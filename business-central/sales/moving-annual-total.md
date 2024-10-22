@@ -19,7 +19,9 @@ For the Leadership Team:
 - CEO
 - COO
 
-**Example Scenario:** As a CEO, you can use this report to keep track of your organization's sales performance in the last 12 months and come up with a strategic plan for the upcoming year to increase sales and profits. By analyzing the sales figures over the last year, you can identify patterns that can inform your decision-making process. For example, you might realize that your organization's sales have been declining after a competitor introduced a new product in the market. With this information, you can make informed decisions to allocate more resources to the affected region, improve your sales, and better compete with the competitor.
+**Example Scenario:** As a CEO of a clothing company, you can use the _Moving Annual Total_ report to monitor the overall sales performance of your organization over the last 12 months. By analyzing the Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) figures, you can identify trends in sales growth and compare your organization's performance to the previous year. You can also use the Moving Annual Total Growth Amount and Growth % figures to identify periods that performed well or did not meet the growth expectation. 
+
+For instance, if you notice that your organization's sales growth has been stagnant or declining, you can use this information to develop a strategic plan that focuses on improving sales and increasing marketing efforts during these periods.
 
 ---
 
@@ -30,7 +32,9 @@ For the Management Team:
 - Sales Manager
 - Finance Manager
 
-**Example Scenario:** As a Sales Manager of a clothing company, you can use this report to analyze your sales data over the last 12 months and identify trends. By analyzing the sales figures for specific item categories, you can see how sales have been performing over time and identify any areas of concern. For instance, you might notice that the sales of a particular category of items have been declining over the last few months. Using the monthly analysis, you can drill down to see when the sales started to decline. With this information, you can take necessary actions to introduce items that align with the new trend to increase sales and meet customer demand.
+**Example Scenario:** As a Sales Manager, you can use the _Moving Annual Total_ report to analyze your sales data over the last 12 months and gain insights into sales trends. By drilling down into the sales figures for specific clothing categories, you can identify areas of strength and weakness in your sales performance. For example, you might notice that sales of men's shorts have been declining over the last few months while sales of women's jackets have been increasing.
+
+By using the monthly analysis, you can identify when the sales started to decline and take necessary actions to introduce products that align with the new trend to increase sales and meet customer demand. With this information, you can make data-driven decisions to optimize your sales strategy and drive revenue growth for your clothing company.
 
 ## Key Performance Indicators (KPIs)
 
