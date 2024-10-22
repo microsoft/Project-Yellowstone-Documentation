@@ -21,7 +21,7 @@ For the leadership team, the *Daily Sales* report can be used to idenfity the sa
 
 - Executives
 
-**Example Scenario:** An executive want to view detailed sales information on a day by day basis.
+**Example Scenario:** You are an executive and want to view detailed sales information on a day by day basis.
 
 ---
 
@@ -33,7 +33,7 @@ For the management team, the *Daily Sales* can be used to monitor the daily sale
 
 - Sales Managers
 
-**Example Scenario:** A sales manager wants to view the daily sales statistics of a specific sales person.
+**Example Scenario:** As a sales manager you want to view the daily sales statistics of a specific sales people.
 
 ---
 
@@ -45,7 +45,7 @@ For the Sales team, the *Daily Sales* report can be used to gain a clearer under
 
 - Sales People
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer and see what days they usually purchase items.
+**Example Scenario:** You are a Salesperson who is going to a customer sites and wants to identify recent trends for this customer and see what days they usually purchase items.
 
 
 

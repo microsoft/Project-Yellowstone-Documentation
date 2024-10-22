@@ -22,7 +22,7 @@ For the leadership team, the *Moving Average* report can be used to view a high-
 - CEO
 - CFO
 
-**Example Scenario:** An executive needs a report that shows them the moving average of key sales metrics over a specific period. This report can assist them to make strategic decisions for the shorter term future of the company based on the recent trends.
+**Example Scenario:** You are a executive who needs a report that shows you the moving average of key sales metrics over a specific period. You can use this report to see performance trends and assist you to make strategic decisions for the shorter term future of your company based on the recent trends.
 
 ---
 
@@ -35,7 +35,7 @@ For the management team, the *Moving Average* report can to analyze the sales tr
 - Department Heads
 - Operation Managers
 
-**Example Scenario:** A Department Head wants to identify which products are selling well adn those that are not. With the information from this report, they can make informed decisions about their inventory management and future marketting strategies. 
+**Example Scenario:** You are a Department Head and you want to identify which products are selling well and those that are not. With this information you can, make informed decisions about your inventory management and future marketing strategies. 
 
 ---
 
@@ -47,7 +47,7 @@ For the general staff, the *Moving Average* report can be used to analyze the sa
 
 - Production Managers
 
-**Example Scenario:** A Production Manager wants to use the report to identify if they are meeting the target or not. They can use the information in this report to make adjustments to their production plan to meet deamnd for the product.
+**Example Scenario:** As a Production Manager you want to use this report to identify if you are meeting the target or not. With this information, you can use the information in this report to make adjustments to their production plan to meet demand for the product.
 
 
 

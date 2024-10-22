@@ -20,7 +20,7 @@ For the leadership team, *Sales by Item* report provides insights inot the top I
 
 - CEO
 
-**Example Scenario:** A CEO wants to be able to see a list of the top-selling items by revenue generated. This compared with how much each item has contributed to the company's overall revenue. This information can then be used to make strategic decisions about which products to focus on and how to allocate resources.
+**Example Scenario:** As a CEO, you wants to see a list of the top-selling items by revenue generated. You want to be able to compare this with how much each item has contributed to the company's overall revenue. This information can then be used to make strategic decisions about which products to focus on and how to allocate resources.
 
 ---
 
@@ -32,7 +32,7 @@ For the management team, the *Sales by Item* report can be used to idenfity key 
 
 - Sales Manager
 
-**Example Scenario:** A Sales Manager can identify which items aren't performing and implement sales promotions for these items. They can also use this information to adjust inventory levels of different items procurring additional to assist with demand.
+**Example Scenario:** You are a Sales Manager and you can identify which items aren't performing and implement sales promotions for these items. You can also use this information to adjust inventory levels of different items procurring additional stock to assist with demand or reducing stock levels.
 
 ---
 
@@ -44,7 +44,7 @@ For the Sales team, the *Sales by Item* report can be used to quickly identify h
 
 - Sales People
 
-**Example Scenario:** A Salesperson is going to tailor their pitch specific items based on the sales performance. This report can also provide information on lower performing items so sales people can identify upselling or cross-selling.
+**Example Scenario:** As a Salesperson you want to be able to tailor your pitch based on specific items sales performance, this report allows you to identify high performing items. You can also utilsie this report to gain insights on lower performing items so sales people can identify upselling or cross-selling.
 
 ## Key Performance Indicators (KPIs)
 
