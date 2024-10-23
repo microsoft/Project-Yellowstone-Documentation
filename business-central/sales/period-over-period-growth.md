@@ -51,7 +51,7 @@ The _Period-Over-Period Growth_ report includes the following KPIs:
 
 Data from the following tables are used on the *Period-Over-Period Growth* report
 - Value Entry
-- Sales Lines
+- Sales Line
 
 
 ## See also
