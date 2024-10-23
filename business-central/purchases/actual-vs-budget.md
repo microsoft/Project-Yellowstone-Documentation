@@ -96,7 +96,7 @@ Data from the following tables are used to calculate the *Budget Amount*:
 ---
 ### Budget Amount Variance
 
-The **Budget Amount Variance** shows the difference between the actual purchase amount and the budget amount.
+The *Budget Amount Variance* shows the difference between the actual purchase amount and the budget amount.
 
 **Formula**  
 
