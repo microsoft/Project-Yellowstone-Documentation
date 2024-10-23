@@ -1,14 +1,14 @@
 # Gross Requirement (Power BI Report)
 
-The _Gross Requirement_ report gives....
+The _Gross Requirement_ report looks at all outbound transactions within the system to identify the quantity required per item. 
 
-This report is meant for....
+This report is meant for management and procurement officers to be able to identify if the organization is keeping up with the demand.
 
 ![Gross Requirement](/business-central/media/inventory/gross-requirement.png "Gross Requirement - Screenshot")
 
 ## What the report shows
 
-The *Gross Requirement* reports shows outlines a comprehensive view of the total sales generated. This is viewable in both a barchart and matrix view. Each visual links to the Sales drill-through page to further breakdown the information.
+The *Gross Requirement* reports shows a view of the Gross Requirement for an item along with the inventory across the different documents. This is coupled with the Project Available Balance which calculates the balance at any point in time. This is viewable in both a matrix view and a Line and cluster column chart which shows the trend line as the Project Available Balance.
 
 
 ## Use Cases

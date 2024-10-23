@@ -1,14 +1,14 @@
 # Inventory by Location (Power BI Report)
 
-The _Inventory by Location_ report gives....
+The _Inventory by Location_ outlines inventory levels across an organizations different locations.
 
-This report is meant for....
+This report is meant for managers to be able to quickly identify which locations have the most stock of a particular item or product group.
 
 ![Inventory by Location](/business-central/media/inventory/inventory-by-location.png "Inventory by Location - Screenshot")
 
 ## What the report shows
 
-The *Inventory by Location* reports shows outlines a comprehensive view of the total sales generated. This is viewable in both a barchart and matrix view. Each visual links to the Sales drill-through page to further breakdown the information.
+The *Inventory by Location* reports utilizes a bar chart and matrix to convey the inventory per location. Each visual links directly to a variety of different drill through pages to view more detailed information.
 
 
 ## Use Cases

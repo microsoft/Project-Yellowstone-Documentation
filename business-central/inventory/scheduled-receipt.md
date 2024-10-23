@@ -1,6 +1,6 @@
 # Scheduled Receipt (Power BI Report)
 
-The _Scheduled Receipt_ report gives....
+The _Scheduled Receipt_ gives users the ability to view inbound inventory into an organization broken up per document type. This also includes internal Assembly or Production accounting for when the finished good will become avaialble.
 
 This report is meant for....
 

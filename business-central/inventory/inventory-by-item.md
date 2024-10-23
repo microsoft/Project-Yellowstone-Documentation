@@ -1,14 +1,14 @@
 # Inventory by Item (Power BI Report)
 
-The _Inventory by Item_ report gives....
+The _Inventory by Item_ highlights inventory levels per Item, this can additionally be viewed per Item Category Code. The report showcases different columns to identify inventory per item on different document types.
 
-This report is meant for....
+This report is meant for all users to allow them to see total inventory for an item along with the split of inventory across the business.
 
 ![Inventory by Item](/business-central/media/inventory/inventory-by-item.png "Inventory by Item - Screenshot")
 
 ## What the report shows
 
-The *Inventory by Item* reports shows outlines a comprehensive view of the total sales generated. This is viewable in both a barchart and matrix view. Each visual links to the Sales drill-through page to further breakdown the information.
+The *Inventory by Item* report breaks down the inventory by item by utilising a matrix view which uses Item Category and Item as the rows and different quantity calculations per column.
 
 
 ## Use Cases
