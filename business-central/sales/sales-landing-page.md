@@ -68,16 +68,16 @@ The [Sales by Item](#TODO) report highlights product performance by clearly iden
 ## Reports
 The following sections provide an overview of all the available Power BI reports for sales:
 
-| To... | Open in Business Central (CTRL+select) | Learn more | ID |
-| ------ | -------------- | ---------- | ------ |
+| To... | Open in Business Central (CTRL+select) | Learn more |
+| ------ | -------------- | ---------- | 
 | Analyze high level information on sales activities. Identify sales figures relating to quantity or amounts from both posted and unposted documents.| [Sales Overview](#TODO) | [About Sales Overview](#TODO) |
 | Analyze sales by week day over different periods. The heatmaps highlights which days have the most sales helping you identify patterns in your sales.|[Daily Sales](#TODO)| [About Daily Sales](#TODO) |
-| The moving averages report is used to show a 30 Day average across the Sales Amount over the course of the year. This can assist in understanding yearly trends across sales values. | [Moving Average](#TODO) | [About Moving Average](#TODO) |
-| The Moving Annual Total report highlights the annual total of the Sales Amount. This provides a cumlative view of a rolling 12-month period. The page can provide useful insights in determining trends and forecasting. |[Moving Annual Total](#TODO) | [About Moving Annual Total](#TODO) |
-| The Period-Over-Period Growth report is used to identify trends across the different periods. This can be reviewed at the year, quarter or month level and can identify how sales are tracking across these periods. |[Period-Over-Period Growth](#TODO) | [About Period-Over-Period Growth](#TODO) |
-| The Month To Date report shows the growth of the Sales Amount each month. This resets at the end of the month but can be used to ensure sales are tracking for the month.| [Month-To-Date](#TODO) | [About Month-To-Date](#TODO)|
-| The Sales by Item report can be use to show how each Item is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Item](#TODO) | [About Sales by Item](#TODO) |
-| The Sales by Customer report can be use to show how each customer is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Customer](#TODO)  | [About Sales by Customer](#TODO) |
-| The Sales by Salesperson report can be use to show how each salesperson is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Salesperson](#TODO) | [About Sales by Salesperson](#TODO) |
-| The Sales by Salesperson report can be use to show how each location is performing over a specific period. This can be used in conjunction with other reporting options. | [Sales by Location](sales-by-location.md)  | [About Sales by Location](sales-by-location.md)  |
-| The Actual vs Budget report can be used to make informed comparisons for sales reporting how sales is going compared to the budget. | [Actual vs. Budget](actual-vs-budget.md) | [About Actual vs. Budget](actual-vs-budget.md) |
+| Analyze sales trends by smoothing out spikes and drops in Sales using the 30 Day Moving Averages report. | [Moving Average](#TODO) | [About Moving Average](#TODO) |
+| Analyze the aggregated sales over a rolling 12-month period. Use this as an alternative to a Year-to-Date report. |[Moving Annual Total](#TODO) | [About Moving Annual Total](#TODO) |
+| Compares sales in one period with the same period in a prior year, quarter, or month. |[Period-Over-Period Growth](#TODO) | [About Period-Over-Period Growth](#TODO) |
+| Analyze accumulating sales for a desired period. | [Month-To-Date](#TODO) | [About Month-To-Date](#TODO)|
+| Analyze sales by item and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales. | [Sales by Item](#TODO) | [About Sales by Item](#TODO) |
+| Analyze sales by customer and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Customer](#TODO)  | [About Sales by Customer](#TODO) |
+| Analyze sales by salesperson and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Salesperson](#TODO) | [About Sales by Salesperson](#TODO) |
+| Analyze sales by location and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Location](sales-by-location.md)  | [About Sales by Location](sales-by-location.md)  |
+| Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget](actual-vs-budget.md) | [About Actual vs. Budget](actual-vs-budget.md) |
