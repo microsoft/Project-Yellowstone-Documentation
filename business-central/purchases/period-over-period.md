@@ -93,7 +93,7 @@ Data from the following tables are used to calculate the *Period-over-Period Gro
 ## Data used in the Period-Over-Period report
 
 Data from the following tables are used on the *Period-Over-Period* report
-- Table 1
-- Table 2
+- Value Entry
+- Purchase Line
 
 ## See also
