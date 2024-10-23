@@ -1,6 +1,6 @@
-# Moving Average (Power BI Report)
+# Moving Averages (Power BI Report)
 
-The _Moving Average_ report provides a comprehensive overview of your organization's average purchase over a 30-day period. This report focuses on the Purchase Amount and compares the current purchase amount value against a 30-day average, allowing you to quickly identify any deviations from the norm. This information can be used to take proactive measures to address any issues and ensure that your purchasing activities are aligned with the business operations and profitability.
+The _Moving Averages_ report provides a comprehensive overview of your organization's average purchase over a 30-day period. This report focuses on the Purchase Amount and compares the current purchase amount value against a 30-day average, allowing you to quickly identify any deviations from the norm. This information can be used to take proactive measures to address any issues and ensure that your purchasing activities are aligned with the business operations and profitability.
 
 The target audience is primarily executives and purchasing managers who are responsible for overseeing purchasing activities within your organization.
 
@@ -8,7 +8,7 @@ The target audience is primarily executives and purchasing managers who are resp
 
 ## What the report shows
 
-The *Moving Average* reports shows line chart with the Purchase Amount and the Purchase Amount Average 30D.
+The *Moving Averages* reports shows line chart with the Purchase Amount and the Purchase Amount Average 30D.
 
 ## Use Cases
 
@@ -24,7 +24,7 @@ For the Team:
 
 ## Key Performance Indicators (KPIs)
 
-The _Moving Average_ report includes the following KPIs:
+The _Moving Averages_ report includes the following KPIs:
 
 - [**Purchase Amount**](#purchase-amount)
 - [**Purchase Amount Average 30D**](#purchase-amount-average-30d)
@@ -61,9 +61,9 @@ Data from the following tables are used to calculate the *Purchase Amount Averag
 - Purchase Line
 
 
-## Data used in the Moving Average report
+## Data used in the Moving Averages report
 
-Data from the following tables are used on the *Moving Average* report
+Data from the following tables are used on the *Moving Averages* report
 - Value Entry
 - Purchase Line
 
