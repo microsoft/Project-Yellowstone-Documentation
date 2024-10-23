@@ -118,3 +118,45 @@ Data from the following tables are used to calculate the *Variance %*:
 - Value Entry
 - Item Budget Entry
 
+---
+### Sales Amount
+
+The *Sales Amount* shows the total sales revenue earned in the current year. This KPI enables you to track your total sales revenue for the year thus far.
+
+**Formula**  
+
+*Sales Amount* is the total amount of all value entries related to sales is added up for the selected year.
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Sales Amount*:
+- Value Entry
+
+---
+### Sales Amount MTD
+
+The *Sales Amount MTD* is the total sales amount earned in the current month, up until yesterday.
+
+**Formula**  
+
+*Sales Amount MTD* is the total amount of all value entries related to sales is added up for the selected month, excluding today's date. 
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Sales Amount MTD*:
+- Value Entry
+
+---
+### Gross Profit MTD
+
+The *Gross Profit MTD* is the gross profit earned in the current month, up until yesterday.
+
+**Formula**  
+
+*Gross Profit MTD* is the total gross profit amount of all value entries related to sales is added up for the selected month, excluding today's date.
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Gross Profit MTD*:
+- Value Entry
+
