@@ -42,83 +42,10 @@ For the Management Team:
 
 The _Period-Over-Period Growth_ report includes the following KPIs:
 
-- [**Sales Amount**](#sales-amount)
-- [**Previous Period**](#previous-period)
-- [**Period-over-Period Growth Amount**](#period-over-period-growth-amount)
-- [**Period-over-Period Growth %**](#period-over-period-growth-)
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
-
----
-### Sales Amount
-
-The *Sales Amount* shows the total sales amount earned in the current period.
-
-**Formula**  
-
-*Sales Amount* is the total amount of all value entries related to sales is added up for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Sales Amount*:
-- Value Entry
-
----
-### Previous Period
-
-The *Previous Period* shows the total sales amount earned in the previous period. For example, if the current *Sales Amount* is January 2023, the *Previous Period* shows the sales amount in January 2022.
-
-**Formula**  
-
-*Previous Period* is the total amount of all value entries related to sales is added up for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Previous Period*:
-- Value Entry
-
----
-### Previous Period
-
-The *Previous Period* shows the total sales amount earned in the previous period. For example, if the current *Sales Amount* captures the sales amount in January 2023, the *Previous Period* shows the sales amount in January 2022.
-
-**Formula**  
-
-*Previous Period* is the total amount of all value entries related to sales is added up for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Previous Period*:
-- Value Entry
-
----
-### Period-over-Period Growth Amount
-
-The *Period-over-Period Growth Amount* is the change in the total amount between the current period and previous period.
-
-**Formula**  
-
-*Period-over-Period Growth Amount* = Sales Amount - Previous Period
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Period-over-Period Growth Amount*:
-- Value Entry
-
----
-### Period-over-Period Growth %
-
-The *Period-over-Period Growth %* shows the period-over-period growth amount as a percentage of the current sales amount.
-
-**Formula**  
-
-*Period-over-Period Growth %* = (Period-over-period Growth Amount / Sales Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Period-over-Period Growth %*:
-- Value Entry
-
+- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount)
+- [**Previous Period**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#previous-period)
+- [**Period-over-Period Growth Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#period-over-period-growth-amount)
+- [**Period-over-Period Growth %**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#period-over-period-growth-)
 
 ## Data used in the Period-Over-Period Growth report
 
