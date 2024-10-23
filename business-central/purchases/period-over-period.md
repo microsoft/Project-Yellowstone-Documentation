@@ -1,12 +1,14 @@
 # Period-Over-Period (Power BI Report)
 
-This report does something ...
+The _Period-Over-Period Growth_ report provides valuable insights into your organization's purchasing performance over time. This report compares purchasing amounts for different time periods to the same period in the previous year, allowing you to  identify growth trends and areas for improvement.
 
-This report is meant for ...
+For instance, if the analysis scope is fiscal months, the report compares the purchasing amount in October 2023 to the purchasing amount in October 2022, and if the analysis scope is fiscal years, the report compares the purchasing amount in FY 2023 to the purchasing amount in FY 2022.
+
+This report is meant for business leaders and purchasing managers. 
 
 ## What the report shows
 
-The _Period-Over-Period_ report shows ...
+The _Period-Over-Period Growth_ reports shows a bar graph for comparison of sales amounts between the current year and the previous year and a drill-through table for detailed monthly analysis.
 
 ## Use Cases
 
