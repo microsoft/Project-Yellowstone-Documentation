@@ -1,8 +1,6 @@
 # Sales Overview (Power BI Report)
 
-The _Sales Overview_ report gives a clear picture of your organization's sales activities. It highlights important metrics like outstanding amounts, shipped not invoiced amounts and invoiced Sales. These then sum up to show the organization's total Sales Amount. By breaking down Sales quantities by location and item category, and providing customer information, this report helps with financial analysis, customer management, and ensuring targets are being met. 
-
-This report is meant for sales  and sales teams to track spending, manage budgets, and evaluate salesperson performance.
+The _Sales Overview_ report provides a high-level summary of your organization’s sales activities, showcasing key metrics such as the number of outstanding sales orders, shipped-but-not-invoiced orders, and posted sales invoices, along with their respective monetary values. Additionally, this report offers insights into sales performance by salesperson, highlights the top 5 customers by sales amount, and shows the gross profit from the top 5 items.
 
 ![Sales Overview screenshot](/business-central/media/sales/sales-overview.png "Sales Overview - Screenshot")
 
@@ -23,33 +21,23 @@ This report provides key performance indicators (KPIs) such as the [No. of Outst
 
 ![Sales Overview KPIs screenshot](/business-central/media/sales/sales-overview-kpis.png "Sales Overview KPIs- Screenshot")
 
-Additionally, the CEO can view insights on the top 5 most profitable items, top 5 customers by sales amount, and the top 5 salespeople. The report gives the CEO a concise snapshot of the company’s sales performance, with the ability to slice the report by a large number dimensions.
+Additionally, the CEO can view insights on the top 5 most profitable items, top 5 customers by sales amount, and the Salesperson ladder. The report gives the CEO a concise snapshot of the company’s sales performance, with the ability to slice the report by a large number dimensions.
 
 ---
-
-TO DO//**For the management team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
 **Target Audience**
 
 - Sales Staff
 - Sales People
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** 
 
 ---
-
-TO DO//**For the sales team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
 **Target Audience**
 
 - Sales Staff
 - Sales People
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** 
 
 
 
