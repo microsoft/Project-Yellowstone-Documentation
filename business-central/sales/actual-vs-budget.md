@@ -117,7 +117,7 @@ Data from the following tables are used to calculate the *Budget Amount*:
 ---
 ### Budget Amount Variance
 
-The **Budget Amount Variance** shows the difference between the actual sales amount and the budget amount.This metric helps to track the performance of the actual sales against the budgeted amount.
+The *Budget Amount Variance* shows the difference between the actual sales amount and the budget amount.
 
 **Formula**  
 
@@ -147,7 +147,7 @@ Data from the following tables are used to calculate the *Budget Amount Variance
 ---
 ### Variance
 
-The **Variance** shows the difference between the actual sales quantity and the budget quantity. This metric helps to track the performance of the actual quantity sold against the budgeted quantity.
+The *Variance* shows the difference between the actual sales quantity and the budget quantity. 
 
 **Formula**  
 
