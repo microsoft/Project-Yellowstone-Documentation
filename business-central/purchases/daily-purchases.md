@@ -26,11 +26,11 @@ For the Team:
 
 The _Daily Purchase_ report includes the following KPIs:
 
-- **Purchase Quantity**
-- **Purchase Amount**
-- **Cost Amount**
-- **Gross Profit**
-- **Gross Profit Margin**
+- [**Purchase Quantity**](#purchase-quantity)  
+- [**Purchase Amount**](#purchase-amount)  
+- [**Cost Amount**](#cost-amount)  
+- [**Gross Profit**](#gross-profit)  
+- [**Gross Profit Margin**](#gross-profit-margin)
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
