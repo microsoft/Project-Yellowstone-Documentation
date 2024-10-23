@@ -11,31 +11,30 @@ The reports in the purchase Power BI app can be used for different purposes depe
 - Chief Executive Officers
 - Chief Procurement Officers
   
-**Example scenario:** As the CEO of a manufacturing company, you need to stay on top of rising raw material costs to maintain profitability. For the leadership team, it is important to understand your organization's spendings. By analyzing the Purchases Overview and Moving Annual Total reports, you can get a better understanding into how much money is spent all purchasing activites and quickly spot any increases in raw material costs. You can also use the Actual and Budget report to monitor the actual spending against the allocated budget and make informed descisions to plan ahead of the coming months and years, allowing you to enforce better budget control.
+**Example scenario:** As the CEO of a manufacturing company, you need to stay on top of rising raw material costs to maintain profitability. For the leadership team, it is important to understand your organization's spendings. By analyzing the [Purchases Overview](#temp-link) and [Moving Annual Total](#temp-link) reports, you can get a better understanding into how much money is spent all purchasing activities and quickly spot any increases in raw material costs. You can also use the Actual and Budget report to monitor the actual spending against the allocated budget and make informed decisions to plan ahead of the coming months and years, allowing you to enforce better budget control.
 
+**Target Audience**
 
-### If you work in management...
-
-For the management team, the goal is to oversee and manage the procurement process effectively. This app allows you to track supplier performance, evaluate purchase order statuses, and ensure compliance with procurement policies. It aids in identifying bottlenecks, managing supplier relationships, and optimizing order fulfillment processes.
-
-To fit this category, you might have a job title such as 
 - Purchasing Manager
-- Supply Chain Manager
 - Operations Manager
 
-**Example Scenario:** As a purchasing manager at a retail chain, you notice that a key supplier is often late with deliveries, causing stock issues. Using the app, you decide to add more suppliers to avoid this problem. The app also helps you streamline the approval process for purchase orders, ensuring timely deliveries.
+**Example Scenario:** As a Purchase Manager of a manufacturing company, you are responsible for ensuring that the company has the necessary raw materials to meet production demands. You notice that the cost for a particular raw material has increased, which could impact the company's profitability. Using the [Purchases Decomposition](#temp-link) and [Purchases by Item](#temp-link) reports, you can quickly identify the vendor that provides the raw material and analyze the purchase amount compared to the previous year. This information can help you negotiate better prices with the vendor.
 
+To monitor purchasing activities and ensure compliance with weekly or monthly budgets, the [Daily Purchases](#temp-link) report provides a detailed breakdown of purchase amounts and aggregates these amounts by day, week, month, and year. This report can help you identify any unexpected spikes in spending and take corrective action before it impacts the budget.
 
-### If you work with day to day work...
+Additionally, you can use the [Moving Averages](#temp-link) report to analyze the company's purchasing trends and identify opportunities to reduce costs and improve efficiency. By using the Purchases by Location report, you can also identify any discrepancies in purchasing patterns across different locations and make decisions.
 
-For the staff, the focus is on handling day-to-day procurement tasks with greater accuracy and efficiency. You can use this report to monitor individual purchase orders and ensure accurate record-keeping. The app also supports your role in maintaining smooth procurement operations and helps in quickly addressing any issues that arise.
+**Target Audience**
 
-To fit this category, you might have a job title such as 
 - Purchasing Agent
-- Supply Chain Coordinator
-- Procurement Officer
+- Purchasing Officer
 
-**Example Scenario:** As a procurement officer at a healthcare organization, you use the report to track purchase orders and ensure timely delivery of medical supplies. When an order is delayed, you can quickly contact the supplier to expedite it. The app also helps you keep accurate records, making sure everything runs smoothly.
+**Example Scenario:** As a purchaser for a manufacturing company, you are responsible for sourcing raw materials for production. Your role is to keep purchasing costs under control to maintain profitability within the allocated budget. The Purchases by Item report allows you to see the breakdown of purchases by item and category. 
+
+You notice that the company has been spending a significant amount on a particular category of raw materials, and the purchase amount has increased compared to the previous year. You decide to investigate further by looking at the [Purchases by Vendor](#temp-link) report, which allows you to see the breakdown of purchases by vendor. 
+
+You identify that one vendor has been consistently providing the raw materials at a higher price than other vendors. To analyse spendings and manage supplier relationship, you use the [Purchases by Vendor](#temp-link) report to see the purchasing activities for each vendor, including the amount spent, the number of transactions, and the vendors that supplied a specific category of materials.
+
 
 
 ## How to use the reports in the Purchase app
