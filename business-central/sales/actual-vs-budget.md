@@ -52,7 +52,7 @@ The _Actual vs. Budget_ report includes the following KPIs:
 - [**Budget Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-quantity)  
 - [**Budget Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-amount)  
 - [**Budget Amount Variance**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-amount-variance)  
-- [**Budget Amount Variance %**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-amount-variance-)  
+- [**Budget Amount Variance %**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-amount-variance-percentage)  
 - [**Variance**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#variance)  
 - [**Variance %**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#variance-)  
 
