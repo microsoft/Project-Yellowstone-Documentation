@@ -2,7 +2,7 @@
 
 The _Daily Sales_ report gives a clear picture of your organization's sales activities over specific days. This report can showcase the days with a higher volume of sales. This can be broken down further to view variations across different years, quarters or months to identify trends with sales.
 
-This report is meant for sales teams to track sales across different dates and periods.
+This report is meant for executives and managers to allow them to track daily sales metrics.
 
 ![Daily Sales screenshot](/business-central/media/sales/sales-daily-sales.png "Daily Sales - Screenshot")
 
@@ -15,40 +15,27 @@ The *Daily Sales* report showcases a daily sales figure spread across each indiv
 
 **For the leadership team**
 
-For the leadership team, the *Daily Sales* report can be used to idenfity the sales performance on a day by day basis to make more informed decisions. 
+For the leadership team:
 
 **Target Audience**
 
-- Executives
+- CEO
+- COO
 
-**Example Scenario:** You are an executive and want to view detailed sales information on a day by day basis.
+**Example Scenario:** As a COO, you can utilize the *Daily Sales* report to identify high performing days and ensure you are staying on track on a day by day basis. This can help you make informed decisions in regards to staffing allocations per day.
 
 ---
 
 **For the management team**
 
-For the management team, the *Daily Sales* can be used to monitor the daily sales overall sales performance.
+For the management team:
 
 **Target Audience**
 
 - Sales Managers
 
-**Example Scenario:** As a sales manager you want to view the daily sales statistics of a specific sales people.
-
+**Example Scenario:** As a sales manager, with this report you can identify which days are high performing and compare this against your sales people.
 ---
-
-**For the sales team**
-
-For the Sales team, the *Daily Sales* report can be used to gain a clearer understanding of customer metrics and identify any stands out.  
-
-**Target Audience**
-
-- Sales People
-
-**Example Scenario:** You are a Salesperson who is going to a customer sites and wants to identify recent trends for this customer and see what days they usually purchase items.
-
-
-
 
 ## Key Performance Indicators (KPIs)
 

@@ -2,7 +2,7 @@
 
 The _Sales by Customer_ report gives a clear picture of your organization's customers and their sales activities. It highlights key metrics against each Customer such as Sales Amount and Quantities along with the Costs associated. This can be broken down further by the specific items that are being sold per customer to identify key trends. By breaking down Sales by Customer, this report provides clear information on your organizations customers.
 
-This report is meant for all users to identifiy key customers and customers that may be purchasing less than expected. U
+This report is meant for all users to identify key customers and other customers that may be purchasing less than expected.
 
 ![Sales by Customer screenshot](/business-central/media/sales/sales-by-customer.png "Sales by Customer - Screenshot")
 
@@ -15,38 +15,39 @@ The *Sales by Customer* reports shows outlines a comprehensive view of the total
 
 **For the leadership team**
 
-For the leadership team, the *Sales by Customer* report provides insights into the top customers generating revenue for the company. 
+For the leadership team:
 
 **Target Audience**
 
 - CFO
+- COO
 
-**Example Scenario:** As the CFO you, want to see a list of the top customers generating revenue for the company. Additionally you want to be able to identify which customers are generating the most revenue and how much each customer is contributing to your company's overall revenue.
+**Example Scenario:** As the COO you, using the *Sales by Customer* report, you can quickly identify a list of the top customers generating revenue for the company. Additionally you can easily see which customers are generating the most revenue and how much each customer is contributing to your company's overall revenue. This assists you in making informed decisions and can provide valuable insights to the CFO regarding where the revenue is coming from.
 
 ---
 
 **For the management team**
 
-For the management team, the *Sales by Customer* report can be used to monitor performance of the sales teams in terms of customer acquistion and longevity.
+For the management team:
 
 **Target Audience**
 
 - Sales Manager
 - Business Development Manager
 
-**Example Scenario:** As a sales management, you want to identify which salespeople are acquring new customers and providing existing customers with the best offering.
+**Example Scenario:** As a Business Development Manager, you can quickly identify how you are attracting new customers to purchase from your organization. This can be broken down into which sales people are performing. This can then translate into what a sales manager would want to see being able to track how the sales from different sales people are going.
 
 ---
 
 **For the sales team**
 
-For the Sales team, the *Sales by Customer* report can be used to track their customers and identify their top performing customers. 
+For the Sales team:
 
 **Target Audience**
 
-- Sales Representative
+- Sales People
 
-**Example Scenario:** As a Salesperson, you want to be able to review and identify opportunities for upselling or cross-selling to a specific customer.
+**Example Scenario:** As a Salesperson, using the *Sales by Customer* report, you can tailer your onsite visits to your customers based on what their recent purhcases it. This report can also show you insights into specific period trends for this customer or to identify opportunities for upselling or cross-selling to a specific customer.
 
 ## Key Performance Indicators (KPIs)
 

@@ -15,7 +15,7 @@ The *Moving Average* reports shows line chart with the Sales Amount and the Sale
 
 **For the leadership team**
 
-For the leadership team, the *Moving Average* report can be used to view a high-level view of the sales performance of the company.
+For the leadership team:
 
 **Target Audience**
 
@@ -28,7 +28,7 @@ For the leadership team, the *Moving Average* report can be used to view a high-
 
 **For the management team**
 
-For the management team, the *Moving Average* report can to analyze the sales trends of specific items and identify which items can be pushed. This report will let them see the moving average of each product over a specfic period and compare this against the sales amount..
+For the management team:
 
 **Target Audience**
 
@@ -38,17 +38,6 @@ For the management team, the *Moving Average* report can to analyze the sales tr
 **Example Scenario:** You are a Department Head and you want to identify which products are selling well and those that are not. With this information you can, make informed decisions about your inventory management and future marketing strategies. 
 
 ---
-
-**For the Staff**
-
-For the general staff, the *Moving Average* report can be used to analyze the sales trend and plan production for that partiuclar item accordingly. This can also be used to identify where more of a specific item needs to be purchased.
-
-**Target Audience**
-
-- Production Managers
-
-**Example Scenario:** As a Production Manager you want to use this report to identify if you are meeting the target or not. With this information, you can use the information in this report to make adjustments to their production plan to meet demand for the product.
-
 
 ## Key Performance Indicators (KPIs)
 
