@@ -309,7 +309,7 @@ Data from the following table is used to calculate the *Shipped Not Invoiced Qua
 Distinct count of Customer No. column from the Sales table.
 
 **Data Sources**
-- Value Entries
+- Value Entry
 - Sales Line
 
 ### No. of Lost Customers
@@ -317,7 +317,7 @@ Distinct count of Customer No. column from the Sales table.
 This measure calculates the number of customers who have been "lost" within the current date selection. It first determines the latest date in the selection, prepares a table of customers and their associated "lost" dates, and then filters out the customers whose lost date falls within the selected date range. Finally, it counts the rows in this filtered table to get the number of lost customers.
 
 **Data Sources**
-- Value Entries
+- Value Entry
 - Sales Line
 
 ---
@@ -326,7 +326,7 @@ This measure calculates the number of customers who have been "lost" within the 
 This measure identifies and counts new customers by finding the date of their first purchase and ensures that only customers with first purchase dates within the current date selection are included.
 
 **Data Sources**
-- Value Entries
+- Value Entry
 - Sales Line
 
 ---
@@ -460,7 +460,7 @@ The *No. of Distinct Items* is the number of unique items sold during a specific
 **Data Sources**  
    
 Data from the following tables are used to calculate the *No. of Distinct Items*:  
-- Value Entries  
+- Value Entry  
 - Sales Line  
 
 ---
@@ -475,7 +475,7 @@ The *No. of Outstanding Sales Orders* is the number of sales orders that have no
 **Data Sources**  
    
 Data from the following tables are used to calculate the *No. of Outstanding Sales Orders*:  
-- Value Entries  
+- Value Entry  
 - Sales Line  
 
 ---
@@ -490,7 +490,7 @@ The *No. of Posted Sales Invoices* is the number of sales invoices that have bee
 **Data Sources**  
    
 Data from the following tables are used to calculate the *No. of Posted Sales Invoices*:  
-- Value Entries  
+- Value Entry  
 - Sales Line  
 
 ---
@@ -505,7 +505,7 @@ The *No. of Shipped Not Invoiced Sales* is the number of sales orders that have 
 **Data Sources**  
    
 Data from the following tables are used to calculate the *No. of Shipped Not Invoiced Sales*:  
-- Value Entries  
+- Value Entry  
 - Sales Line  
 
 ---
@@ -520,7 +520,7 @@ The *Cost Amount* is the total cost of goods sold during a specific time period.
 **Data Sources**  
    
 Data from the following tables are used to calculate the *Cost Amount*:  
-- Value Entries  
+- Value Entry  
 - Sales Line  
 
 ---
