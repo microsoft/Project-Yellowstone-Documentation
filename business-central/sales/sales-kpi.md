@@ -2,6 +2,47 @@
 
 This page provides a list of all Key Performance Indicators (KPIs) included in the Power BI Sales Report. Explore the list of KPIs below to learn more about how they can help you achieve your business goals. Each KPI is defined, including how it is calculated and what data was used in the calculations.
 
+## Sales Table
+**Counters**
+- [No. of Distinct Items](#no-of-distinct-items)
+- [No. of Outstanding Sales Orders](#no-of-outstanding-sales-orders)
+- [No. of Posted Sales Invoices](#no-of-posted-sales-invoices)
+- [No. of Shipped Not Invoiced Sales](#no-of-shipped-not-invoiced-sales)
+
+**Sales Measures**
+- **Invoiced**
+    - [Invoiced Amount](#invoiced-amount)
+    - [Invoiced Quantity](#invoiced-quantity)
+- **Outstanding**
+    - [Outstanding Amount](#outstanding-amount)
+    - [Outstanding Quantity](#outstanding-quantity)
+- **Shipped Not Invoiced**
+    - [Shipped Not Invoiced Amount](#shipped-not-invoiced-amount)
+    - [Shipped Not Invoiced Quantity](#shipped-not-invoiced-quantity)
+- [Cost Amount](#cost-amount)
+- [Cost Amount Non-Inv](#cost-amount-non-inv)
+- [Gross Profit](#gross-profit)
+- [Gross Profit Margin](#gross-profit-margin)
+- [Sales Amount](#sales-amount)
+- [Sales Quantity](#sales-quantity)
+
+## Sales Budget Table
+**Budget Measures**
+- [Budget Amount](#budget-amount)
+- [Budget Amount Variance](#budget-amount-variance) 
+- [Budget Amount Variance %](#budget-amount-variance-percent)
+- [Budget Quantity](#budget-quantity)
+- [Budget Quantity Variance](#budget-quantity-variance)
+- [Budget Quantity Variance %](#budget-quantity-variance-percent)
+
+
+### Customer Table
+**Customer Measures**
+- [No. of Customers](#no-of-customers)
+- [No. of Lost Customers](#no-of-lost-customers)
+- [No. of New Customers](#no-of-new-customers)
+
+
 ---
 ### Sales Quantity  
    
@@ -520,96 +561,83 @@ The *Gross Profit Margin* shows the gross profit as a percentage over the sales 
 Data from the following tables are used to calculate the *Gross Profit Margin*:
 - Value Entry
 
+---
+### Invoiced Quantity  
+   
+The *Invoiced Quantity* is the total number of items sold that have been invoiced during a specific time period.  
+   
+**Formula**    
+  
+*Invoiced Quantity* is the sum of the Sales Quantity (Base) column from the Sales table where Source Type = Value Entries Invoiced.  
+   
+**Data Sources**  
+   
+Data from the following table is used to calculate the *Invoiced Quantity*:  
+   
+- Sales
 
-### Sales Table
-**Counters**
-- [No. of Distinct Items](#no-of-distinct-items)
-- [No. of Outstanding Sales Orders](#no-of-outstanding-sales-orders)
-- [No. of Posted Sales Invoices](#no-of-posted-sales-invoices)
-- [No. of Shipped Not Invoiced Sales](#no-of-shipped-not-invoiced-sales)
-
-**Sales Measures**
-- **Invoiced**
-    - [Invoiced Amount](#invoiced-amount)
-    - [Invoiced Quantity](#invoiced-quantity)
-- **Outstanding**
-    - [Outstanding Amount](#outstanding-amount)
-    - [Outstanding Quantity](#outstanding-quantity)
-- **Shipped Not Invoiced**
-    - [Shipped Not Invoiced Amount](#shipped-not-invoiced-amount)
-    - [Shipped Not Invoiced Quantity](#shipped-not-invoiced-quantity)
-- [Cost Amount](#cost-amount)
-- [Cost Amount Non-Inv](#cost-amount-non-inv)
-- [Gross Profit](#gross-profit)
-- [Gross Profit Margin](#gross-profit-margin)
-- [Sales Amount](#sales-amount)
-- [Sales Quantity](#sales-quantity)
-
-#### Invoiced Amount
-**Formula**  
-Sum of Sales Amount column from the Sales table where Source Type = Value Entries Invoiced.
-
-**Data Sources**
-- Value Entries
-
-#### Invoiced Quantity
-**Formula**  
-Sum of Sales Qty. (Base) column from the Sales table. where Source Type = Value Entries Invoiced.
-
-**Data Sources**
-- Value Entries
-
-#### Outstanding Amount
-**Formula**  
-Sum of Sales Amount column from the Sales table where Source Type = Sales Order Outstanding.
-
-**Data Sources**
+---
+### Outstanding Amount  
+   
+The *Outstanding Amount* is the total amount of sales orders that have not yet been invoiced or paid during a specific time period.  
+   
+**Formula**    
+  
+*Outstanding Amount* is the sum of the Sales Amount column from the Sales table where Source Type = Sales Order Outstanding.  
+   
+**Data Sources**  
+   
+Data from the following table is used to calculate the *Outstanding Amount*:  
+   
 - Sales Line
 
-#### Outstanding Quantity
-**Formula**  
-Sum of Sales Qty. (Base) column from the Sales table. where Source Type = Sales Order Outstanding.
+---
+### Outstanding Quantity  
+   
+The *Outstanding Quantity* is the total number of items sold that have not yet been invoiced or paid during a specific time period.  
+   
+**Formula**    
+  
+*Outstanding Quantity* is the sum of the Sales Quantity (Base) column from the Sales table where Source Type = Sales Order Outstanding.  
+   
+**Data Sources**  
+   
+Data from the following table is used to calculate the *Outstanding Quantity*:  
+   
+- Sales Line  
 
-**Data Sources**
+---
+### Shipped Not Invoiced Amount  
+   
+The *Shipped Not Invoiced Amount* is the total amount of sales orders that have been shipped but not yet invoiced during a specific time period.  
+   
+**Formula**    
+  
+*Shipped Not Invoiced Amount* is the sum of the Sales Amount column from the Sales table where Source Type = Sales Order Shipped Not Invoiced.  
+   
+**Data Sources**  
+   
+Data from the following table is used to calculate the *Shipped Not Invoiced Amount*:  
+   
+- Sales Line  
+
+---
+### Shipped Not Invoiced Quantity  
+   
+The *Shipped Not Invoiced Quantity* is the total number of items sold that have been shipped but not yet invoiced during a specific time period.  
+   
+**Formula**    
+  
+*Shipped Not Invoiced Quantity* is the sum of the Sales Quantity (Base) column from the Sales table where Source Type = Sales Order Shipped Not Invoiced.  
+   
+**Data Sources**  
+   
+Data from the following table is used to calculate the *Shipped Not Invoiced Quantity*:  
+   
 - Sales Line
 
-#### Shipped Not Invoiced Amount
-**Formula**  
-Sum of Sales Amount column from the Sales table where Source Type = Sales Order Shipped Not Invoiced.
-
-**Data Sources**
-- Sales Line
-
-#### Shipped Not Invoiced Quantity
-**Formula**  
-Sum of Sales Qty. (Base) column from the Sales table. where Source Type = Sales Order Shipped Not Invoiced.
-
-**Data Sources**
-- Sales Line
-
-### Sales Budget Table
-**Budget Measures**
-- [Budget Amount](#budget-amount)
-- [Budget Amount Variance](#budget-amount-variance) 
-- [Budget Amount Variance %](#budget-amount-variance-percent)
-- [Budget Quantity](#budget-quantity)
-- [Budget Quantity Variance](#budget-quantity-variance)
-- [Budget Quantity Variance %](#budget-quantity-variance-percent)
-
-
-### Customer Table
-**Customer Measures**
-- [No. of Customers](#no-of-customers)
-- [No. of Lost Customers](#no-of-lost-customers)
-- [No. of New Customers](#no-of-new-customers)
-- No. of Recovered Customers
-- No. of Returning Customers
-- Sales Lost Customers (12M)
-- Sales New Customers
-- Sales Recovered Customers
-- Sales Returning Customers
-
-#### No. of Customers
+---
+### No. of Customers
 **Formula**  
 Distinct count of Customer No. column from the Sales table.
 
@@ -617,7 +645,7 @@ Distinct count of Customer No. column from the Sales table.
 - Value Entries
 - Sales Line
 
-#### No. of Lost Customers
+### No. of Lost Customers
 **Formula**  
 This measure calculates the number of customers who have been "lost" within the current date selection. It first determines the latest date in the selection, prepares a table of customers and their associated "lost" dates, and then filters out the customers whose lost date falls within the selected date range. Finally, it counts the rows in this filtered table to get the number of lost customers.
 
@@ -625,8 +653,8 @@ This measure calculates the number of customers who have been "lost" within the 
 - Value Entries
 - Sales Line
 
-
-#### No. of New Customers
+---
+### No. of New Customers
 **Formula**  
 This measure identifies and counts new customers by finding the date of their first purchase and ensures that only customers with first purchase dates within the current date selection are included.
 
@@ -634,154 +662,257 @@ This measure identifies and counts new customers by finding the date of their fi
 - Value Entries
 - Sales Line
 
-#### No. of Recovered Customers
-**Formula**  
-This measure identifies calculates the number of customers who were temporarily lost (stopped purchasing) but later made a new purchase. It first identifies customers who had a "lost" date before the selected date range, then determines which customers made a new purchase within the current period. The measure filters and counts only those customers whose new purchase occurred after their lost date, returning the total number of recovered customers.
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-
-
-
-
-
-
-
-
-
-#### Budget Amount
-**Formula**  
-Sum of Sales Amount column from the Sales Budget table.
-
-**Data Sources**
-- Item Budget Entries
-
-#### Budget Amount Variance
-**Formula**  
-[Sales Amount] - [Budget Amount]
-
-**Data Sources**
-- Item Budget Entries
-- Sales Lines
-- Value Entries
-
-#### Budget Amount Variance Percent
-**Formula**  
-[Budget Amount Variance] - [Budget Amount]
-
-**Data Sources**
-- Item Budget Entries
-- Sales Lines
-- Value Entries
-
-#### Budget Quantity
-**Formula**  
-Sum of Quantity column from the Sales Budget table.
-
-**Data Sources**
-- Item Budget Entries
-
-#### Budget Quantity Variance
-**Formula**  
-[Sales Quantity] - [Budget Quantity]
-
-**Data Sources**
-- Item Budget Entries
-- Sales Lines
-- Value Entries
-
-#### Budget Quantity Variance Percent
-**Formula**  
-[Budget Quantity Variance] - [Budget Quantity]
-
-**Data Sources**
-- Item Budget Entries
-- Sales Lines
-- Value Entries
-
-----
-#### No. of Distinct Items
-**Formula**  
-Distinct count of Item No. column from the Sales table.
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-#### No. of Outstanding Sales Orders
-**Formula**  
-Distinct count of Document No. column from the Sales table where Document Type = Order and Source Type = Sales Order Outstanding.
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-#### No. of Posted Sales Invoices
-**Formula**  
-Distinct count of Document No. column from the Sales table where Document Type = Sales Invoice and Source Type = Value Entries Invoiced.
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-#### No. of Shipped Not Invoiced Sales
-**Formula**  
-Distinct count of Document No. column from the Sales table where Document Type = Order and Source Type = Sales Order Shipped Not Invoiced.
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-----
-
-#### Cost Amount
-**Formula**  
-Sum of Cost Amt. (LCY) column from the Sales table.
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-#### Cost Amount Non-Inv
-**Formula**  
-Sum of Cost Amt. Non-Invtbl. (LCY) column from the Sales table.
-
-**Data Sources**
-- Value Entries
-
-#### Gross Profit
-**Formula**  
-[Sales Amount] - [Cost Amount] - [Cost Amount Non-Inv]
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-#### Gross Profit Margin
-**Formula**  
-[Gross Profit] / [Sales Amount]
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-#### Sales Amount
-**Formula**  
-Sum of Sales Amt. (LCY) column from the Sales table.
-
-**Data Sources**
-- Value Entries
-- Sales Line
-
-#### Sales Quantity
-**Formula**  
-Sum of Sales Qty. (Base) column from the Sales table.
-
-**Data Sources**
-- Value Entries
-- Sales Line
 ---
+### No. of New Customers  
+   
+The *No. of New Customers* is the count of customers who made their first purchase during a specific time period.  
+   
+**Formula**   
+  
+*No. of New Customers* is calculated by identifying the date of the first purchase for each customer and counting only those customers whose first purchase date falls within the selected time frame.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *No. of New Customers*:  
+- Customer  
+- Sales Header  
+
+ ---
+### No. of Recovered Customers  
+   
+The *No. of Recovered Customers* is the count of customers who were inactive for a period of time but returned to make a purchase within a specific time period.  
+   
+**Formula**  
+   
+*No. of Recovered Customers* is calculated by identifying customers who had a "lost" date before the selected time frame, then determining which customers made a new purchase within the current period. The measure filters and counts only those customers whose new purchase occurred after their lost date, returning the total number of recovered customers.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *No. of Recovered Customers*:  
+- Customer  
+- Sales Header  
+- Sales Line  
+
+---
+### Budget Amount  
+   
+The *Budget Amount* is the total sales amount that was planned for a specific time period.  
+   
+**Formula**  
+   
+*Budget Amount* is the sum of the Sales Amount column from the Sales Budget table.  
+   
+**Data Sources**  
+   
+Data from the following table is used to calculate the *Budget Amount*:  
+- Sales Budget  
+
+---
+### Budget Amount Variance  
+   
+The *Budget Amount Variance* is the difference between the actual sales amount and the planned sales amount for a specific time period.  
+   
+**Formula**  
+   
+*Budget Amount Variance* is calculated by subtracting the *Budget Amount* from the actual *Sales Amount*.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Budget Amount Variance*:  
+- Sales Budget  
+- Sales Line  
+
+---
+### Budget Amount Variance Percent  
+   
+The *Budget Amount Variance Percent* is the percentage difference between the actual sales amount and the planned sales amount for a specific time period.  
+   
+**Formula**  
+   
+*Budget Amount Variance Percent* is calculated by dividing the *Budget Amount Variance* by the *Budget Amount*.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Budget Amount Variance Percent*:  
+- Sales Budget  
+- Sales Line  
+
+---
+### Budget Quantity  
+   
+The *Budget Quantity* is the total quantity of items that was planned to be sold for a specific time period.  
+   
+**Formula**  
+   
+*Budget Quantity* is the sum of the Quantity column from the Sales Budget table.  
+   
+**Data Sources**  
+   
+Data from the following table is used to calculate the *Budget Quantity*:  
+- Sales Budget  
+
+---
+### Budget Quantity Variance  
+   
+The *Budget Quantity Variance* is the difference between the actual quantity of items sold and the planned quantity of items sold for a specific time period.  
+   
+**Formula**  
+   
+*Budget Quantity Variance* is calculated by subtracting the *Budget Quantity* from the actual *Sales Quantity*.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Budget Quantity Variance*:  
+- Sales Budget  
+- Sales Line  
+
+---
+### Budget Quantity Variance Percent  
+   
+The *Budget Quantity Variance Percent* is the percentage difference between the actual quantity of items sold and the planned quantity of items sold for a specific time period.  
+   
+**Formula**  
+   
+*Budget Quantity Variance Percent* is calculated by dividing the *Budget Quantity Variance* by the *Budget Quantity*.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Budget Quantity Variance Percent*:  
+- Sales Budget  
+- Sales Line
+
+---  
+### No. of Distinct Items  
+   
+The *No. of Distinct Items* is the number of unique items sold during a specific time period.   
+  
+**Formula**  
+   
+This KPI is calculated by taking the distinct count of the Item No. column from the Sales table.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *No. of Distinct Items*:  
+- Value Entries  
+- Sales Line  
+
+---
+### No. of Outstanding Sales Orders  
+   
+The *No. of Outstanding Sales Orders* is the number of sales orders that have not yet been fulfilled.   
+  
+**Formula**  
+   
+*No. of Outstanding Sales Orders* is calculated by taking the distinct count of the Document No. column from the Sales table where Document Type = Order and Source Type = Sales Order Outstanding.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *No. of Outstanding Sales Orders*:  
+- Value Entries  
+- Sales Line  
+
+---
+### No. of Posted Sales Invoices  
+   
+The *No. of Posted Sales Invoices* is the number of sales invoices that have been posted.  
+   
+**Formula**  
+   
+*No. of Posted Sales Invoices* is calculated by taking the distinct count of the Document No. column from the Sales table where Document Type = Sales Invoice and Source Type = Value Entries Invoiced.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *No. of Posted Sales Invoices*:  
+- Value Entries  
+- Sales Line  
+
+---
+### No. of Shipped Not Invoiced Sales  
+   
+The *No. of Shipped Not Invoiced Sales* is the number of sales orders that have been shipped but not yet invoiced.  
+   
+**Formula**  
+   
+*No. of Shipped Not Invoiced Sales* is calculated by taking the distinct count of the Document No. column from the Sales table where Document Type = Order and Source Type = Sales Order Shipped Not Invoiced.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *No. of Shipped Not Invoiced Sales*:  
+- Value Entries  
+- Sales Line  
+
+---
+### Cost Amount  
+   
+The *Cost Amount* is the total cost of goods sold during a specific time period.  
+   
+**Formula**  
+   
+*Cost Amount* is calculated by summing the Cost Amt. (LCY) column from the Sales table.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Cost Amount*:  
+- Value Entries  
+- Sales Line  
+
+---
+### Cost Amount Non-Inv  
+   
+The *Cost Amount Non-Inv* is the total cost of goods not invoiced during a specific time period.  
+   
+**Formula**  
+   
+*Cost Amount Non-Inv* is calculated by summing the Cost Amt. Non-Invtbl. (LCY) column from the Sales table.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Cost Amount Non-Inv*:  
+- Value Entries  
+
+---
+### Gross Profit  
+   
+The *Gross Profit* is the profit earned from sales during a specific time period.  
+   
+**Formula**  
+   
+*Gross Profit* is calculated by subtracting the *Cost Amount* and *Cost Amount Non-Inv* from the *Sales Amount*.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Gross Profit*:  
+- Value Entries  
+- Sales Line  
+
+---
+### Gross Profit Margin  
+   
+The *Gross Profit Margin* is the percentage of sales revenue that is profit.  
+   
+**Formula**  
+   
+*Gross Profit Margin* is calculated by dividing the *Gross Profit* by the *Sales Amount*.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Gross Profit Margin*:  
+- Value Entries  
+- Sales Line  
+
+---
+### Sales Amount  
+   
+The *Sales Amount* is the total revenue generated from sales during a specific time period.  
+   
+**Formula**  
+   
+*Sales Amount* is calculated by summing the Sales Amt. (LCY) column from the Sales table.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Sales Amount*:  
+- Value Entries  
+- Sales Line
 
 ## See also
