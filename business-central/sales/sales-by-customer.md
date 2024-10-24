@@ -2,7 +2,7 @@
 
 The _Sales by Customer_ report gives a clear picture of your organization's customers and their sales activities. It highlights key metrics against each Customer such as Sales Amount and Quantities along with the Costs associated. This can be broken down further by the specific items that are being sold per customer to identify key trends. By breaking down Sales by Customer, this report provides clear information on your organizations customers.
 
-This report is meant for all users to identifiy key customers and customers that may be purchasing less than expected. U
+This report is meant for all users to identifiy key customers and customers that may be purchasing less than expected.
 
 ![Sales by Customer screenshot](/business-central/media/sales/sales-by-customer.png "Sales by Customer - Screenshot")
 
