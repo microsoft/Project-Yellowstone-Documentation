@@ -42,10 +42,10 @@ For the Management Team:
 
 The _Period-Over-Period Growth_ report includes the following KPIs:
 
-- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount)
-- [**Previous Period**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#previous-period)
-- [**Period-over-Period Growth Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#period-over-period-growth-amount)
-- [**Period-over-Period Growth %**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#period-over-period-growth-)
+- [**Sales Amount**](sales-kpi.md#sales-amount)
+- [**Previous Period**](sales-kpi.md#previous-period)
+- [**Period-over-Period Growth Amount**](sales-kpi.md#period-over-period-growth-amount)
+- [**Period-over-Period Growth %**](sales-kpi.md#period-over-period-growth-)
 
 ## Data used in the Period-Over-Period Growth report
 

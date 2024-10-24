@@ -40,11 +40,11 @@ By using the monthly analysis, you can identify when the sales started to declin
 
 The _Moving Annual Total_ report includes the following KPIs:
 
-- [**Moving Annual Total (MAT)**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#moving-annual-total-mat)
-- [**Previous Year Moving Annual Total (PYMAT)**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#previous-year-moving-annual-total-pymat)
-- [**Moving Annual Total Growth Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#moving-annual-total-growth-amount)
-- [**Moving Annual Total Growth %**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#moving-annual-total-growth-)
-- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount)
+- [**Moving Annual Total (MAT)**](sales-kpi.md#moving-annual-total-mat)
+- [**Previous Year Moving Annual Total (PYMAT)**](sales-kpi.md#previous-year-moving-annual-total-pymat)
+- [**Moving Annual Total Growth Amount**](sales-kpi.md#moving-annual-total-growth-amount)
+- [**Moving Annual Total Growth %**](sales-kpi.md#moving-annual-total-growth-)
+- [**Sales Amount**](sales-kpi.md#sales-amount)
 
 ## Data used in the Moving Annual Total report
 

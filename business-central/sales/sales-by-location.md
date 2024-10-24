@@ -36,12 +36,12 @@ The drill-through table provided in the report allows you to dive deeper into th
 
 The _Sales by Location_ report includes the following KPIs:
 
-- **[Sales Amount](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount)**  
-- **[Sales Quantity](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-quantity)**  
-- **[Cost Amount](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#cost-amount)**  
-- **[Cost Amount Non-Inv](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#cost-amount-non-inv)**  
-- **[Gross Profit](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#gross-profit)**  
-- **[Gross Profit Margin](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#gross-profit-margin)**
+- **[Sales Amount](sales-kpi.md#sales-amount)**  
+- **[Sales Quantity](sales-kpi.md#sales-quantity)**  
+- **[Cost Amount](sales-kpi.md#cost-amount)**  
+- **[Cost Amount Non-Inv](sales-kpi.md#cost-amount-non-inv)**  
+- **[Gross Profit](sales-kpi.md#gross-profit)**  
+- **[Gross Profit Margin](sales-kpi.md#gross-profit-margin)**
 
 ## Data used in the Sales by Location report
 

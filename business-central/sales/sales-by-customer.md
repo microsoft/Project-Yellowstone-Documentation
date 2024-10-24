@@ -21,7 +21,7 @@ For the leadership team, the *Sales by Customer* report provides insights into t
 
 - CFO
 
-**Example Scenario:** The CFO wants to see a list of top customers generating revenue for the company. Additionally they want to be able to identify which customers are generating the most revenue and how much each customer is contributing to the company's overall revenue.customer frequently orders vs items they are not ordering.
+**Example Scenario:** As the CFO you, want to see a list of the top customers generating revenue for the company. Additionally you want to be able to identify which customers are generating the most revenue and how much each customer is contributing to your company's overall revenue.
 
 ---
 
@@ -34,7 +34,7 @@ For the management team, the *Sales by Customer* report can be used to monitor p
 - Sales Manager
 - Business Development Manager
 
-**Example Scenario:** The sales management team want to identify which salespeople are acquring new customers and providing existing customers with the best offering.
+**Example Scenario:** As a sales management, you want to identify which salespeople are acquring new customers and providing existing customers with the best offering.
 
 ---
 
@@ -46,18 +46,18 @@ For the Sales team, the *Sales by Customer* report can be used to track their cu
 
 - Sales Representative
 
-**Example Scenario:** A Salesperson wants to be able to review and identify opportunities for upselling or cross-selling to a specific customer.
+**Example Scenario:** As a Salesperson, you want to be able to review and identify opportunities for upselling or cross-selling to a specific customer.
 
 ## Key Performance Indicators (KPIs)
 
 The _Sales by Customer_ report includes the following KPIs:
 
-- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#sales-amount)
-- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#sales-quantity)
-- [**Cost Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#cost-amount)
-- [**Cost Amount Non-Inv**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#cost-amount-non-inv)
-- [**Gross Profit**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#gross-profit)
-- [**Gross Profit Margin**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#gross-profit-margin)
+- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#sales-amount)
+- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#sales-quantity)
+- [**Cost Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#cost-amount)
+- [**Cost Amount Non-Inv**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#cost-amount-non-inv)
+- [**Gross Profit**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#gross-profit)
+- [**Gross Profit Margin**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#gross-profit-margin)
 
 ## Data used in the Sales by Customer report
 

@@ -1,54 +1,47 @@
 # Sales Overview (Power BI Report)
 
-The _Sales Overview_ report gives a clear picture of your organization's sales activities. It highlights important metrics like outstanding amounts, shipped not invoiced amounts and invoiced Sales. These then sum up to show the organization's total Sales Amount. By breaking down Sales quantities by location and item category, and providing customer information, this report helps with financial analysis, customer management, and ensuring targets are being met. 
+The _Sales Overview_ report provides a high-level summary of your organization’s sales activities, showcasing key metrics such as the number of outstanding sales orders, shipped-but-not-invoiced orders, and posted sales invoices, along with their respective monetary values. Additionally, this report give you a quick view of sales amount by salesperson, highlights the top 5 customers by sales amount, and shows the gross profit from the top 5 items.
 
-This report is meant for finance and sales teams to track spending, manage budgets, and evaluate vendor performance.
-
-//SALES OVERVIEW IMAGE
+![Sales Overview screenshot](/business-central/media/sales/sales-overview.png "Sales Overview - Screenshot")
 
 ## What the report shows
 
-The *Sales Overview* reports shows ...
+The _Sales Overview_ report is made up of five visualizations.
 
+1. Overview KPI Card
+2. Sales Amount by Salesperson Bar Chart
+3. Gross Profit by Top 5 Items Doughnut Chart
+4. Document Details KPI Card
+5. Sales Amount by Customer Bar Chart
 
-## Use Cases for Sales Overview
-
-TO DO //**For the leadership team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
+## Use Cases
 **Target Audience**
+- Executives
+- Directors
+- Other high-level decision makers
 
-- Sales Staff
-- Sales People
+**Example Scenario:** As the CEO you regularly monitor the organization's sales operations to ensure the business is meeting its goals and operating efficiently. To get a quick, high-level overview, you turn to the Power BI Sales Overview Report. 
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+This report gives you key performance indicators such as the [No. of Outstanding Sales Orders](#TODO), [No. of Shipped Not Invoiced Sales Orders](#TODO), and [No. of Posted Sales Invoices](#TODO) along with their associated monetary values. 
+
+![Sales Overview KPIs screenshot](/business-central/media/sales/sales-overview-kpis.png "Sales Overview KPIs- Screenshot")
+
 
 ---
-
-TO DO//**For the management team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
 **Target Audience**
 
 - Sales Staff
 - Sales People
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** 
 
 ---
-
-TO DO//**For the sales team**
-
-For the Sales team, the report can be used to idenfity sales amounts over any given period. It can be used to identify which Customers, Items or Salespeople are performing worse than expecting. 
-
 **Target Audience**
 
 - Sales Staff
 - Sales People
 
-**Example Scenario:** A Salesperson is going to a customer sites and wants to identify recent trends for this customer. They are able to quickly identify recent sales to this customer and identify which Items the customer frequently orders vs items they are not ordering.
+**Example Scenario:** 
 
 
 
@@ -66,8 +59,11 @@ Below, you can learn more about what each KPI means, how it is calculated, and w
 ## Data used in the Sales Overview report
 
 Data from the following tables are used on the *Sales Overview* report
-- "Item Ledger Entry"
-- "Value Entry"
-
+- Sales Lines
+- Value Entries
+- Customer
+- Item
+- Location
+- Salesperson
 
 ## See also
