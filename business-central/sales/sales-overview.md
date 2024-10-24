@@ -49,10 +49,10 @@ This report gives you key performance indicators such as the [No. of Outstanding
 
 The _Sales Overview_ report includes the following KPIs:
 
-- [**Sales Amount**](#sales-kpi.md#sales-amount)
-- [**Outstanding Amount**](#sales-kpi.md#outstanding-quantity)
-- [**Shipped Not Invoiced Amount**](#sales-kpi.md#shipped-not-invoiced-amount)
-- [**Invoiced Amount**](#sales-kpi.md#invoiced-amount)
+- [**Sales Amount**](sales-kpi.md#sales-amount)
+- [**Outstanding Amount**](sales-kpi.md#outstanding-quantity)
+- [**Shipped Not Invoiced Amount**](sales-kpi.md#shipped-not-invoiced-amount)
+- [**Invoiced Amount**](sales-kpi.md#invoiced-amount)
 
 ## Data used in the Sales Overview report
 
