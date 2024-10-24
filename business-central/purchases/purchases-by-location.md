@@ -102,12 +102,6 @@ Data from the following tables are used to calculate the *% GT Purchase Quantity
 - Value Entry
 - Purchase Line
 
-## Data used in the Purchases By Item report
-
-Data from the following tables are used on the *Purchases By Item* report
-- Value Entry
-- Purchase Line
-
 ## Data used in the Purchases By Location report
 
 Data from the following tables are used on the *Purchases By Location* report
