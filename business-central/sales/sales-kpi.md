@@ -297,6 +297,14 @@ Sum of Sales Amt. (LCY) column from the Sales table.
 - Value Entries
 - Sales Line
 
+#### Sales Quantity
+**Formula**  
+Sum of Sales Qty. (Base) column from the Sales table.
+
+**Data Sources**
+- Value Entries
+- Sales Line
+
 #### Sales Amount MTD (Fiscal)
 **Formula**  
 This measure calculates month-to-date sales amount using the fiscal calendar, considering only the sales up to the last available fiscal day of the current month and year. 
@@ -352,16 +360,34 @@ This measure calculates the average sales over the last 30 days based on the fis
 - Sales Line
 - Date (Fiscal Calendar)
 
-
-
-
-#### Sales Quantity
+#### Sales Amount PP (Fiscal)
 **Formula**  
-Sum of Sales Qty. (Base) column from the Sales table.
+This measure determines the appropriate sales amount based on the current context of the date hierarchy in the fiscal calendar. It uses the SWITCH function to evaluate whether the context is at the fiscal month, fiscal quarter, or fiscal year level. Depending on which level is active, it returns the corresponding sales amount: either the previous month ([Sales Amount PM (Fiscal)]), previous quarter ([Sales Amount PQ (Fiscal)]), or previous year ([Sales Amount PY (Fiscal)]). 
 
 **Data Sources**
 - Value Entries
 - Sales Line
+- Date (Fiscal Calendar)
+
+#### Sales Amount POP (Fiscal)
+**Formula**  
+This measure calculates the change in sales between the current period and the previous period based on the context of the fiscal calendar. It utilizes the SWITCH function to determine the appropriate previous period calculation depending on whether the current context is at the fiscal month, quarter, or year level. When at the fiscal month level, it references the month-over-month change from the Sales Amount MOM (Fiscal) measure, which computes the difference between the current month's sales and the previous month's sales. Similarly, for fiscal quarters and years, it uses quarter-over-quarter and year-over-year calculations, respectively.
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
+
+#### Sales Amount POP % (Fiscal)
+**Formula**  
+This measure calculates the percentage growth in sales between the current and previous period based on the context of the fiscal calendar. It utilizes the SWITCH function to determine the appropriate previous period calculation depending on whether the current context is at the fiscal month, quarter, or year level. When at the fiscal month level, it references the month-over-month change from the Sales Amount MOM % (Fiscal) measure, which computes the percentage growth between the current month's sales and the previous month's sales. Similarly, for fiscal quarters and years, it uses quarter-over-quarter and year-over-year calculations, respectively.
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
 ---
 
 ## See also
