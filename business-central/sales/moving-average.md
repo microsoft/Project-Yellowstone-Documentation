@@ -55,7 +55,7 @@ For the general staff, the *Moving Average* report can be used to analyze the sa
 The _Moving Average_ report includes the following KPIs:
 
 - [**Sales Amount**](sales-kpi.md#sales-amount)
-- [**Sales Amount Average 30D**](sales-kpi.md#sales-amount-average-30d)
+- [**Sales Amount Average 30D**](sales-kpi.md#sales-amount-avg-30d-fiscal)
 
 ## Data used in the Moving Average report
 

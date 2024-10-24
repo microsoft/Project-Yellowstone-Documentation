@@ -343,7 +343,14 @@ This measure calculates the percentage growth in sales by dividing the year-over
 - Date (Fiscal Calendar)
 
 
+#### Sales Amount AVG 30D (Fiscal)
+**Formula**  
+This measure calculates the average sales over the last 30 days based on the fiscal calendar.The measure determines the maximum day in the dataset and defines the 30-day period ending on that day. It retrieves the days within this range while maintaining filters for day type and week day. It also identifies the first day with sales data to ensure valid calculations. If this first day with data is within the 30-day period, it calculates the average sales amount over those days and returns the result.
 
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
 
 
 
