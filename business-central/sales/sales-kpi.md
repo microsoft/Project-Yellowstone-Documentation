@@ -44,7 +44,7 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 
 
 ---
-### Sales Quantity  
+### Sales Quantity
    
 The *Sales Quantity* is the total number of items sold during a specific time period.   
   
@@ -72,64 +72,6 @@ If you apply filters to this measure, such as a specific warehouse location, the
 
 Data from the following tables are used to calculate the *Sales Amount*:
 - Value Entry
-
----
-### Budget Quantity
-
-The *Budget Quantity* is the total quantity of items allocated for a specific time period.
-
-**Formula**  
-
-*Budget Quantity* is the total quantity based on the item budget entries for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Quantity*:
-- Item Budget Entry
-
----
-### Budget Amount
-
-The *Budget Amount* is the total amount of money allocated for items during a specific time period.
-
-**Formula**  
-
-*Budget Amount* is the total amount based on the item budget entries for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Amount*:
-- Item Budget Entry
-
----
-### Budget Amount Variance
-
-The *Budget Amount Variance* shows the difference between the actual sales amount and the budget amount.
-
-**Formula**  
-
-*Budget Amount Variance* = Sales Amount - Budget Amount
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Amount Variance*:
-- Value Entry
-- Item Budget Entry
-
----
-### Budget Amount Variance %
-
-The *Budget Amount Variance %* shows the variance amount as a percentage of the budget amount.
-
-**Formula**  
-
-*Budget Amount Variance %* = (Budget Amount Variance / Budget Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Amount Variance %*:
-- Value Entry
-- Item Budget Entry
 
 ---
 ### Variance
@@ -188,51 +130,6 @@ The *Gross Profit MTD* is the gross profit earned in the current month, up until
 
 Data from the following tables are used to calculate the *Gross Profit MTD*:
 - Value Entry
-
----
-### Cost Amount
-
-The *Cost Amount* represents the total cost of goods sold incured by a location within a specific time period.
-
-**Formula**  
-
-*Cost Amount* is the the total cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit
-
-The *Gross Profit* shows the difference between the sales revenue and the cost of goods sold for a location within a specifict time period.
-
-**Formula**  
-
-*Gross Profit* = Sales Amount - (Cost Amount + Cost Amount Non-Inv) 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit Margin
-
-The *Gross Profit Margin* shows the gross profit as a percentage over the sales amount.
-
-**Formula**  
-
-*Gross Profit Margin* = (Gross Profit / Sales Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit Margin*:
-- Value Entry
-- Sales Line
 
 ---
 ### Moving Annual Total (MAT)
@@ -358,209 +255,20 @@ The *Period-over-Period Growth %* shows the period-over-period growth amount as 
 Data from the following tables are used to calculate the *Period-over-Period Growth %*:
 - Value Entry
 
----
-### Cost Amount
-
-The *Cost Amount* represents the total cost of goods sold incured by a location within a specific time period.
-
+---  
+### Invoiced Amount  
+   
+The *Invoiced Amount* is the total amount of sales that have been invoiced during a specific time period.  
+   
 **Formula**  
-
-*Cost Amount* is the the total cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount*:
+   
+This KPI is calculated by summing the Sales Amount column from the Sales table where Source Type = Value Entries Invoiced.  
+   
+**Data Sources**  
+   
+Data from the following tables are used to calculate the *Invoiced Amount*:  
 - Value Entry
-- Sales Line
----
-### Cost Amount Non-Inv
-
-The *Cost Amount Non-Inv* represents the total cost of non-inventory items by a location within a specific time period. These costs include expenses such as freight costs, shipping costs, marketing expenses, or any other indirect costs associated with sales.
-
-**Formula**  
-
-*Cost Amount Non-Inv* is the the total non-inventory cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount Non-Inv*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit
-
-The *Gross Profit* shows the difference between the sales revenue and the cost of goods sold for a location within a specifict time period.
-
-**Formula**  
-
-*Gross Profit* = Sales Amount - (Cost Amount + Cost Amount Non-Inv) 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit Margin
-
-The *Gross Profit Margin* shows the gross profit as a percentage over the sales amount.
-
-**Formula**  
-
-*Gross Profit Margin* = (Gross Profit / Sales Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit Margin*:
-- Value Entry
-- Sales Line
-
----
-### Cost Amount
-
-The *Cost Amount* represents the total cost of goods sold incured by a location within a specific time period.
-
-**Formula**  
-
-*Cost Amount* is the the total cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount*:
-- Value Entry
-- Sales Line
-
----
-### Cost Amount Non-Inv
-
-The *Cost Amount Non-Inv* represents the total cost of non-inventory items by a location within a specific time period. These costs include expenses such as freight costs, shipping costs, marketing expenses, or any other indirect costs associated with sales.
-
-**Formula**  
-
-*Cost Amount Non-Inv* is the the total non-inventory cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount Non-Inv*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit
-
-The *Gross Profit* shows the difference between the sales revenue and the cost of goods sold for a location within a specifict time period.
-
-**Formula**  
-
-*Gross Profit* = Sales Amount - (Cost Amount + Cost Amount Non-Inv) 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit Margin
-
-The *Gross Profit Margin* shows the gross profit as a percentage over the sales amount.
-
-**Formula**  
-
-*Gross Profit Margin* = (Gross Profit / Sales Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit Margin*:
-- Value Entry
-- Sales Line
-
----
-### Cost Amount
-
-The *Cost Amount* represents the total cost of goods sold incured by a location within a specific time period.
-
-**Formula**  
-
-*Cost Amount* is the the total cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount*:
-- Value Entry
-
----
-### Cost Amount Non-Inv
-
-The *Cost Amount Non-Inv* represents the total cost of non-inventory items by a location within a specific time period. These costs include expenses such as freight costs, shipping costs, marketing expenses, or any other indirect costs associated with sales.
-
-**Formula**  
-
-*Cost Amount Non-Inv* is the the total non-inventory cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount Non-Inv*:
-- Value Entry
-
----
-### Gross Profit
-
-The *Gross Profit* shows the difference between the sales revenue and the cost of goods sold for a location within a specifict time period.
-
-**Formula**  
-
-*Gross Profit* = Sales Amount - (Cost Amount + Cost Amount Non-Inv) 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit*:
-- Value Entry
-
----
-### Gross Profit Margin
-
-The *Gross Profit Margin* shows the gross profit as a percentage over the sales amount.
-
-**Formula**  
-
-*Gross Profit Margin* = (Gross Profit / Sales Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit Margin*:
-- Value Entry
-
----
-### Gross Profit
-
-The *Gross Profit* shows the difference between the sales revenue and the cost of goods sold for a salesperson within a specific time period.
-
-**Formula**  
-
-*Gross Profit* = Sales Amount - Cost Amount 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit*:
-- Value Entry
-
----
-### Gross Profit Margin
-
-The *Gross Profit Margin* shows the gross profit as a percentage over the sales amount.
-
-**Formula**  
-
-*Gross Profit Margin* = (Gross Profit / Sales Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit Margin*:
-- Value Entry
-
+  
 ---
 ### Invoiced Quantity  
    
@@ -607,9 +315,9 @@ Data from the following table is used to calculate the *Outstanding Quantity*:
 - Sales Line  
 
 ---
-### Shipped Not Invoiced Amount  
+### Shipped Not Invoiced Amount
    
-The *Shipped Not Invoiced Amount* is the total amount of sales orders that have been shipped but not yet invoiced during a specific time period.  
+The *Shipped Not Invoiced Amount * is the total amount of sales orders that have been shipped but not yet invoiced during a specific time period.  
    
 **Formula**    
   
@@ -788,7 +496,7 @@ The *No. of Distinct Items* is the number of unique items sold during a specific
   
 **Formula**  
    
-This KPI is calculated by taking the distinct count of the Item No. column from the Sales table.  
+*No. of Distinct Items* is calculated by taking the distinct count of the Item No. column from the Sales table.  
    
 **Data Sources**  
    
@@ -857,9 +565,9 @@ Data from the following tables are used to calculate the *Cost Amount*:
 - Sales Line  
 
 ---
-### Cost Amount Non-Inv  
+### Cost Amount Non-Inv
    
-The *Cost Amount Non-Inv* is the total cost of goods not invoiced during a specific time period.  
+The *Cost Amount Non-Inv* represents the total cost of non-inventory items by a location within a specific time period. These costs include expenses such as freight costs, shipping costs, marketing expenses, or any other indirect costs associated with sales.
    
 **Formula**  
    
@@ -868,51 +576,37 @@ The *Cost Amount Non-Inv* is the total cost of goods not invoiced during a speci
 **Data Sources**  
    
 Data from the following tables are used to calculate the *Cost Amount Non-Inv*:  
-- Value Entries  
+- Value Entry
+- Sales Line
 
 ---
 ### Gross Profit  
    
-The *Gross Profit* is the profit earned from sales during a specific time period.  
+The *Gross Profit* shows the difference between the sales revenue and the cost of goods sold within a specific time period.
    
 **Formula**  
    
-*Gross Profit* is calculated by subtracting the *Cost Amount* and *Cost Amount Non-Inv* from the *Sales Amount*.  
+*Gross Profit* = Sales Amount - (Cost Amount + Cost Amount Non-Inv) 
    
 **Data Sources**  
    
 Data from the following tables are used to calculate the *Gross Profit*:  
-- Value Entries  
-- Sales Line  
+- Value Entry  
+- Sales Line
 
 ---
-### Gross Profit Margin  
+### Gross Profit Margin
    
-The *Gross Profit Margin* is the percentage of sales revenue that is profit.  
+The *Gross Profit Margin* shows the gross profit as a percentage over the sales amount.
    
-**Formula**  
-   
-*Gross Profit Margin* is calculated by dividing the *Gross Profit* by the *Sales Amount*.  
-   
-**Data Sources**  
-   
-Data from the following tables are used to calculate the *Gross Profit Margin*:  
-- Value Entries  
-- Sales Line  
+**Formula**
 
----
-### Sales Amount  
-   
-The *Sales Amount* is the total revenue generated from sales during a specific time period.  
-   
-**Formula**  
-   
-*Sales Amount* is calculated by summing the Sales Amt. (LCY) column from the Sales table.  
-   
-**Data Sources**  
-   
-Data from the following tables are used to calculate the *Sales Amount*:  
-- Value Entries  
+*Gross Profit Margin* = (Gross Profit / Sales Amount) x 100
+
+**Data Sources**
+
+Data from the following tables are used to calculate the *Gross Profit Margin*:
+- Value Entry
 - Sales Line
 
 ## See also
