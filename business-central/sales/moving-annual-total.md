@@ -40,10 +40,10 @@ By using the monthly analysis, you can identify when the sales started to declin
 
 The _Moving Annual Total_ report includes the following KPIs:
 
-- [**Moving Annual Total (MAT)**](sales-kpi.md#moving-annual-total-mat)
-- [**Previous Year Moving Annual Total (PYMAT)**](sales-kpi.md#previous-year-moving-annual-total-pymat)
-- [**Moving Annual Total Growth Amount**](sales-kpi.md#moving-annual-total-growth-amount)
-- [**Moving Annual Total Growth %**](sales-kpi.md#moving-annual-total-growth-)
+- [**Moving Annual Total (MAT)**](sales-kpi.md#sales-amount-mat-fiscal)
+- [**Previous Year Moving Annual Total (PYMAT)**](sales-kpi.md#sales-amount-pymat-fiscal)
+- [**Moving Annual Total Growth Amount**](sales-kpi.md#sales-amount-matg-fiscal)
+- [**Moving Annual Total Growth %**](sales-kpi.md#sales-amount-matg--fiscal)
 - [**Sales Amount**](sales-kpi.md#sales-amount)
 
 ## Data used in the Moving Annual Total report
