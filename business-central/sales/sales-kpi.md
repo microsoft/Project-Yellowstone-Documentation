@@ -2,47 +2,6 @@
 
 This page provides a list of all Key Performance Indicators (KPIs) included in the Power BI Sales Report. Explore the list of KPIs below to learn more about how they can help you achieve your business goals. Each KPI is defined, including how it is calculated and what data was used in the calculations.
 
-## Sales Table
-**Counters**
-- [No. of Distinct Items](#no-of-distinct-items)
-- [No. of Outstanding Sales Orders](#no-of-outstanding-sales-orders)
-- [No. of Posted Sales Invoices](#no-of-posted-sales-invoices)
-- [No. of Shipped Not Invoiced Sales](#no-of-shipped-not-invoiced-sales)
-
-**Sales Measures**
-- **Invoiced**
-    - [Invoiced Amount](#invoiced-amount)
-    - [Invoiced Quantity](#invoiced-quantity)
-- **Outstanding**
-    - [Outstanding Amount](#outstanding-amount)
-    - [Outstanding Quantity](#outstanding-quantity)
-- **Shipped Not Invoiced**
-    - [Shipped Not Invoiced Amount](#shipped-not-invoiced-amount)
-    - [Shipped Not Invoiced Quantity](#shipped-not-invoiced-quantity)
-- [Cost Amount](#cost-amount)
-- [Cost Amount Non-Inv](#cost-amount-non-inv)
-- [Gross Profit](#gross-profit)
-- [Gross Profit Margin](#gross-profit-margin)
-- [Sales Amount](#sales-amount)
-- [Sales Quantity](#sales-quantity)
-
-## Sales Budget Table
-**Budget Measures**
-- [Budget Amount](#budget-amount)
-- [Budget Amount Variance](#budget-amount-variance) 
-- [Budget Amount Variance %](#budget-amount-variance-percent)
-- [Budget Quantity](#budget-quantity)
-- [Budget Quantity Variance](#budget-quantity-variance)
-- [Budget Quantity Variance %](#budget-quantity-variance-percent)
-
-
-### Customer Table
-**Customer Measures**
-- [No. of Customers](#no-of-customers)
-- [No. of Lost Customers](#no-of-lost-customers)
-- [No. of New Customers](#no-of-new-customers)
-
-
 ---
 ### Sales Quantity
    
