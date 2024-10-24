@@ -271,6 +271,16 @@ Sum of Cost Amt. Non-Invtbl. (LCY) column from the Sales table.
 - Value Entries
 - Sales Line
 
+#### Gross Profit MTD (Fiscal)
+
+**Formula**  
+This measure calculates month-to-date gross profit using the fiscal calendar, considering only the sales up to the last available fiscal day of the current month and year.
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
 #### Gross Profit Margin
 **Formula**  
 [Gross Profit] / [Sales Amount]
@@ -286,6 +296,57 @@ Sum of Sales Amt. (LCY) column from the Sales table.
 **Data Sources**
 - Value Entries
 - Sales Line
+
+#### Sales Amount MTD (Fiscal)
+**Formula**  
+This measure calculates month-to-date sales amount using the fiscal calendar, considering only the sales up to the last available fiscal day of the current month and year. 
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
+#### Sales Amount MAT (Fiscal)
+**Formula**  
+This measure calculates the sales for the last 12 months (moving annual total) using the fiscal calendar by summing up the sales between the calculated first and last days of the 365-day period.
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
+#### Sales Amount PYMAT (Fiscal)
+**Formula**  
+This measure calculates the total sales for the prior 12 months based on the fiscal calendar.It then determines the maximum available date and calculates the range from 24 months prior to the last available day to 12 months prior. Using these dates, it sums the sales amount for this period while maintaining filters for the day type and week day.
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
+#### Sales Amount MATG (Fiscal)
+**Formula**  
+This measure calculates the year-over-year growth in sales by comparing the current period's moving annual total sales to the previous period's moving annual total sales. If both values are not blank, it subtracts the previous period's sales from the current period's sales to determine the growth. The result is returned, representing the change in sales between the two periods.
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
+#### Sales Amount MATG % (Fiscal)
+**Formula**  
+This measure calculates the percentage growth in sales by dividing the year-over-year growth in sales ([Sales Amount MATG (Fiscal)]) by the previous period's moving annual total sales ([Sales Amount PYMAT (Fiscal)]).
+
+**Data Sources**
+- Value Entries
+- Sales Line
+- Date (Fiscal Calendar)
+
+
+
+
+
+
 
 #### Sales Quantity
 **Formula**  
