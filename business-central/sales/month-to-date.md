@@ -38,8 +38,8 @@ For the Management Team:
 The _Month-To-Date_ report includes the following KPIs:
 
 - [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#sales-amount)  
-- [**Sales Amount MTD**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#sales-amount-mtd)
-- [**Gross Profit MTD**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#gross-profit-mtd)
+- [**Sales Amount MTD**](sales-kpi.md#sales-amount-mtd)
+- [**Gross Profit MTD**](sales-kpi.md#gross-profit-mtd)
 
 ## Data used in the Month-To-Date report
 

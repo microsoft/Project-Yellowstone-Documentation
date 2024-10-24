@@ -54,11 +54,11 @@ For the Sales team, the *Daily Sales* report can be used to gain a clearer under
 
 The _Daily Sales_ report includes the following KPIs:
 
-- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#sales-quantity)
-- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#sales-amount)
-- [**Cost Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#cost-amount)
-- [**Gross Profit**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#gross-profit)
-- [**Gross Profit Margin**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#gross-profit-margin)
+- [**Sales Quantity**](sales-kpi.md#sales-quantity)
+- [**Sales Amount**](sales-kpi.md#sales-amount)
+- [**Cost Amount**](sales-kpi.md#cost-amount)
+- [**Gross Profit**](sales-kpi.md#gross-profit)
+- [**Gross Profit Margin**](sales-kpi.md#gross-profit-margin)
 
 ## Data used in the Daily Sales report
 
