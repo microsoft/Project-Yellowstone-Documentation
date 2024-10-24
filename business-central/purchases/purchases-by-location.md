@@ -6,7 +6,7 @@ This report is especially useful for purchasing managers and purchasers who need
 
 ## What the report shows
 
-The _Purchases By Item_ report displays a treemap of the most frequently purchased items, a table of purchases by item, and a bar chart that breaks down purchases by item category. These visuals provide insights into the distribution of purchases across different item categories and helps you identify any areas that require attention.
+The _Purchases By Location_ report displays a treemap of the most frequently purchased items, a table of purchases by location, and a bar chart that breaks down purchases by items. These visuals provide insights into the distribution of purchases across different item categories and helps you identify any areas that require attention.
 
 
 ## Use Cases
