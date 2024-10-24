@@ -1,4 +1,4 @@
-# Purchases By Item (Power BI Report)
+![image](https://github.com/user-attachments/assets/a867c246-bb65-44ca-a807-6ca3e5ac66a9)# Purchases By Item (Power BI Report)
 
 The _Purchases by Item_ report gives a clear picture of your organization's item purchases. It showcases key metrics against each item or item category such as purchase amount and quantities along with the cost amounts.
 
@@ -24,10 +24,10 @@ For the Team:
 
 The _Purchases By Item_ report includes the following KPIs:
 
-- **Purchase Amount**
-- **Purchase Quantity**
-- **% GT Purchase Amount**
-- **% GT Purchase Quantity**
+- [**Purchase Amount**](#purchase-amount)
+- [**Purchase Quantity**](#purchase-quantity)
+- [**% GT Purchase Amount**](#-gt-purchase-amount)
+- [**% GT Purchase Quantity**](#-gt-purchase-quantity)
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
