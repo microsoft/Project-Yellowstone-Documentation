@@ -22,7 +22,7 @@ The _Sales Overview_ report is made up of five visualizations.
 
 **Example Scenario:** As the CEO you regularly monitor the organization's sales operations to ensure the business is meeting its goals and operating efficiently. To get a quick, high-level overview, you turn to the Power BI Sales Overview Report. 
 
-This report gives you key performance indicators such as the [No. of Outstanding Sales Orders](#TODO), [No. of Shipped Not Invoiced Sales Orders](#TODO), and [No. of Posted Sales Invoices](#TODO) along with their associated monetary values. 
+This report gives you key performance indicators such as the [No. of Outstanding Sales Orders](sales-kpi.md#no-of-outstanding-sales-orders), [No. of Shipped Not Invoiced Sales Orders](sales-kpi.md#no-of-shipped-not-invoiced-sales), and [No. of Posted Sales Invoices](sales-kpi.md#no-of-posted-sales-invoices) along with their associated monetary values. 
 
 ![Sales Overview KPIs screenshot](/business-central/media/sales/sales-overview-kpis.png "Sales Overview KPIs- Screenshot")
 
