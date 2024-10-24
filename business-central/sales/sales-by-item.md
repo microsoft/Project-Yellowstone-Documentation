@@ -1,21 +1,21 @@
 # Sales by Item (Power BI Report)
 
-The _Sales by Item_ report gives a clear picture of your organization's Item sales. It showcases key metrics against each Item or Item Category such as Sales Amount and Quantities along with the Cost Amounts. This can be broken down further by the specific customers they are purchasing these items. 
+The _Sales by Item_ report gives a clear picture of your organization's item sales. It showcases key metrics against each item or item Category such as sales amount and quantities along with the Cost Amounts. This can be broken down further by the specific customers they are purchasing these items. 
 
-This report is targetted towards leadership and management teams to track Item Sales. It can be used by Sales people to better identify key items.
+This report is targetted towards leadership and management teams to track item sales. It can be used by the sales team to better identify key items.
 
 ![Sales by Item screenshot](/business-central/media/sales/sales-by-item.png "Sales by Item - Screenshot")
 
 ## What the report shows
 
-The *Sales by Item* reports shows a clear view of total sales generated at the Item level. This can be viewable through the bar chart or the matrix view to identify amounts at different levels. The report also incorporates a drill-through ability to further breakdown specific information.
+The *Sales by Item* reports shows a clear view of total sales generated at the item level. This can be viewable through the bar chart or the matrix view to identify amounts at different levels. The report also incorporates a drill-through ability to further breakdown specific information.
 
 
 ## Use Cases
 
 **For the leadership team**
 
-For the leadership team, *Sales by Item* report provides insights inot the top Items generating revenue for the company.
+For the leadership team, *Sales by Item* report provides insights inot the top item generating revenue for the company.
 **Target Audience**
 
 - CEO
