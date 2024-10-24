@@ -13,76 +13,33 @@ The _Month-To-Date_ report presents three key visuals to give users a comprehens
 
 ## Use Cases
 
-A CEO can view sales performance for the current month to make informed decisions. With the _Month-to-Date_ report, the CEO can easily monitor our sales revenue progress from the beginning of the month up until the present day. This report also highlights sales figures for the current month and previous months, allowing the CEO to identify trends and make strategic decisions.
+For the Leadership Team:
 
 **Target Audience**
 
 - CEO
 - CFO
 
+**Example Scenario**: As a CEO, you can use the _Month-to-Date_ report to view your organization's sales performance for the current month. This report provides you with an easy way to monitor your sales revenue progress from the beginning of the month up until the present day. By analyzing the sales figures for the current month and previous months, you can to identify trends and make strategic decisions for your organization. With this information at your fingertips, you can make data-driven decisions that will help you to optimize your sales strategy and drive revenue growth for your business.
+
 ---
 
 For the Management Team:
-
-A Sales Manager can analyse and compare the month-to-date sales amounts with those from previous years and the gross profit, providing a broader context for the current sales performance. This report also shows a breakdown of sales contributions from top customers, enabling the manager to identify which customers the team should focus on to improve their sales performance. With these insights, the manager can guide the team better and make decisions to improve their sales.
 
 **Target Audience**
 
 - Sales Manager
 - Business Development Manager
 
+**Example Scenario**: As a Sales Manager, you can use the _Month-to-Date_ report to analyze and compare your organization's sales performance with those from previous years. By examining the gross profit figures, you can provide a broader context for the current sales performance. The report also shows a breakdown of sales contributions from top customers, which enables you to identify which customers your team should focus on and maintain good relationship to improve their sales performance. With these insights, you can guide your team better and take actions to improve their sales.
+
 ## Key Performance Indicators (KPIs)
 
 The _Month-To-Date_ report includes the following KPIs:
 
-- **Sales Amount**
-- **Sales Amount MTD**
-- **Gross Profit MTD**
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
-
----
-### Sales Amount
-
-The *Sales Amount* shows the total sales revenue earned in the current year. This KPI enables you to track your total sales revenue for the year thus far.
-
-**Formula**  
-
-*Sales Amount* is the total amount of all value entries related to sales is added up for the selected year.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Sales Amount*:
-- Value Entry
-
----
-### Sales Amount MTD
-
-The *Sales Amount MTD* is the total sales amount earned in the current month, up until yesterday.
-
-**Formula**  
-
-*Sales Amount MTD* is the total amount of all value entries related to sales is added up for the selected month, excluding today's date. 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Sales Amount MTD*:
-- Value Entry
-
----
-### Gross Profit MTD
-
-The *Gross Profit MTD* is the gross profit earned in the current month, up until yesterday.
-
-**Formula**  
-
-*Gross Profit MTD* is the total gross profit amount of all value entries related to sales is added up for the selected month, excluding today's date.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit MTD*:
-- Value Entry
-
+- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#sales-amount)  
+- [**Sales Amount MTD**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount-mtd)
+- [**Gross Profit MTD**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#gross-profit-mtd)
 
 ## Data used in the Month-To-Date report
 

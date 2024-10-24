@@ -50,105 +50,12 @@ For the Sales team, the *Sales by Item* report can be used to quickly identify h
 
 The _Sales by Item_ report includes the following KPIs:
 
-- [**Sales Amount**](#sales-amount)
-- [**Sales Quantity**](#sales-quantity)
-- [**Cost Amount**](#cost-amount)
-- [**Cost Amount Non-Inv**](#cost-amount-non-inv)
-- [**Gross Profit**](#gross-profit)
-- [**Gross Profit Margin**](#gross-profit-margin)
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
-
----
-### Sales Quantity
-
-The *Sales Quantity* is the total number of items sold within a specific time period.
-
-**Formula**  
-
-*Sales Quantity* is the quantity of all value entries related to sales for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Sales Quantity*:
-- Value Entry
-- Sales Line
-
----
-### Sales Amount
-
-The *Sales Amount* is the actual amount of items sold within a specific time period. This amount represents the net sales amount in local currency, excluding VAT.
-
-**Formula**  
-
-*Sales Amount* is the actual amount of all value entries related to sales for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Sales Amount*:
-- Value Entry
-- Sales Line
-
----
-### Cost Amount
-
-The *Cost Amount* represents the total cost of goods sold incured by a location within a specific time period.
-
-**Formula**  
-
-*Cost Amount* is the the total cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount*:
-- Value Entry
-- Sales Line
-
----
-### Cost Amount Non-Inv
-
-The *Cost Amount Non-Inv* represents the total cost of non-inventory items by a location within a specific time period. These costs include expenses such as freight costs, shipping costs, marketing expenses, or any other indirect costs associated with sales.
-
-**Formula**  
-
-*Cost Amount Non-Inv* is the the total non-inventory cost of all sales value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount Non-Inv*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit
-
-The *Gross Profit* shows the difference between the sales revenue and the cost of goods sold for a location within a specifict time period.
-
-**Formula**  
-
-*Gross Profit* = Sales Amount - (Cost Amount + Cost Amount Non-Inv) 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit*:
-- Value Entry
-- Sales Line
-
----
-### Gross Profit Margin
-
-The *Gross Profit Margin* shows the gross profit as a percentage over the sales amount.
-
-**Formula**  
-
-*Gross Profit Margin* = (Gross Profit / Sales Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit Margin*:
-- Value Entry
-- Sales Line
-
+- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount)
+- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-quantity)
+- [**Cost Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#cost-amount)
+- [**Cost Amount Non-Inv**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#cost-amount-non-inv)
+- [**Gross Profit**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#gross-profit)
+- [**Gross Profit Margin**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#gross-profit-margin)
 
 ## Data used in the Sales by Item report
 
