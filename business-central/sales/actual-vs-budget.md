@@ -47,14 +47,14 @@ For the Sales Team:
 
 The _Actual vs. Budget_ report includes the following KPIs:
 
-- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#sales-quantity)  
-- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#sales-amount)  
-- [**Budget Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#budget-quantity)  
-- [**Budget Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#budget-amount)  
-- [**Budget Amount Variance**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#budget-amount-variance)  
-- [**Budget Amount Variance %**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#budget-amount-variance-)  
-- [**Variance**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#variance)  
-- [**Variance %**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#variance-)  
+- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#sales-quantity)  
+- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#sales-amount)  
+- [**Budget Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-quantity)  
+- [**Budget Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-amount)  
+- [**Budget Amount Variance**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-amount-variance)  
+- [**Budget Amount Variance %**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#budget-amount-variance-)  
+- [**Variance**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#variance)  
+- [**Variance %**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#variance-)  
 
 
 ## Data used in the Actual vs. Budget report

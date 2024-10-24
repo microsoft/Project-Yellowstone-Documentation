@@ -54,8 +54,8 @@ For the general staff, the *Moving Average* report can be used to analyze the sa
 
 The _Moving Average_ report includes the following KPIs:
 
-- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount)
-- [**Sales Amount Average 30D**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/KPI-definitions.md#sales-amount-average-30d)
+- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#sales-amount)
+- [**Sales Amount Average 30D**](https://github.com/microsoft/Project-Yellowstone-Documentation/edit/main/business-central/sales/sales-kpi.md#sales-amount-average-30d)
 
 ## Data used in the Moving Average report
 

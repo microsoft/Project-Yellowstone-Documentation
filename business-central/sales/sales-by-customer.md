@@ -52,12 +52,12 @@ For the Sales team, the *Sales by Customer* report can be used to track their cu
 
 The _Sales by Customer_ report includes the following KPIs:
 
-- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#sales-amount)
-- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#sales-quantity)
-- [**Cost Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#cost-amount)
-- [**Cost Amount Non-Inv**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#cost-amount-non-inv)
-- [**Gross Profit**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#gross-profit)
-- [**Gross Profit Margin**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/KPI-definitions.md#gross-profit-margin)
+- [**Sales Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#sales-amount)
+- [**Sales Quantity**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#sales-quantity)
+- [**Cost Amount**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#cost-amount)
+- [**Cost Amount Non-Inv**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#cost-amount-non-inv)
+- [**Gross Profit**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#gross-profit)
+- [**Gross Profit Margin**](https://github.com/microsoft/Project-Yellowstone-Documentation/blob/main/business-central/sales/sales-kpi.md#gross-profit-margin)
 
 ## Data used in the Sales by Customer report
 
