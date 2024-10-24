@@ -45,7 +45,7 @@ The _Month-To-Date_ report includes the following KPIs:
 
 Data from the following tables are used on the *Month-To-Date* report
 - Value Entry
-- Sales Lines
+- Sales Line
 - Customer
 
 
