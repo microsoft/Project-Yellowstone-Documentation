@@ -61,7 +61,7 @@ The _Moving Average_ report includes the following KPIs:
 
 Data from the following tables are used on the *Moving Average* report
 - Value Entry
-- Sales Lines
+- Sales Line
 
 
 ## See also
