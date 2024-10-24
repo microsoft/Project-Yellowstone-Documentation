@@ -49,18 +49,16 @@ This report gives you key performance indicators such as the [No. of Outstanding
 
 The _Sales Overview_ report includes the following KPIs:
 
-- **Sales Amount**
-- **Outstanding Amount**
-- **Amount Received but Not Invoiced (excluding VAT)**
-- **Invoiced Amount**
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+- [**Sales Amount**](#sales-kpi.md#sales-amount)
+- [**Outstanding Amount**](#sales-kpi.md#outstanding-quantity)
+- [**Shipped Not Invoiced Amount**](#sales-kpi.md#shipped-not-invoiced-amount)
+- [**Invoiced Amount**](#sales-kpi.md#invoiced-amount)
 
 ## Data used in the Sales Overview report
 
 Data from the following tables are used on the *Sales Overview* report
-- Sales Lines
-- Value Entries
+- Sales Line
+- Value Entry
 - Customer
 - Item
 - Location
