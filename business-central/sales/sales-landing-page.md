@@ -17,17 +17,20 @@ Sales teams and other operational staff can use aggregated reports, like the [Sa
 - Other high-level decision makers
 
 **Example Scenario:**
-As a user, imagine you are the CEO of a company, you are preparing for an upcoming board meeting. You need to present an analysis of your company's sales performance for the current fiscal year.To better understand the company's current position, you can use the Power BI Sales report.
+As a user, imagine you are the CEO of a company, you are preparing for an upcoming board meeting. You need to present an analysis of your company's sales performance for the current fiscal year. To better understand the company's current position, you can use the Power BI Sales report.
 
 You first begin by reviewing the [Period-Over-Period Growth](period-over-period-growth.md) report which provides a quick comparitive view of the current year versus the previous year. You see that sales are up by 35%, outlined by the [Period-over-Period Growth %](#TODO) metric. 
 
 ![Sales Period-Over-Period screenshot](/business-central/media/sales/sales-period-over-period-fiscal-year.png "Sales Period-Over-Period - Screenshot")
 
-Next, you review the [Sales by Customer](sales-by-customer.md) report, to see which group of customers contributed most to sales. Reviewing the Sales by Customer matrix you can see that domestic customers outperformed foreign customers by contributing 56.59% to the total annual sales. 
+Next, you review the [Sales by Customer](sales-by-customer.md) report, to see which group of customers contributed most to sales. by analyzing the Sales by Customer matrix, you can see that domestic customers outperformed foreign customers by contributing 56.59% to the total annual sales. 
 ![Sales-by-customer-matrix screenshot](/business-central/media/sales/sales-by-customer-matrix.png "Sales-by-customer-matrix - Screenshot")
 
 Finally, you review the [Moving Averages](moving-average.md) report, which visualizes [Sales Amount](#TODO) and [Sales Amount Average 30D](#TODO). The 30 day average smoothes out the sales trend for the year and provides more good news for the company. This report reveals that on average, sales were stable through the first half of the year and then increased through the second half of the year. 
+
 ![30-Day-Moving-Average screenshot](/business-central/media/sales/30-Day-Moving-Average.png "30-Day-Moving-Average - Screenshot")
+
+With the insights gained from this report, you can confidently present your organization's sales performance to the board, armed with data-driven analysis and a deeper understanding of your company's current position.
 
 ---
 **Target Audience**
