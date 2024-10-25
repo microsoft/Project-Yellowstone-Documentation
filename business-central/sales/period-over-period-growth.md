@@ -43,9 +43,9 @@ For the Management Team:
 The _Period-Over-Period Growth_ report includes the following KPIs:
 
 - [**Sales Amount**](sales-kpi.md#sales-amount)
-- [**Previous Period**](sales-kpi.md#previous-period)
-- [**Period-over-Period Growth Amount**](sales-kpi.md#period-over-period-growth-amount)
-- [**Period-over-Period Growth %**](sales-kpi.md#period-over-period-growth-)
+- [**Previous Period**](sales-kpi.md#sales-amount-pp-fiscal)
+- [**Period-over-Period Growth Amount**](sales-kpi.md#sales-amount-pop-fiscal)
+- [**Period-over-Period Growth %**](sales-kpi.md#sales-amount-pop--fiscal)
 
 ## Data used in the Period-Over-Period Growth report
 

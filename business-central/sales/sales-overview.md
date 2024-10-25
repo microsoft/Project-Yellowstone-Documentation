@@ -50,9 +50,17 @@ This report gives you key performance indicators such as the [No. of Outstanding
 The _Sales Overview_ report includes the following KPIs:
 
 - [**Sales Amount**](sales-kpi.md#sales-amount)
-- [**Outstanding Amount**](sales-kpi.md#outstanding-quantity)
+- [**Outstanding Amount**](sales-kpi.md#outstanding-amount)
 - [**Shipped Not Invoiced Amount**](sales-kpi.md#shipped-not-invoiced-amount)
 - [**Invoiced Amount**](sales-kpi.md#invoiced-amount)
+- [**Gross Profit**](sales-kpi.md#gross-profit)
+- [**Gross Profit Margin**](sales-kpi.md#gross-profit-margin)
+- [**No. of New Customers**](sales-kpi.md#no-of-new-customers)
+- [**No. of Outstanding Sales Orders**](sales-kpi.md#no-of-outstanding-sales-orders)
+- [**No. of Shipped Not Invoiced Orders**](sales-kpi.md#no-of-shipped-not-invoiced-sales)
+- [**No. of Posted Sales Invoices**](sales-kpi.md#no-of-posted-sales-invoices)
+
+Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
 ## Data used in the Sales Overview report
 

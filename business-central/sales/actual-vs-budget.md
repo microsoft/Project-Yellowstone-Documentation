@@ -53,8 +53,8 @@ The _Actual vs. Budget_ report includes the following KPIs:
 - [**Budget Amount**](sales-kpi.md#budget-amount)  
 - [**Budget Amount Variance**](sales-kpi.md#budget-amount-variance)  
 - [**Budget Amount Variance %**](sales-kpi.md#budget-amount-variance-percent)  
-- [**Variance**](sales-kpi.md#variance)  
-- [**Variance %**](sales-kpi.md#variance-)  
+- [**Budget Quantity Variance**](sales-kpi.md#budget-quantity-variance)  
+- [**Budget Quantity Variance %**](sales-kpi.md#budget-quantity-variance-percent)  
 
 
 ## Data used in the Actual vs. Budget report

@@ -15,10 +15,11 @@ The *Sales by Item* reports shows a clear view of total sales generated at the i
 
 **For the leadership team**
 
-For the leadership team, *Sales by Item* report provides insights inot the top item generating revenue for the company.
+For the leadership team:
 **Target Audience**
 
 - CEO
+- COO
 
 **Example Scenario:** As a CEO, you wants to see a list of the top-selling items by revenue generated. You want to be able to compare this with how much each item has contributed to the company's overall revenue. This information can then be used to make strategic decisions about which products to focus on and how to allocate resources.
 
@@ -26,25 +27,25 @@ For the leadership team, *Sales by Item* report provides insights inot the top i
 
 **For the management team**
 
-For the management team, the *Sales by Item* report can be used to idenfity key performance indicators of the different items.
+For the management team:
 
 **Target Audience**
 
 - Sales Manager
 
-**Example Scenario:** You are a Sales Manager and you can identify which items aren't performing and implement sales promotions for these items. You can also use this information to adjust inventory levels of different items procurring additional stock to assist with demand or reducing stock levels.
+**Example Scenario:** As Sales Manager, using the *Sales by Item* report, you can identify which items aren't performing and implement sales promotions for these items. You can also use this information to adjust inventory levels of different items procuring additional stock to assist with demand or reducing stock levels to account for the slower periods.
 
 ---
 
 **For the sales team**
 
-For the Sales team, the *Sales by Item* report can be used to quickly identify high performing items in terms of revenue generated.
+For the Sales team:
 
 **Target Audience**
 
 - Sales People
 
-**Example Scenario:** As a Salesperson you want to be able to tailor your pitch based on specific items sales performance, this report allows you to identify high performing items. You can also utilsie this report to gain insights on lower performing items so sales people can identify upselling or cross-selling.
+**Example Scenario:** As a Salesperson you want to be able to tailor your pitch based on specific items sales performance, the *Sales by Item* report allows you to identify high performing items. You can also utilzie this report to gain insights on lower performing items so sales people can identify upselling or cross-selling.
 
 ## Key Performance Indicators (KPIs)
 
