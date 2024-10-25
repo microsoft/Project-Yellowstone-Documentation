@@ -1,75 +1,36 @@
 # Bin Contents by Item Tracking (Power BI Report)
 
-The _Bin Contents by Item Tracking_ report gives....
+The _Bin Contents by Item Tracking_ report shows an organizations bin contents and breaks this down further by highlighting the Lot and Serial No in the Bins. It highlights key warehouse quantity information showing how many of an item are in the bin and its tracking information.
 
-This report is meant for....
+This report is meant for warehouse staff to be able to quickly identify availability of stock per bin and identify key tracking metrics.
 
 ![Bin Contents by Item Tracking](/business-central/media/inventory/bin-content-by-item-tracking.png "Bin Contents by Item Tracking - Screenshot")
 
 ## What the report shows
 
-The *Bin Contents by Item Tracking* reports shows outlines a comprehensive view of the total sales generated. This is viewable in both a barchart and matrix view. Each visual links to the Sales drill-through page to further breakdown the information.
-
+The *Bin Contents by Item Tracking* reports shows outlines a clear picture of an organizations bin contents and its lot tracking in a matrix view displaying all key fields.
 
 ## Use Cases
 
-**For the leadership team**
+**For the warehouse staff**
 
-For the leadership team, the *Bin Contents by Item Tracking* 
+For the warehouse staff:
 
 **Target Audience**
 
-- 
+- Warehouse Manager
+- General Warehouse Staff (Pickers, Receiving and Shipping)
 
 **Example Scenario:** 
+As a Warehouse Manager, you are responsible for overseeing the general operations of the warhouse, you can use this report to assist in tracking inventory levels and tracking information of bins across the warehouse. As a general warehouse staff member, you can utilise this report to quickly identify bins that contain expired stock or quickly track down a specific lot straight to the bin.
 
 ---
-
-**For the management team**
-
-For the management team, the *Bin Contents by Item Tracking*
-
-**Target Audience**
-
-- 
-- 
-
-**Example Scenario:** 
-
----
-
-**For the sales team**
-
-For the Sales team, the *Bin Contents by Item Tracking*  
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
 
 ## Key Performance Indicators (KPIs)
 
 The _Bin Contents by Item Tracking_ report includes the following KPIs:
 
-- [**Inventory Something**](#)
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
-
----
-### Inventory Something
-
-The *Inventory Something* is the total number of items sold within a specific time period.
-
-**Formula**  
-
-*Inventory Something* is the quantity of all value entries related to sales for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Inventory Something*:
-- IteM Ledger Entry
-
+- [**Warehouse Quantity**](#TODO)
 ---
 ## Data used in the Bin Contents by Item Tracking report
 
