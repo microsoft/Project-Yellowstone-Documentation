@@ -1,6 +1,6 @@
 ---
 title: Sales by Salesperson (Power BI Report)
-description: The *Sales by Salesperson* report 
+description: The *Sales by Salesperson* report provides an overview of sales performance broken down by salesperson.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
