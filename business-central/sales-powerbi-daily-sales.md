@@ -55,7 +55,7 @@ The *Daily Sales* report use data from the following tables in [!INCLUDE[prod_sh
 - Value Entry
 - Sales Line
 - Item
-- 
+
 ## Try the report
 
 Try the report here: [Report name](https://businesscentral.dynamics.com?page=36999)
