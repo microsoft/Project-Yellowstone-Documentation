@@ -13,6 +13,8 @@ ms.service: dynamics-365-business-central
 
 # Sales by Salesperson (Power BI Report)
 
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 The *Sales by Salesperson* report provides an overview of sales performance broken down by salesperson. It showcases key metrics such as total sales amount and quantity. This information can be further broken down by specific customers they are selling and items sold to the customers.
 
 :::image type="content" source="media/powerbi/sales/sales-by-salesperson.png" alt-text="Screenshot of the Sales by Salesperson Power BI report" lightbox="media/powerbi/sales/sales-by-salesperson.png":::
