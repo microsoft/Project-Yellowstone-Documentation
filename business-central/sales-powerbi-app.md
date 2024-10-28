@@ -1,6 +1,6 @@
 ---
 title: Sales Power BI app
-description: The Power BI app for Sales in Business Central is ...
+description: The Power BI app for Sales in Business Central provides comprehensive sales analytics to stakeholders at all levels of your organization.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
