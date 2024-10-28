@@ -15,24 +15,20 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Sales by Item* report gives a clear picture of your organization's item sales. 
-
-It showcases key metrics against each item or item Category such as sales amount and quantities along with the Cost Amounts. 
-
-This can be broken down further by the specific customers that are purchasing these items. 
+The *Sales by Item* report gives a clear picture of your organization's item sales. It showcases key metrics against each item or item Category such as sales amount and quantities along with the cost amounts. This can be broken down further by the specific customers that are purchasing these items. 
 
 :::image type="content" source="media/powerbi/sales/sales-by-item.png" alt-text="Screenshot of the Sales by Item Power BI report" lightbox="media/powerbi/sales/sales-by-item.png":::
 
 
 ## How to use the report
 
-The *Sales by Item* report is targetted towards leadership and management teams to track item sales. It can be used by the sales team to better identify key items.
-
-As a CEO, you might want to see a list of the top-selling items by revenue generated and you want to be able to compare this with how much each item has contributed to the company's overall revenue. This information can then be used to make strategic decisions about which products to focus on and how to allocate resources.
-
-As a sales manager using the *Sales by Item* report, you can identify which items aren't performing and implement sales promotions for these items. You can also use this information to adjust inventory levels of different items procuring additional stock to assist with demand or reducing stock levels to account for the slower periods.
-
-As a sales person you want to be able to tailor your pitch based on specific items sales performance. The *Sales by Item* report allows you to identify high performing items. You can also utilize this report to gain insights on lower performing items so sales people can identify upselling or cross-selling.
+The *Sales by Item* report is targeted towards leadership and management teams to track item sales. It can be used by the sales team to better identify key items.  
+   
+As a CEO, you might want to see a list of the top-selling items by revenue generated, and you want to be able to compare this with how much each item has contributed to the company's overall revenue. This information can then be used to make strategic decisions about which products to focus on and how to allocate resources.  
+   
+As a sales manager using the *Sales by Item* report, you can identify which items aren't performing and implement sales promotions for these items. You can also use this information to adjust inventory levels of different items, procuring additional stock to assist with demand or reducing stock levels to account for the slower periods.  
+   
+As a salesperson, you want to be able to tailor your pitch based on specific item sales performance. The *Sales by Item* report allows you to identify high-performing items. You can also utilize this report to gain insights on lower-performing items so salespeople can identify upselling or cross-selling opportunities.
 
 
 ## Key Performance Indicators (KPIs)
@@ -60,6 +56,11 @@ The *Sales by Item* report use data from the following tables in [!INCLUDE[prod_
 - Value Entry
 - Sales Line
 
+## Try the report
+
+Try the report here: [Sales by Item](https://businesscentral.dynamics.com?page=37004)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
