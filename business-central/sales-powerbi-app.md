@@ -120,14 +120,10 @@ The following table describes the different Power BI reports in the sales app an
 | Compare sales in one period with the same period in a prior year, quarter, or month. |[Period-Over-Period Growth](#todo) | [About Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md) |
 | Analyze accumulating sales for a desired period. | [Month-To-Date](#todo) | [About Month-To-Date](sales-powerbi-month-to-date.md)|
 | Analyze sales by item and view key sales metrics as a percentage of total sales. | [Sales by Item](#todo) | [About Sales by Item](sales-powerbi-sales-by-item.md) |
-
-
-<!-- 
-
 | Analyze sales by customer and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Customer](#todo)  | [About Sales by Customer](sales-powerbi-sales-by-customer.md) |
 | Analyze sales by salesperson and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Salesperson](#todo) | [About Sales by Salesperson](sales-powerbi-sales-by-salesperson.md) |
 | Analyze sales by location and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Location](#todo)  | [About Sales by Location](sales-powerbi-sales-by-location.md)  |
-| Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget](#todo) | [About Actual vs. Budget](sales-powerbi-actual-vs-budget.md) | -->
+| Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget](#todo) | [About Actual vs. Budget](sales-powerbi-actual-vs-budget.md) | 
 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
