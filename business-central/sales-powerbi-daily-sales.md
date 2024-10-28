@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 
+ms.search.form: 36999_Primary
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
@@ -55,6 +55,12 @@ The *Daily Sales* report use data from the following tables in [!INCLUDE[prod_sh
 - Value Entry
 - Sales Line
 - Item
+- 
+## Try the report
+
+Try the report here: [Report name](https://businesscentral.dynamics.com?page=36999)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 
 ## See also
