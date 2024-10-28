@@ -34,7 +34,7 @@ Data from the following tables are used:
 
 Sales Lines are broken down into Shipped Not Invoiced and Outstanding Sales Lines. The Source Type field allows for filtering by these sources. 
 
-### Table Definition
+#### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
@@ -72,7 +72,7 @@ Data from the following tables are used:
 
 - Customer
 
-### Table Definition
+#### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
@@ -95,7 +95,7 @@ Data from the following tables are used:
 - Item
 - Item Category
 
-### Table Definition
+#### Table Definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
