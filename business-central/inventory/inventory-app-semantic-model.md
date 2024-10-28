@@ -1,3 +1,16 @@
+---
+title: Inventory App Semantic Model (Power BI report)
+description: The Inventory App semantic model explores the inner works of the semantic model used in the Inventory App.
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Inventory Semantic Model (Power BI Report)
 
 The Inventory semantic model is organized in a [Star Schema Model](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema#star-schema-overview). 

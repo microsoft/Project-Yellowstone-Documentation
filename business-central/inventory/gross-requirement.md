@@ -1,3 +1,16 @@
+---
+title: Gross Requirement (Power BI report)
+description: The Gross Requirement report looks at all outbound transactions within the system to identify the quantity required per item. 
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Gross Requirement (Power BI Report)
 
 The _Gross Requirement_ report looks at all outbound transactions within the system to identify the quantity required per item. 

@@ -1,3 +1,16 @@
+---
+title: Bin Contents by Item Tracking (Power BI report)
+description: The Bin Contents by Item Tracking report shows an organizations bin contents and breaks this down further by highlighting the Lot and Serial No in the Bins.
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Bin Contents by Item Tracking (Power BI Report)
 
 The _Bin Contents by Item Tracking_ report shows an organizations bin contents and breaks this down further by highlighting the Lot and Serial No in the Bins. It highlights key warehouse quantity information showing how many of an item are in the bin and its tracking information.

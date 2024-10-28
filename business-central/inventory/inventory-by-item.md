@@ -1,3 +1,16 @@
+---
+title: Inventory by Item (Power BI report)
+description: The Inventory by Item highlights inventory levels per Item, this can additionally be viewed per Item Category Code
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Inventory by Item (Power BI Report)
 
 The _Inventory by Item_ highlights inventory levels per Item, this can additionally be viewed per Item Category Code. The report showcases different columns to identify inventory per item on different document types.

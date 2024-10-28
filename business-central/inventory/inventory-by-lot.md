@@ -1,3 +1,16 @@
+---
+title: Inventory by Loc (Power BI report)
+description: The Inventory by Lot No report highlights your organizations total inventory broken down per lot.
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Inventory by Lot No (Power BI Report)
 
 The _Inventory by Lot No_ report highlights your organizations total inventory broken down per lot. This can be used to identify different lots and can be used to track the performance on a lot by lot basis.

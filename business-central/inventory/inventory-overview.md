@@ -1,3 +1,16 @@
+---
+title: Inventory Overview (Power BI report)
+description: The Inventory Overview XXX.
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Inventory Overview (Power BI Report)
 
 The _Inventory Overview_ report gives....

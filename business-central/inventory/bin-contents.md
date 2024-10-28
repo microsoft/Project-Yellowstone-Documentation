@@ -1,3 +1,16 @@
+---
+title: Bin Contents (Power BI report)
+description: The Bin Contents shows an organizations bin contents per location.
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Bin Contents (Power BI Report)
 
 The _Bin Contents_ breaks down an organizations inventory levels on a bin by bin basis. This can be used to identify high and low volume bins and can inform inventory movement requirements if bins need additional inventory. The report additional highlights quantity available along with quantity metrics across different warehouse activities such as Pick, Put-Away and general adjustments.

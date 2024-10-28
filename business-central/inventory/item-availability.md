@@ -1,3 +1,16 @@
+---
+title: Item Availability (Power BI report)
+description: The Item Availability....
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Item Availability (Power BI Report)
 
 The _Item Availability_ report gives....

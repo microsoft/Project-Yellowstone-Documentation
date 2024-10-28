@@ -1,3 +1,16 @@
+---
+title: Scheduled Receipt (Power BI report)
+description: The Scheduled Receipt gives users the ability to view inbound inventory into an organization broken up per document type. 
+author: shaungibsonn
+ms.author: 
+ms.reviewer: 
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/28/2024
+ms.service: dynamics-365-business-central
+---
+
 # Scheduled Receipt (Power BI Report)
 
 The _Scheduled Receipt_ gives users the ability to view inbound inventory into an organization broken up per document type. This also includes internal Assembly or Production accounting for when the finished good will become avaialble.
