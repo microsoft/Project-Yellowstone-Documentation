@@ -26,11 +26,11 @@ The MTD figure does not include revenue generated on the current date as sales a
 
 ## How to use the report
 
-This report is meant for leadership and management teams to monitor sales growth per month.
-
-As a CEO, you can use the *Month-to-Date (MTD)* report to view your organization's sales performance for the current month. This report provides you with an easy way to monitor your sales revenue progress from the beginning of the month up until the present day. By analyzing the sales figures for the current month and previous months, you can to identify trends and make strategic decisions for your organization. With this information at your fingertips, you can make data-driven decisions that will help you to optimize your sales strategy and drive revenue growth for your business.
-
-As a sales manager, you can use the *Month-to-Date (MTD)* report to analyze and compare your organization's sales performance with those from previous years. By examining the gross profit figures, you can provide a broader context for the current sales performance. The report also shows a breakdown of sales contributions from top customers, which enables you to identify which customers your team should focus on and maintain good relationship to improve their sales performance. With these insights, you can guide your team better and take actions to improve their sales.
+The *Month-to-Date (MTD)* report is meant for leadership and management teams to monitor sales growth per month.  
+   
+As a CEO, you can use the *Month-to-Date (MTD)* report to view your organization's sales performance for the current month. This report provides you with an easy way to monitor your sales revenue progress from the beginning of the month up until the present day. By analyzing the sales figures for the current month and previous months, you can identify trends and make strategic decisions for your organization. With this information at your fingertips, you can make data-driven decisions that will help you optimize your sales strategy and drive revenue growth for your business.  
+   
+As a sales manager, you can use the *Month-to-Date (MTD)* report to analyze and compare your organization's sales performance with those from previous years. By examining the gross profit figures, you can provide a broader context for the current sales performance. The report also shows a breakdown of sales contributions from top customers, which enables you to identify which customers your team should focus on and maintain good relationships to improve their sales performance. With these insights, you can guide your team better and take actions to improve their sales.
 
 
 ## Key Performance Indicators (KPIs)
@@ -54,6 +54,11 @@ The *Month-to-Date (MTD)* report use data from the following tables in [!INCLUDE
 - Sales Line
 - Customer
 
+## Try the report
+
+Try the report here: [Month-to-Date](https://businesscentral.dynamics.com?page=37003)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
