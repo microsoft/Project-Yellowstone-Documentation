@@ -1,6 +1,6 @@
 ---
 title: Actual vs Budget (Power BI Report)
-description: The *Actual vs Budget* report 
+description: The *Actual vs. Budget* report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
