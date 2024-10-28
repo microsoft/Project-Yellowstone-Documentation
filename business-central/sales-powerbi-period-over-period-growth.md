@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 
+ms.search.form: 37002_Primary
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
