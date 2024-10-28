@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 # Sales Overview (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](includes/ applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Sales Overview* report provides a high-level summary of your organization's sales activities, showcasing key metrics such as the number of outstanding sales orders, shipped-but-not-invoiced orders, and posted sales invoices, along with their respective monetary values. 
 
@@ -22,25 +22,12 @@ Additionally, this report give you a quick view of sales amount by salesperson, 
 
 :::image type="content" source="media/powerbi/sales/sales-overview.png" alt-text="Screenshot of the Sales Overview Power BI report" lightbox="media/powerbi/sales/sales-overview.png":::
 
-
-<!-- ## What the report shows
-
-The _Sales Overview_ report is made up of five visualizations, each of which highlight different aspects of your sales activities:
-
-1. Overview KPI Card
-2. Sales Amount by Salesperson 
-3. Gross Profit by Top 5 Items 
-4. Document Details 
-5. Sales Amount by Customer  -->
-
-
 ## How to use the report
 
-The target audience for this report is
+The target audience for the *Sales Overview* report is
 - Executives
 - Directors
 - Other high-level decision makers
-
 
 As the CEO you regularly monitor the organization's sales operations to ensure the business is meeting its goals and operating efficiently. To get a quick, high-level overview, you turn to the Power BI Sales Overview Report. 
 
@@ -64,7 +51,6 @@ The *Sales Overview* report includes the following KPIs and measures:
 - [**No. of Shipped Not Invoiced Orders**](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales)
 - [**No. of Posted Sales Invoices**](sales-powerbi-sales-kpis.md#no-of-posted-sales-invoices)
 
-
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
@@ -81,6 +67,11 @@ The *Sales Overview* report use data from the following tables in [!INCLUDE[prod
 - Location
 - Salesperson
 
+## Try the report
+
+Try the report here: [Sales Overview](https://businesscentral.dynamics.com?page=36998)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
