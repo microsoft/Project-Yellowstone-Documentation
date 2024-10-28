@@ -29,7 +29,7 @@ The target audience for the *Sales Overview* report is
 - Directors
 - Other high-level decision makers
 
-As the CEO you regularly monitor the organization's sales operations to ensure the business is meeting its goals and operating efficiently. To get a quick, high-level overview, you turn to the Power BI Sales Overview Report. 
+As a CEO, you regularly monitor the organization's sales operations to ensure the business is meeting its goals and operating efficiently. To get a quick, high-level overview, you turn to the Power BI Sales Overview Report. 
 
 This report gives you key performance indicators such as the [No. of Outstanding Sales Orders](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders), [No. of Shipped Not Invoiced Sales Orders](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales), and [No. of Posted Sales Invoices](sales-powerbi-sales-kpis.md#no-of-posted-sales-invoices) along with their associated monetary values. 
 
