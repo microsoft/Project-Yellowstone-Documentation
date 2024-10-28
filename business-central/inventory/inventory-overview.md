@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Inventory Overview (Power BI Report)
 
-The _Inventory Overview_ report gives....
+The *Inventory Overview* report gives....
 
 This report is meant for....
 
@@ -63,7 +63,7 @@ For the Sales team, the *Inventory Overview*
 
 ## Key Performance Indicators (KPIs)
 
-The _Inventory Overview_ report includes the following KPIs:
+The *Inventory Overview* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

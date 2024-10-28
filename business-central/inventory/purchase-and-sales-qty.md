@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Purchase and Sales Quantity (Power BI Report)
 
-The _Purchase and Sales Quantity_ report gives....
+The *Purchase and Sales Quantity* report gives....
 
 This report is meant for....
 
@@ -63,7 +63,7 @@ For the Sales team, the *Purchase and Sales Quantity*
 
 ## Key Performance Indicators (KPIs)
 
-The _Purchase and Sales Quantity_ report includes the following KPIs:
+The *Purchase and Sales Quantity* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

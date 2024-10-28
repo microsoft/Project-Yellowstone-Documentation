@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Inventory by Lot No (Power BI Report)
 
-The _Inventory by Lot No_ report highlights your organizations total inventory broken down per lot. This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
+The *Inventory by Lot No* report highlights your organizations total inventory broken down per lot. This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
 
 This report is meant for a variety of different staff to assist them in managing the inventory levels per lot.
 
@@ -63,7 +63,7 @@ For the Sales team, the *Inventory by Lot No*
 
 ## Key Performance Indicators (KPIs)
 
-The _Inventory by Lot No_ report includes the following KPIs:
+The *Inventory by Lot No* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

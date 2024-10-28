@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Inventory by Serial No. (Power BI Report)
 
-The _Inventory by Serial No_ highlights your organizations total inventory broken down per serial. This can be used to identify different serial and can be used to track the performance on a serial by serial basis.
+The *Inventory by Serial No* highlights your organizations total inventory broken down per serial. This can be used to identify different serial and can be used to track the performance on a serial by serial basis.
 
 This report is meant for a variety of different staff to assist them in managing the inventory levels per serial.
 
@@ -63,7 +63,7 @@ For the Sales team, the *Inventory by Serial No*
 
 ## Key Performance Indicators (KPIs)
 
-The _Inventory by Serial No_ report includes the following KPIs:
+The *Inventory by Serial No* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

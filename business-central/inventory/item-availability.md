@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Item Availability (Power BI Report)
 
-The _Item Availability_ report gives....
+The *Item Availability* report gives....
 
 This report is meant for....
 
@@ -63,7 +63,7 @@ For the Sales team, the *Item Availability*
 
 ## Key Performance Indicators (KPIs)
 
-The _Item Availability_ report includes the following KPIs:
+The *Item Availability* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

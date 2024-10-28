@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Inventory by Item (Power BI Report)
 
-The _Inventory by Item_ highlights inventory levels per Item, this can additionally be viewed per Item Category Code. The report showcases different columns to identify inventory per item on different document types.
+The *Inventory by Item* highlights inventory levels per Item, this can additionally be viewed per Item Category Code. The report showcases different columns to identify inventory per item on different document types.
 
 This report is meant for all users to allow them to see total inventory for an item along with the split of inventory across the business.
 
@@ -63,7 +63,7 @@ For the Sales team, the *Inventory by Item*
 
 ## Key Performance Indicators (KPIs)
 
-The _Inventory by Item_ report includes the following KPIs:
+The *Inventory by Item* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

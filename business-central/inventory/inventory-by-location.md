@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Inventory by Location (Power BI Report)
 
-The _Inventory by Location_ outlines inventory levels across an organizations different locations.
+The *Inventory by Location* outlines inventory levels across an organizations different locations.
 
 This report is meant for managers to be able to quickly identify which locations have the most stock of a particular item or product group.
 
@@ -63,7 +63,7 @@ For the Sales team, the *Inventory by Location*
 
 ## Key Performance Indicators (KPIs)
 
-The _Inventory by Location_ report includes the following KPIs:
+The *Inventory by Location* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Gross Requirement (Power BI Report)
 
-The _Gross Requirement_ report looks at all outbound transactions within the system to identify the quantity required per item. 
+The *Gross Requirement* report looks at all outbound transactions within the system to identify the quantity required per item. 
 
 This report is meant for management and procurement officers to be able to identify if the organization is keeping up with the demand.
 
@@ -63,7 +63,7 @@ For the Sales team, the *Gross Requirement*
 
 ## Key Performance Indicators (KPIs)
 
-The _Gross Requirement_ report includes the following KPIs:
+The *Gross Requirement* report includes the following KPIs:
 
 - [**Inventory Something**](#)
 

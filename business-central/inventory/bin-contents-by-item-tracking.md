@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Bin Contents by Item Tracking (Power BI Report)
 
-The _Bin Contents by Item Tracking_ report shows an organizations bin contents and breaks this down further by highlighting the Lot and Serial No in the Bins. It highlights key warehouse quantity information showing how many of an item are in the bin and its tracking information.
+The *Bin Contents by Item Tracking* report shows an organizations bin contents and breaks this down further by highlighting the Lot and Serial No in the Bins. It highlights key warehouse quantity information showing how many of an item are in the bin and its tracking information.
 
 This report is meant for warehouse staff to be able to quickly identify availability of stock per bin and identify key tracking metrics.
 
@@ -41,7 +41,7 @@ As a Warehouse Manager, you are responsible for overseeing the general operation
 
 ## Key Performance Indicators (KPIs)
 
-The _Bin Contents by Item Tracking_ report includes the following KPIs:
+The *Bin Contents by Item Tracking* report includes the following KPIs:
 
 - [**Warehouse Quantity**](#TODO)
 ---
