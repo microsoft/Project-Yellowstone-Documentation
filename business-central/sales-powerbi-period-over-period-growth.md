@@ -13,6 +13,8 @@ ms.service: dynamics-365-business-central
 
 # Period-Over-Period Growth (Power BI Report)
 
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 The *Period-Over-Period Growth* report provides valuable insights into your organization's sales performance over time. 
 
 The report compares sales amounts for different time periods to the same period in the previous year, providing insight into growth trends and areas for improvement.
@@ -24,7 +26,7 @@ For instance, if the analysis scope is fiscal months, the report compares the sa
 
 ## How to use the report
 
-This report is meant for business leaders and managers.
+The *Period-Over-Period Growth* report is meant for business leaders and managers.
 
 As a CEO, you are responsible for making strategic decisions that will drive growth for your organization. The *Period-Over-Period Growth* report provides valuable insights into your organization's sales performance over time. By comparing sales amounts for different time periods to the same period in the previous year, this report helps you identify growth trends and areas for improvement.
 
@@ -54,6 +56,11 @@ The *Period-Over-Period Growth* report use data from the following tables in [!I
 - Value Entry
 - Sales Line
 
+## Try the report
+
+Try the report here: [Period-Over-Period Growth](https://businesscentral.dynamics.com?page=37002)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
