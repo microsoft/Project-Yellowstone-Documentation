@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The reports in the Power BI sales app provide comprehensive sales analytics to stakeholders at all levels of your organization. 
 
-Executives and the leadership team can use the [Sales Overview](sales-powerbi-sales-overview.md) report, [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md), and [Month-To-Date](sales-powerbi-month-to-date.md) reports to identify trends in sales performance.
+Executives and the leadership team can use the [Sales Overview](sales-powerbi-sales-overview.md), [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md), and [Month-To-Date](sales-powerbi-month-to-date.md) reports to identify trends in sales performance.
 
 Managers and team leaders can track individual sales team performance using the  [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md) report. They can also monitor overall team progress toward meeting sales goals by comparing actual results against targets in the [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  report.
 
