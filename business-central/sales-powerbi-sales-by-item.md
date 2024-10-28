@@ -1,6 +1,6 @@
 ---
 title: Sales by Item (Power BI Report)
-description: The *Sales by Item* report 
+description: The *Sales by Item* report gives a clear picture of your organization's item sales.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
