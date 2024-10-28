@@ -1,6 +1,6 @@
 ---
 title: Sales Period-Over-Period Growth (Power BI Report)
-description: The *Period-Over-Period Growth* report 
+description: The *Period-Over-Period Growth* report provides valuable insights into your organization's sales performance over time.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
