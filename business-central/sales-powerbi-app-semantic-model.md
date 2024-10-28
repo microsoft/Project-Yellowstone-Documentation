@@ -1,6 +1,6 @@
 ---
 title: Sales App Semantic Model
-description: Get an overview of all fact tables and the semantic model for the sales Power BI app.
+description: Get an overview of all tables and fields in the Sales App Semantic Model.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
