@@ -1,6 +1,6 @@
 ---
 title: Moving Average (Power BI Report)
-description: The *Moving Average* report provides 
+description: The *Moving Average* report provides a clear picture of your organization's average sales over a 30 day period.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
