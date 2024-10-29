@@ -1,30 +1,22 @@
 # Actual vs. Budget (Power BI Report)
 
-The _Actual vs. Budget_ report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures. This report allows users to analyze and monitor purchase data by item categories and items, providing a detailed view of purchase budget and variance.
+The *Actual vs. Budget* report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures. This report allows you to analyze and monitor purchase data by item categories and items, providing a detailed view of purchase budget and variance.
 
-This report is meant for purchase and finance teams to track actual spendings against budgets.
+**// TODO: insert report screenshot**
 
-// TODO: insert report screenshot
+## How to use the report
 
-## What the report shows
+The *Actual vs. Budget* report is meant for purchase and finance teams to track actual spendings against budgets.
 
-The _Actual vs. Budget_ report shows the actual purchase quantities and amounts and how they are tracking against the purchase budget. Specifically, the report provides insights into how specific item categories and items are tracking against their budget and highlights the variance amount and percentage.
-
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
-
----
+As a CEO, you can easily track and analyze the purchasing performance of your organization against your budget to ensure that you are meeting your financial goals. This report provides a comprehensive overview of the entire organization's purchasing performance, allowing you to make informed decisions when managing your budget. With this report, you can identify areas where your organization is overspending or underspending, and adjust your purchasing budget accordingly.  
+   
+As a purchasing manager, you can use this report to analyze your purchasing data and make decisions about inventory management. By analyzing the Variance and Budget Amount Variance indicators in the report, you can see how specific item categories and items are tracking against their allocated budget. This report will help you to understand which items are being purchased frequently and which ones are not, allowing you to optimize your inventory and ensure that your organization is always stocked with the products that you need.  
+   
+As a purchaser, you can monitor the variance metrics to ensure that you are meeting your purchasing targets. This report allows you to see the purchasing performance of the specific item categories and items that you are responsible for purchasing. With this information, you can identify areas of opportunity to reduce costs and optimize your approach to purchasing specific items.
 
 ## Key Performance Indicators (KPIs)
 
-The _Actual vs. Budget_ report includes the following KPIs:
+The *Actual vs. Budget* report includes the following KPIs:
 
 - [**Purchase Quantity**](#purchase-quantity)  
 - [**Purchase Amount**](#purchase-amount)  
