@@ -15,17 +15,19 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
-The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization broken up per document type. 
+The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization by different document types or processes. This is broken down by Item Cateogory or Item.
 
-This also includes internal Assembly or Production accounting for when the finished good will become avaialble.
-
-This report is meant for....
+This also includes internal Assembly or Production accounting for when the finished good will become avaialble along with Purchase and Sales Return documents.
 
 :::image type="content" source="media/powerbi/inventory/scheduled-receipt.png" alt-text="Screenshot of the Scheduled Receipt Power BI Report" lightbox="media/powerbi/inventory/scheduled-receipt.png"
 
 ## How to use the report
 
-The *Scheduled Receipt* ###
+This report is meant for managers and warehousing staff so they can easily identify when inventory will come in.
+
+As a manager, you can use the *Scheduled Receipt* report to keep track of inventory levels and ensure that you are keeping up with the *Gross Requirement*(Add Link to Gross Requirement Report) by ensuring stock levels stay high. You can use this information to optimise your inventory manageament and ensure you aren't over buying or producing a specific item.
+
+As a Warehouse Receipt working, this report is crucial in having detailed information of all inbound stock from both external and internal sources. This can assist in coordinating purchasing and production levels in future.
 
 ## Key Performance Indicators (KPIs)
 
