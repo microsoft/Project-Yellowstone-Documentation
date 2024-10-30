@@ -1,23 +1,15 @@
 # Purchases Decomposition (Power BI Report)
 
-This report does something ...
+The *Purchases Decomposition* report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types. This report helps you to gain insights into your purchasing costs and analyze your spending patterns, enabling you to make data-driven decisions and optimize your purchasing processes.  
 
-This report is meant for ...
+## How to use the report
 
-## What the report shows
+The *Purchases Decomposition* report is designed for purchasing teams to break down costs and optimize purchasing activities.
 
-The _Purchases Decomposition_ report shows ...
+As a purchasing manager, you can use the *Purchases Decomposition* report to analyze your company's purchasing processes and optimize inventory management. You can break down purchases by supplier, category, and other relevant dimensions, and analyze the purchase amounts over time to identify trends and improve your supply chain, leading to significant cost savings for your company.
 
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
-
+As a purchaser, you can use this report to analyze the purchasing activities for a specific category of item. You could use the visual to analyze the cost breakdown of vendors within the category and identify opportunities to reduce costs, drill down into the data to identify which suppliers are providing the most cost-effective items, and analyze the volume of purchases over time.
+   
 ---
 
 ## Key Performance Indicators (KPIs)
@@ -25,34 +17,33 @@ For the Team:
 The _Purchases Decomposition_ report includes the following KPIs:
 
 - **Purchase Amount**
-- **Item Category Code**
-- **Vendor Name**
-- **Fiscal Month Year**
-- **Document Type**
-- **Document No**
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
 ---
 ### Purchase Amount
 
-The *Purchase Amount* is ...
+The *Purchase Amount* shows the total purchase amount earned within a specific time period.
 
 **Formula**  
 
-*Purchase Amount* is calculated from ...
+*Purchase Amount* is the total amount of all value entries related to purchase is added up for the selected timeframe.
 
 **Data Sources**
 
 Data from the following tables are used to calculate the *Purchase Amount*:
-- BC Table 1
-
+- Value Entry
 
 ## Data used in the Purchases Decomposition report
 
 Data from the following tables are used on the *Purchases Decomposition* report
-- Table 1
-- Table 2
-
+- Item
+- Item Category
+- Vendor
+- Purchase Header
+- Location
+- Salesperson/Purchaser
+- Vendor Posting Group
+- Value Entry
 
 ## See also
