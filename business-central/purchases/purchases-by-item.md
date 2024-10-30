@@ -2,21 +2,13 @@
 
 The _Purchases by Item_ report gives a clear picture of your organization's item purchases. It showcases key metrics against each item or item category such as purchase amount and quantities along with the cost amounts.
 
-This report is targetted towards business leaders and purchasing managers who want to closely monitor the organization's purchasing activities. 
+## How to use the report
 
-## What the report shows
+This report is targetted towards the purchasing department who want to closely monitor the organization's purchasing activities. 
 
-The _Purchases By Item_ report displays a treemap of the most frequently purchased items, a table of purchases by item, and a bar chart that breaks down purchases by item category. These visuals provide insights into the distribution of purchases across different item categories and helps you identify any areas that require attention.
+As a purchasing manager, you want to have a clear understanding of the organization's purchasing activities and how they align with the overall business goals. You can use the *Purchases by Item* report to track the purchase amounts and quantities against each item or item category. You can also use this report to identify any discrepancies or anomalies in the purchasing data and take necessary actions to optimize the purchasing process and reduce costs.
 
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+As a purchaser, you are responsible for making purchasing decisions for specific items or categories. You want to ensure that you are making informed decisions and getting the best value for the organization. You can use this report to track the purchase amounts and quantities of the items or categories you are responsible for.
 
 ---
 
