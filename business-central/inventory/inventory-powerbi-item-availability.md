@@ -15,15 +15,19 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
-The *Item Availability* report gives....
+The *Item Availability* report gives an overview of each items availability in terms of demand and supply allowing a clear view of an organizations performance. 
 
-This report is meant for....
+This report can assist in identifying items where supply will not match demand and where action needs to be taken.
 
 :::image type="content" source="media/powerbi/inventory/item-availability.png" alt-text="Screenshot of the Item Availability Power BI Report" lightbox="media/powerbi/inventory/item-availability.png"
 
 ## How to use the report
 
-The *Item Availability* ###
+The *Item Availability* is designed to be used by different management teams along with general customer service teams.
+
+As a member of the customer service team, you can use this report to identify availability of specific items for your customers. By having up-to-date information for each item, you can provide quick, accurate and informed answers to estimates and avoid disappointing customers.
+
+As someone in the Inventory Management team, this would be your primary use case report. The *Item Availability* report will provide you information to ensure you keep adequate stock levels of each item. With this you can coordinate other teams to increase production of specific items, or create a Purchase Order with the Supply Chain Management Team.
 
 ## Key Performance Indicators (KPIs)
 
