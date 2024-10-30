@@ -12,12 +12,14 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory Overview (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Inventory Overview* report gives....
 
 This report is meant for....
 
-![Inventory Overivew](/business-central/media/inventory/inventory-overview.png "Inventory Overview - Screenshot")
+:::image type="content" source="media/powerbi/inventory/inventory-overview.png" alt-text="Screenshot of the Inventory Overview Power BI Report" lightbox="media/powerbi/inventory/inventory-overview.png"
 
 ## How to use the report
 

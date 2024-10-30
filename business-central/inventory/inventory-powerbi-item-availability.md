@@ -12,12 +12,14 @@ ms.service: dynamics-365-business-central
 ---
 
 # Item Availability (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Item Availability* report gives....
 
 This report is meant for....
 
-![Item Availability](/business-central/media/inventory/item-availability.png "Item Availability - Screenshot")
+:::image type="content" source="media/powerbi/inventory/item-availability.png" alt-text="Screenshot of the Item Availability Power BI Report" lightbox="media/powerbi/inventory/item-availability.png"
 
 ## How to use the report
 

@@ -12,12 +12,14 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Serial No. (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Inventory by Serial No* highlights your organizations total inventory broken down per serial. This can be used to identify different serial and can be used to track the performance on a serial by serial basis.
 
 This report is meant for a variety of different staff to assist them in managing the inventory levels per serial.
 
-![Inventory by Serial No.](/business-central/media/inventory/inventory-by-serial-no.png "Inventory by Serial No - Screenshot")
+:::image type="content" source="media/powerbi/inventory/inventory-by-serial-no.png" alt-text="Screenshot of the Inventory by Serial No Power BI Report" lightbox="media/powerbi/inventory/inventory-by-serial-no.png"
 
 ## How to use the report
 

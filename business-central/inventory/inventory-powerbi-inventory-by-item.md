@@ -12,12 +12,14 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Item (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Inventory by Item* highlights inventory levels per Item, this can additionally be viewed per Item Category Code. The report showcases different columns to identify inventory per item on different document types.
 
 This report is meant for all users to allow them to see total inventory for an item along with the split of inventory across the business.
 
-![Inventory by Item](/business-central/media/inventory/inventory-by-item.png "Inventory by Item - Screenshot")
+:::image type="content" source="media/powerbi/inventory/inventory-by-item.png" alt-text="Screenshot of the Inventory by Item Power BI Report" lightbox="media/powerbi/inventory/inventory-by-item.png"
 
 ## How to use the report
 
@@ -28,16 +30,16 @@ The *Inventory by Item* ###
 The *Inventory by Item* report includes the following KPIs:
 
 - [**Inventory (Quantity)**](####)
+- [**Qty. on Purch. Order**](####)
+- [**Qty. on Prod. Order**](####)
+- [**Qty. on Prod. Order Comp Lines**](####)
 - [**Qty. on Sales Order**](####)
-- [**Qty. on Purch. Return**](####)
+- [**Qty. on Sales Return Order**](####)
 - [**Qty. on Service Order**](####)
 - [**Qty. on Projects**](####)
-- [**Qty. on Prod. Order Comp Lines**](####)
-- [**Qty. on Asm. Component**](####)
-- [**Qty. on Purch. Order**](####)
-- [**Qty. in Transit**](####)
 - [**Qty. on Assembly Order**](####)
-- [**Qty. on Sales Return Order**](####)
+- [**Qty. on Asm. Component**](####)
+- [**Qty. in Transit**](###)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
@@ -49,6 +51,15 @@ Data from the following tables are used on the *Inventory by Item* report
 //Item Availailability uses lots of tables
 - Item
 - Item Ledger Entries
+- Assembly Header
+- Assembly Lines
+- Job Planning Lines
+- Prod Order Component Line
+- Production Order Lines
+- Purchase Lines
+- Sales Lines
+- Service Lines
+- Transfer Lines
 
 
 ## Try the report

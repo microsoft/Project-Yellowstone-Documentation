@@ -47,7 +47,7 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ---
 ## Data used in the Inventory Valuation by Location report
 
-Data from the following tables are used on the *Inventory Overview* report
+Data from the following tables are used on the *Inventory Valuation by Location* report
 - Location 
 - Value Entries
 

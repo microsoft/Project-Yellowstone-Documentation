@@ -12,12 +12,14 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Lot No (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Inventory by Lot No* report highlights your organizations total inventory broken down per lot. This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
 
 This report is meant for a variety of different staff to assist them in managing the inventory levels per lot.
 
-![Inventory by Lot No.](/business-central/media/inventory/inventory-by-lot.png "Inventory by Lot No - Screenshot")
+:::image type="content" source="media/powerbi/inventory/inventory-by-lot.png" alt-text="Screenshot of the Inventory by Lot No Power BI Report" lightbox="media/powerbi/inventory/inventory-by-lot.png"
 
 ## How to use the report
 

@@ -12,6 +12,8 @@ ms.service: dynamics-365-business-central
 ---
 
 # Scheduled Receipt (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization broken up per document type. 
 
@@ -19,7 +21,7 @@ This also includes internal Assembly or Production accounting for when the finis
 
 This report is meant for....
 
-![Scheduled Receipt](/business-central/media/inventory/scheduled-receipt.png "Scheduled Receipt - Screenshot")
+:::image type="content" source="media/powerbi/inventory/scheduled-receipt.png" alt-text="Screenshot of the Scheduled Receipt Power BI Report" lightbox="media/powerbi/inventory/scheduled-receipt.png"
 
 ## How to use the report
 

@@ -12,12 +12,14 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Location (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Inventory by Location* outlines inventory levels across an organizations different locations.
 
 This report is meant for managers to be able to quickly identify which locations have the most stock of a particular item or product group.
 
-![Inventory by Location](/business-central/media/inventory/inventory-by-location.png "Inventory by Location - Screenshot")
+:::image type="content" source="media/powerbi/inventory/inventory-by-location.png" alt-text="Screenshot of the Inventory by Location Power BI Report" lightbox="media/powerbi/inventory/inventory-by-location.png"
 
 ## How to use the report
 

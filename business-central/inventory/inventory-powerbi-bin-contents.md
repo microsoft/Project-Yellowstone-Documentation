@@ -12,74 +12,52 @@ ms.service: dynamics-365-business-central
 ---
 
 # Bin Contents (Power BI Report)
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 
 The *Bin Contents* breaks down an organizations inventory levels on a bin by bin basis. This can be used to identify high and low volume bins and can inform inventory movement requirements if bins need additional inventory. The report additional highlights quantity available along with quantity metrics across different warehouse activities such as Pick, Put-Away and general adjustments.
 
 This report is meant for warehouse staff and managers to track the ins and outs of the bins.
 
-![Bin Contents](/business-central/media/inventory/bin-contents.png "Bin Contents - Screenshot")
-
-## What the report shows
-
 The *Bin Contents* reports shows outlines a comprehensive view of inventory in each bin for an organization. This is broken up with a card showing the Quantity in Adjustment Bins and the Available Quantity to Take as a Treemap. The rest of the data is broken up using a Matrix view.
 
-## Use Cases
 
-**For the Warehouse Staff**
+:::image type="content" source="media/powerbi/inventory/bin-contents.png" alt-text="Screenshot of the Bin Contents Power BI Report" lightbox="media/powerbi/inventory/bin-contents.png"
 
-For the Warehouse Staff:
+## How to use the report
 
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
-
----
-
-**For the management team**
-
-For the management team, the *Bin Contents*
-
-**Target Audience**
-
-- 
-- 
-
-**Example Scenario:** 
-
----
-
-**For the sales team**
-
-For the Sales team, the *Bin Contents*  
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
+The *Bin Contents* ###
 
 ## Key Performance Indicators (KPIs)
 
 The *Bin Contents* report includes the following KPIs:
 
-- [**Quantity in Adjustment Bin**](#TODO)
-- [**Available Quantity to Take**](#TODO)
-- [**Warehouse Quantity**](#TODO)
-- [**Pick Quantity (Base)**](#TODO)
-- [**ATO Components Pick Qty.**](#TODO)
-- [**Put-Away Quantity (Base)**](#TODO)
-- [**Negative Adjmt. Qty. (Base)**](#TODO)
-- [**Positive Adjmt. Qty. (Base)**](#TODO)
+- [**Quantity in Adjustment Bin**](###)
+- [**Available Quantity to Take**](###)
+- [**Warehouse Quantity**](####)
+- [**Pick Quantity (Base)**](####)
+- [**ATO Components Pick Qty.**](####)
+- [**Put-Away Quantity (Base)**](####)
+- [**Negative Adjmt. Qty. (Base)**](####)
+- [**Positive Adjmt. Qty. (Base)**](###)
 
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
----
-## Data used in the Bin Contents report
+## Data used in the report
 
 Data from the following tables are used on the *Bin Contents* report
-- Customer
+//Item Availailability uses lots of tables
+- Item
+- Bin
+- Location
 
+
+## Try the report
+
+Try the report here: [Bin Contents](https://businesscentral.dynamics.com?###)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
