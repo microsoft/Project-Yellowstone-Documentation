@@ -23,7 +23,12 @@ This report is meant for most users and can show any user key data on the ins an
 
 ## How to use the report
 
-The *Purchase and Sales Quantity* reports shows outlines a comprehensive view of the total sales generated. This is viewable in both a barchart and matrix view. Each visual links to the Sales drill-through page to further breakdown the information.
+The *Purchase and Sales Quantity* report can be used by the leadership team and managers to keep track of the ins and outs of the organization. Ensuring that purchasing is being maintain to continue demand.
+
+As someone on the leadership team, this report can assist in making informed strategic planning decisions by having an overview of your purchase and sales quantities.
+
+As a manager, you want to be able to track key items ins and outs. With the *Purchase and Sales Quantity* report, you can identify items that are being purchased in large volumes and then aren't selling or vice versa, where you are not purchasing enough to keep up with demand.
+
 
 ## Key Performance Indicators (KPIs)
 
