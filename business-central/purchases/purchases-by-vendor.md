@@ -2,21 +2,13 @@
 
 The Purchases by Vendor report provides an overview of purchasing activities by vendor. This report allows you to analyze which vendors are supplying the most frequently purchased item categories and items, as well as how much money is being spent on these purchases.
 
-This report is especially useful for purchasing managers and purchasers who need to closely monitor their organization's purchasing activities. By using this report, you can gain insights into vendor performance and make informed decisions about future purchasing activities. This can help you optimize your purchasing strategies, negotiate better prices, and improve your overall vendor management.
+## How to use the report
 
-## What the report shows
+This report is especially useful for purchasing managers and purchasers .
 
-The _Purchases by Vendor_ report includes a treemap that displays the most frequently purchased items, a table that shows purchases by vendor, and a bar chart that breaks down purchases by items. These visuals provide valuable insights into the distribution of purchases across different vendors and items and help you identify any areas that require attention.
+As a purchasing manager, you can use the *Purchases by Vendor* report to analyze vendor performance. You can then identify the vendors who supply the most frequently purchased item categories and items. This information can help you optimize your purchasing strategies, negotiate better prices, and improve your overall vendor management.
 
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+As a purchaser, you can use this report to monitor purchasing activities and identify the suppliers of specific products. For example, if you need to find a list of suppliers for the company components to assemble dining chairs, you can view the purchase quantities and amounts spent on each vendor. The report analysis can help you select the best vendor to buy from.
 
 ---
 
