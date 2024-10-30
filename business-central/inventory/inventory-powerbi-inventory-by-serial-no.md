@@ -15,15 +15,19 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
-The *Inventory by Serial No* highlights your organizations total inventory broken down per serial. This can be used to identify different serial and can be used to track the performance on a serial by serial basis.
+The *Inventory by Serial No* highlights your organizations total inventory broken down per serial where items are serial tracked. 
 
-This report is meant for a variety of different staff to assist them in managing the inventory levels per serial.
+This can be used to identify different serial and can be used to track the performance on a serial by serial basis.
 
 :::image type="content" source="media/powerbi/inventory/inventory-by-serial-no.png" alt-text="Screenshot of the Inventory by Serial No Power BI Report" lightbox="media/powerbi/inventory/inventory-by-serial-no.png"
 
 ## How to use the report
 
-The *Inventory by Serial No.* ###
+The *Inventory by Serial No.* is meant for inventory management and warehousing staff to be able to key track of inventory broken down per Serial.
+
+As an Inventory Manager, you would use the *Inventory by Serial* report to ensure each Serial has an optimised stock level. Using this information can also assist in identifiying slow moving inventory to take corrective action and also keep tracking of different Serials that are due to expire.
+
+As a Warehouse staff member, the *Inventory by Serial* report assists in providing you a clear picture to see how much inventory is in each Serial. This can assist you in making key decisions and ensuring that inventory is properly managed and avoid stock outs.
 
 ## Key Performance Indicators (KPIs)
 
@@ -39,7 +43,7 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Inventory by Serial No* report
-//Item Availailability uses lots of tables
+//Item Availailability uses Serials of tables
 - Item
 - Item Ledger Entries
 - Serial No

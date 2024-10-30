@@ -15,15 +15,20 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
-The *Inventory by Lot No* report highlights your organizations total inventory broken down per lot. This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
+The *Inventory by Lot No* report highlights your organizations total inventory broken down per lot where items are lot tracked. 
 
-This report is meant for a variety of different staff to assist them in managing the inventory levels per lot.
+This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
 
 :::image type="content" source="media/powerbi/inventory/inventory-by-lot.png" alt-text="Screenshot of the Inventory by Lot No Power BI Report" lightbox="media/powerbi/inventory/inventory-by-lot.png"
 
 ## How to use the report
 
-The *Inventory by Lot No.* ###
+The *Inventory by Lot No.* is meant for inventory management and warehousing staff to be able to key track of inventory broken down per lot.
+
+As an Inventory Manager, you would use the *Inventory by Lot* report to ensure each lot has an optimised stock level. Using this information can also assist in identifiying slow moving inventory to take corrective action and also keep tracking of different lots that are due to expire.
+
+As a Warehouse staff member, the *Inventory by Lot* report assists in providing you a clear picture to see how much inventory is in each lot. This can assist you in making key decisions and ensuring that inventory is properly managed and avoid stock outs.
+
 
 ## Key Performance Indicators (KPIs)
 
