@@ -38,22 +38,22 @@ The different reports in the finance Power BI app can be used for different thin
 ## Report overview in the Power BI finance app
 The following table describes the different Power BI reports in the finance app and how you can use them.
 
-|Page|Description |Learn more|
-|----|------------|----------|
-|Financial Overview|The **Financial Overview** provides a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.
-|Income Statement|The **Income Statement** by Month report provides a month-to-month comparative view of the net change for income statement accounts.|
-|Balance Sheet|The **Balance Sheet** by Month report provides a month-to-month comparative view of the balance at date for balance sheet accounts.|
-|Budget Comparison|The **Budget Comparison** report presents a month-to-month analysis of Net Change against Budget Amounts for both Balance Sheet and Income Statement accounts. Featuring variance and variance percentage metrics, providing a clear view of how actual performance compares to budgeted targets.|
-|Liquidity KPIs|The **Liquidity KPIs** report offers insights into three key metrics: Current Ratio, Quick Ratio, and Cash Ratio. Visualizing these metrics over time, the report makes it easy to track trends and assess the company’s liquidity position.|
-|Profitability|The **Profitability** report highlights Gross Profit and Net Profit, visualizing these metrics over time. It also provides detailed insights into net margins, gross profit margins, and the underlying revenue, cost and expense figures that drive them.|
-|Liabilities|The **Liabilities** report provides a snapshot of liability account balances as of a specific date. It also highlights key performance metrics influenced by liabilities, such as the Debt Ratio and Debt-to-Equity Ratio.|
-|EBITDA|The **EBITDA** report focuses on two key profitability metrics: EBITDA and EBIT. These figures are visualized over time to reveal trends, while Operating Revenue and Operating Expenses are also highlighted to provide supporting context for both measures.|
-|Average Collection Period|The **Average Collection Period** report analyses trends in the average collection period over time. It includes supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.|
-|Aged Receivables (Back Dating)|The **Aged Receivable (Back Dating)** report categorizes customer balances into aging buckets. It offers flexibility with filters for different payment terms, aging dates, and custom aging bucket sizes.|
-|Aged Payables (Back Dating)|The **Aged Payables (Back Dating)** report categorizes vendor balances into aging buckets. It offers flexibility with filters for different payment terms, aging dates, and custom aging bucket sizes.|
-|General Ledger Entries|The **General Ledger Entries** report provides granular detail about the entries posted to the general ledger.|
-|Detailed Vendor Ledger Entries|The **Detailed Vendor Ledger Entries** report provides granular detail about the entries posted to Vendor Ledger and Detailed Vendor Ledger.|
-|Detaild Customer Ledger Entries|The **Detailed Customer Ledger Entries** report provides granular detail about the entries posted to Customer Ledger and Detailed Customer Sub Ledger.|
+| To... | Open in Business Central (CTRL + select) | Learn more |
+| ----- | ---------------------------------------- | ---------- |
+|The **Financial Overview** provides a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|Financial Overview|About Financial Overview|
+|The **Income Statement** by Month report provides a month-to-month comparative view of the net change for income statement accounts.|Income Statement|About Income Statement|
+|The **Balance Sheet** by Month report provides a month-to-month comparative view of the balance at date for balance sheet accounts.|Balance Sheet|About Balance Sheet|
+|The **Budget Comparison** report presents a month-to-month analysis of Net Change against Budget Amounts for both Balance Sheet and Income Statement accounts. Featuring variance and variance percentage metrics, providing a clear view of how actual performance compares to budgeted targets.|Budget Comparison|About Budget Comparison|
+|The **Liquidity KPIs** report offers insights into three key metrics: Current Ratio, Quick Ratio, and Cash Ratio. Visualizing these metrics over time, the report makes it easy to track trends and assess the company’s liquidity position.|Liquidity KPIs|About Liquidity KPIs|
+|The **Profitability** report highlights Gross Profit and Net Profit, visualizing these metrics over time. It also provides detailed insights into net margins, gross profit margins, and the underlying revenue, cost and expense figures that drive them.|Profitability|About Profitability|
+|The **Liabilities** report provides a snapshot of liability account balances as of a specific date. It also highlights key performance metrics influenced by liabilities, such as the Debt Ratio and Debt-to-Equity Ratio.|Liabilities|About Liabilities|
+|The **EBITDA** report focuses on two key profitability metrics: EBITDA and EBIT. These figures are visualized over time to reveal trends, while Operating Revenue and Operating Expenses are also highlighted to provide supporting context for both measures.|EBITDA|About EBITDA|
+|The **Average Collection Period** report analyses trends in the average collection period over time. It includes supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.|Average Collection Period|About Average Collection Period|
+|The **Aged Receivable (Back Dating)** report categorizes customer balances into aging buckets. It offers flexibility with filters for different payment terms, aging dates, and custom aging bucket sizes.|Aged Receivables (Back Dating)|About Aged Receivables (Back Dating)|
+|The **Aged Payables (Back Dating)** report categorizes vendor balances into aging buckets. It offers flexibility with filters for different payment terms, aging dates, and custom aging bucket sizes.|Aged Payables (Back Dating)|About Aged Payables (Back Dating)|
+|The **General Ledger Entries** report provides granular detail about the entries posted to the general ledger.|General Ledger Entries|General Ledger Entries|
+|The **Detailed Vendor Ledger Entries** report provides granular detail about the entries posted to Vendor Ledger and Detailed Vendor Ledger.|Detailed Vendor Ledger Entries|Detailed Vendor Ledger Entries|
+|The **Detailed Customer Ledger Entries** report provides granular detail about the entries posted to Customer Ledger and Detailed Customer Sub Ledger.|Detaild Customer Ledger Entries|Detaild Customer Ledger Entries|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
