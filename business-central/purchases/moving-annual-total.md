@@ -1,42 +1,20 @@
 # Moving Annual Total (MAT) (Power BI Report)
 
-The _Moving Annual Total (MAT)_ report calculates a total of purchase over the last 12 months. This is a rolling calculation where the date is continual moving. This report will showcase the Purchase Amount MAT and compare this against the MAT for the previous period. 
+The *Moving Annual Total (MAT)* report calculates a total of purchase over the last 12 months. This is a rolling calculation where the date is continual moving. This report will showcase the Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) figures.
 
-This report is ideal for business leaders and purchasing managers who need to monitor their purchase performance in the last 12 months.
+**//TODO: insert report screenshot**
 
-//TODO: insert report screenshot
+## How to use the report
 
-## What the report shows
+The *Moving Annual Total (MAT)* report is ideal for business leaders and purchasing managers who need to monitor their purchase performance in the last 12 months.
+  
+As a CEO, you can use the *Moving Annual Total* report to monitor the overall purchasing performance of the organization over the last 12 months. You can analyze the figures for Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) to identify trends in purchasing amounts in line with the company's growth. If your purchasing amount exceeds your growth rate, you can use this information to develop a strategic plan that focuses on reducing inventory costs or optimizing purchasing budget. The report can also help you identify periods of high purchasing costs and work with purchasing managers to reduce costs and drive cost savings for the company.
 
-The *Moving Annual Total* reports shows a bar graph for moving annual totals over time and a drill-through table for detailed monthly analysis of moving annual total and how it compares to the previous year moving annual totals.
-
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
-
----
+As a purchasing manager, you can use this report to analyze the purchasing data over the last 12 months and analyze purchase amounts for specific periods. You can identify purchasing performance by analyzing the MAT growth and growth % by each month. These measures will provide insights into how your team is performing during each period. By identifying the areas where purchasing has been increasing, you can take necessary actions to optimize the purchasing process and ensure that the purchasing budget is being used efficiently.
 
 ## Key Performance Indicators (KPIs)
 
-The _Moving Annual Total_ report includes the following KPIs:
-
-- **MAT**
-- **PYMAT**
-- **MAT Growth**
-- **MAT Growth %**
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
-
----
-## Key Performance Indicators (KPIs)
-
-The _Moving Annual Total_ report includes the following KPIs:
+The *Moving Annual Total (MAT)* report includes the following KPIs:
 
 - [**Moving Annual Total (MAT)**](#moving-annual-total-mat)
 - [**Previous Year Moving Annual Total (PYMAT)**](#previous-year-moving-annual-total-pymat)
