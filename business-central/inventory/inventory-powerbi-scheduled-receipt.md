@@ -13,81 +13,50 @@ ms.service: dynamics-365-business-central
 
 # Scheduled Receipt (Power BI Report)
 
-The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization broken up per document type. This also includes internal Assembly or Production accounting for when the finished good will become avaialble.
+The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization broken up per document type. 
+
+This also includes internal Assembly or Production accounting for when the finished good will become avaialble.
 
 This report is meant for....
 
 ![Scheduled Receipt](/business-central/media/inventory/scheduled-receipt.png "Scheduled Receipt - Screenshot")
 
-## What the report shows
+## How to use the report
 
-The *Scheduled Receipt* reports shows outlines a comprehensive view of the total sales generated. This is viewable in both a barchart and matrix view. Each visual links to the Sales drill-through page to further breakdown the information.
-
-
-## Use Cases
-
-**For the leadership team**
-
-For the leadership team, the *Scheduled Receipt* 
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
-
----
-
-**For the management team**
-
-For the management team, the *Scheduled Receipt*
-
-**Target Audience**
-
-- 
-- 
-
-**Example Scenario:** 
-
----
-
-**For the sales team**
-
-For the Sales team, the *Scheduled Receipt*  
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
+The *Scheduled Receipt* ###
 
 ## Key Performance Indicators (KPIs)
 
 The *Scheduled Receipt* report includes the following KPIs:
 
-- [**Inventory Something**](#)
+- [**Scheduled Receipt**](####)
+- [**Projected Available Balance**](####)
+- [**FP Order Receipt (Qty.)**](####)
+- [**Rel. Order Receipt (Qty.)**](####)
+- [**Qty. On Purchase Order**](####)
+- [**Qty. in Transit**](####)
+- [**Trans. Order Receipt (Qty.)**](####)
+- [**Qty. on Assembly Order**](####)
+- [**Qty. on Sales Return Order**](####)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
----
-### Inventory Something
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-The *Inventory Something* is the total number of items sold within a specific time period.
+## Data used in the report
 
-**Formula**  
+Data from the following tables are used on the *Purchase and Sales Quantity* report
+- Item
+- Purchase Line
+- Sales Line
+- Assembly Header
+- Production Order Lines
+- Transfer Lines
 
-*Inventory Something* is the quantity of all value entries related to sales for the selected timeframe.
+## Try the report
 
-**Data Sources**
+Try the report here: [Scheduled Receipt](https://businesscentral.dynamics.com?###)
 
-Data from the following tables are used to calculate the *Inventory Something*:
-- IteM Ledger Entry
-
----
-## Data used in the Scheduled Receipt report
-
-Data from the following tables are used on the *Scheduled Receipt* report
-- Customer
-
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

@@ -19,75 +19,61 @@ This report is meant for....
 
 ![Inventory Overivew](/business-central/media/inventory/inventory-overview.png "Inventory Overview - Screenshot")
 
-## What the report shows
+## How to use the report
 
-The *Inventory Overview* reports shows outlines a comprehensive view of the total sales generated. This is viewable in both a barchart and matrix view. Each visual links to the Sales drill-through page to further breakdown the information.
-
-
-## Use Cases
-
-**For the leadership team**
-
-For the leadership team, the *Inventory Overview* 
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
-
----
-
-**For the management team**
-
-For the management team, the *Inventory Overview*
-
-**Target Audience**
-
-- 
-- 
-
-**Example Scenario:** 
-
----
-
-**For the sales team**
-
-For the Sales team, the *Inventory Overview*  
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
+The *Inventory Overview* ###
 
 ## Key Performance Indicators (KPIs)
 
 The *Inventory Overview* report includes the following KPIs:
 
-- [**Inventory Something**](#)
+- [**Inventory (Quantity)**](####)
+- [**Scheduled Receipt**](####)
+- [**Planned Order Receipt**](####)
+- [**Gross Requirement**](####)
+- [**Projected Available Balance**](####)
+- [**Qty. on Sales Order**](####)
+- [**Qty. on Purch. Return**](####)
+- [**Qty. on Service Order**](####)
+- [**Qty. on Projects**](####)
+- [**Qty. on Prod. Order Comp Lines**](####)
+- [**Trans Order Shipment**](####)
+- [**Planning Issues**](####)
+- [**Qty. on Asm. Component**](####)
+- [**FP Order Receipt (Qty.)**](####)
+- [**Rel. Order Receipt (Qty.)**](####)
+- [**Qty. on Purch. Order**](####)
+- [**Qty. in Transit**](####)
+- [**Trans. Order Receipt (Qty.)**](####)
+- [**Qty. on Assembly Order**](####)
+- [**Qty. on Sales Return Order**](####)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
----
-### Inventory Something
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-The *Inventory Something* is the total number of items sold within a specific time period.
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-**Formula**  
+## Data used in the report
 
-*Inventory Something* is the quantity of all value entries related to sales for the selected timeframe.
+Data from the following tables are used on the *Purchase and Sales Quantity* report
+//Item Availailability uses lots of tables
+- Item
+- Item Ledger Entries
+- Job Planning Lines
+- Purchase Lines
+- Sales Lines
+- Service Lines
+- Assembly Header
+- Assembly Lines
+- Planning Component Lines
+- Prod Order Component Lines
+- Transfer Lines
 
-**Data Sources**
 
-Data from the following tables are used to calculate the *Inventory Something*:
-- IteM Ledger Entry
+## Try the report
 
----
-## Data used in the Inventory Overview report
+Try the report here: [Inventory Overview](https://businesscentral.dynamics.com?###)
 
-Data from the following tables are used on the *Inventory Overview* report
-- Customer
-
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
