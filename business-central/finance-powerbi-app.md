@@ -40,20 +40,20 @@ The following table describes the different Power BI reports in the finance app 
 
 | To... | Open in Business Central (CTRL + select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |
-|The **Financial Overview** provides a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|Financial Overview|About Financial Overview|
-|The **Income Statement** by Month report provides a month-to-month comparative view of the net change for income statement accounts.|Income Statement|About Income Statement|
-|The **Balance Sheet** by Month report provides a month-to-month comparative view of the balance at date for balance sheet accounts.|Balance Sheet|About Balance Sheet|
-|The **Budget Comparison** report presents a month-to-month analysis of Net Change against Budget Amounts for both Balance Sheet and Income Statement accounts. Featuring variance and variance percentage metrics, providing a clear view of how actual performance compares to budgeted targets.|Budget Comparison|About Budget Comparison|
-|The **Liquidity KPIs** report offers insights into three key metrics: Current Ratio, Quick Ratio, and Cash Ratio. Visualizing these metrics over time, the report makes it easy to track trends and assess the company’s liquidity position.|Liquidity KPIs|About Liquidity KPIs|
-|The **Profitability** report highlights Gross Profit and Net Profit, visualizing these metrics over time. It also provides detailed insights into net margins, gross profit margins, and the underlying revenue, cost and expense figures that drive them.|Profitability|About Profitability|
-|The **Liabilities** report provides a snapshot of liability account balances as of a specific date. It also highlights key performance metrics influenced by liabilities, such as the Debt Ratio and Debt-to-Equity Ratio.|Liabilities|About Liabilities|
-|The **EBITDA** report focuses on two key profitability metrics: EBITDA and EBIT. These figures are visualized over time to reveal trends, while Operating Revenue and Operating Expenses are also highlighted to provide supporting context for both measures.|EBITDA|About EBITDA|
-|The **Average Collection Period** report analyses trends in the average collection period over time. It includes supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.|Average Collection Period|About Average Collection Period|
-|The **Aged Receivable (Back Dating)** report categorizes customer balances into aging buckets. It offers flexibility with filters for different payment terms, aging dates, and custom aging bucket sizes.|Aged Receivables (Back Dating)|About Aged Receivables (Back Dating)|
-|The **Aged Payables (Back Dating)** report categorizes vendor balances into aging buckets. It offers flexibility with filters for different payment terms, aging dates, and custom aging bucket sizes.|Aged Payables (Back Dating)|About Aged Payables (Back Dating)|
-|The **General Ledger Entries** report provides granular detail about the entries posted to the general ledger.|General Ledger Entries|General Ledger Entries|
-|The **Detailed Vendor Ledger Entries** report provides granular detail about the entries posted to Vendor Ledger and Detailed Vendor Ledger.|Detailed Vendor Ledger Entries|Detailed Vendor Ledger Entries|
-|The **Detailed Customer Ledger Entries** report provides granular detail about the entries posted to Customer Ledger and Detailed Customer Sub Ledger.|Detaild Customer Ledger Entries|Detaild Customer Ledger Entries|
+|See a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|Financial Overview|About Financial Overview|
+|Analyze and compare income statement accounts on a monthly basis with the Income Statement by Month report to gain a comparative view of net changes over time.|Income Statement|About Income Statement|
+|Analyze and compare balance sheet accounts on a monthly basis with the Balance Sheet by Month report to gain a comparative view of balance at date over time.|Balance Sheet|About Balance Sheet|
+|Compare G/L budgets against actuals on a month-to-month basis and quickly identify variances. |Budget Comparison|About Budget Comparison|
+|Analyze your company's liquidity position and track Current Ratio, Quick Ratio, and Cash Ratio over time. |Liquidity KPIs|About Liquidity KPIs|
+|Analyze your company's gross and net profits over time. Get detailed insights into net margins, gross profit margins, and the underlying revenue, cost and expense figures that drive them.|Profitability|About Profitability|
+|Analyze liability account balances as of a specific date. The report also highlights key performance metrics influenced by liabilities, such as the Debt Ratio and Debt-to-Equity Ratio.|Liabilities|About Liabilities|
+| Analyze two key profitability metrics: EBITDA and EBIT. These figures are visualized over time to reveal trends, while Operating Revenue and Operating Expenses are also highlighted to provide supporting context for both measures.|EBITDA|About EBITDA|
+|Analyze how many days it takes to collect accounts receivable. See trends in the average collection period over time and view supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.|Average Collection Period|About Average Collection Period|
+|Categorize customer balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days. |Aged Receivables (Back Dating)|About Aged Receivables (Back Dating)|
+|Categorize vendor balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days.|Aged Payables (Back Dating)|About Aged Payables (Back Dating)|
+|Analyze general ledger entries in detail and slice g/l entries by all eight shortcut dimensions. |General Ledger Entries|About General Ledger Entries|
+|Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.|Detailed Vendor Ledger Entries|About Detailed Vendor Ledger Entries|
+|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.|Detaild Customer Ledger Entries|About Detaild Customer Ledger Entries|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
