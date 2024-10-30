@@ -1,22 +1,18 @@
 # Year-Over-Year (Power BI Report)
 
-This report does something ...
+The *Year-Over-Year* report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time. By comparing purchase amounts in the current year with those of the previous year, this report provides valuable insights into the efficiency and effectiveness of an organization's purchasing activities.
 
-This report is meant for ...
+In addition to identifying trends and changes, the *Year-Over-Year* report helps leaders make informed decisions about future purchasing strategies. It is an important indicator of growth and spending patterns, providing a comprehensive overview of the money being spent to make products and generate revenues.
 
-## What the report shows
+Together with year-over-year financial figures, the *Year-Over-Year* report provides a comprehensive view of an organization's financial health. By tracking these figures, leaders can make informed decisions about resource allocation, budgeting, and forecasting.
 
-The _Year-Over-Year_ report shows ...
+## How to use the report
 
-## Use Cases
+The *Year-Over-Year* report is targeted towards business leaders and managers.
 
-For the Team:
+As a COO, your goal is to ensure that the purchasing department is operating efficiently and effectively. One of the key metrics you monitor is the year-over-year growth in purchases. This report allows you to quickly see how purchases are trending over time and identify any areas of concern. For instance, if you notice that purchases are increasing rapidly in a particular item category, you can use this information to discuss with the head of purchasing and manage costs better.
 
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+As a purchasing manager, you are responsible for ensuring that the company sources goods at the best possible price without compromising quality. You can use this report to track purchasing trends across different categories and identify areas where the company could save money. For example, you might notice that a particular category of products is seeing a rapid increase in purchases. With this information in mind, you can take action and work with the manufacturing team to identify if any changes in item planning or supplier selection are required to optimize the cost and quality of the products.
 
 ---
 
