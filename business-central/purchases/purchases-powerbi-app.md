@@ -1,45 +1,49 @@
-# Purchase Power BI app
+# Purchases Power BI app
+
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The Purchase Power BI app for Business Central is designed to provide executives, purchasing managers, and procurement teams with valuable insights into your purchasing activities. This app with its multiple reports aims to help you streamline purchasing processes, improve decision-making at all levels of the organization, and optimize spending by offering detailed analytics and visualizations of purchasing data. By leveraging this report, your organization can achieve greater transparency, efficiency, and cost savings in your daily operations.
 
-## Use Cases
+## Purchases analytics for the leadership team
 
-The reports in the purchase Power BI app can be used for different purposes depending on your role. Below, you can read some examples of use cases for different roles in your organization.
-
-**Target Audience**
-
+To fit this category, you might have a role such as:
 - Chief Executive Officers
 - Chief Procurement Officers
   
-**Example scenario:** As the CEO of a manufacturing company, you need to stay on top of rising raw material costs to maintain profitability. For the leadership team, it is important to understand your organization's spendings. By analyzing the [Purchases Overview](#temp-link) and [Moving Annual Total](#temp-link) reports, you can get a better understanding into how much money is spent all purchasing activities and quickly spot any increases in raw material costs. You can also use the Actual and Budget report to monitor the actual spending against the allocated budget and make informed decisions to plan ahead of the coming months and years, allowing you to enforce better budget control.
+### Example scenario: preparing purchasing budgets
 
-**Target Audience**
+As the CEO of a manufacturing company, you need to stay on top of rising raw material costs to maintain profitability. For the leadership team, it is important to understand your organization's spendings. By analyzing the [Purchases Overview](#temp-link) and [Moving Annual Total](#temp-link) reports, you can get a better understanding into how much money is spent all purchasing activities and quickly spot any increases in raw material costs. You can also use the Actual and Budget report to monitor the actual spending against the allocated budget and make informed decisions to plan ahead of the coming months and years, allowing you to enforce better budget control.
 
+## Purchases analytics for the management team
+
+To fit this category, you might have a role such as:
 - Purchasing Manager
 - Operations Manager
 
-**Example Scenario:** As a Purchase Manager of a manufacturing company, you are responsible for ensuring that the company has the necessary raw materials to meet production demands. You notice that the cost for a particular raw material has increased, which could impact the company's profitability. Using the [Purchases Decomposition](#temp-link) and [Purchases by Item](#temp-link) reports, you can quickly identify the vendor that provides the raw material and analyze the purchase amount compared to the previous year. This information can help you negotiate better prices with the vendor.
+### Example Scenario: reducing raw material costs
+As a Purchase Manager of a manufacturing company, you are responsible for ensuring that the company has the necessary raw materials to meet production demands. You notice that the cost for a particular raw material has increased, which could impact the company's profitability. Using the [Purchases Decomposition](#temp-link) and [Purchases by Item](#temp-link) reports, you can quickly identify the vendor that provides the raw material and analyze the purchase amount compared to the previous year. This information can help you negotiate better prices with the vendor.
 
 To monitor purchasing activities and ensure compliance with weekly or monthly budgets, the [Daily Purchases](#temp-link) report provides a detailed breakdown of purchase amounts and aggregates these amounts by day, week, month, and year. This report can help you identify any unexpected spikes in spending and take corrective action before it impacts the budget.
 
 Additionally, you can use the [Moving Averages](#temp-link) report to analyze the company's purchasing trends and identify opportunities to reduce costs and improve efficiency. By using the Purchases by Location report, you can also identify any discrepancies in purchasing patterns across different locations and make decisions.
 
-**Target Audience**
+## Purchases analytics for daily purchasing work
 
+To fit this category, you might have a role such as:
 - Purchasing Agent
 - Purchasing Officer
 
-**Example Scenario:** As a purchaser for a manufacturing company, you are responsible for sourcing raw materials for production. Your role is to keep purchasing costs under control to maintain profitability within the allocated budget. The Purchases by Item report allows you to see the breakdown of purchases by item and category. 
+### Example Scenario: selecting vendors for purchasing raw materials
+As a purchaser for a manufacturing company, you are responsible for sourcing raw materials for production. Your role is to keep purchasing costs under control to maintain profitability within the allocated budget. The Purchases by Item report allows you to see the breakdown of purchases by item and category. 
 
 You notice that the company has been spending a significant amount on a particular category of raw materials, and the purchase amount has increased compared to the previous year. You decide to investigate further by looking at the [Purchases by Vendor](#temp-link) report, which allows you to see the breakdown of purchases by vendor. 
 
 You identify that one vendor has been consistently providing the raw materials at a higher price than other vendors. To analyse spendings and manage supplier relationship, you use the [Purchases by Vendor](#temp-link) report to see the purchasing activities for each vendor, including the amount spent, the number of transactions, and the vendors that supplied a specific category of materials.
 
 
+## How to use the reports in the Purchases app
 
-## How to use the reports in the Purchase app
-
-The following table describes how you can use the Power BI reports in the Purchase app.
+The following table describes how you can use the Power BI reports in the Purchases app.
 
 |To... | Open in Business Central (CTRL+click) | Learn more	|
 |------|---------------------------------------|----------- |
@@ -56,4 +60,15 @@ The following table describes how you can use the Power BI reports in the Purcha
 | Gain a comprehensive view of your purchase data across different warehouse locations to identify trends and patterns in their purchasing activities. | Purchases by Location|[About *Purchases by Location*](purchasing-powerbi-purchases-by-location.md)|  
 | Compare your actual spending against your allocated budget to ensure that spending aligns with financial plans. | Actual vs Budget|[About *Actual vs Budget*](purchasing-powerbi-actual-vs-budget.md)|
 
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](#TODO)   
+[Ad-hoc analysis of purchasing data](#TODO)   
+[Built-in purchasing reports](#TODO)   
+[Purchasing analytics overview](#TODO)  
+[Purchases overview](#TODO)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
+
