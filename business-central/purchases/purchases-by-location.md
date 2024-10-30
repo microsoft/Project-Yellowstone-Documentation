@@ -2,22 +2,13 @@
 
 The _Purchases by Location_ report provides an overview of purchasing activities by location. This report allows you to analyze which item categories and items are most frequently purchased in each location, as well as how much money is being spent on these purchases.
 
-This report is especially useful for purchasing managers and purchasers who need to closely monitor their organization's purchasing activities. By using this report, you can gain insights into purchasing trends and make informed decisions about future purchasing activities across your locations.
+## How to use the report
 
-## What the report shows
+This report is especially useful for purchasing managers and purchasers.
 
-The _Purchases By Location_ report displays a treemap of the most frequently purchased items, a table of purchases by location, and a bar chart that breaks down purchases by items. These visuals provide insights into the distribution of purchases across different item categories and helps you identify any areas that require attention.
+As a purchasing manager, you can use the *Purchases by Location* report to analyze purchasing trends across different warehouse locations. For example, you can use the report to identify which item categories and items are most frequently purchased in each warehouse. This can help you and the warehousing team gain insights into warehouses with consistently high or low purchasing activities.
 
-
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+As a purchaser, you can use this report to monitor purchasing activities across different warehouse locations. For instance, you can identify which item categories and items have low purchase quantities that require attention to prevent stockouts or disruptions to production. With this information, you can plan ahead and work with your team to ensure that purchase demand is met across all locations.
 
 ---
 
