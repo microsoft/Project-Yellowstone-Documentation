@@ -6,19 +6,13 @@ For instance, if the analysis scope is fiscal months, the report compares the pu
 
 This report is meant for business leaders and purchasing managers. 
 
-## What the report shows
+## How to use the report
 
-The _Period-Over-Period Growth_ reports shows a bar graph for comparison of sales amounts between the current year and the previous year and a drill-through table for detailed monthly analysis.
+The *Period-Over-Period Growth* report is meant for business leaders and managers.
 
-## Use Cases
+As a CEO, the *Period-Over-Period Growth* report provides insights into your organization's purchasing spendings over time. By comparing purchase amounts for different time periods to the same period in the previous year, this report helps you identify purchasing trends and growth.
 
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+As a purchasing manager, you can use this report to analyze the growth amount and growth %, and evaluate your company's spendings over the current fiscal year in comparison to the previous fiscal year. This information can assist you in adjusting purchasing plans and allocating budgets more effectively.
 
 ---
 
