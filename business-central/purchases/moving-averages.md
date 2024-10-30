@@ -1,30 +1,24 @@
 # Moving Averages (Power BI Report)
 
-The _Moving Averages_ report provides a comprehensive overview of your organization's average purchase over a 30-day period. This report focuses on the Purchase Amount and compares the current purchase amount value against a 30-day average, allowing you to quickly identify any deviations from the norm. This information can be used to take proactive measures to address any issues and ensure that your purchasing activities are aligned with the business operations and profitability.
+The *Moving Averages* report provides a comprehensive overview of your organization's average purchase over a 30-day period. This report focuses on the purchase amount and compares the current purchase amount value against a 30-day average, allowing you to quickly identify any deviations from the norm. This information can be used to take proactive measures to address any issues and ensure that your purchasing activities are aligned with the business operations and profitability.
 
-The target audience is primarily executives and purchasing managers who are responsible for overseeing purchasing activities within your organization.
+**// TODO: insert report screenshot**
 
-// TODO: insert report screenshot
+## How to use the report
 
-## What the report shows
+The *Moving Averages* report is meant for management teams to identify key trends and make changes based on average purchase metrics.
 
-The *Moving Averages* reports shows line chart with the Purchase Amount and the Purchase Amount Average 30D.
+As a CEO, you need to track the moving average of purchase amount over a specific period. You can use this report to see performance trends and assist you to make strategic decisions for the shorter term future of your company based on the recent trends.
+   
+As a purchasing manager, you want to identify which periods have a higher demand than others to plan your purchasing schedules and budget accordingly. You can use the report to analyze historical data and forecast upcoming trends, allowing you to optimize inventory levels and reduce stockouts.
 
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+For example, you may notice that purchasing demands are usually higher towards the end of the year, and you can work with your team to plan ahead and allocate staff to handle workload spikes.
 
 ---
 
 ## Key Performance Indicators (KPIs)
 
-The _Moving Averages_ report includes the following KPIs:
+The *Moving Averages* report includes the following KPIs:
 
 - [**Purchase Amount**](#purchase-amount)
 - [**Purchase Amount Average 30D**](#purchase-amount-average-30d)
