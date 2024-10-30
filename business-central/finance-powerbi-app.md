@@ -40,20 +40,20 @@ The following table describes the different Power BI reports in the finance app 
 
 | To... | Open in Business Central (CTRL + select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |
-|See a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|Financial Overview|About Financial Overview|
-|Analyze and compare income statement accounts on a monthly basis with the Income Statement by Month report to gain a comparative view of net changes over time.|Income Statement|About Income Statement|
-|Analyze and compare balance sheet accounts on a monthly basis with the Balance Sheet by Month report to gain a comparative view of balance at date over time.|Balance Sheet|About Balance Sheet|
-|Compare G/L budgets against actuals on a month-to-month basis and quickly identify variances. |Budget Comparison|About Budget Comparison|
-|Analyze your company's liquidity position and track Current Ratio, Quick Ratio, and Cash Ratio over time. |Liquidity KPIs|About Liquidity KPIs|
-|Analyze your company's gross and net profits over time. Get detailed insights into net margins, gross profit margins, and the underlying revenue, cost and expense figures that drive them.|Profitability|About Profitability|
-|Analyze liability account balances as of a specific date. The report also highlights key performance metrics influenced by liabilities, such as the Debt Ratio and Debt-to-Equity Ratio.|Liabilities|About Liabilities|
-| Analyze two key profitability metrics: EBITDA and EBIT. These figures are visualized over time to reveal trends, while Operating Revenue and Operating Expenses are also highlighted to provide supporting context for both measures.|EBITDA|About EBITDA|
-|Analyze how many days it takes to collect accounts receivable. See trends in the average collection period over time and view supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.|Average Collection Period|About Average Collection Period|
-|Categorize customer balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days. |Aged Receivables (Back Dating)|About Aged Receivables (Back Dating)|
-|Categorize vendor balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days.|Aged Payables (Back Dating)|About Aged Payables (Back Dating)|
-|Analyze general ledger entries in detail and slice g/l entries by all eight shortcut dimensions. |General Ledger Entries|About General Ledger Entries|
-|Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.|Detailed Vendor Ledger Entries|About Detailed Vendor Ledger Entries|
-|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.|Detaild Customer Ledger Entries|About Detaild Customer Ledger Entries|
+|See a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|[Financial Overview](https://businesscentral.dynamics.com?page=36984)|About Financial Overview|
+|Analyze and compare income statement accounts on a monthly basis with the Income Statement by Month report to gain a comparative view of net changes over time.|[Income Statement](https://businesscentral.dynamics.com?page=36985)|About Income Statement|
+|Analyze and compare balance sheet accounts on a monthly basis with the Balance Sheet by Month report to gain a comparative view of balance at date over time.|[Balance Sheet](https://businesscentral.dynamics.com?page=36986)|About Balance Sheet|
+|Compare G/L budgets against actuals on a month-to-month basis and quickly identify variances. |[Budget Comparison](https://businesscentral.dynamics.com?page=36987)|About Budget Comparison|
+|Analyze your company's liquidity position and track Current Ratio, Quick Ratio, and Cash Ratio over time. |[Liquidity KPIs](https://businesscentral.dynamics.com?page=36988)|About Liquidity KPIs|
+|Analyze your company's gross and net profits over time. Get detailed insights into net margins, gross profit margins, and the underlying revenue, cost and expense figures that drive them.|[Profitability](https://businesscentral.dynamics.com?page=36989)|About Profitability|
+|Analyze liability account balances as of a specific date. The report also highlights key performance metrics influenced by liabilities, such as the Debt Ratio and Debt-to-Equity Ratio.|[Liabilities](https://businesscentral.dynamics.com?page=36990)|About Liabilities|
+| Analyze two key profitability metrics: EBITDA and EBIT. These figures are visualized over time to reveal trends, while Operating Revenue and Operating Expenses are also highlighted to provide supporting context for both measures.|[EBITDA](https://businesscentral.dynamics.com?page=36991)|About EBITDA|
+|Analyze how many days it takes to collect accounts receivable. See trends in the average collection period over time and view supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.|[Average Collection Period](https://businesscentral.dynamics.com?page=36992)|About Average Collection Period|
+|Categorize customer balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days. |[Aged Receivables (Back Dating)](https://businesscentral.dynamics.com?page=36993)|About Aged Receivables (Back Dating)|
+|Categorize vendor balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days.|[Aged Payables (Back Dating)](https://businesscentral.dynamics.com?page=36994)|About Aged Payables (Back Dating)|
+|Analyze general ledger entries in detail and slice g/l entries by all eight shortcut dimensions. |[General Ledger Entries](https://businesscentral.dynamics.com?page=36995)|About General Ledger Entries|
+|Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.|[Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996)|About Detailed Vendor Ledger Entries|
+|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.|[Detaild Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997)|About Detaild Customer Ledger Entries|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
