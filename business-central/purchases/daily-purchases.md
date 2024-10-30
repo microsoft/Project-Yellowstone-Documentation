@@ -1,36 +1,25 @@
-# Daily Purchase (Power BI Report)
+# Daily Purchases (Power BI Report)
 
-The _Daily Purchase_ report provides a comprehensive overview of your organization's purchase activities on specific days. By highlighting days with a higher volume of purchases, you can identify trends and patterns in your purchasing behavior. This report can also be used to analyze purchase data across different years, quarters, or months, providing valuable insights into purchasing trends over time.
+The *Daily Purchases* report provides a comprehensive overview of your organization's purchase activities on specific days. By highlighting days with a higher volume of purchases, you can identify trends and patterns in your purchasing behavior. This report can also be used to analyze purchase data across different years, quarters, or months, providing valuable insights into purchasing trends over time.
 
-This report is designed for purchasing managers looking to optimize purchasing schedules and purchasing teams looking to track daily purchase activities.
+**// TODO: insert report screenshot**
 
-// TODO: insert report screenshot
+## How to use the report
 
-## What the report shows
+This *Daily Purchases* report is meant for purchasing managers and purchasing teams and  to optimize purchasing schedules and to track daily purchase activities.
 
-The _Daily Purchases_ report displays the daily purchase amount for each date, allowing users to identify days with high and low demand. The report presents this data in both a matrix view and a standard table view. Users can drill down into the Purchase Drillthrough page to access more detailed information on purchase transactions.
+As a purchasing manager, you can analyze data from the matrix to allocate budgets and staff, ensuring that your team can handle the purchasing volume. With this report, you can easily identify the busiest days of the week and make sure that your team is adequately staffed on those days. For example, if the report shows that Wednesday is the busiest day, you can allocate more staff and budget to ensure that your team can handle the workload.
 
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+As a purchaser, you are responsible for tracking daily purchases and ensuring that they stay within budget. Using this report, you can monitor your daily purchase activities and identify any purchases or days that might exceed the budget.
 
 ---
 
 ## Key Performance Indicators (KPIs)
 
-The _Daily Purchase_ report includes the following KPIs:
+The *Daily Purchases* report includes the following KPIs:
 
 - [**Purchase Quantity**](#purchase-quantity)  
 - [**Purchase Amount**](#purchase-amount)  
-- [**Cost Amount**](#cost-amount)  
-- [**Gross Profit**](#gross-profit)  
-- [**Gross Profit Margin**](#gross-profit-margin)
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
@@ -65,54 +54,10 @@ Data from the following tables are used to calculate the *Purchase Amount*:
 - Purchase Line
 
 ---
-### Cost Amount
 
-The *Cost Amount* represents the total cost of goods sold incured by a location within a specific time period.
+## Data used in the Daily Purchases report
 
-**Formula**  
-
-*Cost Amount* is the the total cost of all purchase value entries from the location for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Cost Amount*:
-- Value Entry
-- Purchase Line
-
----
-### Gross Profit
-
-The *Gross Profit* shows the difference between the purchase revenue and the cost of goods sold for a location within a specifict time period.
-
-**Formula**  
-
-*Gross Profit* = Purchase Amount - (Cost Amount + Cost Amount Non-Inv) 
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit*:
-- Value Entry
-- Purchase Line
-
----
-### Gross Profit Margin
-
-The *Gross Profit Margin* shows the gross profit as a percentage over the purchase amount.
-
-**Formula**  
-
-*Gross Profit Margin* = (Gross Profit / Purchase Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Gross Profit Margin*:
-- Value Entry
-- Purchase Line
-
-
-## Data used in the Daily Purchase report
-
-Data from the following tables are used on the *Daily Purchase* report
+Data from the following tables are used on the *Daily Purchases* report
 - Value Entry
 - Purchase Line
 - Item
