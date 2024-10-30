@@ -1,3 +1,16 @@
+---
+title: Purchases Power BI app
+description: The Power BI app for Purchases in Business Central provides comprehensive purchases analytics to stakeholders at all levels of your organization.
+author: kennieNP
+ms.author: kepontop
+ms.reviewer:
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 37061_Primary, 37009, 37010, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021
+ms.date: 10/31/2024
+ms.service: dynamics-365-business-central
+---
+
 # Purchases Power BI app
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
