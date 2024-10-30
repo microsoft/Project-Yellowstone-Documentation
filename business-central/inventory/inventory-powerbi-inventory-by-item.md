@@ -19,75 +19,42 @@ This report is meant for all users to allow them to see total inventory for an i
 
 ![Inventory by Item](/business-central/media/inventory/inventory-by-item.png "Inventory by Item - Screenshot")
 
-## What the report shows
+## How to use the report
 
-The *Inventory by Item* report breaks down the inventory by item by utilising a matrix view which uses Item Category and Item as the rows and different quantity calculations per column.
-
-
-## Use Cases
-
-**For the leadership team**
-
-For the leadership team, the *Inventory by Item* 
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
-
----
-
-**For the management team**
-
-For the management team, the *Inventory by Item*
-
-**Target Audience**
-
-- 
-- 
-
-**Example Scenario:** 
-
----
-
-**For the sales team**
-
-For the Sales team, the *Inventory by Item*  
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
+The *Inventory by Item* ###
 
 ## Key Performance Indicators (KPIs)
 
 The *Inventory by Item* report includes the following KPIs:
 
-- [**Inventory Something**](#)
+- [**Inventory (Quantity)**](####)
+- [**Qty. on Sales Order**](####)
+- [**Qty. on Purch. Return**](####)
+- [**Qty. on Service Order**](####)
+- [**Qty. on Projects**](####)
+- [**Qty. on Prod. Order Comp Lines**](####)
+- [**Qty. on Asm. Component**](####)
+- [**Qty. on Purch. Order**](####)
+- [**Qty. in Transit**](####)
+- [**Qty. on Assembly Order**](####)
+- [**Qty. on Sales Return Order**](####)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
----
-### Inventory Something
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-The *Inventory Something* is the total number of items sold within a specific time period.
-
-**Formula**  
-
-*Inventory Something* is the quantity of all value entries related to sales for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Inventory Something*:
-- IteM Ledger Entry
-
----
-## Data used in the Inventory by Item report
+## Data used in the report
 
 Data from the following tables are used on the *Inventory by Item* report
-- Customer
+//Item Availailability uses lots of tables
+- Item
+- Item Ledger Entries
 
+
+## Try the report
+
+Try the report here: [Inventory by Item](https://businesscentral.dynamics.com?###)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

@@ -19,75 +19,35 @@ This report is meant for a variety of different staff to assist them in managing
 
 ![Inventory by Lot No.](/business-central/media/inventory/inventory-by-lot.png "Inventory by Lot No - Screenshot")
 
-## What the report shows
+## How to use the report
 
-The *Inventory by Lot No* reports shows outlines a comprehensive view of the different inventory levels per lot. This is viewable throw a matrix which breaks this down per Item Category and Item No. along with a treemap which shows larger cubes based on inventory. The report also features a decomposition tree which can be used to create different hierarchcial strucutres per organization requirements.
-
-
-## Use Cases
-
-**For the leadership team**
-
-For the leadership team, the *Inventory by Lot No* can by used to quickly assess the organizations overall invnetory levels per Lot.
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
-As a member of the leadership team, you want 
----
-
-**For the management team**
-
-For the management team, the *Inventory by Lot No*
-
-**Target Audience**
-
-- 
-- 
-
-**Example Scenario:** 
-
----
-
-**For the sales team**
-
-For the Sales team, the *Inventory by Lot No*  
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
+The *Inventory by Lot No.* ###
 
 ## Key Performance Indicators (KPIs)
 
-The *Inventory by Lot No* report includes the following KPIs:
+The *Inventory by Lot No.* report includes the following KPIs:
 
-- [**Inventory Something**](#)
+- [**Quantity**](####)
+- [**Inventory (Quantity)**](####)
+- [**Expired Inventory**](###)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
----
-### Inventory Something
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-The *Inventory Something* is the total number of items sold within a specific time period.
-
-**Formula**  
-
-*Inventory Something* is the quantity of all value entries related to sales for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Inventory Something*:
-- IteM Ledger Entry
-
----
-## Data used in the Inventory by Lot No report
+## Data used in the report
 
 Data from the following tables are used on the *Inventory by Lot No* report
-- Customer
+//Item Availailability uses lots of tables
+- Item
+- Item Ledger Entries
+- Lot No
 
+
+## Try the report
+
+Try the report here: [Inventory by Lot No.](https://businesscentral.dynamics.com?###)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

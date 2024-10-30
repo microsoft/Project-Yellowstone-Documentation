@@ -19,75 +19,33 @@ This report is meant for managers to be able to quickly identify which locations
 
 ![Inventory by Location](/business-central/media/inventory/inventory-by-location.png "Inventory by Location - Screenshot")
 
-## What the report shows
+## How to use the report
 
-The *Inventory by Location* reports utilizes a bar chart and matrix to convey the inventory per location. Each visual links directly to a variety of different drill through pages to view more detailed information.
-
-
-## Use Cases
-
-**For the leadership team**
-
-For the leadership team, the *Inventory by Location* 
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
-
----
-
-**For the management team**
-
-For the management team, the *Inventory by Location*
-
-**Target Audience**
-
-- 
-- 
-
-**Example Scenario:** 
-
----
-
-**For the sales team**
-
-For the Sales team, the *Inventory by Location*  
-
-**Target Audience**
-
-- 
-
-**Example Scenario:** 
+The *Inventory by Location* ###
 
 ## Key Performance Indicators (KPIs)
 
 The *Inventory by Location* report includes the following KPIs:
 
-- [**Inventory Something**](#)
+- [**Inventory (Quantity)**](####)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
----
-### Inventory Something
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-The *Inventory Something* is the total number of items sold within a specific time period.
-
-**Formula**  
-
-*Inventory Something* is the quantity of all value entries related to sales for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Inventory Something*:
-- IteM Ledger Entry
-
----
-## Data used in the Inventory by Location report
+## Data used in the report
 
 Data from the following tables are used on the *Inventory by Location* report
-- Customer
+//Item Availailability uses lots of tables
+- Item
+- Item Ledger Entries
+- Location
 
+
+## Try the report
+
+Try the report here: [Inventory by Location](https://businesscentral.dynamics.com?###)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
