@@ -2,21 +2,12 @@
 
 The _Purchases by Purchaser_ report provides a detailed overview of purchasing activities by purchaser. This report allows you to analyze which item categories and items are most frequently purchased by each purchaser, and how much money they have spent on these purchases.
 
-This report is especially useful for purchasing managers and purchasers who need to closely monitor their organization's purchasing activities. By using this report, you can easily identify top purchasers and track their purchasing trends over time. This information can be used to make informed decisions about future purchasing activities and to optimize your organization's purchasing strategies.
+## How to use the report
+This report is especially useful for purchasing managers and purchasers. 
 
-## What the report shows
+As a purchasing manager, you can easily identify top purchasers and track their purchasing trends over time using the 'Purchases by Vendor' report. This information can help you make informed decisions about future purchasing activities and optimize your organization's purchasing strategies.
 
-The _Purchases By Purchaser_ report displays a treemap of the most frequently purchased items, a table of purchases by purchaser, and a bar chart that breaks down purchases by item categories and items. These visuals provide insights into the distribution of purchases across different item categories and helps you identify any areas that require attention.
-
-## Use Cases
-
-For the Team:
-
-**Target Audience**
-- Leadership Role 1
-- Leadership Role 2
-
-**Example Scenario:** As a specific role, I want to ...
+As a purchaser, you can use this report to monitor your purchasing activities, including purchase amounts and quantities. This report also reveals your top purchased items and how they contribute to the overall spendings. This information can help you to make better decisions about future purchases.
 
 ---
 
