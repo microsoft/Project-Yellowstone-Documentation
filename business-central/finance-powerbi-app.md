@@ -27,13 +27,45 @@ Finance staff accesses operational reports that offer detailed, granular-level d
 The different reports in the finance Power BI app can be used for different things depending on your role. Below, you can read some examples of use cases for different roles in your organization. 
 
 ## Finance analytics for the leadership team
-### Example scenario: TODO #### 
+To fit this category, you might have a role such as:
+- Executive
+- Director
+- Other high-level decision maker
+
+As the CFO you are preparing for an upcoming board meeting and need to prepare an analysis of your company's financial position for the current fiscal quarter.
+
+Using the Financial Overview report, you begin with a comparative analysis of revenues. This quarter's revenue of $281,000 represents a significant increase compared to the same period last year of $242,000, marking a growth of $39,000, or approximately 16.1%. This positive trend indicates strong performance and suggests that current strategies are effectively driving increased revenue.
+
+![alt text](image.png)
+
+You want to compare the Net Profit Margin for the current quarter versus the same period in the previous year. You quickly identify that Net Profit Margins are slightly lower but you will need more information to determine why. 
+![alt text](media/finance/net-profit-margin-by-fiscal-year-and-month.png)
+
+:::image type="content" source="media/powerbi/finance/net-profit-margin-by-fiscal-year-and-month.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/powerbi/finance/net-profit-margin-by-fiscal-year-and-month.png":::
+
+By analyzing the [Profitability](#TODO) report you can easily see that expenses are up from 3.60K to 11.85K for the same period. Although revenue is up by approximately 16.1% the increase in expenses has suppressed growth and produced a marginal increase in profits. 
+
+![alt text](image-4.png)
+
+To ensure the company is able to cover it's short-term obligations, fund new initiatives and maintain operational stability you review the liquidity report and cash reserves. 
+
+The cash ratio of 1.0 indicates that the company has enough cash and cash equivalents (1.02M) to pay off all current liabilities (1.02M) immediately if needed. The quick ratio of 1.15 indicates that without including inventory in current assets, the company can still cover it's short-term debts without relying on sales of inventory. Overall, the current ratio of 1.21 indicates the company is in a balanced but cautious liquidity position with current assets of $1.24M to current liabilities of 1.02M.
+
+![alt text](image-3.png)
 
 ## Finance analytics for the management team
-### Example scenario: TODO #### 
+As the operations manager you are responsible for overseeing service delivery across various customer segments. These customer groups are tracked as dimensions values (Large, Medium and Small) by the Customer Group global dimension.
+
+By filtering the Budget Comparison report by Global Dimension 2 and G/L Account Category to Income and Expense, you can easily track budget performance. This allows you to allocate resources more effectively, keep control of the budget and make data-driven decisions when forecasting in the future.
+
+![alt text](image-5.png)
 
 ## Finance analytics for daily finance work
-### Example scenario: TODO #### 
+As a member of the accounts receivable team, you are responsible for managing the inflow of cash by ensuring timely and efficient collection of payments from customers. To monitor and prioritize your efforts, you use the Aged Receivables (Back Dating) report. 
+
+![alt text](image-6.png)
+
+Analyzing by Payment Terms Code allows you to quickly identify customers who have outstanding balances in aging buckets beyond 30 days. You can now prioritize not only customers but the invoices those customers should pay first. 
 
 ## Report overview in the Power BI finance app
 The following table describes the different Power BI reports in the finance app and how you can use them.
@@ -53,7 +85,7 @@ The following table describes the different Power BI reports in the finance app 
 |Categorize vendor balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days.|[Aged Payables (Back Dating)](https://businesscentral.dynamics.com?page=36994)|About Aged Payables (Back Dating)|
 |Analyze general ledger entries in detail and slice g/l entries by all eight shortcut dimensions. |[General Ledger Entries](https://businesscentral.dynamics.com?page=36995)|About General Ledger Entries|
 |Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.|[Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996)|About Detailed Vendor Ledger Entries|
-|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.|[Detaild Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997)|About Detaild Customer Ledger Entries|
+|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.|[Detaild Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997)|About Detailed Customer Ledger Entries|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
