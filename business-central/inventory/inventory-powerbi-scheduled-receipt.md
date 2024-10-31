@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Scheduled Receipt (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
 The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization by different document types or processes. This is broken down by Item Cateogory or Item.

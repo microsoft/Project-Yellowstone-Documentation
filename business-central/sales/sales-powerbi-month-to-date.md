@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Month-to-Date (MTD) (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Month-to-Date (MTD)* report is a must-have report for executives and managers to monitor the progress of their sales revenue for the current month. 
 

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Item Availability (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
 The *Item Availability* report gives an overview of each items availability in terms of demand and supply allowing a clear view of an organizations performance. 

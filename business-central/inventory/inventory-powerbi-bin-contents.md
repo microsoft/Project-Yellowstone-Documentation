@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Bin Contents (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
 The *Bin Contents* breaks down an organizations inventory levels on a bin by bin basis. This can be used to identify high and low volume bins and can inform inventory movement requirements if bins need additional inventory. 

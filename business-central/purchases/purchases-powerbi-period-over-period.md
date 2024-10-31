@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Period-Over-Period (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Period-Over-Period* report provides valuable insights into your organization's purchasing performance over time. This report compares purchasing amounts for different time periods to the same period in the previous year, allowing you to  identify growth trends and areas for improvement.
 

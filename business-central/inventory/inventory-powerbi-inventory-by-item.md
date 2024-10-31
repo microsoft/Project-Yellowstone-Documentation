@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Item (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
 The *Inventory by Item* highlights inventory levels per Item, this can additionally be viewed per Item Category Code. The report showcases different columns to identify inventory per item on different document types.

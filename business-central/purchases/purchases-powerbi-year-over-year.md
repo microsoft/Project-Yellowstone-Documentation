@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Year-Over-Year (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Year-Over-Year* report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time. By comparing purchase amounts in the current year with those of the previous year, this report provides valuable insights into the efficiency and effectiveness of an organization's purchasing activities.
 

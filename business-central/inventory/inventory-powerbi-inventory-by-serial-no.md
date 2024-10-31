@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Serial No. (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
 The *Inventory by Serial No* highlights your organizations total inventory broken down per serial where items are serial tracked. 

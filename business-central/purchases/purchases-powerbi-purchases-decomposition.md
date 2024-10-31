@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Purchases Decomposition (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Purchases Decomposition* report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types. This report helps you to gain insights into your purchasing costs and analyze your spending patterns, enabling you to make data-driven decisions and optimize your purchasing processes.  
 

@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Sales Power BI app
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The reports in the Power BI sales app provide comprehensive sales analytics to stakeholders at all levels of your organization. 
 

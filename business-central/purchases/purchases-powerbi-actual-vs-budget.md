@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Actual vs. Budget (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Actual vs. Budget* report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures. This report allows you to analyze and monitor purchase data by item categories and items, providing a detailed view of purchase budget and variance.
 

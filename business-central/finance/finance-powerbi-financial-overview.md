@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Financial Overview (Power BI report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Financial Overview* report is designed to provide a high-level snapshot of an organization's financial health and performance. This dashboard displays key financial metrics (KPIs) to give stakeholders a clear view of revenue, cost management, profitability, and financial stability. 
 

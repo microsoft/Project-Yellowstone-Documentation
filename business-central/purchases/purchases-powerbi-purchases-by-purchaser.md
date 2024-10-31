@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Purchases By Purchaser (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Purchases by Purchaser* report provides a detailed overview of purchasing activities by purchaser. This report allows you to analyze which item categories and items are most frequently purchased by each purchaser, and how much money they have spent on these purchases.
 

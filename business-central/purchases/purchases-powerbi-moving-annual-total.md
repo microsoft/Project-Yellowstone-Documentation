@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Moving Annual Total (MAT) (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Moving Annual Total (MAT)* report calculates a total of purchase over the last 12 months. This is a rolling calculation where the date is continual moving. This report will showcase the Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) figures.
 

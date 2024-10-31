@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Daily Sales (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Daily Sales* report gives a clear picture of your organization's sales activities over specific days. 
 

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory Valuation Power BI app
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The Inventory Valuation Power BI App is designed to pull data directly from Business Central and provided leadership key information on inventory across an organization. This app has a variety of different reports which provide insights into different costing areas of an organization. With the information from this report, you can make more informed decisions and ensuring your costings is accounted for.
 

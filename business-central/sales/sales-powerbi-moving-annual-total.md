@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Moving Annual Total (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Moving Annual Total (MAT)* report calculates a total of sales over the last 12 months. 
 

@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Moving Average (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Moving Average* report report gives a clear picture of your organization's average sales over a 30 day period. 
 
