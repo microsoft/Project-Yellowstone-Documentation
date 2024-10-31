@@ -48,8 +48,8 @@ Data from the following tables are used on the *Bin Contents by Item Tracking* r
 - Item
 - Bin
 - Location
-- Lot No
-- Serial No
+- Item Ledger Entries
+- Warehouse Entries
 - Zone
 
 
