@@ -1,8 +1,8 @@
 ---
 title: Inventory Valuation Landing Page (Power BI report)
 description: The Inventory Landing Page gives an overview of how the Inventory Report works.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

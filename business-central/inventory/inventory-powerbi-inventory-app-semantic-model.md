@@ -1,8 +1,8 @@
 ---
 title: Inventory App Semantic Model (Power BI report)
 description: The Inventory App semantic model explores the inner works of the semantic model used in the Inventory App.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

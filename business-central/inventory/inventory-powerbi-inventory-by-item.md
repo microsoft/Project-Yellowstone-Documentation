@@ -1,8 +1,8 @@
 ---
 title: Inventory by Item (Power BI report)
 description: The Inventory by Item highlights inventory levels per Item, this can additionally be viewed per Item Category Code
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

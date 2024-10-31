@@ -1,8 +1,8 @@
 ---
 title: Inventory Valuation by Location (Power BI report)
 description: The Inventory Valuation Overview highlights the values on an Location by Location basis for an organization.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

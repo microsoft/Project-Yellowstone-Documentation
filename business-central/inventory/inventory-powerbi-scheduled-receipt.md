@@ -1,8 +1,8 @@
 ---
 title: Scheduled Receipt (Power BI report)
 description: The Scheduled Receipt gives users the ability to view inbound inventory into an organization broken up per document type. 
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

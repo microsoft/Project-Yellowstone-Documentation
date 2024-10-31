@@ -1,8 +1,8 @@
 ---
 title: Inventory by Location (Power BI report)
 description: The Inventory by Location outlines inventory levels across an organizations different locations.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

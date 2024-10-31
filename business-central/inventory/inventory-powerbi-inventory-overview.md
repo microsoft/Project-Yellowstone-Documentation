@@ -1,8 +1,8 @@
 ---
 title: Inventory Overview (Power BI report)
 description: The Inventory Overview XXX.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

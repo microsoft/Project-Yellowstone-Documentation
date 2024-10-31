@@ -1,8 +1,8 @@
 ---
 title: Inventory Power BI App Page (Power BI report)
 description: The Inventory Power BI contains different reports for an organizations inventory reporting needs
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

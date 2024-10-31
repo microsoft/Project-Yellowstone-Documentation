@@ -1,8 +1,8 @@
 ---
 title: Inventory by Serial No (Power BI report)
 description: The Inventory by Serial No highlights your organizations total inventory broken down per serial.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

@@ -1,8 +1,8 @@
 ---
 title: Inventory App KPIS (Power BI report)
 description: The Inventory App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Report.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

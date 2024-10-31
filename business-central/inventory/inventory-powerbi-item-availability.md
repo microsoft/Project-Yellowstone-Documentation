@@ -1,8 +1,8 @@
 ---
 title: Item Availability (Power BI report)
 description: The Item Availability....
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

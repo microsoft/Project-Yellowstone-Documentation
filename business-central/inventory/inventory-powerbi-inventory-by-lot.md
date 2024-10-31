@@ -1,8 +1,8 @@
 ---
 title: Inventory by Loc (Power BI report)
 description: The Inventory by Lot No report highlights your organizations total inventory broken down per lot.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

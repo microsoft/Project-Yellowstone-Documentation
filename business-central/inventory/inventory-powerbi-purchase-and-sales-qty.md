@@ -1,8 +1,8 @@
 ---
 title: Purchase and Sales Quantity (Power BI report)
 description: The Purchase and Sales Quantity highlights the purchase and sales quantities for an organization.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting

@@ -1,8 +1,8 @@
 ---
 title: Bin Contents (Power BI report)
 description: The Bin Contents shows an organizations bin contents per location.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
