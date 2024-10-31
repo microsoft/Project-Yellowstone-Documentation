@@ -42,6 +42,7 @@ The *Purchases Overview* report use data from the following tables in [!INCLUDE[
 
 - Item Ledger Entry
 - Value Entry
+- Purchase Lines
 
 ## Try the report
 
