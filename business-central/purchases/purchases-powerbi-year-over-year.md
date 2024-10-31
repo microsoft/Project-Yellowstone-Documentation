@@ -1,10 +1,27 @@
+---
+title: Year-Over-Year
+description: The Year-Over-Year report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time.
+author: kennieNP
+ms.author: kepontop
+ms.reviewer:
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 37015_Primary
+ms.date: 10/31/2024
+ms.service: dynamics-365-business-central
+---
+
 # Year-Over-Year (Power BI Report)
+
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Year-Over-Year* report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time. By comparing purchase amounts in the current year with those of the previous year, this report provides valuable insights into the efficiency and effectiveness of an organization's purchasing activities.
 
 In addition to identifying trends and changes, the *Year-Over-Year* report helps leaders make informed decisions about future purchasing strategies. It is an important indicator of growth and spending patterns, providing a comprehensive overview of the money being spent to make products and generate revenues.
 
 Together with year-over-year financial figures, the *Year-Over-Year* report provides a comprehensive view of an organization's financial health. By tracking these figures, leaders can make informed decisions about resource allocation, budgeting, and forecasting.
+
+:::image type="content" source="media/powerbi/purchases/<screenshot-filename>.png" alt-text="Screenshot of the <page name> Power BI report" lightbox="media/powerbi/purchases/<screenshot-filename>.png":::
 
 ## How to use the report
 
@@ -14,38 +31,27 @@ As a COO, your goal is to ensure that the purchasing department is operating eff
 
 As a purchasing manager, you are responsible for ensuring that the company sources goods at the best possible price without compromising quality. You can use this report to track purchasing trends across different categories and identify areas where the company could save money. For example, you might notice that a particular category of products is seeing a rapid increase in purchases. With this information in mind, you can take action and work with the manufacturing team to identify if any changes in item planning or supplier selection are required to optimize the cost and quality of the products.
 
----
-
 ## Key Performance Indicators (KPIs)
 
-The _Year-Over-Year_ report includes the following KPIs:
+The *Year-Over-Year* report includes the following KPIs and measures: 
 
-- **Current Year**
-- **Previous Year (Fiscal)**
-- **Current Year YOY (Fiscal)**
+- [**Current Year**](####)
+- [**Previous Year (Fiscal)**](####)
+- [**Current Year YOY (Fiscal)**](####)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+## Data used in the report
 
----
-### Current Year
+The *Year-Over-Year* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The *Current Year* is ...
+- Value Entry
+- Purchase Line
+- Item
+- Item Category
 
-**Formula**  
+## Try the report
 
-*Current Year* is calculated from ...
+Try the report here: [Year-Over-Year](https://businesscentral.dynamics.com?page=37015)
 
-**Data Sources**
-
-Data from the following tables are used to calculate the *Current Year*:
-- BC Table 1
-
-
-## Data used in the Year-Over-Year report
-
-Data from the following tables are used on the *Year-Over-Year* report
-- Table 1
-- Table 2
-
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
