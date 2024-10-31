@@ -11,7 +11,7 @@ ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Purchases By Item (Power BI Report)
+# Purchases by Item (Power BI Report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
