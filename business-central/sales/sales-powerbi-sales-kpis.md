@@ -409,7 +409,7 @@ This measure calculates the percentage growth in sales between the current and p
 
 ---
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
 
 
 ## See also

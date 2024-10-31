@@ -119,7 +119,7 @@ The following table describes the different Power BI reports in the sales app an
 | Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget]( https://businesscentral.dynamics.com?page=37008) | [About Actual vs. Budget](sales-powerbi-actual-vs-budget.md) | 
 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
 
 ## TODO
 

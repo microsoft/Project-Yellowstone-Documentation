@@ -134,7 +134,7 @@ Data from the following tables are used:
 
 ---
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
 
 
 ## See also

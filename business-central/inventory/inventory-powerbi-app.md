@@ -65,7 +65,7 @@ The following provides descriptions on how you can use each Power BI Report in t
 |Analyze inventory levels across bins and see tracking information for the different items in the bin. | [Bin Contents by Item Tracking](https://businesscentral.dynamics.com?page=37032) | [About *Bin Contents by Item Tracking*](inventory-powerbi-inventory-by-item.md)|
 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
 
 ## See also
 

@@ -37,7 +37,7 @@ The following provides descriptions on how you can use each Power BI Report in t
 
 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
 
 ## See also
 

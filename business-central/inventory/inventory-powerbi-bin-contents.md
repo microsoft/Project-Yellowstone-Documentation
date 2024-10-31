@@ -46,7 +46,7 @@ The *Bin Contents* report includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
