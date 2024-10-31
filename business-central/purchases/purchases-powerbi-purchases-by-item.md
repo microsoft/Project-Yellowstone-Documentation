@@ -42,6 +42,7 @@ The *Purchases by Item* report use data from the following tables in [!INCLUDE[p
 
 - Value Entry
 - Purchase Line
+- Item
 
 ## Try the report
 
