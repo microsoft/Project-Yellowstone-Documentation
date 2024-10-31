@@ -31,3 +31,31 @@ The target audience for the *Sales Overview* report is
 - Executives
 - Directors
 - Other high-level decision makers
+
+## Key Performance Indicators (KPIs)
+
+The *Financial Overview* report includes the following KPIs and measures: 
+
+- [**Revenue**](####)
+- [**Net Profit**](####)
+- [**Net Profit Margin**](####)
+- [**Assets**](####)
+- [**Days Sales Outstanding**](####)
+- [**Days Sales Of Inventory**](####)
+- [**Days Payable Outstanding**](####)
+
+## Data used in the report
+
+The *Financial Overview* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+
+- G/L Entry
+- Customer
+- Vendor
+
+## Try the report
+
+Try the report here: [Financial Overview](https://businesscentral.dynamics.com?page=36984)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## See also
