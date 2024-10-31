@@ -21,7 +21,7 @@ This can be used to identify high value items within a company.
 
 The report focuses on the value of each item showing the beginning Balance, Increase, Decreases and finally the End Balance Value as at the date period defined. 
 
-:::image type="content" source="media/powerbi/inventory-valuation/inventory-valuation-by-item.png" alt-text="Screenshot of the Inventory Valuation by Item Power BI Report" lightbox="media/powerbi/inventory-valuation/inventory-valuation-by-item.png"
+:::image type="content" source="../media/inventory-valuation/inventory-valuation-by-item.png" alt-text="Screenshot of the Inventory Valuation by Item Power BI Report" lightbox="../media/inventory-valuation/inventory-valuation-by-item.png":::
 
 ## How to use the report
 

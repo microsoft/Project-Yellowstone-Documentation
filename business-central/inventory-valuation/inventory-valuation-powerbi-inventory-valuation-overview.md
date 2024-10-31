@@ -19,7 +19,7 @@ The *Inventory Valuation by Overview* provides a high-level view of key valuatio
 
 This can be used to identify key values across the organization and gain a clear understanding on valuation movements.
 
-:::image type="content" source="media/powerbi/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location Power BI Report" lightbox="media/powerbi/inventory-valuation/inventory-valuation-by-Location.png"
+:::image type="content" source="../media/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location Power BI Report" lightbox="../media/inventory-valuation/inventory-valuation-by-Location.png":::
 
 ## How to use the report
 
