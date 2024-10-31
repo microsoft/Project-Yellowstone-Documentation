@@ -36,12 +36,11 @@ As the CFO you are preparing for an upcoming board meeting and need to prepare a
 
 Using the Financial Overview report, you begin with a comparative analysis of revenues. This quarter's revenue of $281,000 represents a significant increase compared to the same period last year of $242,000, marking a growth of $39,000, or approximately 16.1%. This positive trend indicates strong performance and suggests that current strategies are effectively driving increased revenue.
 
-![alt text](image.png)
+:::image type="content" source="media/finance/app/financial-overview-app-page.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview-app-page.png":::
 
 You want to compare the Net Profit Margin for the current quarter versus the same period in the previous year. You quickly identify that Net Profit Margins are slightly lower but you will need more information to determine why. 
-![alt text](media/finance/net-profit-margin-by-fiscal-year-and-month.png)
 
-:::image type="content" source="media/powerbi/finance/net-profit-margin-by-fiscal-year-and-month.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/powerbi/finance/net-profit-margin-by-fiscal-year-and-month.png":::
+:::image type="content" source="media/finance/app/net-profit-margin-by-fiscal-year-and-month.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/net-profit-margin-by-fiscal-year-and-month.png":::
 
 By analyzing the [Profitability](#TODO) report you can easily see that expenses are up from 3.60K to 11.85K for the same period. Although revenue is up by approximately 16.1% the increase in expenses has suppressed growth and produced a marginal increase in profits. 
 
@@ -63,9 +62,11 @@ By filtering the Budget Comparison report by Global Dimension 2 and G/L Account 
 ## Finance analytics for daily finance work
 As a member of the accounts receivable team, you are responsible for managing the inflow of cash by ensuring timely and efficient collection of payments from customers. To monitor and prioritize your efforts, you use the Aged Receivables (Back Dating) report. 
 
+Analyzing by payment terms code allows you to quickly identify customers who have outstanding balances in aging buckets beyond 30 days. You can now prioritize not only customers but the invoices those customers should pay first. 
+
 ![alt text](image-6.png)
 
-Analyzing by Payment Terms Code allows you to quickly identify customers who have outstanding balances in aging buckets beyond 30 days. You can now prioritize not only customers but the invoices those customers should pay first. 
+
 
 ## Report overview in the Power BI finance app
 The following table describes the different Power BI reports in the finance app and how you can use them.
