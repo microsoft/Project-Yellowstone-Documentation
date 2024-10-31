@@ -49,7 +49,7 @@ The *Purchases by Location* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Location* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Purchases by Location* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Location
 - Item

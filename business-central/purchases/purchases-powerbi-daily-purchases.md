@@ -37,7 +37,7 @@ The *Daily Purchases* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line

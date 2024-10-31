@@ -37,7 +37,7 @@ The *Moving Averages* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Moving Averages* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Moving Averages* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line

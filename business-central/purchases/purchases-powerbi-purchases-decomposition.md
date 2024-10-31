@@ -36,7 +36,7 @@ The *Purchases Decomposition* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases Decomposition* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Purchases Decomposition* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Item
 - Item Category

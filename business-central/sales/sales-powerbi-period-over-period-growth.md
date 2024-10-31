@@ -51,7 +51,7 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-The *Period-Over-Period Growth* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Period-Over-Period Growth* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Value Entry
 - Sales Line

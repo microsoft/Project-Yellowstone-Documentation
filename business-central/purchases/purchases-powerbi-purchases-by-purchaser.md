@@ -37,7 +37,7 @@ The *Purchases by Purchaser* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Purchaser* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Purchases by Purchaser* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Salesperson/Purchaser
 - Item

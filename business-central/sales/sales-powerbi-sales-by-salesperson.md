@@ -48,7 +48,7 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-The *Sales by Salesperson* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Sales by Salesperson* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Customer
 - Salesperson/Purchaser
