@@ -1,8 +1,23 @@
+---
+title: Moving Annual Total (MAT)
+description: The Moving Annual Total (MAT) report calculates a total of purchase over the last 12 months.
+author: kennieNP
+ms.author: kepontop
+ms.reviewer:
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 37013_Primary
+ms.date: 10/31/2024
+ms.service: dynamics-365-business-central
+---
+
 # Moving Annual Total (MAT) (Power BI Report)
+
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Moving Annual Total (MAT)* report calculates a total of purchase over the last 12 months. This is a rolling calculation where the date is continual moving. This report will showcase the Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) figures.
 
-**//TODO: insert report screenshot**
+:::image type="content" source="media/powerbi/purchases/<screenshot-filename>.png" alt-text="Screenshot of the <page name> Power BI report" lightbox="media/powerbi/purchases/<screenshot-filename>.png":::
 
 ## How to use the report
 
@@ -14,86 +29,25 @@ As a purchasing manager, you can use this report to analyze the purchasing data 
 
 ## Key Performance Indicators (KPIs)
 
-The *Moving Annual Total (MAT)* report includes the following KPIs:
+The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
-- [**Moving Annual Total (MAT)**](#moving-annual-total-mat)
-- [**Previous Year Moving Annual Total (PYMAT)**](#previous-year-moving-annual-total-pymat)
-- [**Moving Annual Total Growth Amount**](#moving-annual-total-growth-amount)
-- [**Moving Annual Total Growth %**](#moving-annual-total-growth-)
-- [**Purchase Amount**](#purchase-amount)
+- [**Moving Annual Total (MAT)**](####)
+- [**Previous Year Moving Annual Total (PYMAT)**](####)
+- [**Moving Annual Total Growth Amount**](####)
+- [**Moving Annual Total Growth %**](####)
+- [**Purchase Amount**](####)
 
----
-### Moving Annual Total (MAT)
-The *Moving Annual Total (MAT)* shows the rolling sum of purchase amounts in the last 12 months.
+## Data used in the report
 
-**Formula**  
+The *Moving Annual Total (MAT)* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-*Moving Annual Total (MAT)* is the sum of purchase amounts from all purchase value entries in the last 12 months.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Moving Annual Total (MAT)*:
-- Value Entry
-
----
-### Previous Year Moving Annual Total (PYMAT)
-The *Previous Year Moving Annual Total (PYMAT)* shows the rolling sum of purchase amounts in the last 12 months of the previous year. 
-
-For example, if the current MAT represents data between December 2022 to November 2023, the PYMAT shows data between December 2021 to November 2022.
-
-**Formula**  
-
-*Previous Year Moving Annual Total (PYMAT)* is the sum of purchase amounts from all purchase value entries in the last 12 months of the previous year.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Previous Year Moving Annual Total (PYMAT)*:
-- Value Entry
-
----
-### Moving Annual Total Growth Amount
-The *Moving Annual Total Growth Amount* shows the change in the purchase amount between the moving annual total and the previous year moving annual total.
-
-**Formula**  
-
-*Moving Annual Total Growth Amount* = Moving Annual Total - Previous Year Moving Annual Total
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Moving Annual Total Growth Amount*:
-- Value Entry
-
----
-### Moving Annual Total Growth %
-The *Moving Annual Total Growth %* shows the moving annual total growth amount as a percentage of the previous year moving annual total.
-
-**Formula**  
-
-*Moving Annual Total Growth %* = (Moving Annual Total Growth Amount / Previous Year Moving Annual Total) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Moving Annual Total Growth %*:
-- Value Entry
-
----
-### Purchase Amount
-
-The *Purchase Amount* shows the total purchase amount earned within a specific time period.
-
-**Formula**  
-
-*Purchase Amount* is the total amount of all value entries related to purchase is added up for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Amount*:
-- Value Entry
-
-## Data used in the Moving Annual Total report
-
-Data from the following tables are used on the *Moving Annual Total* report
 - Value Entry
 - Purchase Line
+
+## Try the report
+
+Try the report here: [Moving Annual Total (MAT)](https://businesscentral.dynamics.com?page=37013)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
