@@ -49,7 +49,7 @@ The *Purchases by Location* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Location* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Purchases by Location* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Location
 - Item
@@ -60,6 +60,6 @@ The *Purchases by Location* report use data from the following tables in [!INCLU
 
 Try the report here: [Purchases by Location](https://businesscentral.dynamics.com?page=37019)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

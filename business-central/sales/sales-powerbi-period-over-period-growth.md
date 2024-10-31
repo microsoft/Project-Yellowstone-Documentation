@@ -46,12 +46,12 @@ The *Period-Over-Period Growth* report includes the following KPIs and measures:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
 ## Data used in the report
 
-The *Period-Over-Period Growth* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Period-Over-Period Growth* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Sales Line
@@ -60,7 +60,7 @@ The *Period-Over-Period Growth* report use data from the following tables in [!I
 
 Try the report here: [Period-Over-Period Growth](https://businesscentral.dynamics.com?page=37002)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

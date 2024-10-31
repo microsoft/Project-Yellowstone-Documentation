@@ -43,7 +43,7 @@ The *Inventory Valuation by Item* report includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ---
 ## Data used in the Inventory Valuation by Item report
@@ -56,7 +56,7 @@ Data from the following tables are used on the *Inventory Valuation by Item* rep
 
 Try the report here: [Inventory Valuation by Item](https://businesscentral.dynamics.com?page=37057)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 
 ## See also

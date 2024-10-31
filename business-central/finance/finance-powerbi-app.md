@@ -88,7 +88,7 @@ The following table describes the different Power BI reports in the finance app 
 |Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.|[Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996)|About Detailed Vendor Ledger Entries|
 |Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.|[Detaild Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997)|About Detailed Customer Ledger Entries|
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## TODO
 

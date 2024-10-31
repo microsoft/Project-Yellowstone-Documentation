@@ -49,12 +49,12 @@ The *Moving Annual Total* report includes the following KPIs and measures:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
 ## Data used in the report
 
-The *Moving Annual Total* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Moving Annual Total* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Sales Line
@@ -63,7 +63,7 @@ The *Moving Annual Total* report use data from the following tables in [!INCLUDE
 
 Try the report here: [Moving Annual Total](https://businesscentral.dynamics.com?page=37001)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

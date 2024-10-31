@@ -46,7 +46,7 @@ The *Financial Overview* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Financial Overview* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Financial Overview* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - G/L Entry
 - Customer
@@ -56,6 +56,6 @@ The *Financial Overview* report use data from the following tables in [!INCLUDE[
 
 Try the report here: [Financial Overview](https://businesscentral.dynamics.com?page=36984)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

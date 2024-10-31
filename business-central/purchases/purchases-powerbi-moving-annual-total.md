@@ -39,7 +39,7 @@ The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Moving Annual Total (MAT)* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Moving Annual Total (MAT)* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line
@@ -48,6 +48,6 @@ The *Moving Annual Total (MAT)* report use data from the following tables in [!I
 
 Try the report here: [Moving Annual Total (MAT)](https://businesscentral.dynamics.com?page=37013)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

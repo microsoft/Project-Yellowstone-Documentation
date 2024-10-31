@@ -37,7 +37,7 @@ The *Daily Purchases* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line
@@ -47,7 +47,7 @@ The *Daily Purchases* report use data from the following tables in [!INCLUDE[pro
 
 Try the report here: [Daily Purchases](https://businesscentral.dynamics.com?page=37011)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 
 ## See also

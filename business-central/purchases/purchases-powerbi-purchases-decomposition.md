@@ -36,7 +36,7 @@ The *Purchases Decomposition* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases Decomposition* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Purchases Decomposition* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Item
 - Item Category
@@ -51,6 +51,6 @@ The *Purchases Decomposition* report use data from the following tables in [!INC
 
 Try the report here: [Purchases Decomposition](https://businesscentral.dynamics.com?page=37010)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

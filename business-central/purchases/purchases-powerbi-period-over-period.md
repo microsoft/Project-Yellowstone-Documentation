@@ -40,7 +40,7 @@ The *Period-Over-Period* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Period-Over-Period* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Period-Over-Period* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line
@@ -49,6 +49,6 @@ The *Period-Over-Period* report use data from the following tables in [!INCLUDE[
 
 Try the report here: [Period-Over-Period](https://businesscentral.dynamics.com?page=37014)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

@@ -84,7 +84,7 @@ The following table describes how you can use the Power BI reports in the Purcha
 | Gain a comprehensive view of your purchase data across different warehouse locations to identify trends and patterns in their purchasing activities.|[Purchases by Location](https://businesscentral.dynamics.com?page=37019)|[About *Purchases by Location*](purchases-powerbi-purchases-by-location.md)|  
 | Compare your actual spending against your allocated budget to ensure that spending aligns with financial plans.|[Actual vs Budget](https://businesscentral.dynamics.com?page=37021)|[About *Actual vs Budget*](purchases-powerbi-actual-vs-budget.md)|
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## See also
 

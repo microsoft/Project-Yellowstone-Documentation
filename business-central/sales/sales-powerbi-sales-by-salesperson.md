@@ -43,12 +43,12 @@ The *Sales by Salesperson* report includes the following KPIs and measures:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
 ## Data used in the report
 
-The *Sales by Salesperson* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Sales by Salesperson* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Customer
 - Salesperson/Purchaser
@@ -60,7 +60,7 @@ The *Sales by Salesperson* report use data from the following tables in [!INCLUD
 
 Try the report here: [Sales by Salesperson](https://businesscentral.dynamics.com?page=37006)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
