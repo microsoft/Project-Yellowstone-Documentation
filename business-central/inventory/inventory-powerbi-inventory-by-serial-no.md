@@ -45,7 +45,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 Data from the following tables are used on the *Inventory by Serial No* report
 - Item
 - Item Ledger Entries
-- Serial No
 
 
 ## Try the report
