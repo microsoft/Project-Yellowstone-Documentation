@@ -54,6 +54,11 @@ Data from the following tables are used on the *Bin Contents* report
 - Item
 - Bin
 - Location
+- Item Ledger Entries
+- Warehouse Entries
+- Warehouse Activity Lines
+- Warehouse Journal Lines
+- Zone
 
 
 ## Try the report
