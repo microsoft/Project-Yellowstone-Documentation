@@ -60,7 +60,7 @@ The *Sales by Salesperson* report use data from the following tables in [!INCLUD
 
 Try the report here: [Sales by Salesperson](https://businesscentral.dynamics.com?page=37006)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

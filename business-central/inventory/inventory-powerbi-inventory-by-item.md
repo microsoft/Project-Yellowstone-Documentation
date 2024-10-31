@@ -67,6 +67,6 @@ Data from the following tables are used on the *Inventory by Item* report
 
 Try the report here: [Inventory by Item](https://businesscentral.dynamics.com?page=37024)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

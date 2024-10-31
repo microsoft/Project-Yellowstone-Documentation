@@ -47,6 +47,6 @@ The *Purchases Overview* report use data from the following tables in [!INCLUDE[
 
 Try the report here: [Purchases Overview](https://businesscentral.dynamics.com?page=37009)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

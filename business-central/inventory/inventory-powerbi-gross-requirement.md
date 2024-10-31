@@ -67,6 +67,6 @@ Data from the following tables are used on the *Gross Requirement* report
 
 Try the report here: [Gross Requirement](https://businesscentral.dynamics.com?page=37027)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

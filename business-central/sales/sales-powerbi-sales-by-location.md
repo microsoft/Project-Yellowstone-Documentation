@@ -58,7 +58,7 @@ The *Sales by Location* report use data from the following tables in [!INCLUDE[p
 
 Try the report here: [Sales by Location](https://businesscentral.dynamics.com?page=)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

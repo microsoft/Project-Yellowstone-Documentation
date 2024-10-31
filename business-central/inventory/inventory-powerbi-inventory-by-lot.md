@@ -54,6 +54,6 @@ Data from the following tables are used on the *Inventory by Lot No* report
 
 Try the report here: [Inventory by Lot No.](https://businesscentral.dynamics.com?page=37029)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

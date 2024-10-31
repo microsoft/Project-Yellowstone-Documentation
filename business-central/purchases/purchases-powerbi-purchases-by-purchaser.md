@@ -48,6 +48,6 @@ The *Purchases by Purchaser* report use data from the following tables in [!INCL
 
 Try the report here: [Purchases by Purchaser](https://businesscentral.dynamics.com?page=37017)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

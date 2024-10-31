@@ -60,7 +60,7 @@ The *Period-Over-Period Growth* report use data from the following tables in [!I
 
 Try the report here: [Period-Over-Period Growth](https://businesscentral.dynamics.com?page=37002)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

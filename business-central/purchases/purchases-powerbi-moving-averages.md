@@ -46,6 +46,6 @@ The *Moving Averages* report use data from the following tables in [!INCLUDE[pro
 
 Try the report here: [Moving Averages](https://businesscentral.dynamics.com?page=37012)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

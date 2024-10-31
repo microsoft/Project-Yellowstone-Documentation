@@ -56,6 +56,6 @@ The *Actual vs Budget* report use data from the following tables in [!INCLUDE[pr
 
 Try the report here: [Actual vs. Budget](https://businesscentral.dynamics.com?page=37021)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

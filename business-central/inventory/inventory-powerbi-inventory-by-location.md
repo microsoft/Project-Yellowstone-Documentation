@@ -51,6 +51,6 @@ Data from the following tables are used on the *Inventory by Location* report
 
 Try the report here: [Inventory by Location](https://businesscentral.dynamics.com?page=37023)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

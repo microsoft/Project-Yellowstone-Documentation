@@ -61,6 +61,6 @@ Data from the following tables are used on the *Scheduled Receipt* report
 
 Try the report here: [Scheduled Receipt](https://businesscentral.dynamics.com?page=37028)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

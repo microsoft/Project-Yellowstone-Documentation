@@ -48,6 +48,6 @@ The *Moving Annual Total (MAT)* report use data from the following tables in [!I
 
 Try the report here: [Moving Annual Total (MAT)](https://businesscentral.dynamics.com?page=37013)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

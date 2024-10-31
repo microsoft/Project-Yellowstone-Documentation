@@ -59,7 +59,7 @@ The *Sales by Customer* report use data from the following tables in [!INCLUDE[p
 
 Try the report here: [Sales by Customer](https://businesscentral.dynamics.com?page=37005)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

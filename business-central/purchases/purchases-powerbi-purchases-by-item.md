@@ -47,6 +47,6 @@ The *Purchases by Item* report use data from the following tables in [!INCLUDE[p
 
 Try the report here: [Purchases by Item](https://businesscentral.dynamics.com?page=37016)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also

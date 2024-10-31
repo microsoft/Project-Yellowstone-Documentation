@@ -54,6 +54,6 @@ Data from the following tables are used on the *Item Availability* report
 
 Try the report here: [Item Availability](https://businesscentral.dynamics.com?page=37026)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
