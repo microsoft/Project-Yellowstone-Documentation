@@ -1,8 +1,22 @@
+---
+title: Daily Purchases
+description: The Daily Purchases report provides a comprehensive overview of your organization's purchase activities on specific days.
+author: kennieNP
+ms.author: kepontop
+ms.reviewer:
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 37011_Primary
+ms.date: 10/31/2024
+ms.service: dynamics-365-business-central
+---
 # Daily Purchases (Power BI Report)
+
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Daily Purchases* report provides a comprehensive overview of your organization's purchase activities on specific days. By highlighting days with a higher volume of purchases, you can identify trends and patterns in your purchasing behavior. This report can also be used to analyze purchase data across different years, quarters, or months, providing valuable insights into purchasing trends over time.
 
-**// TODO: insert report screenshot**
+:::image type="content" source="media/powerbi/purchases/<screenshot-filename>.png" alt-text="Screenshot of the <page name> Power BI report" lightbox="media/powerbi/purchases/<screenshot-filename>.png":::
 
 ## How to use the report
 
@@ -16,48 +30,15 @@ As a purchaser, you are responsible for tracking daily purchases and ensuring th
 
 ## Key Performance Indicators (KPIs)
 
-The *Daily Purchases* report includes the following KPIs:
+The *Daily Purchases* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](#purchase-quantity)  
-- [**Purchase Amount**](#purchase-amount)  
+- [**Purchase Quantity**](####)  
+- [**Purchase Amount**](####)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+## Data used in the report
 
----
-### Purchase Quantity
+The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The *Purchase Quantity* is the total number of items sold within a specific time period.
-
-**Formula**  
-
-*Purchase Quantity* is the quantity of all value entries related to purchase for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Quantity*:
-- Value Entry
-- Purchase Line
-
----
-### Purchase Amount
-
-The *Purchase Amount* is the actual amount of items sold within a specific time period. This amount represents the net purchase amount in local currency, excluding VAT.
-
-**Formula**  
-
-*Purchase Amount* is the actual amount of all value entries related to purchase for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Amount*:
-- Value Entry
-- Purchase Line
-
----
-
-## Data used in the Daily Purchases report
-
-Data from the following tables are used on the *Daily Purchases* report
 - Value Entry
 - Purchase Line
 - Item
