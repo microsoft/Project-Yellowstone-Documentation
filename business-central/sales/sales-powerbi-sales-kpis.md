@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Power BI sales app KPIs and measures
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI sales report. 
 

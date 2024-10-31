@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Location (Power BI Report)
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 
 The *Inventory by Location* outlines inventory levels across an organizations different locations.

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Purchase and Sales Quantity (Power BI Report)
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 
 The *Purchase and Sales Quantity* highlights the purchase and sales quantities for an organization. It showcases key sales and purchasing values against each item or item category.

@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Actual vs Budget (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 The *Actual vs. Budget* report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures. This report helps the organization to track progress towards meeting sales targets and analyze sales data by item categories and items for making key business decisions.
 

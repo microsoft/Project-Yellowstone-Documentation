@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 # Sales Overview (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 The *Sales Overview* report provides a high-level summary of your organization's sales activities, showcasing key metrics such as the number of outstanding sales orders, shipped-but-not-invoiced orders, and posted sales invoices, along with their respective monetary values. 
 

@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Period-Over-Period Growth (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 The *Period-Over-Period Growth* report provides valuable insights into your organization's sales performance over time. 
 

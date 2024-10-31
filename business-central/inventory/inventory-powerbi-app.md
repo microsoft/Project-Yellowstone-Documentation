@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory Power BI app
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 The Inventory Power BI is designed to pull data directly from Business Central and provided leadership, managers and different key warehouse staff key information on inventory across an organization. This app has a variety of different reports which provide insights into different parts of a business's operations. With the information from this report, you can make more informed decisions ensuring you meet demand, not delay production and ensuring costs are low.
 

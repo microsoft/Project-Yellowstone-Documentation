@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Bin Contents by Item Tracking (Power BI Report)
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 
 The *Bin Contents by Item Tracking* report shows an organizations bin contents and breaks this down further by highlighting the Lot and Serial No in the Bins.

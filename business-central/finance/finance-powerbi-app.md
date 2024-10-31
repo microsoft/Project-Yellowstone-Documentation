@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Finance Power BI app
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 This article explains how to use the embedded Power BI reports to analyze finance data. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data in curated reports with pre-defined KPIs. 
 

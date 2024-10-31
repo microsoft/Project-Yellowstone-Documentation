@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory Overview (Power BI Report)
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 
 The *Inventory Overview* report provides a high-level summary of your organizations inventory. It highlights key metrics such as you Inventory (Quantity), Scheduled Receipt and Gross Requirement along with your Project Available Balance.

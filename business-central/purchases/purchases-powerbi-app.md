@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Purchases Power BI app
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 The Purchase Power BI app for Business Central is designed to provide executives, purchasing managers, and procurement teams with valuable insights into your purchasing activities. This app with its multiple reports aims to help you streamline purchasing processes, improve decision-making at all levels of the organization, and optimize spending by offering detailed analytics and visualizations of purchasing data. By leveraging this report, your organization can achieve greater transparency, efficiency, and cost savings in your daily operations.
 

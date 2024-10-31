@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Sales by Item (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 The *Sales by Item* report gives a clear picture of your organization's item sales. It showcases key metrics against each item or item Category such as sales amount and quantities along with the cost amounts. This can be broken down further by the specific customers that are purchasing these items. 
 

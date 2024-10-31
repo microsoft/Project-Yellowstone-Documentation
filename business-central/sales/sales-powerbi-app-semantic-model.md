@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Sales App Semantic Model
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
 The Sales semantic model is organized in a  [Star Schema Model](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema#star-schema-overview). 
 
