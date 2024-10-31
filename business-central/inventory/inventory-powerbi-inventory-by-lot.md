@@ -47,7 +47,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 Data from the following tables are used on the *Inventory by Lot No* report
 - Item
 - Item Ledger Entries
-- Lot No
 
 
 ## Try the report
