@@ -31,10 +31,10 @@ As a purchasing manager, you can use this report to identify areas where your or
 
 The *Purchases Overview* report includes the following KPIs and measures: 
 
-- **Total Purchase Amount**
-- **Outstanding Amount (excluding VAT)**
-- **Amount Received but Not Invoiced (excluding VAT)**
-- **Invoiced Amount**
+- [**Total Purchase Amount**](####)
+- [**Outstanding Amount (excluding VAT)**](####)
+- [**Amount Received but Not Invoiced (excluding VAT)**](####)
+- [**Invoiced Amount**](####)
 
 ## Data used in the report
 
