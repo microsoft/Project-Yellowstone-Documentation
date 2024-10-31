@@ -1,8 +1,20 @@
+---
+title: Moving Averages
+description: The Moving Averages report provides a comprehensive overview of your organization's average purchase over a 30-day period.
+author: kennieNP
+ms.author: kepontop
+ms.reviewer:
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 37012_Primary
+ms.date: 10/31/2024
+ms.service: dynamics-365-business-central
+---
 # Moving Averages (Power BI Report)
 
 The *Moving Averages* report provides a comprehensive overview of your organization's average purchase over a 30-day period. This report focuses on the purchase amount and compares the current purchase amount value against a 30-day average, allowing you to quickly identify any deviations from the norm. This information can be used to take proactive measures to address any issues and ensure that your purchasing activities are aligned with the business operations and profitability.
 
-**// TODO: insert report screenshot**
+:::image type="content" source="media/powerbi/purchases/<screenshot-filename>.png" alt-text="Screenshot of the <page name> Power BI report" lightbox="media/powerbi/purchases/<screenshot-filename>.png":::
 
 ## How to use the report
 
@@ -14,52 +26,24 @@ As a purchasing manager, you want to identify which periods have a higher demand
 
 For example, you may notice that purchasing demands are usually higher towards the end of the year, and you can work with your team to plan ahead and allocate staff to handle workload spikes.
 
----
-
 ## Key Performance Indicators (KPIs)
 
-The *Moving Averages* report includes the following KPIs:
+The *Moving Averages* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](#purchase-amount)
-- [**Purchase Amount Average 30D**](#purchase-amount-average-30d)
+- [**Purchase Amount**](####)
+- [**Purchase Amount Average 30D**](####)
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+## Data used in the report
 
-### Purchase Amount
+The *Moving Averages* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The *Purchase Amount* represents the total amount from all purchase activities within a specific time period.
-
-**Formula**  
-
-*Purchase Amount* is the total amount spent on purchases within a specific location during a selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Amount*:
 - Value Entry
 - Purchase Line
 
----
-### Purchase Amount Average 30D
+## Try the report
 
-The *Purchase Amount Average 30D* represents the average amount spent on purchases over a 30-day period.
+Try the report here: [Moving Averages](https://businesscentral.dynamics.com?page=37012)
 
-**Formula**  
-
-*Purchase Amount Average 30D* is the total amount spent on purchases within a specific location during a selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Amount Average 30D*:
-- Value Entry
-- Purchase Line
-
-
-## Data used in the Moving Averages report
-
-Data from the following tables are used on the *Moving Averages* report
-- Value Entry
-- Purchase Line
-
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
