@@ -21,7 +21,7 @@ The *Purchases by Item* report gives a clear picture of your organization's item
 
 ## How to use the report
 
-The *Purchases by Item* report is targetted towards the purchasing department who want to closely monitor the organization's purchasing activities. 
+The *Purchases by Item* report is targeted towards the purchasing department who want to closely monitor the organization's purchasing activities. 
 
 As a purchasing manager, you want to have a clear understanding of the organization's purchasing activities and how they align with the overall business goals. You can use the *Purchases by Item* report to track the purchase amounts and quantities against each item or item category. You can also use this report to identify any discrepancies or anomalies in the purchasing data and take necessary actions to optimize the purchasing process and reduce costs.
 
