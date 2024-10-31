@@ -49,6 +49,14 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 Data from the following tables are used on the *Item Availability* report
 - Item
 - Item Ledger Entries
+- Sales Lines
+- Service Lines
+- Project Planning Lines
+- Prod. Order Component Lines
+- Transfer Lines
+- Planning Component Lines
+- Assembly Lines
+- Purchase Lines
 
 ## Try the report
 
