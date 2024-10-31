@@ -40,16 +40,16 @@ As a user, imagine you are the CEO of a company, you are preparing for an upcomi
 
 You first begin by reviewing the [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md) report which provides a quick comparitive view of the current year versus the previous year. You see that sales are up by 35%, outlined by the [Period-over-Period Growth %](sales-powerbi-sales-kpi.md#period-over-period-growth) metric. 
 
-:::image type="content" source="../media/sales/sales-period-over-period-fiscal-year.png" alt-text="Screenshot of the Sales Period-Over-Period Power BI report" lightbox="../media/sales/sales-period-over-period-fiscal-year.png":::
+:::image type="content" source="media/sales/sales-period-over-period-fiscal-year.png" alt-text="Screenshot of the Sales Period-Over-Period Power BI report" lightbox="media/sales/sales-period-over-period-fiscal-year.png":::
 
 Next, you review the [Sales by Customer](sales-powerbi-sales-by-customer.md) report, to see which group of customers contributed most to sales. by analyzing the Sales by Customer matrix, you can see that domestic customers outperformed foreign customers by contributing 56.59% to the total annual sales. 
 
-:::image type="content" source="../media/sales/sales-by-customer-matrix.png" alt-text="Screenshot of the Sales by Customer matrix" lightbox="../media/sales/sales-by-customer-matrix.png":::
+:::image type="content" source="media/sales/sales-by-customer-matrix.png" alt-text="Screenshot of the Sales by Customer matrix" lightbox="media/sales/sales-by-customer-matrix.png":::
 
 
 Finally, you review the [Moving Averages](sales-powerbi-moving-average.md) report, which visualizes [Sales Amount](sales-powerbi-sales-kpis.md#sales-amount) and [Sales Amount Average 30D](sales-powerbi-sales-kpis.md#sales-amount-avg-30d-fiscal). The 30 day average smoothes out the sales trend for the year and provides more good news for the company. This report reveals that on average, sales were stable through the first half of the year and then increased through the second half of the year. 
 
-:::image type="content" source="../media/sales/30-Day-Moving-Average.png" alt-text="Screenshot from the Moving Average Power BI report" lightbox="../media/sales/30-Day-Moving-Average.png":::
+:::image type="content" source="media/sales/30-Day-Moving-Average.png" alt-text="Screenshot from the Moving Average Power BI report" lightbox="media/sales/30-Day-Moving-Average.png":::
 
 With the insights gained from this report, you can confidently present your organization's sales performance to the board, armed with data-driven analysis and a deeper understanding of your company's current position.
 
@@ -69,13 +69,13 @@ As a Sales Manager, you are tasked with driving sales over the next two quarters
 
 You begin by reviewing the [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md) report to evaluate individual team performance. You quickly identify Jim Olive as the top performer, generating 83% of the total sales for the year. Using the report, you also see that Helena Ray has been the most profitable salesperson on the team but only by a small margin. 
 
-:::image type="content" source="../media/sales/sales-by-salesperson-matrix.png" alt-text="Screenshot of the Sales by Salesperson matrix" lightbox="../media/sales/sales-by-salesperson-matrix.png":::
+:::image type="content" source="media/sales/sales-by-salesperson-matrix.png" alt-text="Screenshot of the Sales by Salesperson matrix" lightbox="media/sales/sales-by-salesperson-matrix.png":::
 
 You know that without clear targets Lina and Helena won't reach their maximum potential. By establishing a new sales budget with revised targets for each salesperson, you can provide your team with the tools they need to progress. Using the [Actual vs. Budget](sales-powerbi-actual-vs-budget.md) report, you monitor progress to ensure the team is on track to meet their new goals.
 
 Using the [Daily Sales](sales-powerbi-daily-sales.md) report, you can monitor the team's progress over the next two quarters. You can use the heat map to guage which day of the week the team performs best and when the company should roll out marketing incentives to help drive customer engagement.
 
-:::image type="content" source="../media/sales/sales-daily-sales-heat-map.png" alt-text="Screenshot of the heatmap in the Daily Sales Power BI report" lightbox="../media/sales/sales-daily-sales-heat-map.png":::
+:::image type="content" source="media/sales/sales-daily-sales-heat-map.png" alt-text="Screenshot of the heatmap in the Daily Sales Power BI report" lightbox="media/sales/sales-daily-sales-heat-map.png":::
 
 
 ## Sales analytics for daily sales work
@@ -93,11 +93,11 @@ After receiving new sales targets from the Sales Manager, the sales team is eage
 
 You begin by analyzing the [Sales by Item](sales-powerbi-sales-by-item.md) and [Sales by Customer](sales-powerbi-sales-by-customer.md) reports to identify high-potential products and key customers. These aggregated reports provide a clear view of where opportunities lie, allowing you to focus your efforts on customers and items most likely to generate growth and help your team achieve the targets. 
 
-:::image type="content" source="../media/sales/sales-by-customer-matrix-2.png" alt-text="Screenshot of the Sales by Customer matrix version 2" lightbox="../media/sales/sales-by-customer-matrix-2.png":::
+:::image type="content" source="media/sales/sales-by-customer-matrix-2.png" alt-text="Screenshot of the Sales by Customer matrix version 2" lightbox="media/sales/sales-by-customer-matrix-2.png":::
 
 The [Sales by Item](sales-powerbi-sales-by-item.md) report highlights product performance by clearly identifying which items generate the most revenue and conversely which items have experienced a decline in sales. Targeting key products will allow you and your team to prioritize your efforts on highly profitable items and those with growing demand. 
 
-:::image type="content" source="../media/sales/sales-by-item-matrix.png" alt-text="Screenshot of the Sales by Item matrix" lightbox="../media/sales/sales-by-item-matrix.png":::
+:::image type="content" source="media/sales/sales-by-item-matrix.png" alt-text="Screenshot of the Sales by Item matrix" lightbox="media/sales/sales-by-item-matrix.png":::
 
 
 ## Report overview in the Power BI sales app

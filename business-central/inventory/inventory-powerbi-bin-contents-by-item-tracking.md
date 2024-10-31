@@ -21,7 +21,7 @@ It highlights key warehouse quantity information showing how many of an item are
 
 The *Bin Contents by Item Tracking* reports shows outlines a clear picture of an organizations bin contents and its lot tracking in a matrix view displaying all key fields.
 
-:::image type="content" source="../media/inventory/bin-content-by-item-tracking.png" alt-text="Screenshot of the Bin Contents by Item Tracking Power BI Report" lightbox="../media/inventory/bin-content-by-item-tracking.png":::
+:::image type="content" source="media/inventory/bin-content-by-item-tracking.png" alt-text="Screenshot of the Bin Contents by Item Tracking Power BI Report" lightbox="media/inventory/bin-content-by-item-tracking.png":::
 
 ## How to use the report
 

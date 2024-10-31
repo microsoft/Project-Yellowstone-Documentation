@@ -19,7 +19,7 @@ The *Gross Requirement* report looks at all outbound transactions within the sys
 
 The *Gross Requirement* reports shows a view of the Gross Requirement for an item along with the inventory across the different documents. This is coupled with the Project Available Balance which calculates the balance at any point in time. 
 
-:::image type="content" source="../media/inventory/gross-requirement.png" alt-text="Screenshot of the Gross Requirement Power BI Report" lightbox="../media/inventory/gross-requirement.png":::
+:::image type="content" source="media/inventory/gross-requirement.png" alt-text="Screenshot of the Gross Requirement Power BI Report" lightbox="media/inventory/gross-requirement.png":::
 
 ## How to use the report
 

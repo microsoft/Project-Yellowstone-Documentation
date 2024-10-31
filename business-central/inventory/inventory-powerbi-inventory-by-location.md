@@ -19,7 +19,7 @@ The *Inventory by Location* outlines inventory levels across an organizations di
 
 It provides an accurate picuture of each location and the inventory levels broken down by Item Category and Item.
 
-:::image type="content" source="../media/inventory/inventory-by-location.png" alt-text="Screenshot of the Inventory by Location Power BI Report" lightbox="media/inventory/inventory-by-location.png":::
+:::image type="content" source="media/inventory/inventory-by-location.png" alt-text="Screenshot of the Inventory by Location Power BI Report" lightbox="media/inventory/inventory-by-location.png":::
 
 ## How to use the report
 

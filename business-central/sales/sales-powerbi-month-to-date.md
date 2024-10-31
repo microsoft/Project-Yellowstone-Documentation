@@ -21,7 +21,7 @@ This report provides a detailed overview of the total revenue generated from sal
 
 The MTD figure does not include revenue generated on the current date as sales activities might still be ongoing.
 
-:::image type="content" source="../media/sales/sales-month-to-date.png" alt-text="Screenshot of the Month-to-Date (MTD) Power BI report" lightbox="../media/sales/sales-month-to-date.png":::
+:::image type="content" source="media/sales/sales-month-to-date.png" alt-text="Screenshot of the Month-to-Date (MTD) Power BI report" lightbox="media/sales/sales-month-to-date.png":::
 
 
 ## How to use the report

@@ -19,7 +19,7 @@ The *Item Availability* report gives an overview of each items availability in t
 
 This report can assist in identifying items where supply will not match demand and where action needs to be taken.
 
-:::image type="content" source="../media/inventory/item-availability.png" alt-text="Screenshot of the Item Availability Power BI Report" lightbox="media/inventory/item-availability.png":::
+:::image type="content" source="media/inventory/item-availability.png" alt-text="Screenshot of the Item Availability Power BI Report" lightbox="media/inventory/item-availability.png":::
 
 ## How to use the report
 

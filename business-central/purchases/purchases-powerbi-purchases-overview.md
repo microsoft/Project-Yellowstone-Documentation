@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Purchases Overview* report gives a clear picture of your organization's purchasing activities. It highlights important metrics like total purchase amounts, outstanding liabilities, and invoiced purchases. By breaking down purchase quantities by location and item category, and providing vendor information, this report helps with financial analysis, budget management, and compliance. 
 
-:::image type="content" source="../media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="../media/purchases/purchases-overview.png":::
+:::image type="content" source="media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="media/purchases/purchases-overview.png":::
 
 ## How to use the report
 

@@ -21,7 +21,7 @@ This can be used to identify key trends over a set period of time.
 
 This report focuses on the sales amount and comparing the current sales amount value against a 30 day average. 
 
-:::image type="content" source="../media/sales/sales-moving-average.png" alt-text="Screenshot of the Moving Average Power BI report" lightbox="../media/sales/sales-moving-average.png":::
+:::image type="content" source="media/sales/sales-moving-average.png" alt-text="Screenshot of the Moving Average Power BI report" lightbox="media/sales/sales-moving-average.png":::
 
 ## How to use the report
 

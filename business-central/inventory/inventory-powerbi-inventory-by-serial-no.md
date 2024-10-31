@@ -19,7 +19,7 @@ The *Inventory by Serial No* highlights your organizations total inventory broke
 
 This can be used to identify different serial and can be used to track the performance on a serial by serial basis.
 
-:::image type="content" source="../media/inventory/inventory-by-serial-no.png" alt-text="Screenshot of the Inventory by Serial No Power BI Report" lightbox="media/inventory/inventory-by-serial-no.png":::
+:::image type="content" source="media/inventory/inventory-by-serial-no.png" alt-text="Screenshot of the Inventory by Serial No Power BI Report" lightbox="media/inventory/inventory-by-serial-no.png":::
 
 ## How to use the report
 

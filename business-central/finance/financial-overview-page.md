@@ -24,7 +24,7 @@ The finance overview is typically used in the following scenarios:
 - Financial Analysis: Supports financial analysts in assessing trends, identifying anomalies, and making data-driven recommendations for improvements.
 - Operational Monitoring: Assists operational managers in monitoring financial performance against targets and budgets to ensure operational efficiency and effectiveness.
 
-:::image type="content" source="../media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="../media/finance/financial-overview.png":::
+:::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
 
 ## KPIs on the Financial Overview Report
 

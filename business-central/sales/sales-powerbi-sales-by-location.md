@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Sales by Location* report provides an overview of sales performance broken down by location. It showcases key metrics such as total sales amount, total quantity sold, and cost of goods sold. This information can be further broken down by specific items sold at each location.
 
-:::image type="content" source="../media/sales/sales-by-location.png" alt-text="Screenshot of the Sales by Location Power BI report" lightbox="../media/sales/sales-by-location.png":::
+:::image type="content" source="media/sales/sales-by-location.png" alt-text="Screenshot of the Sales by Location Power BI report" lightbox="media/sales/sales-by-location.png":::
 
 
 ## How to use the report

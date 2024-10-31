@@ -19,7 +19,7 @@ The *Purchase and Sales Quantity* highlights the purchase and sales quantities f
 
 This report is meant for most users and can show any user key data on the ins and outs of an organization.
 
-:::image type="content" source="../media/inventory/purchase-and-sales-quantity.png" alt-text="Screenshot of the Purchase and Sales Quantity Power BI Report" lightbox="media/inventory/purchase-and-sales-quantity.png":::
+:::image type="content" source="media/inventory/purchase-and-sales-quantity.png" alt-text="Screenshot of the Purchase and Sales Quantity Power BI Report" lightbox="media/inventory/purchase-and-sales-quantity.png":::
 
 ## How to use the report
 
