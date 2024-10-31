@@ -53,7 +53,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 The *Actual vs Budget* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 - Item
-- Item Category
 - Value Entry
 - Sales Line
 - Item Budget Entry
