@@ -15,10 +15,19 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The Financial Overview report is designed to provide a comprehensive snapshot of an organization's financial health and performance. This dashboard displays key financial metrics (KPIs) to give stakeholders a clear view of revenue, cost management, profitability, and financial stability. The Finance overview is typically used in the following scenarios:
+The *Financial Overview* report is designed to provide a high-level snapshot of an organization's financial health and performance. This dashboard displays key financial metrics (KPIs) to give stakeholders a clear view of revenue, cost management, profitability, and financial stability. 
 
-Executive Decision-Making: Helping executives and senior management make informed strategic decisions by providing a high-level view of the financial status.
+The finance overview is typically used in the following scenarios:
 
-Financial Analysis: Supports financial analysts in assessing trends, identifying anomalies, and making data-driven recommendations for improvements.
+- Executive Decision-Making: Helping executives and senior management make informed strategic decisions by providing a high-level view of the financial status.
+- Financial Analysis: Supports financial analysts in assessing trends, identifying anomalies, and making data-driven recommendations for improvements.
+- Operational Monitoring: Assists operational managers in monitoring financial performance against targets and budgets to ensure operational efficiency and effectiveness.
 
-Operational Monitoring: Assists operational managers in monitoring financial performance against targets and budgets to ensure operational efficiency and effectiveness.
+:::image type="content" source="../media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="../media/finance/financial-overview.png":::
+
+## How to use the report
+
+The target audience for the *Sales Overview* report is
+- Executives
+- Directors
+- Other high-level decision makers
