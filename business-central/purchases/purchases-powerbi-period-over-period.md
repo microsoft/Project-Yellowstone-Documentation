@@ -1,10 +1,25 @@
+---
+title: Period-Over-Period Growth
+description: The Period-Over-Period Growth report provides valuable insights into your organization's purchasing performance over time
+author: kennieNP
+ms.author: kepontop
+ms.reviewer:
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 37014_Primary
+ms.date: 10/31/2024
+ms.service: dynamics-365-business-central
+---
+
 # Period-Over-Period (Power BI Report)
 
-The _Period-Over-Period Growth_ report provides valuable insights into your organization's purchasing performance over time. This report compares purchasing amounts for different time periods to the same period in the previous year, allowing you to  identify growth trends and areas for improvement.
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
+The *Period-Over-Period Growth* report provides valuable insights into your organization's purchasing performance over time. This report compares purchasing amounts for different time periods to the same period in the previous year, allowing you to  identify growth trends and areas for improvement.
 
 For instance, if the analysis scope is fiscal months, the report compares the purchasing amount in October 2023 to the purchasing amount in October 2022, and if the analysis scope is fiscal years, the report compares the purchasing amount in FY 2023 to the purchasing amount in FY 2022.
 
-This report is meant for business leaders and purchasing managers. 
+:::image type="content" source="media/powerbi/purchases/<screenshot-filename>.png" alt-text="Screenshot of the <page name> Power BI report" lightbox="media/powerbi/purchases/<screenshot-filename>.png":::
 
 ## How to use the report
 
@@ -14,80 +29,26 @@ As a CEO, the *Period-Over-Period Growth* report provides insights into your org
 
 As a purchasing manager, you can use this report to analyze the growth amount and growth %, and evaluate your company's spendings over the current fiscal year in comparison to the previous fiscal year. This information can assist you in adjusting purchasing plans and allocating budgets more effectively.
 
----
-
 ## Key Performance Indicators (KPIs)
 
-The _Period-Over-Period_ report includes the following KPIs:
+The *Period-Over-Period Growth* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](#purchase-amount)  
-- [**Previous Period**](#previous-period)  
-- [**Period-over-Period Growth Amount**](#period-over-period-growth-amount)  
-- [**Period-over-Period Growth %**](#period-over-period-growth-)  
+- [**Purchase Amount**](####)  
+- [**Previous Period**](####)  
+- [**Period-over-Period Growth Amount**](####)  
+- [**Period-over-Period Growth %**](####)  
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+## Data used in the report
 
----
-### Purchase Amount
+The *Period-Over-Period Growth* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The *Purchase Amount* is the actual amount of items purchased within a specific time period. This amount represents the net purchase amount in local currency, excluding VAT.
-
-**Formula**  
-
-*Purchase Amount* is the actual amount of all value entries related to purchase for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Amount*:
-- Value Entry
-
----
-### Previous Period
-
-The *Previous Period* shows the total purchase amount earned in the previous period. For example, if the current *Purchase Amount* captures the purchase amount in January 2023, the *Previous Period* shows the purchase amount in January 2022.
-
-**Formula**  
-
-*Previous Period* is the total amount of all value entries related to purchase is added up for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Previous Period*:
-- Value Entry
-
----
-### Period-over-Period Growth Amount
-
-The *Period-over-Period Growth Amount* is the change in the total amount between the current period and previous period.
-
-**Formula**  
-
-*Period-over-Period Growth Amount* = Purchase Amount - Previous Period
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Period-over-Period Growth Amount*:
-- Value Entry
-
----
-### Period-over-Period Growth %
-
-The *Period-over-Period Growth %* shows the period-over-period growth amount as a percentage of the current purchase amount.
-
-**Formula**  
-
-*Period-over-Period Growth %* = (Period-over-period Growth Amount / Purchase Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Period-over-Period Growth %*:
-- Value Entry
-
-
-## Data used in the Period-Over-Period report
-
-Data from the following tables are used on the *Period-Over-Period* report
 - Value Entry
 - Purchase Line
+
+## Try the report
+
+Try the report here: [Period-Over-Period Growth](https://businesscentral.dynamics.com?page=37014)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
