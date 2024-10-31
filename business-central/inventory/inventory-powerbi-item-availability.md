@@ -47,7 +47,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Item Availability* report
-//Item Availailability Users lots of tables
 - Item
 - Item Ledger Entries
 

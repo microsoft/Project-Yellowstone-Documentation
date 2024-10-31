@@ -15,15 +15,19 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
-The *Inventory Overview* report gives....
+The *Inventory Overview* report provides a high-level summary of your organizations inventory. It highlights key metrics such as you Inventory (Quantity), Scheduled Receipt and Gross Requirement along with your Project Available Balance.
 
-This report is meant for....
+You can gauge a high-level understanding of your inventory on a location by location basis along with quantities across different document types.
 
 :::image type="content" source="media/powerbi/inventory/inventory-overview.png" alt-text="Screenshot of the Inventory Overview Power BI Report" lightbox="media/powerbi/inventory/inventory-overview.png"
 
 ## How to use the report
 
-The *Inventory Overview* ###
+The *Inventory Overview* is meant for leadership and management for them to be able to guage the inventory levels across locations whilst also getting an idea on requirements versus receipts.
+
+As someone on the management team, you can use the *Inventory Overview* report to paint a picture of the stock information without having to drill-down. This report can quickly and efficently show you key information that you can use to make informed decisions in the future.
+
+As a member of the leadership team, seeing accurate and concise information is required for you to make key business decisions. With the *Inventory Overview* you can get a clear view of stock being receipted or demand that is currently in the system and make informed changes to account for this.
 
 ## Key Performance Indicators (KPIs)
 
@@ -58,7 +62,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Inventory Overview* report
-//Item Availailability uses lots of tables
 - Item
 - Item Ledger Entries
 - Job Planning Lines

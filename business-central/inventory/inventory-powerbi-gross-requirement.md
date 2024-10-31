@@ -17,15 +17,17 @@ ms.service: dynamics-365-business-central
 
 The *Gross Requirement* report looks at all outbound transactions within the system to identify the quantity required per item. 
 
-This report is meant for management and procurement officers to be able to identify if the organization is keeping up with the demand.
-The *Gross Requirement* reports shows a view of the Gross Requirement for an item along with the inventory across the different documents. This is coupled with the Project Available Balance which calculates the balance at any point in time. This is viewable in both a matrix view and a Line and cluster column chart which shows the trend line as the Project Available Balance.
-
+The *Gross Requirement* reports shows a view of the Gross Requirement for an item along with the inventory across the different documents. This is coupled with the Project Available Balance which calculates the balance at any point in time. 
 
 :::image type="content" source="media/powerbi/inventory/gross-requirement.png" alt-text="Screenshot of the Gross Requirement Power BI Report" lightbox="media/powerbi/inventory/gross-requirement.png"
 
 ## How to use the report
 
-The *Gross Requirement* ###
+The *Gross Requirement* is meant for management and procurement officers to be able to identify if the organization is keeping up with the demand.
+
+As a manager, you can use the *Gross Requirement* report to ensure that you are keeping stock levels high enough to maintain the production schedule and sales demand for each item. The report can aid in identify impending bottle necks in production by highlighting items where the available balance will not meet the gross requirement. 
+
+As a procurement officer, this report allows you to see Sales and Production volumes and ensure your available balance is enough to sustain the requirements for each item. With this, you can make informed decisions on what items need more inventory.
 
 ## Key Performance Indicators (KPIs)
 
@@ -49,7 +51,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Gross Requirement* report
-//Item Availailability uses lots of tables
 - Item
 - Item Ledger Entries
 - Assembly Lines

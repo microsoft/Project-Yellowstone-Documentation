@@ -45,7 +45,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Inventory by Lot No* report
-//Item Availailability uses lots of tables
 - Item
 - Item Ledger Entries
 - Lot No

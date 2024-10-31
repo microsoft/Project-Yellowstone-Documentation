@@ -15,18 +15,21 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
-The *Bin Contents* breaks down an organizations inventory levels on a bin by bin basis. This can be used to identify high and low volume bins and can inform inventory movement requirements if bins need additional inventory. The report additional highlights quantity available along with quantity metrics across different warehouse activities such as Pick, Put-Away and general adjustments.
+The *Bin Contents* breaks down an organizations inventory levels on a bin by bin basis. This can be used to identify high and low volume bins and can inform inventory movement requirements if bins need additional inventory. 
 
-This report is meant for warehouse staff and managers to track the ins and outs of the bins.
+The report additional highlights quantity available along with quantity metrics across different warehouse activities such as Pick, Put-Away and general adjustments.
 
-The *Bin Contents* reports shows outlines a comprehensive view of inventory in each bin for an organization. This is broken up with a card showing the Quantity in Adjustment Bins and the Available Quantity to Take as a Treemap. The rest of the data is broken up using a Matrix view.
-
-
-:::image type="content" source="media/powerbi/inventory/bin-contents.png" alt-text="Screenshot of the Bin Contents Power BI Report" lightbox="media/powerbi/inventory/bin-contents.png"
+T:::image type="content" source="media/powerbi/inventory/bin-contents.png" alt-text="Screenshot of the Bin Contents Power BI Report" lightbox="media/powerbi/inventory/bin-contents.png"
 
 ## How to use the report
 
-The *Bin Contents* ###
+The *Bin Contents* can be used by managers and manufacturing or procurement staff to be able to identify item volumes allocated to each bin.
+
+As a Warehouse or Inventory Manager, the *Bin Contents* report provides you a clear picture of the stock levels of each bin across your organization. With this you can make decisions on procurement or further production. Alternatively, this could prompt you to transfer stock to a specific bin to maintain supply. 
+
+As Manufacturing team member, you can use this report to gauge your inventory levels across all bins and plan production schedules based on the inventory in each bin. 
+
+As a member of the procurement team, you can use this report to gauge your inventory levels across all bins and plan purchase orders to ensure bins stay at a reasonable level.
 
 ## Key Performance Indicators (KPIs)
 
@@ -48,7 +51,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Bin Contents* report
-//Item Availailability uses lots of tables
 - Item
 - Bin
 - Location

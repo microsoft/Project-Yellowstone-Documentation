@@ -23,7 +23,9 @@ This report is meant for all users to allow them to see total inventory for an i
 
 ## How to use the report
 
-The *Inventory by Item* ###
+The *Inventory by Item* would be used heavily from an Inventory Management perspective so they can see clear and concise information regarding each item.
+
+As a member of the Inventory Management team, you would use the *Inventory by Item* to ensure you are maintaining a consistent stock level across all items. It highlights inventory levels across a range of documents to you can keep track of receipt, requirement and production levels.
 
 ## Key Performance Indicators (KPIs)
 
@@ -48,7 +50,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Inventory by Item* report
-//Item Availailability uses lots of tables
 - Item
 - Item Ledger Entries
 - Assembly Header

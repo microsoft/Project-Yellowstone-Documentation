@@ -17,13 +17,17 @@ ms.service: dynamics-365-business-central
 
 The *Inventory by Location* outlines inventory levels across an organizations different locations.
 
-This report is meant for managers to be able to quickly identify which locations have the most stock of a particular item or product group.
+It provides an accurate picuture of each location and the inventory levels broken down by Item Category and Item.
 
 :::image type="content" source="media/powerbi/inventory/inventory-by-location.png" alt-text="Screenshot of the Inventory by Location Power BI Report" lightbox="media/powerbi/inventory/inventory-by-location.png"
 
 ## How to use the report
 
-The *Inventory by Location* ###
+The *Inventory by Location* is designed to be used by different management teams such as Warehouse and Supply Chain Management.
+
+As a Warehouse Manager, this report can highlight each location for your organization has the appropiate stock levels. This can identify if a specific location is low or high on stock and highlight where you can make changes moving stock around where required.
+
+As a Supply Chain Manager, the *Inventory by Location* report provides you with information about where you are storing each item. With this information you can make informed decisions around shipping and ensuring that items are delivered on time and at the lowest possible cost.
 
 ## Key Performance Indicators (KPIs)
 
@@ -38,7 +42,6 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 ## Data used in the report
 
 Data from the following tables are used on the *Inventory by Location* report
-//Item Availailability uses lots of tables
 - Item
 - Item Ledger Entries
 - Location
