@@ -21,7 +21,7 @@ The report can showcase the days with a higher volume of sales.
 
 You can break the analysis further down to view variations across different years, quarters or months to identify trends over time.
 
-:::image type="content" source="media/powerbi/sales/sales-daily-sales.png" alt-text="Screenshot of the Daily Sales Power BI report" lightbox="media/powerbi/sales/sales-daily-sales.png":::
+:::image type="content" source="../media/sales/sales-daily-sales.png" alt-text="Screenshot of the Daily Sales Power BI report" lightbox="../media/sales/sales-daily-sales.png":::
 
 
 ## How to use the report

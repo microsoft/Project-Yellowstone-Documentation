@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Sales by Customer* report gives a clear picture of your organization's customers and their sales activities. It highlights key metrics against each customer such as sales amount and quantities along with the costs associated. This can be broken down further by the specific items that are being sold per customer to identify key trends.
 
-:::image type="content" source="media/powerbi/sales/sales-by-customer.png" alt-text="Screenshot of the Sales by Customer Power BI report" lightbox="media/powerbi/sales/sales-by-customer.png":::
+:::image type="content" source="../media/sales/sales-by-customer.png" alt-text="Screenshot of the Sales by Customer Power BI report" lightbox="../media/sales/sales-by-customer.png":::
 
 
 ## How to use the report

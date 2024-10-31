@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Sales by Item* report gives a clear picture of your organization's item sales. It showcases key metrics against each item or item Category such as sales amount and quantities along with the cost amounts. This can be broken down further by the specific customers that are purchasing these items. 
 
-:::image type="content" source="media/powerbi/sales/sales-by-item.png" alt-text="Screenshot of the Sales by Item Power BI report" lightbox="media/powerbi/sales/sales-by-item.png":::
+:::image type="content" source="../media/sales/sales-by-item.png" alt-text="Screenshot of the Sales by Item Power BI report" lightbox="../media/sales/sales-by-item.png":::
 
 
 ## How to use the report

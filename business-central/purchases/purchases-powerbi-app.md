@@ -27,11 +27,11 @@ To fit this category, you might have a role such as:
 
 As the CEO of a manufacturing company, you need to stay on top of rising raw material costs to maintain profitability. For the leadership team, it is important to understand your organization's spendings. By analyzing the [Purchases Overview](purchases-powerbi-purchases-overview.md) and [Moving Annual Total](purchases-powerbi-moving-annual-total.md) reports, you can get a better understanding into how much money is spent all purchasing activities and quickly spot any increases in raw material costs. 
 
-:::image type="content" source="media/powerbi/purchases/purchases-overview-metrics.png" alt-text="Screenshot of the key metrics on the Purchases Overview Power BI report" lightbox="media/powerbi/purchases/purchases-overview-metrics.png":::
+:::image type="content" source="../media/purchases/purchases-overview-metrics.png" alt-text="Screenshot of the key metrics on the Purchases Overview Power BI report" lightbox="../media/purchases/purchases-overview-metrics.png":::
 
 You can also use the [Actual and Budget](purchases-powerbi-actual-vs-budget.md) report to monitor the actual spending against the allocated budget and make informed decisions to plan ahead of the coming months and years, allowing you to enforce better budget control.
 
-:::image type="content" source="media/powerbi/purchases/purchases-actual-vs-budget-matrix.png" alt-text="Screenshot of the Actual vs. Budget matrix" lightbox="media/powerbi/purchases/purchases-actual-vs-budget-matrix.png":::
+:::image type="content" source="../media/purchases/purchases-actual-vs-budget-matrix.png" alt-text="Screenshot of the Actual vs. Budget matrix" lightbox="../media/purchases/purchases-actual-vs-budget-matrix.png":::
 
 ## Purchases analytics for the management team
 
@@ -42,11 +42,11 @@ To fit this category, you might have a role such as:
 ### Example Scenario: reducing raw material costs
 As a Purchase Manager of a manufacturing company, you are responsible for ensuring that the company has the necessary raw materials to meet production demands. You notice that the cost for a particular raw material has increased, which could impact the company's profitability. Using the [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md) and [Purchases by Item](purchases-powerbi-purchases-by-item.md) reports, you can quickly identify the vendor that provides the raw material and analyze the purchase amount compared to the previous year. This information can help you negotiate better prices with the vendor.
 
-:::image type="content" source="media/powerbi/purchases/purchases-amount-by-item-category.png" alt-text="Screenshot of the Purchases Amount by Item Category bar chart" lightbox="media/powerbi/purchases/purchases-amount-by-item-category.png":::
+:::image type="content" source="../media/purchases/purchases-amount-by-item-category.png" alt-text="Screenshot of the Purchases Amount by Item Category bar chart" lightbox="../media/purchases/purchases-amount-by-item-category.png":::
 
 To monitor purchasing activities and ensure compliance with weekly or monthly budgets, the [Daily Purchases](purchases-powerbi-daily-purchases.md) report provides a detailed breakdown of purchase amounts and aggregates these amounts by day, week, month, and year. This report can help you identify any unexpected spikes in spending and take corrective action before it impacts the budget.
 
-:::image type="content" source="media/powerbi/purchases/daily-purchases-matrix.png" alt-text="Screenshot of the Daily Purchases matrix" lightbox="media/powerbi/purchases/daily-purchases-matrix.png":::
+:::image type="content" source="../media/purchases/daily-purchases-matrix.png" alt-text="Screenshot of the Daily Purchases matrix" lightbox="../media/purchases/daily-purchases-matrix.png":::
 
 Additionally, you can use the [Moving Averages](purchases-powerbi-moving-averages.md) report to analyze the company's purchasing trends and identify opportunities to reduce costs and improve efficiency. By using the Purchases by Location report, you can also identify any discrepancies in purchasing patterns across different locations and make decisions.
 
@@ -63,7 +63,7 @@ You notice that the company has been spending a significant amount on a particul
 
 You identify that one vendor has been consistently providing the raw materials at a higher price than other vendors. To analyse spendings and manage supplier relationship, you use the [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md) report to see the purchasing activities for each vendor, including the amount spent, the number of transactions, and the vendors that supplied a specific category of materials.
 
-:::image type="content" source="media/powerbi/purchases/purchases-by-vendor-table.png" alt-text="Screenshot of the Purchases by Vendor table" lightbox="media/powerbi/purchases/purchases-by-vendor-table.png":::
+:::image type="content" source="../media/purchases/purchases-by-vendor-table.png" alt-text="Screenshot of the Purchases by Vendor table" lightbox="../media/purchases/purchases-by-vendor-table.png":::
 
 ## How to use the reports in the Purchases app
 

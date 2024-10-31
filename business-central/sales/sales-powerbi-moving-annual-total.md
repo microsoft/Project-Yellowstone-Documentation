@@ -21,7 +21,7 @@ This is a rolling calculation where the date is continual moving.
 
 The report will showcase the Sales Amount MAT and compare this against the MAT for the previous period. 
 
-:::image type="content" source="media/powerbi/sales/sales-moving-annual-total.png" alt-text="Screenshot of the Moving Annual Total Power BI report" lightbox="media/powerbi/sales/sales-moving-annual-total.png":::
+:::image type="content" source="../media/sales/sales-moving-annual-total.png" alt-text="Screenshot of the Moving Annual Total Power BI report" lightbox="../media/sales/sales-moving-annual-total.png":::
 
 
 ## How to use the report

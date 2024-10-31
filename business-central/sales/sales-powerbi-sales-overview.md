@@ -20,7 +20,7 @@ The *Sales Overview* report provides a high-level summary of your organization's
 
 Additionally, this report give you a quick view of sales amount by salesperson, highlights the top 5 customers by sales amount, and shows the gross profit from the top 5 items.
 
-:::image type="content" source="media/powerbi/sales/sales-overview.png" alt-text="Screenshot of the Sales Overview Power BI report" lightbox="media/powerbi/sales/sales-overview.png":::
+:::image type="content" source="../media/sales/sales-overview.png" alt-text="Screenshot of the Sales Overview Power BI report" lightbox="../media/sales/sales-overview.png":::
 
 ## How to use the report
 
@@ -33,7 +33,7 @@ As a CEO, you regularly monitor the organization's sales operations to ensure th
 
 This report gives you key performance indicators such as the [No. of Outstanding Sales Orders](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders), [No. of Shipped Not Invoiced Sales Orders](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales), and [No. of Posted Sales Invoices](sales-powerbi-sales-kpis.md#no-of-posted-sales-invoices) along with their associated monetary values. 
 
-:::image type="content" source="media/powerbi/sales/sales-overview-kpis.png" alt-text="Screenshot of the Sales Overview KPIs Power BI report" lightbox="media/powerbi/sales/sales-overview-kpis.png":::
+:::image type="content" source="../media/sales/sales-overview-kpis.png" alt-text="Screenshot of the Sales Overview KPIs Power BI report" lightbox="../media/sales/sales-overview-kpis.png":::
 
 
 ## Key Performance Indicators (KPIs)

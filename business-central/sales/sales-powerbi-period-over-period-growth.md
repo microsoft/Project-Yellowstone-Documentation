@@ -21,7 +21,7 @@ The report compares sales amounts for different time periods to the same period 
 
 For instance, if the analysis scope is fiscal months, the report compares the sales amount in September 2023 to the sales amount in September 2022, and if the analysis scope is fiscal years, the report compares the sales amount in FY 2023 to the sale amount in FY 2022.
 
-:::image type="content" source="media/powerbi/sales/sales-period-over-period-growth.png" alt-text="Screenshot of the Period-Over-Period Growth Power BI report" lightbox="media/powerbi/sales/sales-period-over-period-growth.png":::
+:::image type="content" source="../media/sales/sales-period-over-period-growth.png" alt-text="Screenshot of the Period-Over-Period Growth Power BI report" lightbox="../media/sales/sales-period-over-period-growth.png":::
 
 
 ## How to use the report

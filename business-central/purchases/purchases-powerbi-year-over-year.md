@@ -21,7 +21,7 @@ In addition to identifying trends and changes, the *Year-Over-Year* report helps
 
 Together with year-over-year financial figures, the *Year-Over-Year* report provides a comprehensive view of an organization's financial health. By tracking these figures, leaders can make informed decisions about resource allocation, budgeting, and forecasting.
 
-:::image type="content" source="media/powerbi/purchases/purchases-year-over-year.png" alt-text="Screenshot of the Year-over-Year Power BI report" lightbox="media/powerbi/purchases/purchases-year-over-year.png":::
+:::image type="content" source="../media/purchases/purchases-year-over-year.png" alt-text="Screenshot of the Year-over-Year Power BI report" lightbox="../media/purchases/purchases-year-over-year.png":::
 
 ## How to use the report
 
