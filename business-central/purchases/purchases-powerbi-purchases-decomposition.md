@@ -1,7 +1,7 @@
 ---
 title: Purchases Decomposition
 description: The Purchases Decomposition report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

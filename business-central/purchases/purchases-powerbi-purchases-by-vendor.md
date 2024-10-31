@@ -1,7 +1,7 @@
 ---
 title: Purchases by Vendor
 description: The Purchases by Vendor report provides an overview of purchasing activities by vendor.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

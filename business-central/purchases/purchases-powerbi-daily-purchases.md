@@ -1,7 +1,7 @@
 ---
 title: Daily Purchases
 description: The Daily Purchases report provides a comprehensive overview of your organization's purchase activities on specific days.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

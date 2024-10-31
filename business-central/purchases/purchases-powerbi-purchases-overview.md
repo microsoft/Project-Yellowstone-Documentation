@@ -1,7 +1,7 @@
 ---
 title: Purchases Overview
 description: The Purchases Overview report report gives a clear picture of your organization's purchasing activities.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: Purchases by Purchaser
 description: The Purchases by Purchaser report provides a detailed overview of purchasing activities by purchaser.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

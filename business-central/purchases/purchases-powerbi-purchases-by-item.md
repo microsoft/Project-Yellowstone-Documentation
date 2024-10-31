@@ -1,7 +1,7 @@
 ---
 title: Purchases by Item
 description: The Purchases by Item report gives a clear picture of your organization's item purchases.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

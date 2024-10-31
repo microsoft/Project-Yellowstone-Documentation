@@ -1,7 +1,7 @@
 ---
 title: Year-Over-Year
 description: The Year-Over-Year report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

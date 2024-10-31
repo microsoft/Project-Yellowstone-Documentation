@@ -1,7 +1,7 @@
 ---
 title: Period-Over-Period
 description: The Period-Over-Period report provides valuable insights into your organization's purchasing performance over time
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

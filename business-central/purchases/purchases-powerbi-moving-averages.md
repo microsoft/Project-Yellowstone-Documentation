@@ -1,7 +1,7 @@
 ---
 title: Moving Averages
 description: The Moving Averages report provides a comprehensive overview of your organization's average purchase over a 30-day period.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: Actual vs. Budget
 description: The Purchases by Location report provides an overview of purchasing activities by location.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual
