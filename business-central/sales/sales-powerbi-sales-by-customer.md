@@ -1,7 +1,7 @@
 ---
 title: Sales by Customer (Power BI Report)
 description: The *Sales by Customer* report gives a clear picture of your organization's customers and their sales activities.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

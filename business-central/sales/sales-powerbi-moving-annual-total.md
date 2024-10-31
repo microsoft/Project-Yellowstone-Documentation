@@ -1,7 +1,7 @@
 ---
 title: Moving Annual Total (Power BI Report)
 description: The *Moving Annual Total* report provides a total of sales over the last 12 months. 
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

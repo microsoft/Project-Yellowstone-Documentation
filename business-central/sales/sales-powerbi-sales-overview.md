@@ -1,7 +1,7 @@
 ---
 title: Sales Overview (Power BI report)
 description: The *Sales Overview* report provides a high-level summary of your organization's sales activities.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

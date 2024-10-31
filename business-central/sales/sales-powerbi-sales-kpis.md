@@ -1,7 +1,7 @@
 ---
 title: Sales KPIs and measures (Power BI)
 description: Get an overview of all the KPIs and measures in the semantic model for the sales Power BI app.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: Daily Sales (Power BI report)
 description: The *Daily Sales* report provides a clear picture of your organization's sales activities over specific days. 
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

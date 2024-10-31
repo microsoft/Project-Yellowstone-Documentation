@@ -1,7 +1,7 @@
 ---
 title: Sales Month-to-Date (MTD) (Power BI Report)
 description: The *Month-to-Date (MTD)* report allows you to monitor the progress of their sales revenue for the current month
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

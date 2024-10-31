@@ -1,7 +1,7 @@
 ---
 title: Sales App Semantic Model
 description: Get an overview of all tables and fields in the Sales App Semantic Model.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

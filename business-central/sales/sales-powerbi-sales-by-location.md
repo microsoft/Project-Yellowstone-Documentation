@@ -1,7 +1,7 @@
 ---
 title: Sales by Location (Power BI Report)
 description: The *Sales by Location* report provides an overview of sales performance broken down by location.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
