@@ -55,7 +55,7 @@ Data from the following tables are used on the *Purchase and Sales Quantity* rep
 
 ## Try the report
 
-Try the report here: [Purchase and Sales Quantity](https://businesscentral.dynamics.com?###)
+Try the report here: [Purchase and Sales Quantity](https://businesscentral.dynamics.com?page=37025)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

@@ -50,7 +50,7 @@ Data from the following tables are used on the *Inventory by Serial No* report
 
 ## Try the report
 
-Try the report here: [Inventory by Serial No.](https://businesscentral.dynamics.com?###)
+Try the report here: [Inventory by Serial No.](https://businesscentral.dynamics.com?page=37030)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

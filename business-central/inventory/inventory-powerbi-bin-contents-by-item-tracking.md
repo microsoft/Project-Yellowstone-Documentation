@@ -55,7 +55,7 @@ Data from the following tables are used on the *Bin Contents by Item Tracking* r
 
 ## Try the report
 
-Try the report here: [Bin Contents  by Item Tracking](https://businesscentral.dynamics.com?###)
+Try the report here: [Bin Contents  by Item Tracking](https://businesscentral.dynamics.com?page=37032)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
