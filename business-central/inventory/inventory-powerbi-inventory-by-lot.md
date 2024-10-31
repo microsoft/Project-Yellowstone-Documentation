@@ -19,7 +19,7 @@ The *Inventory by Lot No* report highlights your organizations total inventory b
 
 This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
 
-:::image type="content" source="media/powerbi/inventory/inventory-by-lot.png" alt-text="Screenshot of the Inventory by Lot No Power BI Report" lightbox="media/powerbi/inventory/inventory-by-lot.png"
+:::image type="content" source="../media/inventory/inventory-by-lot.png" alt-text="Screenshot of the Inventory by Lot No Power BI Report" lightbox="media/inventory/inventory-by-lot.png":::
 
 ## How to use the report
 

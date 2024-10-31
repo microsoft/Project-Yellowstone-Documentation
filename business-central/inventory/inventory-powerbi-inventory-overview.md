@@ -19,7 +19,7 @@ The *Inventory Overview* report provides a high-level summary of your organizati
 
 You can gauge a high-level understanding of your inventory on a location by location basis along with quantities across different document types.
 
-:::image type="content" source="media/powerbi/inventory/inventory-overview.png" alt-text="Screenshot of the Inventory Overview Power BI Report" lightbox="media/powerbi/inventory/inventory-overview.png"
+:::image type="content" source="../media/inventory/inventory-overview.png" alt-text="Screenshot of the Inventory Overview Power BI Report" lightbox="media/inventory/inventory-overview.png":::
 
 ## How to use the report
 

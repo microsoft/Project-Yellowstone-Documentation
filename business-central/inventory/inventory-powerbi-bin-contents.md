@@ -19,7 +19,7 @@ The *Bin Contents* breaks down an organizations inventory levels on a bin by bin
 
 The report additional highlights quantity available along with quantity metrics across different warehouse activities such as Pick, Put-Away and general adjustments.
 
-T:::image type="content" source="media/powerbi/inventory/bin-contents.png" alt-text="Screenshot of the Bin Contents Power BI Report" lightbox="media/powerbi/inventory/bin-contents.png"
+T:::image type="content" source="../media/inventory/bin-contents.png" alt-text="Screenshot of the Bin Contents Power BI Report" lightbox="../media/inventory/bin-contents.png":::
 
 ## How to use the report
 

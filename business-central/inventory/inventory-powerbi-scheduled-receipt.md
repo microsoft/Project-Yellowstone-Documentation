@@ -19,7 +19,7 @@ The *Scheduled Receipt* gives users the ability to view inbound inventory into a
 
 This also includes internal Assembly or Production accounting for when the finished good will become avaialble along with Purchase and Sales Return documents.
 
-:::image type="content" source="media/powerbi/inventory/scheduled-receipt.png" alt-text="Screenshot of the Scheduled Receipt Power BI Report" lightbox="media/powerbi/inventory/scheduled-receipt.png"
+:::image type="content" source="../media/inventory/scheduled-receipt.png" alt-text="Screenshot of the Scheduled Receipt Power BI Report" lightbox="media/inventory/scheduled-receipt.png":::
 
 ## How to use the report
 
