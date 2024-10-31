@@ -6,7 +6,7 @@ ms.author:
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 
+ms.search.form: 37057_Primary
 ms.date: 10/30/2024
 ms.service: dynamics-365-business-central
 ---
