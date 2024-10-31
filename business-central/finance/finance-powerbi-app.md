@@ -1,7 +1,7 @@
 ---
 title: Finance Power BI app
 description: The Power BI app for Finance in Business Central provides comprehensive finance analytics to stakeholders at all levels of your organization.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual

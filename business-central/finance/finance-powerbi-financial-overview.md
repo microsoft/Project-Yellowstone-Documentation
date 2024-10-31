@@ -1,7 +1,7 @@
 ---
 title: Financial Overview
 description: The Financial Overview report report gives a clear picture of your organization's finance activities.
-author: kennieNP
+author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual
