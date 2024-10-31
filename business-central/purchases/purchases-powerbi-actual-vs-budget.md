@@ -1,8 +1,23 @@
+---
+title: Actual vs. Budget
+description: The Actual vs. Budget report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures.
+author: kennieNP
+ms.author: kepontop
+ms.reviewer:
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: 37021_Primary
+ms.date: 10/31/2024
+ms.service: dynamics-365-business-central
+---
+
 # Actual vs. Budget (Power BI Report)
+
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Actual vs. Budget* report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures. This report allows you to analyze and monitor purchase data by item categories and items, providing a detailed view of purchase budget and variance.
 
-**// TODO: insert report screenshot**
+:::image type="content" source="media/powerbi/purchases/<screenshot-filename>.png" alt-text="Screenshot of the <page name> Power BI report" lightbox="media/powerbi/purchases/<screenshot-filename>.png":::
 
 ## How to use the report
 
@@ -16,144 +31,31 @@ As a purchaser, you can monitor the variance metrics to ensure that you are meet
 
 ## Key Performance Indicators (KPIs)
 
-The *Actual vs. Budget* report includes the following KPIs:
+The *Actual vs Budget* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](#purchase-quantity)  
-- [**Purchase Amount**](#purchase-amount)  
-- [**Budget Quantity**](#budget-quantity)  
-- [**Budget Amount**](#budget-amount)  
-- [**Budget Amount Variance**](#budget-amount-variance)  
-- [**Budget Amount Variance %**](#budget-amount-variance-)  
-- [**Variance**](#variance)  
-- [**Variance %**](#variance-)  
+- [**Purchase Quantity**](####)  
+- [**Purchase Amount**](####)  
+- [**Budget Quantity**](####)  
+- [**Budget Amount**](####)
+- [**Budget Amount Variance**](####)
+- [**Budget Amount Variance %**](####)  
+- [**Variance**](####)  
+- [**Variance %**](####)  
 
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
+## Data used in the report
 
----
-### Purchase Quantity
+The *Actual vs Budget* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The *Purchase Quantity* is the total number of items purchased within a specific time period.
-
-**Formula**  
-
-*Purchase Quantity* is the quantity of all value entries related to purchase for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Quantity*:
-- Value Entry
-
----
-### Purchase Amount
-
-The *Purchase Amount* is the actual amount of items purchased within a specific time period. This amount represents the net purchase amount in local currency, excluding VAT.
-
-**Formula**  
-
-*Purchase Amount* is the actual amount of all value entries related to purchase for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Purchase Amount*:
-- Value Entry
-
----
-### Budget Quantity
-
-The *Budget Quantity* is the total quantity of items allocated for a specific time period.
-
-**Formula**  
-
-*Budget Quantity* is the total quantity based on the item budget entries for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Quantity*:
-- Item Budget Entry
-
----
-### Budget Amount
-
-The *Budget Amount* is the total amount of money allocated for items during a specific time period.
-
-**Formula**  
-
-*Budget Amount* is the total amount based on the item budget entries for the selected timeframe.
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Amount*:
-- Item Budget Entry
-
----
-### Budget Amount Variance
-
-The *Budget Amount Variance* shows the difference between the actual purchase amount and the budget amount.
-
-**Formula**  
-
-*Budget Amount Variance* = Purchase Amount - Budget Amount
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Amount Variance*:
-- Value Entry
-- Item Budget Entry
-
----
-### Budget Amount Variance %
-
-The *Budget Amount Variance %* shows the variance amount as a percentage of the budget amount.
-
-**Formula**  
-
-*Budget Amount Variance %* = (Budget Amount Variance / Budget Amount) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Budget Amount Variance %*:
-- Value Entry
-- Item Budget Entry
-
----
-### Variance
-
-The _Variance_ shows the difference between the actual purchase quantity and the budget quantity.
-
-**Formula**  
-
-*Variance* = Purchase Quantity - Budget Quantity
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Variance*:
-- Value Entry
-- Item Budget Entry
-
----
-### Variance %
-
-The *Variance %* shows the variance quantity as a percentage of the budget quantity.
-
-**Formula**  
-
-*Variance %* = (Variance / Budget Quantity) x 100
-
-**Data Sources**
-
-Data from the following tables are used to calculate the *Variance %*:
-- Value Entry
-- Item Budget Entry
-
-
-## Data used in the Actual vs. Budget report
-
-Data from the following tables are used on the *Actual vs. Budget* report
 - Item
 - Item Category
 - Value Entry
 - Purchase Line
 - Item Budget Entry
 
+## Try the report
+
+Try the report here: [Actual vs. Budget](https://businesscentral.dynamics.com?page=37021)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
