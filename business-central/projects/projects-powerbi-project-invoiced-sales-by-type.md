@@ -14,8 +14,15 @@ ms.service: dynamics-365-business-central
 # Project Invoiced Sales by Type (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+The *Project Invoiced Sales by Type* report breaks down your sales by each different type varying from Resource, Item and G/L Account. 
+
+This allows you to track each different type and see how their billable is performing.
+
 :::image type="content" source="media/projects/project-invoiced-sales-by-type.png" alt-text="Screenshot of the Project Invoiced Sales by Type Power BI Report" lightbox="media/projects/project-invoiced-sales-by-type.png":::
 ## How to use the report
+The *Project Invoiced Sales by Type* report is typically used by project managers to keep track of the different type of sales entries.
+
+As a Project Manager, you can use the *Project Invoiced Sales by Type* report to see how you are charging the different resources per project. Additionally you can use this to measure Item and G/L Sales that are directly against the project.
 
 ## Key Performance Indicators (KPIs)
 The *Project Invoiced Sales by Type* reoprt includes the following KPIs:
