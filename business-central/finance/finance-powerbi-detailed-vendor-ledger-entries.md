@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 36995_Primary
+ms.search.form: 36996_Primary
 ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
 ---
@@ -42,7 +42,7 @@ The *Detailed Vendor Ledger Entries* report use data from the following tables i
 
 ## Try the report
 
-Try the report here: [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36995)
+Try the report here: [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
