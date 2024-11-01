@@ -13,3 +13,28 @@ ms.service: dynamics-365-business-central
 
 # Project Invoiced Sales by Type (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
+## How to use the report
+
+## Key Performance Indicators (KPIs)
+The *Project Invoiced Sales by Type* reoprt includes the following KPIs:
+- [**% Invoiced**](###)
+- [**Quantity**](###)
+- [**Billable (Invoiced Price)**](###)
+- [**Billable (Total Price)**](###)
+- [**Actual (Total Price)**](####)
+
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+## Data used in the report
+Data from the following tables is used in the *Project Invoiced Sales by Type* report [!INCLUDE[prod_short](includes/prod_short.md)]
+- Project
+- Project Ledger Entries
+
+## Try the report
+Try the report here: [Project Invoiced Sales by Type](https://businesscentral.dynamics.com?page=37038)
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## See also
