@@ -1,48 +1,51 @@
 ---
-title: REPORT_NAME
-description: The REPORT_NAME report shows ...
+title: Work Center Load
+description: The Work Center Load report shows ...
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: PAGE_ID_Primary
+ms.search.form: 37042_Primary
 ms.date: 11/01/2024
 ms.service: dynamics-365-business-central
 ---
 
-# REPORT_NAME (Power BI Report)
+# Work Center Load (Power BI Report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *REPORT_NAME* report shows ...
+The *Work Center Load* report measures the work center load and the allocated capacity of each work center. This report provides you with insights into the work center load and helps ensure that each work center is not overloaded.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the REPORT_NAME Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Work Center Load Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
 
 ## How to use the report
 
-The *REPORT_NAME* report is meant for ...
+The *Work Center Load* report is meant for manufacturing managers and supervisors.
 
-Use case 1 ...
+As a manufacturing manager, you can use this report to ensure that each work center is not loaded above their available capacity. By analyzing the load percentage and allocated time, you can identify any work centers that are overloaded and take steps to reduce the workload. For example, you may need to adjust the production schedule or allocate more resources to a particular work center. Additionally, by monitoring the work center load, you can ensure that there is room for contingency in case a work center is loaded up to 100%.
 
-Use case 2 ...
+As a production supervisor, you can use this report to monitor the work center load and report to the manufacturing manager. By analyzing the load percentage and allocated time, you can identify any work centers that are overloaded and report this information to the manufacturing manager. This helps ensure that the workload is distributed evenly across all work centers and that production runs smoothly.
 
 ## Key Performance Indicators (KPIs)
 
-The *REPORT_NAME* report includes the following KPIs and measures: 
+The *Work Center Load* report includes the following KPIs and measures: 
 
-- [KPI 1](####)
+- [Load %]()
+- [Allocated Time (Hours)]()
+- [Capacity Available (Hours)]()
 
 ## Data used in the report
 
-The *REPORT_NAME* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *Work Center Load* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-- Table 1
-- Table 2
-- 
+- Calendar Entry
+- Production Order Routing Line
+- Work Center
+  
 ## Try the report
 
-Try the report here: [REPORT_NAME](https://businesscentral.dynamics.com?page=ID)
+Try the report here: [Work Center Load](https://businesscentral.dynamics.com?page=37042)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
