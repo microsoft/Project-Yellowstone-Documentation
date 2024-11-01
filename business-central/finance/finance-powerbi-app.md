@@ -36,35 +36,35 @@ As the CFO you are preparing for an upcoming board meeting and need to prepare a
 
 Using the Financial Overview report, you begin with a comparative analysis of revenues. This quarter's revenue of $281,000 represents a significant increase compared to the same period last year of $242,000, marking a growth of $39,000, or approximately 16.1%. This positive trend indicates strong performance and suggests that current strategies are effectively driving increased revenue.
 
-:::image type="content" source="media/finance/app/financial-overview-app-page.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview-app-page.png":::
+:::image type="content" source="media/finance/financial-overview-app-page.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview-app-page.png":::
 
 You want to compare the Net Profit Margin for the current quarter versus the same period in the previous year. You quickly identify that Net Profit Margins are slightly lower but you will need more information to determine why. 
 
-:::image type="content" source="media/finance/app/net-profit-margin-by-fiscal-year-and-month.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/net-profit-margin-by-fiscal-year-and-month.png":::
+:::image type="content" source="media/finance/net-profit-margin-by-fiscal-year-and-month.png" alt-text="Screenshot of the Net Profit Margin visual" lightbox="media/finance/net-profit-margin-by-fiscal-year-and-month.png":::
 
 By analyzing the [Profitability](#TODO) report you can easily see that expenses are up from 3.60K to 11.85K for the same period. Although revenue is up by approximately 16.1% the increase in expenses has suppressed growth and produced a marginal increase in profits. 
 
-:::image type="content" source="media/finance/app/profitability-snapshot.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/profitability-snapshot.png":::
+:::image type="content" source="media/finance/profitability-snapshot.png" alt-text="Screenshot of the Profitability report" lightbox="media/finance/profitability-snapshot.png":::
 
 To ensure the company is able to cover it's short-term obligations, fund new initiatives and maintain operational stability you review the liquidity report and cash reserves. 
 
 The cash ratio of 1.0 indicates that the company has enough cash and cash equivalents (1.02M) to pay off all current liabilities (1.02M) immediately if needed. The quick ratio of 1.15 indicates that without including inventory in current assets, the company can still cover it's short-term debts without relying on sales of inventory. Overall, the current ratio of 1.21 indicates the company is in a balanced but cautious liquidity position with current assets of $1.24M to current liabilities of 1.02M.
 
-:::image type="content" source="media/finance/app/liquidity-kpi-snapshot.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/liquidity-kpi-snapshot.png":::
+:::image type="content" source="media/finance/liquidity-kpi-snapshot.png" alt-text="Screenshot of the Liquidity report" lightbox="media/finance/liquidity-kpi-snapshot.png":::
 
 ## Finance analytics for the management team
 As the operations manager you are responsible for overseeing service delivery across various customer segments. These customer groups are tracked as dimensions values (Large, Medium and Small) by the Customer Group global dimension.
 
 By filtering the Budget Comparison report by Global Dimension 2 and G/L Account Category to Income and Expense, you can easily track budget performance. This allows you to allocate resources more effectively, keep control of the budget and make data-driven decisions when forecasting in the future.
 
-:::image type="content" source="media/finance/app/budget-comparison-snapshot.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/budget-comparison-snapshot.png":::
+:::image type="content" source="media/finance/budget-comparison-snapshot.png" alt-text="Screenshot of the Budget Comparison report" lightbox="media/finance/budget-comparison-snapshot.png":::
 
 ## Finance analytics for daily finance work
 As a member of the accounts receivable team, you are responsible for managing the inflow of cash by ensuring timely and efficient collection of payments from customers. To monitor and prioritize your efforts, you use the Aged Receivables (Back Dating) report. 
 
 Analyzing by payment terms code allows you to quickly identify customers who have outstanding balances in aging buckets beyond 30 days. You can now prioritize not only customers but the invoices those customers should pay first. 
 
-:::image type="content" source="media/finance/app/aged-receivables-snapshot.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/aged-receivables-snapshot.png":::
+:::image type="content" source="media/finance/aged-receivables-snapshot.png" alt-text="Screenshot of the Aged Receivables (Back Dating) report" lightbox="media/finance/aged-receivables-snapshot.png":::
 
 
 
