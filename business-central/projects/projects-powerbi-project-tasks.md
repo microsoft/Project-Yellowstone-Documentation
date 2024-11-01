@@ -11,8 +11,10 @@ ms.date: 10/28/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Project Taks (Power BI Report)
+# Project Tasks (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
+:::image type="content" source="media/projects/project-tasks.png" alt-text="Screenshot of the Project Tasks Power BI Report" lightbox="media/projects/project-tasks.png":::
 
 ## How to use the report
 

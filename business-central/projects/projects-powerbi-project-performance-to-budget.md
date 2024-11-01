@@ -14,6 +14,8 @@ ms.service: dynamics-365-business-central
 # Project Overview (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+:::image type="content" source="media/projects/project-performance-to-budget.png" alt-text="Screenshot of the Project Performance to Budget Power BI Report" lightbox="media/projects/project-performance-to-budget.png":::
+
 ## How to use the report
 
 ## Key Performance Indicators (KPIs)

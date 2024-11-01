@@ -14,6 +14,9 @@ ms.service: dynamics-365-business-central
 # Project Profitability (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+:::image type="content" source="media/projects/project-profitability.png" alt-text="Screenshot of the Project Profitability Power BI Report" lightbox="media/projects/project-profitability.png":::
+
+
 ## How to use the report
 
 ## Key Performance Indicators (KPIs)

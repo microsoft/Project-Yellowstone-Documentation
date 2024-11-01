@@ -14,6 +14,12 @@ ms.service: dynamics-365-business-central
 # Project Overview (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+The *Projects Overview* report showcases key metrics based on all ongoing projects for your organization. 
+
+This can highlight key metrics such as the % Invoiced, % Complete and other values which provide insights into how projects are tracking for your organizations.
+
+:::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/projects-overview.png":::
+
 ## How to use the report
 
 ## Key Performance Indicators (KPIs)
