@@ -1,15 +1,14 @@
 ---
-title: KPI's in the Finance App
+title: Finance App KPI's
 description: 
-author: johnathan gonzalez
+author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer:
 ms.topic: conceptual
-ms.search.keywords: bi, power BI, analysis, KPI
-# ms.search.form: 516, 9300, 5119, 9301, 9305
-ms.date: 05/28/2024
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
-ms.custom: bap-template
 ---
 
 # KPIs in the Finance App
