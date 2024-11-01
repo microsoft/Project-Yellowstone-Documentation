@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-![alt text](image.png)
+The Profitability Report is designed to help you, as an executive or high-level decision-maker, assess your company's financial success through key profitability metrics like: Net Profit, Net Profit Margin, Gross Profit, and Gross Profit Margin. The KPI cards highlight these metrics and their supporting inputs. This report provides a clear view of both gross and net profit trends over time, enabling you to monitor financial performance and evaluate profitability.
 
 :::image type="content" source="media/finance/profitability-report.png" alt-text="Screenshot of the Profitability report" lightbox="media/finance/profitability-report.png":::
 
@@ -25,6 +25,8 @@ The target audience for the *Profitability* report is
 - Executives
 - Directors
 - Other high-level decision makers
+
+As an executive, you would use the Profitability report to analyze gross and net profits over time. Combining global and shortcut dimensions with fiscal period filters, you can quickly visualize trends and gain insights into key drivers of financial performance. 
 
 ## Key Performance Indicators (KPIs)
 
