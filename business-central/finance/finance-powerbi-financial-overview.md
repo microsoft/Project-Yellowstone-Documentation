@@ -27,7 +27,7 @@ The finance overview is typically used in the following scenarios:
 
 ## How to use the report
 
-The target audience for the *Sales Overview* report is
+The target audience for the *Finance Overview* report is
 - Executives
 - Directors
 - Other high-level decision makers
