@@ -15,8 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+The Income Statement by Month report provides users with a detailed, month-to-month view of net changes across all income statement accounts, organized in a parent-child hierarchy for intuitive navigation. You can also explore specific details by drilling down into the Income Statement Drill-Through report, which provides access to the underlying ledger entries.
+
+This report is an essential tool for senior management and finance administrators, offering a profit and loss overview that supports financial analysis, performance tracking, and informed decision-making.
+
+:::image type="content" source="media/finance/income-statement-by-month-report.png" alt-text="Screenshot of the Income Statement by Month report" lightbox="media/finance/income-statement-by-month-report.png":::
 
 ## How to use the report
+
+As the CFO you might use the Income Statement by Month report to analyze monthly profitability trends for the fiscal year. For example, you might review the month-to-month changes in both operating expenses and revenue to identify drivers in overall profitability.
+
+As a finance administrator you might use the Income Statement by Month report to manage and review the operating expenses by a Department dimension. For example, if you detect an unexpected rise in costs, you could filter the report by department to identify the department responsible for the increased expenditure. This enables you to target the investigation and realign the department budget if needed. 
 
 ## Key Performance Indicators (KPIs)
 
