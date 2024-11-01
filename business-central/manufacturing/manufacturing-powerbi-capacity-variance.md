@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Capacity Variance* report provides an overview of the variance between expected and actual capacity costs on a monthly basis. This report helps you to identify areas where costs are overrunning. You can optimize production processes, reduce costs, and improve overall performance.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Capacity Variance Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/capacity-variance.png" alt-text="Screenshot of the Capacity Variance Power BI Report" lightbox="media/manufacturing/capacity-variance.png":::
 
 ## How to use the report
 

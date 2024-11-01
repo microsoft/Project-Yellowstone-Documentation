@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Average Production Times* report shows the detailed average production times for each item. With detailed insights into the average production times for each item, you can make informed decisions and optimize your production process.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Average Production Times Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/avergage-production-times.png" alt-text="Screenshot of the Average Production Times Power BI Report" lightbox="media/manufacturing/avergage-production-times.png":::
 
 ## How to use the report
 

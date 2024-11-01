@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Finished Production Order Breakdown* report provides insights into the expected quantity versus the finished quantity of production orders. It serves as an indicator to track work in progress and status to meet the expected demand.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/finished-production-order-breakdown.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown.png":::
 
 ## How to use the report
 

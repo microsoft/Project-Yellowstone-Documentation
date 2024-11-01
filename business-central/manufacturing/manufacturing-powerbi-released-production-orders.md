@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Released Production Orders* report provides detailed information about all released production orders, including expected versus finished quantities and the variance. 
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Released Production Orders Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/released-production-orders.png" alt-text="Screenshot of the Released Production Orders Power BI Report" lightbox="media/manufacturing/released-production-orders.png":::
 
 ## How to use the report
 

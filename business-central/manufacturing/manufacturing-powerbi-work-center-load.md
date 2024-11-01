@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Work Center Load* report measures the work center load and the allocated capacity of each work center. This report provides you with insights into the work center load and helps ensure that each work center is not overloaded.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Work Center Load Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/work-center-load.png" alt-text="Screenshot of the Work Center Load Power BI Report" lightbox="media/manufacturing/work-center-load.png":::
 
 ## How to use the report
 

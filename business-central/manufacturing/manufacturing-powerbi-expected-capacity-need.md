@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Expected Capacity Need* report provides insights into the expected capacity required for each work center. It helps manufacturing managers to plan production orders and allocate resources efficiently to meet the production demands.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Expected Capacity Need Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/expected-capacity-need.png" alt-text="Screenshot of the Expected Capacity Need Power BI Report" lightbox="media/manufacturing/expected-capacity-need.png":::
 
 ## How to use the report
 

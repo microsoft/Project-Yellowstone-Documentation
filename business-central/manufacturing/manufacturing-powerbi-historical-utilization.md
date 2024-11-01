@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Historical Utilization* report provides insights into the historical utilization of manufacturing resources and machinery equipment over time. It helps identify downtimes, busy periods, and bottlenecks to optimize the utilization of machinery and resources for better capacity planning.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Historical Utilization Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/historical-utilization.png" alt-text="Screenshot of the Historical Utilization Power BI Report" lightbox="media/manufacturing/historical-utilization.png":::
 
 ## How to use the report
 

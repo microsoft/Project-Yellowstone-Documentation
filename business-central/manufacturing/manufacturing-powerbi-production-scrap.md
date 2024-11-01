@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Production Scrap* report highlights the capacity scrap quantity each month, with a breakdown by code, location, and item category. This information helps identify areas where waste is occurring and take steps to reduce it, thereby controlling costs.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Production Scrap Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/production-scrap.png" alt-text="Screenshot of the Production Scrap Power BI Report" lightbox="media/manufacturing/production-scrap.png":::
 
 ## How to use the report
 

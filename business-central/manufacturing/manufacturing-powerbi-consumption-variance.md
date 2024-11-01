@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Consumption Variance* report highlights the variance between expected and actual consumption costs on a monthly basis. With this information, they can gain a better understanding of consumptions and optimize production processes.
 
-:::image type="content" source="media/manufacturing/SCREENSHOT_FILENAME.png" alt-text="Screenshot of the Consumption Variance Power BI Report" lightbox="media/manufacturing/SCREENSHOT_FILENAME.png":::
+:::image type="content" source="media/manufacturing/consumption-variance.png" alt-text="Screenshot of the Consumption Variance Power BI Report" lightbox="media/manufacturing/consumption-variance.png":::
 
 ## How to use the report
 
