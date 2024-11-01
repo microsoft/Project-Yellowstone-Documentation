@@ -21,7 +21,7 @@ The *Historical Utilization* report provides insights into the historical utiliz
 
 ## How to use the report
 
-The *Historical Utilization* report is meant for ...
+The *Current Utilization* report is meant for business leaders and manufacturing teams.
 
 As a COO, you can use the *Historical Utilization* report to measure the return on your plant and machinery equipment over time. The report provides insights into how well your manufacturing team utilized resources. You can track the historical utilization rate to identify bottlenecks and make necessary adjustments to ensure the efficient use of resources.
 
