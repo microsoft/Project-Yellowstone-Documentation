@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The EBITDA report provides an overview of your company's performance from the perspective of both EBIT (Earnings Before Interest and Taxes) and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). You can review EBIT and EBITDA over time to identify trends in operational performance. This type of analysis can inform decisions about cost management and pricing strategies. 
+The EBITDA report provides an overview of your company's performance from the perspective of both EBIT (Earnings Before Interest and Taxes) and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). You can review EBIT and EBITDA over time to identify trends in operational performance and inform decisions about cost management and pricing strategies. 
 
 :::image type="content" source="media/finance/ebitda-report.png" alt-text="Screenshot of the EBITDA report" lightbox="media/finance/ebitda-report.png":::
 
