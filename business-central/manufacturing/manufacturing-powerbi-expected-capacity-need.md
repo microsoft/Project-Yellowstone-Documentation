@@ -31,9 +31,9 @@ As a production supervisor, you can use this report to understand the workload o
 
 The *Expected Capacity Need* report includes the following KPIs and measures: 
 
-- Expected Capacity Need (Hours)
-- Capacity Used (Hours)
-- Capacity Used Variance (Hours)
+- [Expected Capacity Need (Hours)]()
+- [Capacity Used (Hours)]()
+- [Capacity Used Variance (Hours)]()
 
 ## Data used in the report
 
