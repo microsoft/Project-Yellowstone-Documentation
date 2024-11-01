@@ -21,6 +21,11 @@ This can highlight key metrics such as the % Invoiced, % Complete and other valu
 :::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/projects-overview.png":::
 
 ## How to use the report
+The *Project Overview* is designed to be used by leadership and project managers to provide them with high-level information on each project and overall organizational project information.
+
+As someone on the leadership team, using the *Project Overview* you can get a bird's eye view of your organizations projects. This can show you overall progress of projects and breakdown your resourcing allocation per project manager. It shows you a high-level costing information so you can identify where you need to make changes and ensure as a whole the projects are under budget.
+
+As a project manager,  you can use the *Project Overview* to gain a better understanding of the health of all your projects. This would highlight what is performing well and what isn't and where you can make changes to support this.
 
 ## Key Performance Indicators (KPIs)
 The *Project Overview* reoprt includes the following KPIs:
