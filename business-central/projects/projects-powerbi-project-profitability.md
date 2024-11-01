@@ -14,7 +14,16 @@ ms.service: dynamics-365-business-central
 # Project Profitability (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+The *Project Profitabilty* report provides you with a clear view of each of your projects statistics with how the Actual Costs are performing against the Invoice Price.
+
+This allows you to identify what projects are going not producing profit and can point you where to make changes.
+
+:::image type="content" source="media/projects/project-profitability.png" alt-text="Screenshot of the Project Profitability Power BI Report" lightbox="media/projects/project-profitability.png":::
+
 ## How to use the report
+The *Project Profitabilty* report would typically be used by leadership to identify how your team is using ensuring projects continue to perform.
+
+As someone on the leadership team, you would use the *Project Profitability* report to identify high and low performing projects and make changes to ensure profit goals are met.
 
 ## Key Performance Indicators (KPIs)
 The *Project Profitability* reoprt includes the following KPIs:

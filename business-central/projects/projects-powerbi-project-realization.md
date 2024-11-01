@@ -14,7 +14,17 @@ ms.service: dynamics-365-business-central
 # Project Realization (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+The *Project Realization* report highlights how billing is performing against the costs.
+
+This compares the Billable (Invoiced Price) to the Actual (Total Price) and highlights how much of each project has been invoiced,
+
+:::image type="content" source="media/projects/project-realization.png" alt-text="Screenshot of the Project Realization Power BI Report" lightbox="media/projects/project-realization.png":::
 ## How to use the report
+The *Project Realization* report would inherently be used by leadership and project managers to identify what projects need invoices sent to. This can extend the CFO of an organization.
+
+As a CFO, you can view the *Project Realization* report and check which projects have a low realization and invoice based on this. This can ensure monthly invoicing goals are met and ensure a healthy turnover.
+
+As a Project Manager, this report can help you identify which projects have had work completed against them but still need to be invoiced. 
 
 ## Key Performance Indicators (KPIs)
 The *Project Realization* reoprt includes the following KPIs:

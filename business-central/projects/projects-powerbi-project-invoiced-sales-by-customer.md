@@ -14,6 +14,9 @@ ms.service: dynamics-365-business-central
 # Project Invoiced Sales by Customer (Power BI Report)
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+:::image type="content" source="media/projects/project-invoiced-sales-by-customer.png" alt-text="Screenshot of the Project Invoiced Sales by Customer Power BI Report" lightbox="media/projects/project-invoiced-sales-by-customer.png":::
+
+
 ## Key Performance Indicators (KPIs)
 The *Project Invoiced Sales by Customer* reoprt includes the following KPIs:
 - [**% Invoiced**](###)
