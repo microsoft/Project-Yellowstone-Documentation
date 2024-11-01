@@ -1,6 +1,6 @@
 ---
 title: Budget Comparison
-description: The Budget Comparison report provides a comparative analysis of G/L amounts and G/L Budget amounts by month. 
+description: The Budget Comparison report provides a comparative analysis of G/L amounts to G/L Budget amounts by month. 
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-![alt text](image.png)
+The *Budget Comparison* report provides a comparative view of your company's financial performance against budgeted targets. The report is laid out by month to allow for a month-to-month analysis and accounts are categorized by Income Statement or Balance Sheet. 
 
 :::image type="content" source="media/finance/budget-comparison-report.png" alt-text="Screenshot of the Budget Comparison report" lightbox="media/finance/budget-comparison-report.png":::
 
@@ -23,8 +23,9 @@ ms.service: dynamics-365-business-central
 
 The target audience for the *Budget Comparison* report is
 - Executives
-- Directors
-- Other high-level decision makers
+- Finance Managers
+
+As an executive or finance manager, you would use the Budget Comparison Report to monitor your company's financial performance. By filtering by different G/L budgets, shortcut dimensions, and fiscal periods, you can assess performance against various benchmarks. Analyzing the net change and variance metrics helps you identify accounts that need attention, ultimately leading to improved planning and more strategic decision-making.
 
 ## Key Performance Indicators (KPIs)
 
