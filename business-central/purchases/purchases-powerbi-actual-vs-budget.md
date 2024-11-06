@@ -33,14 +33,14 @@ As a purchaser, you can monitor the variance metrics to ensure that you are meet
 
 The *Actual vs Budget* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](####)  
-- [**Purchase Amount**](####)  
-- [**Budget Quantity**](####)  
-- [**Budget Amount**](####)
-- [**Budget Amount Variance**](####)
-- [**Budget Amount Variance %**](####)  
-- [**Variance**](####)  
-- [**Variance %**](####)  
+- [**Purchase Quantity**](purchases-powerbi-purchases-kpis.md#purchase-quantity)  
+- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)  
+- [**Budget Quantity**](purchases-powerbi-purchases-kpis.md#budget-quantity)  
+- [**Budget Amount**](purchases-powerbi-purchases-kpis.md#budget-amount)  
+- [**Budget Amount Variance**](purchases-powerbi-purchases-kpis.md#budget-amount-variance)
+- [**Budget Amount Variance %**](purchases-powerbi-purchases-kpis.md#budget-amount-variance-)  
+- [**Variance**](purchases-powerbi-purchases-kpis.md#budget-quantity-variance)  
+- [**Variance %**](purchases-powerbi-purchases-kpis.md#budget-quantity-variance-)  
 
 ## Data used in the report
 
