@@ -139,12 +139,12 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ## Purchase Budget Table
 **Budget Measures**
-- [Budget Amount](####)
-- [Budget Amount Variance](####)
-- [Budget Amount Variance %](####)
-- [Budget Quantity](####)
-- [Budget Quantity Variance](####)
-- [Budget Quantity Variance %](####)
+- [Budget Amount](#budget-amount)
+- [Budget Amount Variance](#budget-amount-variance)
+- [Budget Amount Variance %](#budget-amount-variance-)
+- [Budget Quantity](#budget-quantity)
+- [Budget Quantity Variance](#budget-quantity-variance)
+- [Budget Quantity Variance %](#budget-quantity-variance-)
 
 ---
 ### Budget Amount
