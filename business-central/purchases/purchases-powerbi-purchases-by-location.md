@@ -29,23 +29,12 @@ As a purchaser, you can use this report to monitor purchasing activities across 
 
 ## Key Performance Indicators (KPIs)
 
-The *Purchases by Location* report includes the following KPIs:
-
-- **Purchase Amount**
-- **Purchase Quantity**
-- **% GT Purchase Amount**
-- **% GT Purchase Quantity**
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
-
-## Key Performance Indicators (KPIs)
-
 The *Purchases by Location* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)
-- [**Purchase Quantity**](####)
-- [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####)
+- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-purchases-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-purchases-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Quantity**](purchases-powerbi-purchases-kpis.md#-gt-purchase-quantity)
 
 ## Data used in the report
 
