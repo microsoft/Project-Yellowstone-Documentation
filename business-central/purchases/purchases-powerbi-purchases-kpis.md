@@ -35,6 +35,21 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Outstanding Quantity](#outstanding-quantity)
 - [Amt. Rcd. Not Invd. (Excl. VAT)](#amt-rcd-not-invd-excl-vat)
 - [Quantity Rcd. Not Invd.](#amt-rcd-not-invd-excl-vat)
+- [Purchase Amount MAT (Fiscal)](#purchase-amount-mat-fiscal)  
+- [Purchase Amount PYMAT (Fiscal)](#purchase-amount-pymat-fiscal)  
+- [Purchase Amount MATG (Fiscal)](#purchase-amount-matg-fiscal)  
+- [Purchase Amount MATG % (Fiscal)](#purchase-amount-matg--fiscal)  
+- [Purchase Amount AVG 30D (Fiscal)](#purchase-amount-avg-30d-fiscal)  
+- [Purchase Amount PP (Fiscal)](#purchase-amount-pp-fiscal)  
+- [Purchase Amount PY (Fiscal)](#purchase-amount-py-fiscal)  
+- [Purchase Amount POP (Fiscal)](#purchase-amount-pop-fiscal)  
+- [Purchase Amount POP % (Fiscal)](#purchase-amount-pop--fiscal)  
+- [Purchase Amount YOY (Fiscal)](#purchase-amount-yoy-fiscal)  
+- [% GT Purchase Amount](####)
+- [% GT Purchase Quantity](####)
+- [% GT Purchase Quantity PY (Fiscal)](####)  
+   
+Please make sure that the headings in the document match the linked headings above.
 
 ---
 ### No. of Distinct Items
@@ -136,6 +151,143 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Purchase Line
 
+---
+### Purchase Amount MAT (Fiscal)
+**Formula**  
+- This measure calculates the purchases for the last 12 months (moving annual total) using the fiscal calendar by summing up the purchases between the calculated first and last days of the 365-day period.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount PYMAT (Fiscal)
+**Formula**  
+- This measure calculates the total purchases for the prior 12 months based on the fiscal calendar. It then determines the maximum available date and calculates the range from 24 months prior to the last available day to 12 months prior. Using these dates, it sums the purchases amount for this period while maintaining filters for the day type and week day.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount MATG (Fiscal)
+**Formula**  
+- This measure compares the current period's moving annual total purchases to the previous period's moving annual total purchases. If both values are not blank, it subtracts the previous period's purchases from the current period's purchases to determine the growth. The result is returned, representing the change in purchases between the two periods.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount MATG % (Fiscal)
+**Formula**  
+- *Purchase Amount MATG % (Fiscal) = Purchase Amount MATG (Fiscal) / Purchase Amount PYMAT x 100* 
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount AVG 30D (Fiscal)
+**Formula**  
+- This measure calculates the average purchase amount for the past 30 days.
+  
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount PP (Fiscal)
+**Formula**  
+- This measure calculates the purchase amount in the previous period. The period is based on the date range you select. For example, if you select a month, the measure will show the purchase amount in the previous month.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount PY (Fiscal)
+**Formula**  
+- This measure calculates the purchase amount in the previous year.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount POP (Fiscal)
+**Formula**  
+- This measure calculates the change in purchases between the current period and the previous period. The period is based on the date range you select. For example, if you select a month, the measure will show the purchase amount period-over-period compared to the previous month.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount POP % (Fiscal)
+**Formula**  
+- This measure calculates the percentage change in purchases between the current period and the previous period.
+
+  *Purchase Amount POP % (Fiscal) = Purchase Amount POP (Fiscal) / Purchase Amount PP (Fiscal) x 100*
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Purchase Amount YOY (Fiscal)
+**Formula**  
+- This measure shows the purchase amount of a specific period compared to the same period in the previous year. It helps you understand whether your purchases have increased or decreased over time.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### % GT Purchase Amount
+**Formula**  
+- This measure shows the percentage of the total purchase amount for the selected period, relative to the grand total of all purchases. It helps you understand the contribution of each period's purchase amount to the total purchase amount.
+
+  *% GT Purchase Amount = Purchase Amount / Grand Total Purchase Amount x 100*
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### % GT Purchase Quantity
+**Formula**  
+- This measure shows the percentage of the total purchase quantity for the selected period, relative to the grand total of all purchases. It helps you understand the contribution of each period's purchase quantity to the total purchase quantity.
+
+  *% GT Purchase Quantity = Purchase Quantity / Grand Total Purchase Quantity x 100*
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### % GT Purchase Quantity PY (Fiscal)
+**Formula**  
+- This measure shows the percentage of the total purchase quantity for the selected period, relative to the grand total of all purchases in the previous year. It helps you compare the contribution of the current purchase amount to the total purchases made in the previous year.
+
+  *% GT Purchase Amount = Purchase Amount / Grand Total Purchase Amount (Previous Year) x 100*
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
 
 ## Purchase Budget Table
 **Budget Measures**
@@ -282,209 +434,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Value Entry
 - Purchase Line
 - Date (Fiscal Calendar)
-
-## Purchase Budget Table - Budget Amount
-**Period-over-Period Growth**
-- [Budget Amount MOM (Fiscal)](####)
-- [Budget Amount MOM % (Fiscal)](####)
-- [Budget Amount PM (Fiscal)](####)
-- [Budget Amount POP (Fiscal)](####)
-- [Budget Amount POP % (Fiscal)](####)
-- [Budget Amount PP (Fiscal)](####)
-- [Budget Amount PQ (Fiscal)](####)
-- [Budget Amount PY (Fiscal)](####)
-- [Budget Amount QOQ (Fiscal)](####)
-- [Budget Amount QOQ % (Fiscal)](####)
-- [Budget Amount YOY (Fiscal)](####)
-- [Budget Amount YOY% (Fiscal)](####)
-
-**Period-to-Date Growth**
-- [Budget Amount MOMTD (Fiscal)](####)
-- [Budget Amount MOMTD % (Fiscal)](####)
-- [Budget Amount PMTD (Fiscal)](####)
-- [Budget Amount PQTD (Fiscal)](####)
-- [Budget Amount PYTD (Fiscal)](####)
-- [Budget Amount QOQTD (Fiscal)](####)
-- [Budget Amount QOQTD % (Fiscal)](####)
-- [Budget Amount YOYTD (Fiscal)](####)
-- [Budget Amount YOYTD % (Fiscal)](####)
-
-**Period-to-Date Over Full Previous Period**
-- [Budget Amount MTDOPM (Fiscal)](####)
-- [Budget Amount MTDOPM % (Fiscal)](####)
-- [Budget Amount PMC (Fiscal)](####)
-- [Budget Amount PQC (Fiscal)](####)
-- [Budget Amount PYC (Fiscal)](####)
-- [Budget Amount QTDOPQ (Fiscal)](####)
-- [Budget Amount QTDOPQ % (Fiscal)](####)
-- [Budget Amount YTDOPY (Fiscal)](####)
-- [Budget Amount YTDOPY % (Fiscal)](####)
-
-**Period-to-Date Total**
-- [Budget Amount MTD (Fiscal)](####)
-- [Budget Amount QTD (Fiscal)](####)
-- [Budget Amount YTD (Fiscal)](####)
-
-## Purchase Budget Table - Budget Quantity
-**Moving Annual Total Growth**
-- [Budget Quantity MAT (364)](####)
-- [Budget Quantity MATG (Fiscal)](####)
-- [Budget Quantity MATG % (Fiscal)](####)
-- [Budget Quantity PYMAT (Fiscal)](####)
-
-**Moving Averages**
-- [Budget Quantity AVG 1Y (Fiscal)](####)
-- [Budget Quantity AVG 30D (Fiscal)](####)
-- [Budget Quantity AVG 3M (Fiscal)](####)
-
-**Period-over-Period Growth**
-- [Budget Quantity MOM (Fiscal)](####)
-- [Budget Quantity MOM % (Fiscal)](####)
-- [Budget Quantity PM (Fiscal)](####)
-- [Budget Quantity POP (Fiscal)](####)
-- [Budget Quantity POP % (Fiscal)](####)
-- [Budget Quantity PP (Fiscal)](####)
-- [Budget Quantity PQ (Fiscal)](####)
-- [Budget Quantity PY (Fiscal)](####)
-- [Budget Quantity QOQ (Fiscal)](####)
-- [Budget Quantity QOQ % (Fiscal)](####)
-- [Budget Quantity YOY (Fiscal)](####)
-- [Budget Quantity YOY % (Fiscal)](####)
-
-**Period-to-Date Growth**
-- [Budget Quantity MOMTD (Fiscal)](####)
-- [Budget Quantity MOMTD % (Fiscal)](####)
-- [Budget Quantity PMTD (Fiscal)](####)
-- [Budget Quantity PQTD (Fiscal)](####)
-- [Budget Quantity PYTD (Fiscal)](####)
-- [Budget Quantity QOQTD (Fiscal)](####)
-- [Budget Quantity QOQTD % (Fiscal)](####)
-- [Budget Quantity YOYTD (Fiscal)](####)
-- [Budget Quantity YOYTD % (Fiscal)](####)
-
-**Period-to-Date Over Full Previous Period**
-- [Budget Quantity MTDOPM (Fiscal)](####)
-- [Budget Quantity MTDOPM % (Fiscal)](####)
-- [Budget Quantity PMC (Fiscal)](####)
-- [Budget Quantity PQC (Fiscal)](####)
-- [Budget Quantity PYC (Fiscal)](####)
-- [Budget Quantity QTDOPQ (Fiscal)](####)
-- [Budget Quantity QTDOPQ % (Fiscal)](####)
-- [Budget Quantity YTDOPY (Fiscal)](####)
-- [Budget Quantity YTDOPY % (Fiscal)](####)
-
-**Period-to-Date Total**
-- [Budget Quantity MTD (Fiscal)](####)
-- [Budget Quantity QTD (Fiscal)](####)
-- [Budget Quantity YTD (Fiscal)](####)
-
-## Purchases Table - Purchase Amount
-**Moving Annual Total Growth**
-- [Purchase Amount MAT (364)](####)
-- [Purchase Amount MAT](####)
-- [Purchase Amount MATG (Fiscal)](####)
-- [Purchase Amount MATG % (Fiscal)](####)
-- [Purchase Amount PYMAT (Fiscal)](####)
-- [Purchase PYMAT)](####)
-
-**Moving Averages**
-- [Purchase Amount AVG 1Y (Fiscal)](####)
-- [Purchase Amount AVG 30D (Fiscal)](####)
-- [Purchase Amount AVG 3M (Fiscal)](####)
-
-**Period-over-Period Growth**
-- [Purchase Amount MOM (Fiscal)](####)
-- [Purchase Amount MOM % (Fiscal)](####)
-- [Purchase Amount PM (Fiscal)](####)
-- [Purchase Amount POP (Fiscal)](####)
-- [Purchase Amount POP % (Fiscal)](####)
-- [Purchase Amount PP (Fiscal)](####)
-- [Purchase Amount PQ (Fiscal)](####)
-- [Purchase Amount PY (Fiscal)](####)
-- [Purchase Amount QOQ (Fiscal)](####)
-- [Purchase Amount QOQ % (Fiscal)](####)
-- [Purchase Amount YOY (Fiscal)](####)
-- [Purchase Amount YOY % (Fiscal)](####)
-
-**Period-to-Date Growth**
-- [Purchase Amount MOMTD (Fiscal)](####)
-- [Purchase Amount MOMTD % (Fiscal)](####)
-- [Purchase Amount PMTD (Fiscal)](####)
-- [Purchase Amount PQTD (Fiscal)](####)
-- [Purchase Amount PYTD (Fiscal)](####)
-- [Purchase Amount QOQTD (Fiscal)](####)
-- [Purchase Amount QOQTD % (Fiscal)](####)
-- [Purchase Amount YOYTD (Fiscal)](####)
-- [Purchase Amount YOYTD % (Fiscal)](####)
-
-**Period-to-Date Over Full Previous Period**
-- [Purchase Amount MTDOPM (Fiscal)](####)
-- [Purchase Amount MTDOPM % (Fiscal)](####)
-- [Purchase Amount PMC (Fiscal)](####)
-- [Purchase Amount PQC (Fiscal)](####)
-- [Purchase Amount PYC (Fiscal)](####)
-- [Purchase Amount QTDOPQ (Fiscal)](####)
-- [Purchase Amount QTDOPQ % (Fiscal)](####)
-- [Purchase Amount YTDOPY (Fiscal)](####)
-- [Purchase Amount YTDOPY % (Fiscal)](####)
-
-**Period-to-Date Total**
-- [Purchase Amount MTD (Fiscal)](####)
-- [Purchase Amount QTD (Fiscal)](####)
-- [Purchase Amount YTD (Fiscal)](####)
-
-## Purchases Table - Purchase Quantity
-**Moving Annual Total Growth**
-- [Purchase Quantity MAT (Fiscal)](####)
-- [Purchase Quantity MATG (Fiscal)](####)
-- [Purchase Quantity MATG % (Fiscal)](####)
-- [Purchase Quantity PYMAT (Fiscal)](####)
-
-**Moving Averages**
-- [Purchase Quantity AVG 1Y (Fiscal)](####)
-- [Purchase Quantity AVG 30D (Fiscal)](####)
-- [Purchase Quantity AVG 3M (Fiscal)](####)
-
-**Period-over-Period Growth**
-- [Purchase Quantity MOM (Fiscal)](####)
-- [Purchase Quantity MOM % (Fiscal)](####)
-- [Purchase Quantity PM (Fiscal)](####)
-- [Purchase Quantity POP (Fiscal)](####)
-- [Purchase Quantity POP % (Fiscal)](####)
-- [Purchase Quantity PP (Fiscal)](####)
-- [Purchase Quantity PQ (Fiscal)](####)
-- [Purchase Quantity PY (Fiscal)](####)
-- [Purchase Quantity QOQ (Fiscal)](####)
-- [Purchase Quantity QOQ % (Fiscal)](####)
-- [Purchase Quantity YOY (Fiscal)](####)
-- [Purchase Quantity YOY % (Fiscal)](####)
-
-**Period-to-Date Growth**
-- [Purchase Quantity MOMTD (Fiscal)](####)
-- [Purchase Quantity MOMTD % (Fiscal)](####)
-- [Purchase Quantity PMTD (Fiscal)](####)
-- [Purchase Quantity PQTD (Fiscal)](####)
-- [Purchase Quantity PYTD (Fiscal)](####)
-- [Purchase Quantity QOQTD (Fiscal)](####)
-- [Purchase Quantity QOQTD % (Fiscal)](####)
-- [Purchase Quantity YOYTD (Fiscal)](####)
-- [Purchase Quantity YOYTD % (Fiscal)](####)
-
-**Period-to-Date Over Full Previous Period**
-- [Purchase Quantity MTDOPM (Fiscal)](####)
-- [Purchase Quantity MTDOPM % (Fiscal)](####)
-- [Purchase Quantity PMC (Fiscal)](####)
-- [Purchase Quantity PQC (Fiscal)](####)
-- [Purchase Quantity PYC (Fiscal)](####)
-- [Purchase Quantity QTDOPQ (Fiscal)](####)
-- [Purchase Quantity QTDOPQ % (Fiscal)](####)
-- [Purchase Quantity YTDOPY (Fiscal)](####)
-- [Purchase Quantity YTDOPY % (Fiscal)](####)
-
-**Period-to-Date Total**
-- [Purchase Quantity MTD (Fiscal)](####)
-- [Purchase Quantity QTD (Fiscal)](####)
-- [Purchase Quantity YTD (Fiscal)](####)
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
