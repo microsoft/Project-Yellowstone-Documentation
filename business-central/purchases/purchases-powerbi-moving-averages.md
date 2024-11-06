@@ -32,8 +32,8 @@ For example, you may notice that purchasing demands are usually higher towards t
 
 The *Moving Averages* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)
-- [**Purchase Amount Average 30D**](####)
+- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
+- [**Purchase Amount Average 30D**](purchases-powerbi-purchases-kpis.md#purchase-amount-avg-30d-fiscal)
 
 ## Data used in the report
 
