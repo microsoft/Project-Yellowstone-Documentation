@@ -27,6 +27,8 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [No. of Outstanding Purchase Orders](#no-of-outstanding-purchase-orders)
 - [No. of Purchase Invoices](#no-of-purchase-invoices)
 - [No. of Received Not Invd. Purchase Orders](#no-of-received-not-invd-purchase-orders)
+- [Purchase Amount](#invoiced-amount)
+- [Purchase Quantity)](#invoiced-quantity)
 - [Invoiced Amount](#invoiced-amount)
 - [Invoiced Quantity)](#invoiced-quantity)
 - [Outstanding Amount (Excl. VAT)](#outstanding-amount-excl-vat)
@@ -68,6 +70,22 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Purchase Line
+- Value Entry
+
+---
+### Purchase Amount
+**Formula**
+- This KPI sums the the Purchase Amount column of the Purchases table.
+
+**Data Sources**
+- Value Entry
+
+---
+### Purchase Quantity
+**Formula**
+- This KPI sums the the Purchase Quantity column of the Purchases table.
+
+**Data Sources**
 - Value Entry
 
 ---
@@ -127,6 +145,62 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Budget Quantity](####)
 - [Budget Quantity Variance](####)
 - [Budget Quantity Variance %](####)
+
+---
+### Budget Amount
+**Formula**  
+- This KPI calculates the sum of Purchase Amount column from the Purchase Budget table.
+
+**Data Sources**
+- Item Budget Entries
+
+---
+### Budget Amount Variance
+**Formula**
+- *Budget Amount Variance = Purchase Amount - Budget Amount*
+
+**Data Sources**
+- Item Budget Entry
+- Purchase Line
+- Value Entry
+
+---
+### Budget Amount Variance %
+**Formula**  
+- *Budget Amount Variance % = Budget Amount Variance - Budget Amount*
+
+**Data Sources**
+- Item Budget Entry
+- Purchase Line
+- Value Entry
+
+---
+### Budget Quantity
+**Formula**  
+- This KPI sums the Quantity column from the Purchase Budget table.
+
+**Data Sources**
+- Item Budget Entry
+
+---
+### Budget Quantity Variance
+**Formula**  
+- *Budget Quantity Variance = Purchase Quantity - Budget Quantity*
+
+**Data Sources**
+- Item Budget Entry
+- Purchase Line
+- Value Entry
+
+---
+### Budget Quantity Variance %
+**Formula**  
+- *Budget Quantity Variance % = Budget Quantity Variance - Budget Quantity*
+
+**Data Sources**
+- Item Budget Entry
+- Purchase Line
+- Value Entry
 
 ## Budget Amount
 **Moving Annual Total Growth**
