@@ -31,10 +31,10 @@ As a purchaser, you are responsible for making purchasing decisions for specific
 
 The *Purchases by Item* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)
-- [**Purchase Quantity**](####)
-- [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####)
+- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-purchases-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-purchases-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Quantity**](purchases-powerbi-purchases-kpis.md#-gt-purchase-quantity)
 
 ## Data used in the report
 
