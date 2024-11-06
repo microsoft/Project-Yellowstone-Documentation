@@ -33,10 +33,10 @@ As a purchasing manager, you can use this report to analyze the growth amount an
 
 The *Period-Over-Period* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)  
-- [**Previous Period**](####)  
-- [**Period-over-Period Growth Amount**](####)  
-- [**Period-over-Period Growth %**](####)  
+- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)  
+- [**Previous Period**](purchases-powerbi-purchases-kpis.md#previous-period)  
+- [**Period-over-Period Growth Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount-pop-fiscal)  
+- [**Period-over-Period Growth %**](purchases-powerbi-purchases-kpis.md#purchase-amount-pop--fiscal)  
 
 ## Data used in the report
 
