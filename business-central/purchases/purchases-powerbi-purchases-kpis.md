@@ -146,6 +146,17 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Budget Quantity Variance](#budget-quantity-variance)
 - [Budget Quantity Variance %](#budget-quantity-variance-)
 
+**Moving Annual Total Growth**
+- [Budget Amount MAT (Fiscal)](####)
+- [Budget Amount MATG (Fiscal)](####)
+- [Budget Amount MATG % (Fiscal)](####)
+- [Budget Amount PYMAT (Fiscal)](####)
+
+**Moving Averages**
+- [Budget Amount AVG 1Y (Fiscal)](####)
+- [Budget Amount AVG 30D (Fiscal)](####)
+- [Budget Amount AVG 3M (Fiscal)](####)
+
 ---
 ### Budget Amount
 **Formula**  
@@ -202,20 +213,77 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Purchase Line
 - Value Entry
 
-## Budget Amount
-**Moving Annual Total Growth**
-- [Budget Amount MAT (364)](####)
-- [Budget Amount MAT (Fiscal)](####)
-- [Budget Amount MATG (Fiscal)](####)
-- [Budget Amount MATG % (Fiscal)](####)
-- [Budget Amount PYMAT (Fiscal)](####)
-- [Budget PYMAT (364)](####)
+---
+### Budget Amount MAT (Fiscal)
+**Formula**  
+- This measure calculates the purchases for the last 12 months (moving annual total) using the fiscal calendar by summing up the purchases between the calculated first and last days of the 365-day period.
 
-**Moving Averages**
-- [Budget Amount AVG 1Y (Fiscal)](####)
-- [Budget Amount AVG 30D (Fiscal)](####)
-- [Budget Amount AVG 3M (Fiscal)](####)
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
 
+---
+### Budget Amount MATG (Fiscal)
+**Formula**  
+- This measure compares the current period's moving annual total purchases to the previous period's moving annual total purchases. If both values are not blank, it subtracts the previous period's purchases from the current period's purchases to determine the growth. The result is returned, representing the change in purchases between the two periods.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Budget Amount MATG % (Fiscal)
+**Formula**  
+- *Budget Amount MATG % (Fiscal) = Budget Amount MATG (Fiscal) / Budget Amount PYMAT x 100* 
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Budget Amount PYMAT (Fiscal)
+**Formula**  
+- This measure calculates the previous year moving annual total (PYMAT) of the Budget Amount by subtracting one year from the current date.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Budget Amount AVG 1Y (Fiscal)
+**Formula**  
+- This measure calculates the average budet amount for the past year.
+  
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Budget Amount AVG 30D (Fiscal)
+**Formula**  
+- This measure calculates the average budet amount for the past 30 days.
+  
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+---
+### Budget Amount AVG 3M (Fiscal)
+**Formula**  
+- This measure calculates the average budet amount for the past 3 months.
+  
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+## Purchase Budget Table - Budget Amount
 **Period-over-Period Growth**
 - [Budget Amount MOM (Fiscal)](####)
 - [Budget Amount MOM % (Fiscal)](####)
@@ -257,7 +325,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Budget Amount QTD (Fiscal)](####)
 - [Budget Amount YTD (Fiscal)](####)
 
-## Budget Quantity
+## Purchase Budget Table - Budget Quantity
 **Moving Annual Total Growth**
 - [Budget Quantity MAT (364)](####)
 - [Budget Quantity MATG (Fiscal)](####)
@@ -310,7 +378,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Budget Quantity QTD (Fiscal)](####)
 - [Budget Quantity YTD (Fiscal)](####)
 
-## Purchase Amount
+## Purchases Table - Purchase Amount
 **Moving Annual Total Growth**
 - [Purchase Amount MAT (364)](####)
 - [Purchase Amount MAT](####)
@@ -365,7 +433,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Purchase Amount QTD (Fiscal)](####)
 - [Purchase Amount YTD (Fiscal)](####)
 
-## Purchase Quantity
+## Purchases Table - Purchase Quantity
 **Moving Annual Total Growth**
 - [Purchase Quantity MAT (Fiscal)](####)
 - [Purchase Quantity MATG (Fiscal)](####)
