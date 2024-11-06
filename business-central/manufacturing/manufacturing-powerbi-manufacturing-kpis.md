@@ -21,6 +21,154 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
+## Production Data Table
+- Load %
+- Allocated Time (Hours)
+- Capacity Available (Hours)
+- Setup Time per Unit (Hours)
+- Run Time per Unit (Hours)
+- Stop Time per Unit (Hours)
+- Capacity Used per Unit (Hours)
+- Finished Quantity (Base)
+- Capacity Cost Amt. Deviation %
+- Expected Capacity Cost Amount
+- Capacity Cost Amt. (Actual)
+- Capacity Cost Amt. Variance
+- Consumption Cost Amt. Deviation %
+
+---
+### Load %
+**Formula**  
+- This measure is calculates the percentage of available capacity that is currently being utilized, expressed as a percentage..
+  
+  *Load % = Allocated Time (Hours) / Capacity Available (Hours)*
+
+**Data Sources**
+- Calendar Entry
+- Prod. Order Routing Line
+
+---
+### Allocated Time (Hours)
+**Formula**  
+- This measure shows the amount of time in hours that are allocated for production order routing lines by summing up all the allocated time values from the Production Data table.
+
+**Data Sources**
+- Prod. Order Capacity Need
+- Prod. Order Routing Line
+
+---
+### Capacity Available (Hours)
+**Formula**  
+- This measure shows the total amount of available capacity in hours by summing up all capacity available values from the Production Data table.
+
+**Data Sources**
+- Calendar Entry
+
+---
+### Setup Time per Unit (Hours)
+**Formula**  
+- This measure shows the amount of time required to set up a machine or equipment for production.
+
+  *Setup Time per Unit (Hours) = Setup Time (Hours) / Finished Quantity (Base)*
+
+**Data Sources**
+- Capacity Ledger Entry
+
+---
+### Run Time per Unit (Hours)
+**Formula**  
+- This measure is shows the amount of time required to produce a single unit of a product. 
+
+  *Run Time per Unit (Hours) = Run Time (Hours) / Finished Quantity (Base)*
+
+**Data Sources**
+- Capacity Ledger Entry
+
+---
+### Stop Time per Unit (Hours)
+**Formula**  
+- This measure shows the amount of time lost due to equipment downtime or stoppages, per unit produced.
+
+  *Stop Time per Unit (Hours) = Stop Time (Hours) / Finished Quantity (Base)*
+
+**Data Sources**
+- Capacity Ledger Entry
+
+---
+### Capacity Used per Unit (Hours)
+**Formula**  
+- This measure shows the amount of capacity utilized to produce a single unit of a product.
+
+  *Capacity Used per Unit (Hours) = Capacity Used (Hours) / Finished Quantity (Base)*
+
+**Data Sources**
+- Capacity Ledger Entry
+
+---
+### Finished Quantity (Base)
+**Formula**  
+- This measure calculates the total quantity of finished products produced in base units over a given period. by summing up all the output quantities from the Production Data table.
+
+**Data Sources**
+- Item Ledger Entry
+- Location
+
+---
+### Capacity Cost Amt. Deviation %
+**Formula**  
+- This measure calculates the deviation between the actual capacity cost amount and the expected capacity cost amount, expressed as a percentage.
+
+  *Capacity Cost Amt. Deviation % = (Capacity Cost Amt. (Actual) - Expected Capacity Cost Amount)/ Expected Capacity Cost Amount*
+
+**Data Sources**
+- Item Ledger Entry
+- Location
+
+---
+### Expected Capacity Cost Amount
+**Formula**  
+- This measure calculates the expected cost of capacity utilization for a given period by summing up the Expected Operation Cost Amount and the Expected Capacity Overhead Cost. The Expected Operation Cost Amount represents the expected cost of operating the equipment or machinery used in production, while the Expected Capacity Overhead Cost represents the expected cost of indirect resources used in production, such as rent, utilities, and maintenance.
+
+  *Expected Capacity Cost Amount = Expected Operation Cost Amount + Expected Capacity Overhead Cost*
+
+**Data Sources**
+- Prod. Order Routing Line
+- Location
+
+---
+### Capacity Cost Amt. (Actual)
+**Formula**  
+- This measure calculates the actual cost of capacity utilization for a given period bysumming up the Direct Cost and the Overhead Cost. The Direct Cost represents the direct expenses incurred in producing a product, while the Overhead Cost represents the indirect expenses incurred in producing a product, such as rent, utilities, and maintenance.
+
+  *Capacity Cost Amt. (Actual) = Direct Cost + Overhead Cost*
+
+**Data Sources**
+- Capacity Ledger Entry
+
+---
+### Capacity Cost Amt. Variance
+**Formula**  
+- This measure calculates the variance between the expected cost of capacity utilization and the actual cost of capacity utilization.
+
+  *Capacity Cost Amt. Variance = -(Expected Capacity Cost Amount - Capacity Cost Amt. (Actual))*
+
+**Data Sources**
+- Capacity Ledger Entry
+- Prod. Order Routing Line
+- Location
+
+---
+### Consumption Cost Amt. Deviation %
+**Formula**  
+- This measure calculates the deviation between the actual consumption cost amount and the expected consumption cost amount, expressed as a percentage.
+
+  *Consumption Cost Amt. Deviation % = (Consumed Cost Amount (Actual) - Expected Consumption Cost Amount) / Expected Consumption Cost Amount*
+
+**Data Sources**
+- Item Ledger Entry
+- Location
+- Prod. Order Component
+
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
