@@ -34,7 +34,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Amt. Rcd. Not Invd. (Excl. VAT)](#amt-rcd-not-invd-excl-vat)
 - [Quantity Rcd. Not Invd.](#amt-rcd-not-invd-excl-vat)
 
-
+---
 ### No. of Distinct Items
 **Formula**  
 - This KPI calculates the number of unique items that have been purchased by counting the distinct values of the Item No. column of the Purchases table.
@@ -43,6 +43,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Purchase Line
 - Value Entry 
 
+---
 ### No. of Outstanding Purchase Orders
 **Formula**  
 - This KPI calculates the number of unique purchase orders that are currently outstanding, by counting the distinct values of the Document No. column of the Purchases table, where Document Type = Order and Source Type = Purchase Order Outstanding.
@@ -51,6 +52,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Purchase Line
 - Value Entry
 
+---
 ### No. of Purchase Invoices
 **Formula**
 - This KPI calculates the number of unique posted purchase invoices by countint the distinct count of the Document No. column from the Purchases table where Document Type = Purchase Invoice and Source Type = Value Entries Invoiced.
@@ -59,6 +61,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Purchase Line
 - Value Entry
 
+---
 ### No. of Received Not Invd. Purchase Orders
 **Formula**
 - This KPI calculates the number of unique purchase orders that are received but not invoiced, by counting the distinct count of Document No. column from the Purchases table where Document Type = Order and Source Type = Purchase Orders Received Not Invoiced.
@@ -67,6 +70,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Purchase Line
 - Value Entry
 
+---
 ### Invoiced Amount
 **Formula**
 - This KPI calculates the total amount of items that have been purchased and invoiced, by summing the Purchase Amount column of the Purchases table, where Source Type = Purchase Value Entries Invoiced.
@@ -74,6 +78,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
+---
 ### Invoiced Quantity
 **Formula**
 - This KPI calculates the total quantity of items that have been purchased and invoiced, by summing the Purchase Quantity column of the Purchases table, where Source Type = Purchase Value Entries Invoiced.
@@ -81,6 +86,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
+---
 ### Outstanding Amount (Excl. VAT)
 **Formula**  
 - This KPI calculates the sum of Purchase Amount column from the Purchases table where Source Type = Purchase Order Outstanding, excluding VAT.
@@ -88,6 +94,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Purchase Line
 
+---
 ### Outstanding Quantity
 **Formula**  
 - This KPI calculates the sum of Purchase Qty. (Base) column from the Purchases table where Source Type = Purchase Order Outstanding.
@@ -95,6 +102,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Purchase Line
 
+---
 ### Amt. Rcd. Not Invd. (Excl. VAT)
 **Formula**  
 - This KPI calculates the sum of Purchase Amount column from the Purchases table where Source Type = Purchase Order Received Not Invoiced, excluding VAT.
@@ -102,6 +110,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Purchase Line
 
+---
 ### Quantity Rcd. Not Invd.
 **Formula**  
 - This KPI calculates the sum of Purchase Qty. (Base) column from the Purchases table. where Source Type = Purchase Order Received Not Invoiced.
