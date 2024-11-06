@@ -45,9 +45,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Purchase Amount POP (Fiscal)](#purchase-amount-pop-fiscal)  
 - [Purchase Amount POP % (Fiscal)](#purchase-amount-pop--fiscal)  
 - [Purchase Amount YOY (Fiscal)](#purchase-amount-yoy-fiscal)  
-- [% GT Purchase Amount](####)
-- [% GT Purchase Quantity](####)
-- [% GT Purchase Quantity PY (Fiscal)](####)  
+- [% GT Purchase Amount](#-gt-purchase-amount)
+- [% GT Purchase Quantity](#-gt-purchase-quantity)
+- [% GT Purchase Amount PY (Fiscal)](#-gt-purchase-amount-py-fiscal)  
    
 Please make sure that the headings in the document match the linked headings above.
 
@@ -278,7 +278,7 @@ Please make sure that the headings in the document match the linked headings abo
 - Date (Fiscal Calendar)
 
 ---
-### % GT Purchase Quantity PY (Fiscal)
+### % GT Purchase Amount PY (Fiscal)
 **Formula**  
 - This measure shows the percentage of the total purchase quantity for the selected period, relative to the grand total of all purchases in the previous year. It helps you compare the contribution of the current purchase amount to the total purchases made in the previous year.
 
@@ -299,15 +299,15 @@ Please make sure that the headings in the document match the linked headings abo
 - [Budget Quantity Variance %](#budget-quantity-variance-)
 
 **Moving Annual Total Growth**
-- [Budget Amount MAT (Fiscal)](####)
-- [Budget Amount MATG (Fiscal)](####)
-- [Budget Amount MATG % (Fiscal)](####)
-- [Budget Amount PYMAT (Fiscal)](####)
+- [Budget Amount MAT (Fiscal)](#budget-amount-mat-fiscal)
+- [Budget Amount MATG (Fiscal)](#budget-amount-matg-fiscal)
+- [Budget Amount MATG % (Fiscal)](#budget-amount-matg--fiscal)
+- [Budget Amount PYMAT (Fiscal)](#budget-amount-pymat-fiscal)
 
 **Moving Averages**
-- [Budget Amount AVG 1Y (Fiscal)](####)
-- [Budget Amount AVG 30D (Fiscal)](####)
-- [Budget Amount AVG 3M (Fiscal)](####)
+- [Budget Amount AVG 1Y (Fiscal)](#budget-amount-avg-1y-fiscal)
+- [Budget Amount AVG 30D (Fiscal)](#budget-amount-avg-30d-fiscal)
+- [Budget Amount AVG 3M (Fiscal)](#budget-amount-avg-30m-fiscal)
 
 ---
 ### Budget Amount
