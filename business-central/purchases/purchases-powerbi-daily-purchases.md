@@ -32,8 +32,8 @@ As a purchaser, you are responsible for tracking daily purchases and ensuring th
 
 The *Daily Purchases* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](####)  
-- [**Purchase Amount**](####)
+- [**Purchase Quantity**](purchases-powerbi-purchases-kpis.md#purchase-quantity)  
+- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
 
 ## Data used in the report
 
