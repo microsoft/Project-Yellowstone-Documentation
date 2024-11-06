@@ -35,9 +35,9 @@ As a purchasing manager, you are responsible for ensuring that the company sourc
 
 The *Year-Over-Year* report includes the following KPIs and measures: 
 
-- [**Current Year**](####)
-- [**Previous Year (Fiscal)**](####)
-- [**Current Year YOY (Fiscal)**](####)
+- [**Current Year**](purchases-powerbi-purchases-kpis.md#purchase-amount)
+- [**Previous Year (Fiscal)**](purchases-powerbi-purchases-kpis.md#purchase-amount-py-fiscal)
+- [**Current Year YOY (Fiscal)**](purchases-powerbi-purchases-kpis.md#purchase-amount-yoy-fiscal)
 
 ## Data used in the report
 
