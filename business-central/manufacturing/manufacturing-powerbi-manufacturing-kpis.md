@@ -300,7 +300,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 
 ---
-### Finished Cost Amt (Actual)
+### Finished Cost Amt. (Actual)
 **Formula**  
 - This measure shows total actual cost amount for finished goods produced by summing up the actual cost amount for each output item ledger entry from the Production Data Table.
   
