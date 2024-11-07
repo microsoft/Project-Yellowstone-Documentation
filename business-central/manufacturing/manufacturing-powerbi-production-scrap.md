@@ -31,7 +31,7 @@ As a manufacturing manager, this report reveals important measures about capacit
 
 The *Production Scrap* report includes the following KPIs and measures: 
 
-- [Capacity Scrap Quantity]()
+- [Capacity Scrap Quantity](manufacturing-powerbi-manufacturing-kpis.md#capacity-scrap-qty)
 
 ## Data used in the report
 
