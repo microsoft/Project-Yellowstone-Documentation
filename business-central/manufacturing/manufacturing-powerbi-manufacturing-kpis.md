@@ -35,6 +35,13 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Capacity Cost Amt. (Actual)
 - Capacity Cost Amt. Variance
 - Consumption Cost Amt. Deviation %
+- Expected Consumption Cost Amount
+- Consumed Cost Amount (Actual)
+- Consumption Cost Amt. Variance
+- Capacity Used (Hours)
+- Utilization %
+- Expected Capacity Need (Hours)
+- Capacity Used Variance (Hours)
 
 ---
 ### Load %
@@ -168,6 +175,75 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Item Ledger Entry
 - Location
 - Prod. Order Component
+
+---
+### Expected Consumption Cost Amount
+**Formula**  
+- This measure shows the expected cost of consumed items for a given period by summing up the expected consumption cost of each item used in production. To calculate this cost amount, the measure multiplies the expected consumption quantity of each item by its related unit cost and then sums up the results from the Production Data table.
+
+**Data Sources**
+- Prod. Order Component
+
+---
+### Consumed Cost Amount (Actual)
+**Formula**  
+- This measure shows the actual cost of consumed items for a given period by summing up the actual cost of each item used in production. To calculate this cost amount, the measure calculates the sum of the actual cost of items consumed from the Production Data Table, filtered for the Consumption data source.
+
+**Data Sources**
+- Item Ledger Entry
+- Location
+
+---
+### Consumption Cost Amt. Variance
+**Formula**  
+- This measure shows the variance between the expected cost of consumed items and the actual cost of consumed items. 
+
+  *Consumption Cost Amt. Variance = -(Expected Consumption Cost Amount - Consumed Cost Amount (Actual))*
+
+**Data Sources**
+- Prod. Order Component
+- Item Ledger Entry
+- Location
+
+---
+### Capacity Used (Hours)
+**Formula**  
+- This measure shows the total number of capacity hours used by summing up the capacity requirement for each production activity from the Production Data table.
+
+**Data Sources**
+- Capacity Ledger Entry
+
+---
+### Utilization %
+**Formula**  
+- This measure shows the percentage of available capacity that was utilized.
+
+  *Utilization % = (Capacity Used (Hours) / Capacity Available (Hours)*
+
+**Data Sources**
+- Capacity Ledger Entry
+- Calendar Entry
+
+---
+### Expected Capacity Need (Hours)
+**Formula**  
+- This measure shows the expected total capacity required for production by summing up the expected capacity need (in hours) for each production activity from the Production Data table.
+
+**Data Sources**
+- Prod. Order Routing Line
+
+---
+### Capacity Used Variance (Hours)
+**Formula**  
+- This measure shows the variance between the expected capacity need and the actual capacity used.
+
+  *Capacity Used Variance (Hours) = -(Expected Capacity Need (Hours) - Capacity Used (Hours))*
+
+**Data Sources**
+- Prod. Order Routing Line
+- Capacity Ledger Entry
+
+
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
