@@ -33,9 +33,9 @@ As a manufacturing worker, you can use this report to optimize your resource usa
 
 The *Allocated Hours* report includes the following KPIs and measures: 
 
-- [Load %](####)
-- [Allocated Time (Hours)](####)
-- [Capacity Available (Hours)](####)
+- [Load %](manufacturing-powerbi-manufacturing-kpis.md#load-)
+- [Allocated Time (Hours)](manufacturing-powerbi-manufacturing-kpis.md#allocated-time-hours)
+- [Capacity Available (Hours)](manufacturing-powerbi-manufacturing-kpis.md#capacity-available-hours)
 
 ## Data used in the report
 
