@@ -173,11 +173,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Location
 
 ---
-### Consumption  %
+### Consumption Cost Amt. Deviation %
 **Formula**  
 - This measure calculates the deviation between the actual consumption cost amount and the expected consumption cost amount, expressed as a percentage.
 
-  *Consumption  % = (Consumed Cost Amount (Actual) - Expected Consumption Cost Amount) / Expected Consumption Cost Amount*
+  *Consumption Cost Amt. Deviation % = (Consumed Cost Amount (Actual) - Expected Consumption Cost Amount) / Expected Consumption Cost Amount*
 
 **Data Sources**
 - Item Ledger Entry
