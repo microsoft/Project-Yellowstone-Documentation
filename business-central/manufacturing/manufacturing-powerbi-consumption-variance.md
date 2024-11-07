@@ -31,10 +31,10 @@ As a production supervisor, you can use this report to track the consumption cos
 
 The *Consumption Variance* report includes the following KPIs and measures: 
 
-- [Consumption Cost Amt. Deviation %](####)
-- [Expected Consumption Cost Amount](####)
-- [Consumed Cost Amount (Actual)](####)
-- [Consumption Cost Amt. Variance](####)
+- [Consumption Cost Amt. Deviation %](manufacturing-powerbi-manufacturing-kpis.md#consumption-cost-amt-deviation-)
+- [Expected Consumption Cost Amount](manufacturing-powerbi-manufacturing-kpis.md#expected-consumption-cost-amount)
+- [Consumed Cost Amount (Actual)](manufacturing-powerbi-manufacturing-kpis.md#consumed-cost-amount-actual)
+- [Consumption Cost Amt. Variance](manufacturing-powerbi-manufacturing-kpis.md#consumption-cost-amt-variance)
 
 ## Data used in the report
 
