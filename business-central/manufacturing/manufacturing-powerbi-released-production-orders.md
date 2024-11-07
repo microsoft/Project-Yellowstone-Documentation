@@ -31,9 +31,9 @@ As a production supervisor, you can use this report to monitor the expected and 
 
 The *Released Production Orders* report includes the following KPIs and measures: 
 
-- [Expected Quantity (Base)]()
-- [Finished Quantity (Base)]()
-- [Qty. Variance]()
+- [Expected Quantity (Base)](manufacturing-powerbi-manufacturing-kpis.md#expected-quantity-base)
+- [Finished Quantity (Base)](manufacturing-powerbi-manufacturing-kpis.md#finished-quantity-base)
+- [Qty. Variance](manufacturing-powerbi-manufacturing-kpis.md#qty-variance)
 
 ## Data used in the report
 
