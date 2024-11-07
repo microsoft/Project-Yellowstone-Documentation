@@ -42,6 +42,12 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Utilization %
 - Expected Capacity Need (Hours)
 - Capacity Used Variance (Hours)
+- Expected Quantity (Base)
+- Qty. Variance
+- Qty. Deviation %
+- Expected Cost Amt.
+- Finished Cost Amt (Actual)
+- Cost Amt. Variance
 
 ---
 ### Load %
@@ -114,7 +120,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 ---
 ### Finished Quantity (Base)
 **Formula**  
-- This measure calculates the total quantity of finished products produced in base units over a given period. by summing up all the output quantities from the Production Data table.
+- This measure calculates the total quantity of finished products produced in base units over a given period by summing up all the output quantities from the Production Data table.
 
 **Data Sources**
 - Item Ledger Entry
@@ -244,6 +250,69 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Capacity Ledger Entry
 
 
+The Expected Quantity (Base) DAX measure is a calculation used to determine the total expected quantity (in base units) for a given period. This is achieved by summing up the quantity (in base units) for each production order line from the Production Data Table, filtered for the production order line data source.
+
+---
+### Expected Quantity (Base)
+**Formula**  
+- This measure calculates the total expected quantity (in base units) for a given period by summing up the base quantity for each production order line from the Production Data table.
+
+**Data Sources**
+- Prod. Order Line
+- Location
+
+---
+### Qty. Variance
+**Formula**  
+- This measure calculates the variance between the expected quantity and the actual quantity produced.
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
+
+---
+### Qty. Deviation %
+**Formula**  
+- This measure shows the deviation between the expected quantity and the actual quantity produced, expressed as a percentage.
+
+  *Qty. Deviation % = (Finished Quantity (Base) - Expected Quantity (Base)) / [Expected Quantity (Base)*
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
+
+---
+### Expected Cost Amt.
+**Formula**  
+- This measure shows the total expected cost amount by multiplying the quantity (in base units) for each production order line from the Production Data Table by the unit cost (in local currency) for the corresponding item, and summing up the results.
+  
+**Data Sources**
+- Prod. Order Line
+- Location
+
+
+---
+### Finished Cost Amt (Actual)
+**Formula**  
+- This measure shows total actual cost amount for finished goods produced by summing up the actual cost amount for each output item ledger entry from the Production Data Table.
+  
+**Data Sources**
+- Item Ledger Entry
+- Location
+
+---
+### Cost Amt. Variance
+**Formula**  
+- This measure calculates the variance between the expected cost amount and the actual cost amount for finished goods produced.
+
+  *Cost Amt. Variance = -(Expected Cost Amt. - Finished Cost Amt. (Actual))*
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
