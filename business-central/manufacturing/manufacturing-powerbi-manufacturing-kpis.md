@@ -129,11 +129,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Location
 
 ---
-### Capacity  %
+### Capacity Cost Amt. Deviation %
 **Formula**  
 - This measure calculates the deviation between the actual capacity cost amount and the expected capacity cost amount, expressed as a percentage.
 
-  *Capacity  % = (Capacity Cost Amt. (Actual) - Expected Capacity Cost Amount)/ Expected Capacity Cost Amount*
+  *Capacity Cost Amt. Deviation % = (Capacity Cost Amt. (Actual) - Expected Capacity Cost Amount)/ Expected Capacity Cost Amount*
 
 **Data Sources**
 - Item Ledger Entry
