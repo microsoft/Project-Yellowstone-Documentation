@@ -22,34 +22,41 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
 ## Production Data Table
-- [Load %](#load-)  
-- [Allocated Time (Hours)](#allocated-time-hours)  
-- [Capacity Available (Hours)](#capacity-available-hours)  
-- [Setup Time per Unit (Hours)](#setup-time-per-unit-hours)  
-- [Run Time per Unit (Hours)](#run-time-per-unit-hours)  
-- [Stop Time per Unit (Hours)](#stop-time-per-unit-hours)  
-- [Capacity Used per Unit (Hours)](#capacity-used-per-unit-hours)  
-- [Finished Quantity (Base)](#finished-quantity-base)  
-- [Capacity Cost Amt. Deviation %](#capacity-cost-amt-deviation-)  
-- [Expected Capacity Cost Amount](#expected-capacity-cost-amount)  
-- [Capacity Cost Amt. (Actual)](#capacity-cost-amt-actual)  
-- [Capacity Cost Amt. Variance](#capacity-cost-amt-variance)  
-- [Consumption Cost Amt. Deviation %](#consumption-cost-amt-deviation-)  
-- [Expected Consumption Cost Amount](#expected-consumption-cost-amount)  
-- [Consumed Cost Amount (Actual)](#consumed-cost-amount-actual)  
-- [Consumption Cost Amt. Variance](#consumption-cost-amt-variance)  
-- [Capacity Used (Hours)](#capacity-used-hours)  
-- [Utilization %](#utilization-)  
-- [Expected Capacity Need (Hours)](#expected-capacity-need-hours)  
-- [Capacity Used Variance (Hours)](#capacity-used-variance-hours)  
-- [Expected Quantity (Base)](#expected-quantity-base)  
-- [Qty. Variance](#qty-variance)  
-- [Qty. Deviation %](#qty-deviation-)  
-- [Expected Cost Amt.](#expected-cost-amt)  
-- [Finished Cost Amt (Actual)](#finished-cost-amt-actual)  
-- [Cost Amt. Variance](#cost-amt-variance)  
-- [Cost Amt. Deviation %](#cost-amt-deviation-)  
+
+**Capacity**
+- [Load %](#load-)
+- [Allocated Time (Hours)](#allocated-time-hours)
+- [Capacity Available (Hours)](#capacity-available-hours)
+- [Setup Time per Unit (Hours)](#setup-time-per-unit-hours)
+- [Run Time per Unit (Hours)](#run-time-per-unit-hours)
+- [Stop Time per Unit (Hours)](#stop-time-per-unit-hours)
+- [Capacity Used per Unit (Hours)](#capacity-used-per-unit-hours)
+- [Capacity Cost Amt. Deviation %](#capacity-cost-amt-deviation-)
+- [Expected Capacity Cost Amount](#expected-capacity-cost-amount)
+- [Capacity Cost Amt. (Actual)](#capacity-cost-amt-actual)
+- [Capacity Cost Amt. Variance](#capacity-cost-amt-variance)
+- [Capacity Used (Hours)](#capacity-used-hours)
+- [Utilization %](#utilization-)
+- [Expected Capacity Need (Hours)](#expected-capacity-need-hours)
+- [Capacity Used Variance (Hours)](#capacity-used-variance-hours)
 - [Capacity Scrap Qty.](#capacity-scrap-qty)
+
+**Output**
+- [Finished Quantity (Base)](#finished-quantity-base)
+- [Expected Quantity (Base)](#expected-quantity-base)
+- [Qty. Variance](#qty-variance)
+- [Qty. Deviation %](#qty-deviation-)
+- [Expected Cost Amt.](#expected-cost-amt)
+- [Finished Cost Amt. (Actual)](#finished-cost-amt-actual)
+- [Cost Amt. Variance](#cost-amt-variance)
+- [Cost Amt. Deviation %](#cost-amt-deviation-)
+
+
+**Consumption**
+- [Consumption Cost Amt. Deviation %](#consumption-cost-amt-deviation-)
+- [Expected Consumption Cost Amount](#expected-consumption-cost-amount)
+- [Consumed Cost Amount (Actual)](#consumed-cost-amount-actual)
+- [Consumption Cost Amt. Variance](#consumption-cost-amt-variance)
 
 ---
 ### Load %
@@ -251,9 +258,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Prod. Order Routing Line
 - Capacity Ledger Entry
 
-
-The Expected Quantity (Base) DAX measure is a calculation used to determine the total expected quantity (in base units) for a given period. This is achieved by summing up the quantity (in base units) for each production order line from the Production Data Table, filtered for the production order line data source.
-
 ---
 ### Expected Quantity (Base)
 **Formula**  
@@ -327,11 +331,6 @@ The Expected Quantity (Base) DAX measure is a calculation used to determine the 
 - Item Ledger Entry
 - Prod. Order Line
 - Location
-
-
-Capacity Scrap Qty. = CALCULATE(SUM('Production Data Table'[Scrap Quantity]),'Production Data Table'[Data Source]="Capacity Ledger Entry")
-
-The Capacity Scrap Qty. DAX measure is a calculation used to determine the total scrap quantity for capacity ledger entries in a given period. This is achieved by summing up the scrap quantity for each capacity ledger entry from the Production Data Table, filtered for the capacity ledger entry data source.
 
 ---
 ### Capacity Scrap Qty.
