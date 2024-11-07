@@ -32,9 +32,9 @@ As a manufacturing manager, you can use this report to identify the historical u
 
 The *Historical Utilization* report includes the following KPIs and measures: 
 
-- [Capacity Used (Hours)](####)
-- [Utilization %](####)
-- [Capacity Available (Hours)](####)
+- [Capacity Used (Hours)](manufacturing-powerbi-manufacturing-kpis.md#capacity-used-hours)
+- [Utilization %](manufacturing-powerbi-manufacturing-kpis.md#utilization-)
+- [Capacity Available (Hours)](manufacturing-powerbi-manufacturing-kpis.md#capacity-available-hours)
 
 ## Data used in the report
 
