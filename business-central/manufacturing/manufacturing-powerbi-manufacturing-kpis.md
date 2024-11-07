@@ -22,32 +22,34 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
 ## Production Data Table
-- Load %
-- Allocated Time (Hours)
-- Capacity Available (Hours)
-- Setup Time per Unit (Hours)
-- Run Time per Unit (Hours)
-- Stop Time per Unit (Hours)
-- Capacity Used per Unit (Hours)
-- Finished Quantity (Base)
-- Capacity Cost Amt. Deviation %
-- Expected Capacity Cost Amount
-- Capacity Cost Amt. (Actual)
-- Capacity Cost Amt. Variance
-- Consumption Cost Amt. Deviation %
-- Expected Consumption Cost Amount
-- Consumed Cost Amount (Actual)
-- Consumption Cost Amt. Variance
-- Capacity Used (Hours)
-- Utilization %
-- Expected Capacity Need (Hours)
-- Capacity Used Variance (Hours)
-- Expected Quantity (Base)
-- Qty. Variance
-- Qty. Deviation %
-- Expected Cost Amt.
-- Finished Cost Amt (Actual)
-- Cost Amt. Variance
+- [Load %](#load-)  
+- [Allocated Time (Hours)](#allocated-time-hours)  
+- [Capacity Available (Hours)](#capacity-available-hours)  
+- [Setup Time per Unit (Hours)](#setup-time-per-unit-hours)  
+- [Run Time per Unit (Hours)](#run-time-per-unit-hours)  
+- [Stop Time per Unit (Hours)](#stop-time-per-unit-hours)  
+- [Capacity Used per Unit (Hours)](#capacity-used-per-unit-hours)  
+- [Finished Quantity (Base)](#finished-quantity-base)  
+- [Capacity Cost Amt. Deviation %](#capacity-cost-amt-deviation-)  
+- [Expected Capacity Cost Amount](#expected-capacity-cost-amount)  
+- [Capacity Cost Amt. (Actual)](#capacity-cost-amt-actual)  
+- [Capacity Cost Amt. Variance](#capacity-cost-amt-variance)  
+- [Consumption Cost Amt. Deviation %](#consumption-cost-amt-deviation-)  
+- [Expected Consumption Cost Amount](#expected-consumption-cost-amount)  
+- [Consumed Cost Amount (Actual)](#consumed-cost-amount-actual)  
+- [Consumption Cost Amt. Variance](#consumption-cost-amt-variance)  
+- [Capacity Used (Hours)](#capacity-used-hours)  
+- [Utilization %](#utilization-)  
+- [Expected Capacity Need (Hours)](#expected-capacity-need-hours)  
+- [Capacity Used Variance (Hours)](#capacity-used-variance-hours)  
+- [Expected Quantity (Base)](#expected-quantity-base)  
+- [Qty. Variance](#qty-variance)  
+- [Qty. Deviation %](#qty-deviation-)  
+- [Expected Cost Amt.](#expected-cost-amt)  
+- [Finished Cost Amt (Actual)](#finished-cost-amt-actual)  
+- [Cost Amt. Variance](#cost-amt-variance)  
+- [Cost Amt. Deviation %](#cost-amt-deviation-)  
+- [Capacity Scrap Qty.](#capacity-scrap-qty)
 
 ---
 ### Load %
@@ -127,11 +129,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Location
 
 ---
-### Capacity Cost Amt. Deviation %
+### Capacity  %
 **Formula**  
 - This measure calculates the deviation between the actual capacity cost amount and the expected capacity cost amount, expressed as a percentage.
 
-  *Capacity Cost Amt. Deviation % = (Capacity Cost Amt. (Actual) - Expected Capacity Cost Amount)/ Expected Capacity Cost Amount*
+  *Capacity  % = (Capacity Cost Amt. (Actual) - Expected Capacity Cost Amount)/ Expected Capacity Cost Amount*
 
 **Data Sources**
 - Item Ledger Entry
@@ -171,11 +173,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Location
 
 ---
-### Consumption Cost Amt. Deviation %
+### Consumption  %
 **Formula**  
 - This measure calculates the deviation between the actual consumption cost amount and the expected consumption cost amount, expressed as a percentage.
 
-  *Consumption Cost Amt. Deviation % = (Consumed Cost Amount (Actual) - Expected Consumption Cost Amount) / Expected Consumption Cost Amount*
+  *Consumption  % = (Consumed Cost Amount (Actual) - Expected Consumption Cost Amount) / Expected Consumption Cost Amount*
 
 **Data Sources**
 - Item Ledger Entry
@@ -313,6 +315,32 @@ The Expected Quantity (Base) DAX measure is a calculation used to determine the 
 - Item Ledger Entry
 - Prod. Order Line
 - Location
+
+---
+### Cost Amt. Deviation %
+**Formula**  
+- This measure calculates the deviation between the expected cost amount and the actual cost amount for finished goods produced, expressed as a percentage.
+
+  *Cost Amt. Deviation % = (Finished Cost Amt. (Actual) - Expected Cost Amt.) / Expected Cost Amt.*
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
+
+
+Capacity Scrap Qty. = CALCULATE(SUM('Production Data Table'[Scrap Quantity]),'Production Data Table'[Data Source]="Capacity Ledger Entry")
+
+The Capacity Scrap Qty. DAX measure is a calculation used to determine the total scrap quantity for capacity ledger entries in a given period. This is achieved by summing up the scrap quantity for each capacity ledger entry from the Production Data Table, filtered for the capacity ledger entry data source.
+
+---
+### Capacity Scrap Qty.
+**Formula**  
+- This measure calculates the total scrap quantity in a given period by summing up the scrap quantity for each capacity ledger entry from the Production Data table.
+  
+**Data Sources**
+- Capacity Ledger Entry
+
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
