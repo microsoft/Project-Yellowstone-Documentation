@@ -35,11 +35,11 @@ For a manager, you would use the *Inventory Valuation by Item* report to monitor
 
 The *Inventory Valuation by Item* report includes the following KPIs:
 
-- [**Ending Balance Qty**](###)
-- [**Beginning Balance Value**](###)
-- [**Increase Value**](###)
-- [**Decrease Value**](###)
-- [**Ending Balance Value**](###)
+- [**Ending Balance Qty.**](inventory-valuation-powerbi-kpis.md#ending-balance-qty)
+- [**Beginning Balance Value**](inventory-valuation-powerbi-kpis.md#beginning-balance-value)
+- [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
+- [**Increases Value**](inventory-valuation-powerbi-kpis.md#increases-qty)
+- [**Decreases Value**](inventory-valuation-powerbi-kpis.md#decreases-qty)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
 
