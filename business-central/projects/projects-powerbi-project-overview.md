@@ -29,14 +29,14 @@ As a project manager,  you can use the *Project Overview* to gain a better under
 
 ## Key Performance Indicators (KPIs)
 The *Project Overview* reoprt includes the following KPIs:
-- [**% Complete**](###)
-- [**% Invoiced**](###)
-- [**Realization %**](###)
-- [**Actual Profit**](####)
-- [**Actual Profit Margin %**](####)
-- [**Actual (Total Cost)**](####)
-- [**Budget (Total Cost)**](####)
-- [**Project Count**](####)
+- [**% Complete**](projects-powerbi-app-kpis.md#-complete)
+- [**% Invoiced**](projects-powerbi-app-kpis.md#-invoiced)
+- [**Realization %**](projects-powerbi-app-kpis.md#realization-)
+- [**Actual Profit**](projects-powerbi-app-kpis.md#actual-profit)
+- [**Actual Profit Margin %**](projects-powerbi-app-kpis.md#actual-profit-margin-)
+- [**Actual (Total Cost)**](projects-powerbi-app-kpis.md#actual-total-cost)
+- [**Budget (Total Cost)**](projects-powerbi-app-kpis.md#budget-total-cost)
+- [**Project Count**](projects-powerbi-app-kpis.md#project-count)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
