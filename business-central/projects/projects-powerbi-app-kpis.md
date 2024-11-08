@@ -21,6 +21,49 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
+---
+### % Invoiced
+**Formula**  
+- This measure calculates the percentage of billable amount that has been invoiced to customers.
+
+  *% Invoiced = Billable (Invoiced Price) / Billable (Total Price)*
+  
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+---
+### Quantity
+**Formula**  
+- This measure calculates the total quantity of a product or service used in a project by summing the quantity in the Project Ledger Entry table and converting the measure to a postive value.
+  
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Billable (Invoiced Price)
+**Formula**  
+- This measure shows the total invoiced price of billable project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Sale", which indicates that the project entry is billable.
+  
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Billable (Total Price)
+**Formula**  
+- This measure shows the total billable amount of project planning lines by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Billable" or "Both Budget and Billable", which indicates that the line is billable.
+  
+**Data Sources**
+- Job Planning Line
+
+---
+### Actual (Total Price)
+**Formula**  
+- This measure calculates the total actual cost of project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage". The result of this calculation is then converted to a positive value.
+  
+**Data Sources**
+- Job Ledger Entry
+
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
