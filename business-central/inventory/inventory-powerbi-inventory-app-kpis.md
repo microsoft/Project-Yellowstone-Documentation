@@ -21,12 +21,79 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
-#### Warehouse Quantity
+
+### Warehouse Quantity
 **Formula**  
-Sum of Qty. (Base) column from the Bin table.
+- This measure calculates the total quantity of an item that is currently in the warehouse by summing the base quantity from the Warehouse Entry table.
 
 **Data Sources**
+- Warehouse Entry
+
+### Quantity in Adjustment Bin
+**Formula**  
+- This measure calculates the total quantity of an item that is currently in an adjustment bin by summing of the base quantity from the Warehouse Entry table only for the adjustment bins and filtering the Warehouse Entry table to only include entries for the adjustment bins.
+
+**Data Sources**
+- Warehouse Entry
+
+### Available Qty. to Take
+**Formula**  
+- This measure calculates the quantity of an item that is available to be picked for sales or transfer orders. It subtracts the Pick Quantity (Base), ATO Components Pick Qty., and Negative Adjmt. Qty. (Base) measures from the Warehouse Quantity measure, but only for the bins that are not marked as adjustment bins. This gives you the total quantity of the item that is available to be picked for sales or transfer orders.
+
+**Data Sources**
+- Warehouse Entry
 - Bin
+
+### Pick Quantity (Base)
+**Formula**  
+- This measure calculates the total quantity of an item that has been picked from the warehouse for sales or transfer orders. It only includes the quantity that has been picked, not received or moved within the warehouse.
+
+**Data Sources**
+- Warehouse Activity Line
+
+### ATO Components Pick Qty.
+**Formula**  
+- This measure calculates the total quantity of an item that has been taken from the warehouse specifically for assembling products that are made to order. It only includes the quantity that has been picked for assembling, not received or moved within the warehouse.
+
+**Data Sources**
+- Warehouse Activity Line
+
+### Put-away Quantity (Base)
+**Formula**  
+- This measure calculates the total quantity of an item that has been placed in the warehouse for storage. It only includes the quantity that has been put away, not picked or moved within the warehouse.
+
+**Data Sources**
+- Warehouse Activity Line
+
+### Negative Adjmt. Qty. (Base)
+**Formula**  
+- This measure calculates the total quantity of an item that has been removed from the warehouse due to adjustments. This includes any adjustments that result in inventory decreases in the Warehouse Journal Line table.
+
+**Data Sources**
+- Warehouse Journal Line
+
+### Positive Adjmt. Qty. (Base)
+**Formula**  
+- This measure calculates the total quantity of an item that has been added to the warehouse due to adjustments. This includes any adjustments that result in inventory increases in the Warehouse Journal Line table.
+
+**Data Sources**
+- Warehouse Journal Line
+
+### Gross Requirement
+**Formula**  
+- This measure calculates the total quantity of an item that is needed to fulfill various orders and projects. It includes the quantity that is on sales orders, service orders, projects, production order component lines, transaction order shipments, planning issues, assembly components, and purchased returns.
+
+  *Gross Requirement = [Qty. on Sales Order] + [Qty. on Service Order] + [Qty. on Projects] + [Qty. on Prod. Order Comp. Lines] + [Trans. Order Shipment (Qty.)] + [Planning Issues (Qty.)] + [Qty. on Asm. Component] + [Qty. on Purch. Return]*
+
+**Data Sources**
+- Sales Line
+- Purchase Line
+- Transfer Line
+- Service Line
+- Job Planning Line
+- Prod. Order Component
+- Planning Component
+- Assembly Line
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
