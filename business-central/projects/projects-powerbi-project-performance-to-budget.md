@@ -27,14 +27,12 @@ As a Project Manager, you want to be able to have a clear view of all your proje
 
 ## Key Performance Indicators (KPIs)
 The *Project Performance to Budget* reoprt includes the following KPIs:
-- [**Actual (Total Cost)**](####)
-- [**Budget (Total Price)**](####)
-- [**Total Cost Variance to Budget**](####)
-- [**Total Cost Variance to Budget %**](####)
-- [**Total Cost Variance**](####)
-- [**Total Cost Variance %**](####)
-- [**% Complete**](###)
-- [**% Invoiced**](###)
+- [**Actual (Total Cost)**](projects-powerbi-app-kpis.md#actual-total-cost)
+- [**Budget (Total Price)**](projects-powerbi-app-kpis.md#budget-total-price)
+- [**Total Cost Variance to Budget**](projects-powerbi-app-kpis.md#total-cost-variance-to-budget)
+- [**Total Cost Variance to Budget %**](projects-powerbi-app-kpis.md#total-cost-variance-to-budget-)
+- [**% Complete**](projects-powerbi-app-kpis.md#-complete)
+- [**% Invoiced**](projects-powerbi-app-kpis.md#-invoiced)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
