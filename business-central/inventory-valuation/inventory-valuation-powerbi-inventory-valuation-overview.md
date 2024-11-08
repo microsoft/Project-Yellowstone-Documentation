@@ -33,12 +33,12 @@ For a manager, you would use the *Inventory Valuation Overview* to get a quick a
 
 The *Inventory Valuation by Location* report includes the following KPIs:
 
-- [**Ending Balance Value**](###)
-- [**Ending Balance Posted to G/L**](###)
-- [**Variance**](###)
-- [**Invoiced Quantity**](###)
-- [**Increases Qty**](###)
-- [**Decreases Qty**](###)
+- [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
+- [**Ending Balance Posted to G/L**](inventory-valuation-powerbi-kpis.md#ending-balance-posted-to-gl)
+- [**Variance**](inventory-valuation-powerbi-kpis.md#variance)
+- [**Invoiced Quantity**](inventory-valuation-powerbi-kpis.md#invoiced-quantity)
+- [**Increases Quantity**](inventory-valuation-powerbi-kpis.md#increases-quantity)
+- [**Decreases Quantity**](inventory-valuation-powerbi-kpis.md#decreases-quantity)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
 
