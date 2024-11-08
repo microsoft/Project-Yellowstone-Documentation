@@ -64,6 +64,62 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Job Ledger Entry
 
+---
+### % Complete
+**Formula**  
+- This measure calculates the percentage of the project that has been completed based on the actual total cost and the budgeted total cost.
+
+  *% Complete = Actual (Total Cost) / Budget (Total Cost)*
+  
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+---
+### Realization %
+**Formula**  
+- This measure calculates the percentage of project invoiced price that has been realized based on the actual total cost.
+
+  *Realization % = Billable (Invoiced Price) / Actual (Total Price)*
+  
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Actual Profit
+**Formula**  
+- This measure represents the actual profit of a project.
+
+  *Actual Profit = Billable (Invoiced Price) - Actual (Total Cost)*
+  
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Actual Profit Margin %
+**Formula**  
+- This measure represents the actual profit margin percentage of a project.
+
+  *Actual Profit Margin % = Actual Profit / Billable (Invoiced Price)*
+  
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Actual (Total Cost)
+**Formula**  
+- This measure represents the actual cost of resources used in the project by calculating the total cost (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage".
+  
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Budget (Total Cost)
+**Formula**  
+- This measure represents the budgeted cost of resources to be used in a project by calculating the total cost (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
+
+**Data Sources**
+- Job Ledger Entry
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
