@@ -25,6 +25,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Ending Balance Qty.](#ending-balance-qty)  
 - [Increases Value](#increases-value)  
 - [Decreases Value](#decreases-value)  
+- [Beginning Balance Value](#beginning-balance-value)  
 - [Ending Balance Value](#ending-balance-value)  
 - [Ending Balance Posted to G/L](#ending-balance-posted-to-gl)  
 - [Variance](#variance)  
@@ -54,6 +55,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Decreases Value
 **Formula**  
 - This measure shows the total value of inventory decreases during a specified period by calculating the actual cost amount and filtering only those item ledger entries that represent stock decreases including sales, negative adjustments, consumptions, and assembly consumptions.
+
+**Data Sources**
+- Value Entry
+
+---
+### Beginning Balance Value
+**Formula**  
+- This measure shows the total value of inventory at the beginning of a specified period by calculating the actual cost amount in the Value Entry table prior to the beginning of the specified period.
 
 **Data Sources**
 - Value Entry
