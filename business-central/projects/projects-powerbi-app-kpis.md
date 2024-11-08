@@ -26,9 +26,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [% Complete](#-complete)
 - [Realization %](#realization-)
 - [Actual Profit](#actual-profit)
-- [Actual Profit Margin %](#actual-profit-margin)
+- [Actual Profit Margin %](#actual-profit-margin-)
 - [Project Count](#project-count)
-- [Budget Profit Margin %](#budget-profit-margin-percent)
+- [Budget Profit Margin %](#budget-profit-margin-)
 - [Realization Variance](#realization-variance)
 
 ## Project Ledger Entries Table
@@ -43,7 +43,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Budget (Total Cost)](#budget-total-cost)
 - [Budget (Total Price)](#budget-total-price)
 - [Total Cost Variance to Budget](#total-cost-variance-to-budget)
-- [Total Cost Variance to Budget %](#total-cost-variance-to-budget-percent)
+- [Total Cost Variance to Budget %](#total-cost-variance-to-budget-)
 
 ---
 ### % Invoiced
