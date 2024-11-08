@@ -29,14 +29,14 @@ As a Project Manager, you can use the *Project Tasks* report to track individual
 
 ## Key Performance Indicators (KPIs)
 The *Project Tasks* reoprt includes the following KPIs:
-- [**Actual (Total Price)**](####)
-- [**Actual (Total Cost)**](###)
-- [**Actual Profit**](####)
-- [**Actual Profit Margin %**](####)
-- [**Billable (Invoiced Price)**](####)
-- [**Billable (Total Price)**](####)
-- [**Budget (Total Cost)**](####)
-- [**Realization %**](####)
+- [**Actual (Total Price)**](projects-powerbi-app-kpis.md#actual-total-price)
+- [**Actual (Total Cost)**](projects-powerbi-app-kpis.md#actual-total-cost)
+- [**Actual Profit**](projects-powerbi-app-kpis.md#actual-profit)
+- [**Actual Profit Margin %**](projects-powerbi-app-kpis.md#actual-profit-margin-)
+- [**Billable (Invoiced Price)**](projects-powerbi-app-kpis.md#billable-invoiced-price)
+- [**Billable (Total Price)**](projects-powerbi-app-kpis.md#billable-total-price)
+- [**Budget (Total Cost)**](projects-powerbi-app-kpis.md#budget-total-cost)
+- [**Realization %**](projects-powerbi-app-kpis.md#realization-)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
