@@ -122,6 +122,64 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Job Ledger Entry
 
 ---
+### Project Count
+**Formula**  
+- This measure counts the total number of projects in the Project table.
+
+**Data Sources**
+- Job
+
+---
+### Budget (Total Price)
+**Formula**  
+- This measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
+
+**Data Sources**
+- Job Planning Line
+
+---
+### Total Cost Variance to Budget
+**Formula**  
+- This measure calculates the variance between the actual total cost and the budgeted total cost of a project.
+
+  *Total Cost Variance to Budget = Actual (Total Cost) - Budget (Total Cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Total Cost Variance to Budget %
+**Formula**  
+- This measure calculates the variance between the actual total cost and the budgeted total cost of a project, expressed as a percentage.
+
+  *Total Cost Variance to Budget % = Total Cost Variance to Budget / Budget (Total Cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+---
+### Budget Profit Margin %
+**Formula**  
+- This measure calculates the profit margin percentage for a project based on the budgeted profit and the budgeted total price of the project.
+
+  *Budget Profit Margin % = Budget Profit / Budget (Total Price)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+---
+### Realization Variance
+**Formula**  
+- This measure calculates the variance between the billable amount and the actual total cost of a project.
+
+  *Realization Variance = Billable (Invoiced Price) - Actual (Total Price)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
