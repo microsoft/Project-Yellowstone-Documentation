@@ -35,10 +35,10 @@ For a manager, you would use the *Inventory Valuation by Location* report to mon
 
 The *Inventory Valuation by Location* report includes the following KPIs:
 
-- [**Beginning Balance Value**](###)
-- [**Increase Value**](###)
-- [**Decrease Value**](###)
-- [**Ending Balance Value**](###)
+- [**Beginning Balance Value**](inventory-valuation-powerbi-kpis.md#beginning-balance-value)
+- [**Increases Value**](inventory-valuation-powerbi-kpis.md#increases-qty)
+- [**Decreases Value**](inventory-valuation-powerbi-kpis.md#decreases-qty)
+- [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
 
