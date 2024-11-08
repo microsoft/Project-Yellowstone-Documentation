@@ -27,13 +27,13 @@ As someone on the leadership team, you would use the *Project Profitability* rep
 
 ## Key Performance Indicators (KPIs)
 The *Project Profitability* reoprt includes the following KPIs:
-- [**Actual Profit**](####)
-- [**Actual (Total Cost)**](####)
-- [**Actual Profit Margin %**](###)
-- [**Billable (Invoiced Price)**](####)
-- [**Budget (Total Price)**](####)
-- [**Budget (Total Cost)**](####)
-- [**Budget Profit Margin %**](####)
+- [**Actual Profit**](projects-powerbi-app-kpis.md#actual-profit)
+- [**Actual (Total Cost)**](projects-powerbi-app-kpis.md#actual-total-cost)
+- [**Actual Profit Margin %**](projects-powerbi-app-kpis.md#actual-profit-margin-)
+- [**Billable (Invoiced Price)**](projects-powerbi-app-kpis.md#billable-invoiced-price)
+- [**Budget (Total Price)**](projects-powerbi-app-kpis.md#budget-total-price)
+- [**Budget (Total Cost)**](projects-powerbi-app-kpis.md#budget-total-cost)
+- [**Budget Profit Margin %**](projects-powerbi-app-kpis.md#budget-profit-margin-)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
