@@ -21,6 +21,30 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
+## Projects Table
+- [% Invoiced](#invoiced)
+- [% Complete](#complete)
+- [Realization %](#realization)
+- [Actual Profit](#actual-profit)
+- [Actual Profit Margin %](#actual-profit-margin)
+- [Project Count](#project-count)
+- [Budget Profit Margin %](#budget-profit-margin-percent)
+- [Realization Variance](#realization-variance)
+
+## Project Ledger Entries Table
+- [Quantity](#quantity)
+- [Billable (Invoiced Price)](#billable-invoiced-price)
+- [Actual (Total Price)](#actual-total-price)
+- [Actual (Total Cost)](#actual-total-cost)
+
+
+## Project Planning Lines Table
+- [Billable (Total Price)](#billable-total-price)
+- [Budget (Total Cost)](#budget-total-cost)
+- [Budget (Total Price)](#budget-total-price)
+- [Total Cost Variance to Budget](#total-cost-variance-to-budget)
+- [Total Cost Variance to Budget %](#total-cost-variance-to-budget-percent)
+
 ---
 ### % Invoiced
 **Formula**  
