@@ -28,10 +28,10 @@ As a Project Manager, this report can help you identify which projects have had 
 
 ## Key Performance Indicators (KPIs)
 The *Project Realization* reoprt includes the following KPIs:
-- [**Actual (Total Price)**](####)
-- [**Billable (Invoiced Price)**](####)
-- [**Realization %**](####)
-- [**Realization Variance%**](####)
+- [**Actual (Total Price)**](projects-powerbi-app-kpis.md#actual-total-price)
+- [**Billable (Invoiced Price)**](projects-powerbi-app-kpis.md#billable-invoiced-price)
+- [**Realization %**](projects-powerbi-app-kpis.md#realization-)
+- [**Realization Variance**](projects-powerbi-app-kpis.md#realization-variance)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
