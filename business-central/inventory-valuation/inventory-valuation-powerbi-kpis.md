@@ -34,7 +34,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Decreases Qty](#decreases-qty)
 
 ---
-### Ending Balance Qty.
+### Ending Balance Quantity
 **Formula**  
 - This measure calculates the total quantity of items remaining at the end of a specific period.
 
@@ -106,7 +106,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Value Entry
 
 ---
-### Increases Qty
+### Increases Quantity
 **Formula**  
 - This measure shows the total quantity of inventory increases during a specified period by calculating the invoiced quantity in the Value Entry table and filtering only those item ledger entries that represent quantity increases including purchases, positive adjustments, outputs, and assembly outputs.
 
@@ -114,7 +114,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Value Entry
 
 ---
-### Decreases Qty
+### Decreases Quantity
 **Formula**  
 - This measure shows the total quantity of inventory decreases during a specified period by calculating the invoiced quantity in the Value Entry table and filtering only those item ledger entries that represent quantity decreases including sales, negative adjustments, consumptions, and assembly consumptions.
 
