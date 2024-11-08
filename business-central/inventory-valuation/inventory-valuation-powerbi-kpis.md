@@ -22,7 +22,7 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
 ## Value Entries Table   
-- [Ending Balance Qty.](#ending-balance-qty)  
+- [Ending Balance Quantity](#ending-balance-quantity)  
 - [Increases Value](#increases-value)  
 - [Decreases Value](#decreases-value)  
 - [Beginning Balance Value](#beginning-balance-value)  
@@ -30,8 +30,8 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Ending Balance Posted to G/L](#ending-balance-posted-to-gl)  
 - [Variance](#variance)  
 - [Invoiced Quantity](#invoiced-quantity)  
-- [Increases Qty](#increases-qty)  
-- [Decreases Qty](#decreases-qty)
+- [Increases Quantity](#increases-quantity)  
+- [Decreases Quantity](#decreases-quantity)
 
 ---
 ### Ending Balance Quantity
