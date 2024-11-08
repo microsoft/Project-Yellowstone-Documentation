@@ -22,9 +22,9 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
 ## Projects Table
-- [% Invoiced](#invoiced)
-- [% Complete](#complete)
-- [Realization %](#realization)
+- [% Invoiced](#-invoiced)
+- [% Complete](#-complete)
+- [Realization %](#realization-)
 - [Actual Profit](#actual-profit)
 - [Actual Profit Margin %](#actual-profit-margin)
 - [Project Count](#project-count)
