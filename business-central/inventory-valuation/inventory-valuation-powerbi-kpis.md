@@ -111,3 +111,16 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Value Entry
+
+---
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+
+## See also
+
+[Track your business KPIs with Power BI metrics](#TODO)   
+[Ad-hoc analysis of inventory valuation data](#TODO)   
+[Built-in inventory valuation reports](#TODO)   
+[Inventory valuation analytics overview](#TODO)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
