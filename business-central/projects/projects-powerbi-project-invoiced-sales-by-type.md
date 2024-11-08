@@ -26,11 +26,11 @@ As a Project Manager, you can use the *Project Invoiced Sales by Type* report to
 
 ## Key Performance Indicators (KPIs)
 The *Project Invoiced Sales by Type* reoprt includes the following KPIs:
-- [**% Invoiced**](###)
-- [**Quantity**](###)
-- [**Billable (Invoiced Price)**](###)
-- [**Billable (Total Price)**](###)
-- [**Actual (Total Price)**](####)
+- [**% Invoiced**](projects-powerbi-app-kpis.md#-invoiced)
+- [**Quantity**](projects-powerbi-app-kpis.md#quantity)
+- [**Billable (Invoiced Price)**](projects-powerbi-app-kpis.md#billable-invoiced-price)
+- [**Billable (Total Price)**](projects-powerbi-app-kpis.md#billable-total-price)
+- [**Actual (Total Price)**](projects-powerbi-app-kpis.md#actual-total-price)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
