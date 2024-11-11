@@ -184,7 +184,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Purchase Amount MATG % (Fiscal)
 **Formula**  
-- *Purchase Amount MATG % (Fiscal) = Purchase Amount MATG (Fiscal) / Purchase Amount PYMAT x 100* 
+- *Purchase Amount MATG % (Fiscal) = [Purchase Amount MATG (Fiscal)](#purchase-amount-matg-fiscal)  / [Purchase Amount PYMAT (Fiscal)](#purchase-amount-pymat-fiscal)* 
 
 **Data Sources**
 - Value Entry
@@ -236,7 +236,7 @@ Please make sure that the headings in the document match the linked headings abo
 **Formula**  
 - This measure calculates the percentage change in purchases between the current period and the previous period.
 
-  *Purchase Amount POP % (Fiscal) = Purchase Amount POP (Fiscal) / Purchase Amount PP (Fiscal) x 100*
+  *Purchase Amount POP % (Fiscal) = [Purchase Amount POP (Fiscal)](#purchase-amount-pop-fiscal) / [Purchase Amount PP (Fiscal)](#purchase-amount-pp-fiscal)*
 
 **Data Sources**
 - Value Entry
@@ -258,7 +258,7 @@ Please make sure that the headings in the document match the linked headings abo
 **Formula**  
 - This measure shows the percentage of the total purchase amount for the selected period, relative to the grand total of all purchases. It helps you understand the contribution of each period's purchase amount to the total purchase amount.
 
-  *% GT Purchase Amount = Purchase Amount / Grand Total Purchase Amount x 100*
+  *% GT Purchase Amount = [Purchase Amount](#purchase-amount) / Grand Total Purchase Amount*
 
 **Data Sources**
 - Value Entry
@@ -270,7 +270,7 @@ Please make sure that the headings in the document match the linked headings abo
 **Formula**  
 - This measure shows the percentage of the total purchase quantity for the selected period, relative to the grand total of all purchases. It helps you understand the contribution of each period's purchase quantity to the total purchase quantity.
 
-  *% GT Purchase Quantity = Purchase Quantity / Grand Total Purchase Quantity x 100*
+  *% GT Purchase Quantity = [Purchase Quantity](#purchase-quantity) / Grand Total Purchase Quantity*
 
 **Data Sources**
 - Value Entry
@@ -282,7 +282,7 @@ Please make sure that the headings in the document match the linked headings abo
 **Formula**  
 - This measure shows the percentage of the total purchase quantity for the selected period, relative to the grand total of all purchases in the previous year. It helps you compare the contribution of the current purchase amount to the total purchases made in the previous year.
 
-  *% GT Purchase Amount = Purchase Amount / Grand Total Purchase Amount (Previous Year) x 100*
+  *% GT Purchase Amount = [Purchase Amount](#purchase-amount) / Grand Total Purchase Amount (Previous Year)*
 
 **Data Sources**
 - Value Entry
@@ -320,7 +320,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Budget Amount Variance
 **Formula**
-- *Budget Amount Variance = Purchase Amount - Budget Amount*
+- *Budget Amount Variance = [Purchase Amount](#purchase-amount) - [Budget Amount](#budget-amount)*
 
 **Data Sources**
 - Item Budget Entry
@@ -330,7 +330,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Budget Amount Variance %
 **Formula**  
-- *Budget Amount Variance % = Budget Amount Variance - Budget Amount*
+- *Budget Amount Variance % = [Budget Amount Variance](#budget-amount-variance) / [Budget Amount](#budget-amount)*
 
 **Data Sources**
 - Item Budget Entry
@@ -348,7 +348,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Budget Quantity Variance
 **Formula**  
-- *Budget Quantity Variance = Purchase Quantity - Budget Quantity*
+- *Budget Quantity Variance = [Purchase Quantity](#purchase-quantity) - [Budget Quantity](#budget-quantity)*
 
 **Data Sources**
 - Item Budget Entry
@@ -358,7 +358,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Budget Quantity Variance %
 **Formula**  
-- *Budget Quantity Variance % = Budget Quantity Variance - Budget Quantity*
+- *Budget Quantity Variance % = [Budget Quantity Variance](#budget-quantity-variance) / [Budget Quantity](#budget-quantity)*
 
 **Data Sources**
 - Item Budget Entry
@@ -388,7 +388,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Budget Amount MATG % (Fiscal)
 **Formula**  
-- *Budget Amount MATG % (Fiscal) = Budget Amount MATG (Fiscal) / Budget Amount PYMAT x 100* 
+- *Budget Amount MATG % (Fiscal) = [Budget Amount MATG (Fiscal)](#budget-amount-matg-fiscal) / [Budget Amount PYMAT (Fiscal)](#budget-amount-pymat-fiscal)* 
 
 **Data Sources**
 - Value Entry
