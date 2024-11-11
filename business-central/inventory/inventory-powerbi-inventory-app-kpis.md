@@ -62,7 +62,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Qty. in Transit](#qty-in-transit)  
 - [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)
 - [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)
-- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty-1)  
 
 
 ## Planning Component Lines Table
@@ -154,7 +153,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the total quantity of an item that is needed to fulfill various orders and projects. It includes the quantity that is on sales orders, service orders, projects, production order component lines, transaction order shipments, planning issues, assembly components, and purchased returns.
 
-  *Gross Requirement = Qty. on Sales Order + Qty. on Service Order + Qty. on Projects + Qty. on Prod. Order Comp. Lines + Trans. Order Shipment (Qty.) + Planning Issues (Qty.) + Qty. on Asm. Component + Qty. on Purch. Return*
+  *Gross Requirement = [Qty. on Sales Order](#qty-on-sales-order) + [Qty. on Service Order](#qty-on-service-order) + [Qty. on Projects](#qty-on-projects) + [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines) + - [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty) + [Planning Issues (Qty.)](#planning-issues-qty) + [Qty. on Asm. Component](#qty-on-asm-component) + [Qty. on Purch. Return](#qty-on-purch-return)*
 
 **Data Sources**
 - Sales Line
@@ -171,7 +170,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the current inventory quantity, planned order receipts, scheduled receipts, and gross requirements based on the data up until the most recent date available.
 
-  *Projected Available Balance = Inventory (Quantity) + Planned Order Receipt + Scheduled Receipt - Gross Requirement*
+  *Projected Available Balance = [Inventory (Quantity)](#inventory-quantity) + [Planned Order Receipt](#planned-order-receipt) + [Scheduled Receipt](#scheduled-receipt) - [Gross Requirement](#gross-requirement)*
 
 **Data Sources**
 - Sales Line
@@ -302,15 +301,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Assembly Header
 
 ---
-### Trans. Order Shipment (Qty.)
-**Formula**  
-- This measure shows how many items are expected to be shipped for transfer orders by summing up the outstanding quantity of items on all transfer lines that are yet to be shipped from the source location.
-
-**Data Sources**
-- Location
-- Transfer Line
-
----
 ### Inventory (Quantity)
 **Formula**  
 - This measure shows the total quantity of inventory on hand for all items by summing up the quantity of items on all item ledger entries.
@@ -355,7 +345,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the total quantity of items that are scheduled to be received by the company.
 
-  *Scheduled Receipt = FP Order Receipt (Qty.) + Rel. Order Receipt (Qty.) + Qty. on Purch. Order + Qty. in Transit + Trans. Order Receipt (Qty.) + Qty. on Assembly Order + Qty. on Sales Return Order*
+  *Scheduled Receipt = [FP Order Receipt (Qty.)](#fp-order-receipt-qty) + [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty) + [Qty. on Purch. Order](#qty-on-purch-order) + [Qty. in Transit](#qty-in-transit) + [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty) + [Qty. on Assembly Order](#qty-on-assembly-order) + [Qty. on Sales Return Order](#qty-on-sales-return-order)*
 
 **Data Sources**
 - Sales Line
