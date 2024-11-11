@@ -54,7 +54,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### No. of Distinct Items
 **Formula**  
-- This KPI calculates the number of unique items that have been purchased by counting the distinct values of the Item No. column of the Purchases table.
+- This measure calculates the number of unique items that have been purchased by counting the distinct values of the Item No. column of the Purchases table.
 
 **Data Sources**
 - Purchase Line
@@ -63,7 +63,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### No. of Outstanding Purchase Orders
 **Formula**  
-- This KPI calculates the number of unique purchase orders that are currently outstanding, by counting the distinct values of the Document No. column of the Purchases table, where Document Type = Order and Source Type = Purchase Order Outstanding.
+- This measure calculates the number of unique purchase orders that are currently outstanding, by counting the distinct values of the Document No. column of the Purchases table, where Document Type = Order and Source Type = Purchase Order Outstanding.
 
 **Data Sources**
 - Purchase Line
@@ -72,7 +72,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### No. of Purchase Invoices
 **Formula**
-- This KPI calculates the number of unique posted purchase invoices by countint the distinct count of the Document No. column from the Purchases table where Document Type = Purchase Invoice and Source Type = Value Entries Invoiced.
+- This measure calculates the number of unique posted purchase invoices by countint the distinct count of the Document No. column from the Purchases table where Document Type = Purchase Invoice and Source Type = Value Entries Invoiced.
 
 **Data Sources**
 - Purchase Line
@@ -81,7 +81,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### No. of Received Not Invd. Purchase Orders
 **Formula**
-- This KPI calculates the number of unique purchase orders that are received but not invoiced, by counting the distinct count of Document No. column from the Purchases table where Document Type = Order and Source Type = Purchase Orders Received Not Invoiced.
+- This measure calculates the number of unique purchase orders that are received but not invoiced, by counting the distinct count of Document No. column from the Purchases table where Document Type = Order and Source Type = Purchase Orders Received Not Invoiced.
 
 **Data Sources**
 - Purchase Line
@@ -90,7 +90,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Purchase Amount
 **Formula**
-- This KPI sums the the Purchase Amount column of the Purchases table.
+- This measure sums the the Purchase Amount column of the Purchases table.
 
 **Data Sources**
 - Value Entry
@@ -98,7 +98,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Purchase Quantity
 **Formula**
-- This KPI sums the the Purchase Quantity column of the Purchases table.
+- This measure sums the the Purchase Quantity column of the Purchases table.
 
 **Data Sources**
 - Value Entry
@@ -106,7 +106,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Invoiced Amount
 **Formula**
-- This KPI calculates the total amount of items that have been purchased and invoiced, by summing the Purchase Amount column of the Purchases table, where Source Type = Purchase Value Entries Invoiced.
+- This measure calculates the total amount of items that have been purchased and invoiced, by summing the Purchase Amount column of the Purchases table, where Source Type = Purchase Value Entries Invoiced.
 - 
 **Data Sources**
 - Value Entry
@@ -114,7 +114,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Invoiced Quantity
 **Formula**
-- This KPI calculates the total quantity of items that have been purchased and invoiced, by summing the Purchase Quantity column of the Purchases table, where Source Type = Purchase Value Entries Invoiced.
+- This measure calculates the total quantity of items that have been purchased and invoiced, by summing the Purchase Quantity column of the Purchases table, where Source Type = Purchase Value Entries Invoiced.
 
 **Data Sources**
 - Value Entry
@@ -122,7 +122,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Outstanding Amount (Excl. VAT)
 **Formula**  
-- This KPI calculates the sum of Purchase Amount column from the Purchases table where Source Type = Purchase Order Outstanding, excluding VAT.
+- This measure calculates the sum of Purchase Amount column from the Purchases table where Source Type = Purchase Order Outstanding, excluding VAT.
 
 **Data Sources**
 - Purchase Line
@@ -130,7 +130,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Outstanding Quantity
 **Formula**  
-- This KPI calculates the sum of Purchase Qty. (Base) column from the Purchases table where Source Type = Purchase Order Outstanding.
+- This measure calculates the sum of Purchase Qty. (Base) column from the Purchases table where Source Type = Purchase Order Outstanding.
 
 **Data Sources**
 - Purchase Line
@@ -138,7 +138,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Amt. Rcd. Not Invd. (Excl. VAT)
 **Formula**  
-- This KPI calculates the sum of Purchase Amount column from the Purchases table where Source Type = Purchase Order Received Not Invoiced, excluding VAT.
+- This measure calculates the sum of Purchase Amount column from the Purchases table where Source Type = Purchase Order Received Not Invoiced, excluding VAT.
 
 **Data Sources**
 - Purchase Line
@@ -146,7 +146,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Quantity Rcd. Not Invd.
 **Formula**  
-- This KPI calculates the sum of Purchase Qty. (Base) column from the Purchases table. where Source Type = Purchase Order Received Not Invoiced.
+- This measure calculates the sum of Purchase Qty. (Base) column from the Purchases table. where Source Type = Purchase Order Received Not Invoiced.
 
 **Data Sources**
 - Purchase Line
@@ -312,7 +312,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Budget Amount
 **Formula**  
-- This KPI calculates the sum of Purchase Amount column from the Purchase Budget table.
+- This measure calculates the sum of Purchase Amount column from the Purchase Budget table.
 
 **Data Sources**
 - Item Budget Entries
@@ -340,7 +340,7 @@ Please make sure that the headings in the document match the linked headings abo
 ---
 ### Budget Quantity
 **Formula**  
-- This KPI sums the Quantity column from the Purchase Budget table.
+- This measure sums the Quantity column from the Purchase Budget table.
 
 **Data Sources**
 - Item Budget Entry
