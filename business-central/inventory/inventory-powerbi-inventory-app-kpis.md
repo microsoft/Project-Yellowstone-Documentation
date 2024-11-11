@@ -21,6 +21,42 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
+- Warehouse Quantity
+- Quantity in Adjustment Bin
+- Available Qty. to Take
+- Pick Quantity (Base)
+- ATO Components Pick Qty.
+- Put-away Quantity (Base)
+- Negative Adjmt. Qty. (Base)
+- Positive Adjmt. Qty. (Base)
+- Gross Requirement
+- Projected Available Balance
+- Qty. on Sales Order
+- Qty. on Purch. Return
+- Qty. on Service Order
+- Qty. on Projects
+- Qty. on Prod. Order Comp. Lines
+- Trans. Order Shipment (Qty.)
+- Planning Issues (Qty.)
+- Qty. on Asm. Component
+- Qty. on Purch. Order
+- Qty. on Transit
+- FP Order Receipt (Qty.)
+- Rel. Order Receipt (Qty.)
+- Trans. Order Receipt (Qty.)
+- Qty. on Assembly Order
+- Trans. Order Shipment (Qty.)
+- Inventory (Quantity)
+- Qty. on Prod. Order
+- Qty. on Sales Return Order
+- Quantity
+- Expired Inventory
+- Scheduled Receipt
+- Planned Order Receipt
+- Planned Order Releases
+- Net Qty. Purchased
+- Net Qty. Sold
+
 ---
 ### Warehouse Quantity
 **Formula**  
@@ -208,14 +244,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### FP Order Receipt (Qty.)
 **Formula**  
 - This measure is abbreviated for Firmed Planned Order Receipt (Qty.) and hows how many items are expected to be received for firm planned production orders by summing up the remaining quantity of items on all firm planned production order lines.
-
-**Data Sources**
-- Production Order Line
-
----
-### FP Order Receipt (Qty.)
-**Formula**  
-- This measure is abbreviated for Firmed Planned Order Receipt (Qty.) and shows how many items are expected to be received for firm planned production orders by summing up the remaining quantity of items on all firm planned production order lines.
 
 **Data Sources**
 - Production Order Line
