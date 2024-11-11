@@ -40,7 +40,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Planning Issues (Qty.)](#planning-issues-qty)  
 - [Qty. on Asm. Component](#qty-on-asm-component)  
 - [Qty. on Purch. Order](#qty-on-purch-order)  
-- [Qty. on Transit](#qty-on-transit)  
+- [Qty. in Transit](#qty-in-transit)  
 - [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
 - [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)  
 - [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)  
@@ -232,7 +232,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Purchase Line
 
 ---
-### Qty. on Transit
+### Qty. in Transit
 **Formula**  
 - This measure shows how many items are currently in transit between locations by summing up the quantity of items in transit on all transfer lines.
 
