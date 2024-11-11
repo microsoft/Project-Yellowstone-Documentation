@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Purchases report. 
+This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Inventory Valuation report. 
 
 Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
 
