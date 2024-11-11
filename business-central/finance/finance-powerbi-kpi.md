@@ -66,7 +66,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Asset Turnover Ratio 
 **Formula**  
-[Revenue] / [Assets]
+[Revenue] / [Assets](#assets)
 
 **Data Sources**
 - G/L Entry
@@ -91,7 +91,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Days Payable Outstanding - DPO 
 **Formula**  
- ( [Accounts Payable] / [Cost of Goods Sold] ) * [No. of Days]
+ ( [Accounts Payable](#accounts-payable) / [Cost of Goods Sold] ) * [No. of Days]
 
 **Data Sources**
 - Date
@@ -101,7 +101,7 @@ Each KPI is described, including how it is calculated and what data was used in 
  
 ### Days Sales Of Inventory - DSI 
 **Formula**  
-( [Inventory] / [Cost of Goods Sold] ) * [No. of Days]
+( [Inventory](#inventory) / [Cost of Goods Sold] ) * [No. of Days]
 
 **Data Sources**
 - Date
@@ -110,7 +110,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Days Sales Outstanding - DSO 
 **Formula**  
- ( [Accounts Receivable] / [Revenue] ) * [No. of Days]
+ ( [Accounts Receivable](#accounts-receivable) / [Revenue] ) * [No. of Days]
 
 **Data Sources**
 - Date
@@ -127,7 +127,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Inventory Turnover
 **Formula**  
-[Cost of Goods Sold] / [Inventory (Average)]
+[Cost of Goods Sold] / [Inventory (Average)](#inventory-average)
 
 **Data Sources**
 - G/L Entry
