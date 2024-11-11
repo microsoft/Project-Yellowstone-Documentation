@@ -35,14 +35,14 @@ As a member of the procurement team, you can use this report to gauge your inven
 
 The *Bin Contents* report includes the following KPIs:
 
-- [**Quantity in Adjustment Bin**](###)
-- [**Available Quantity to Take**](###)
-- [**Warehouse Quantity**](####)
-- [**Pick Quantity (Base)**](####)
-- [**ATO Components Pick Qty.**](####)
-- [**Put-Away Quantity (Base)**](####)
-- [**Negative Adjmt. Qty. (Base)**](####)
-- [**Positive Adjmt. Qty. (Base)**](###)
+- [**Quantity in Adjustment Bin**](inventory-powerbi-inventory-app-kpis.md#quantity-in-adjustment-bin)
+- [**Available Quantity to Take**](inventory-powerbi-inventory-app-kpis.md#available-qty-to-take)
+- [**Warehouse Quantity**](inventory-powerbi-inventory-app-kpis.md#warehouse-quantity)
+- [**Pick Quantity (Base)**](inventory-powerbi-inventory-app-kpis.md#pick-quantity-base)
+- [**ATO Components Pick Qty.**](inventory-powerbi-inventory-app-kpis.md#ato-components-pick-qty)
+- [**Put-Away Quantity (Base)**](inventory-powerbi-inventory-app-kpis.md#put-away-quantity-base)
+- [**Negative Adjmt. Qty. (Base)**](inventory-powerbi-inventory-app-kpis.md#negative-adjmt-qty-base)
+- [**Positive Adjmt. Qty. (Base)**](inventory-powerbi-inventory-app-kpis.md#positive-adjmt-qty-base)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
