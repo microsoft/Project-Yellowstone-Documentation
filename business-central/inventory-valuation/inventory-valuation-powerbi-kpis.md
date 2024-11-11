@@ -72,7 +72,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates calculates the total value of inventory at the end of a specific period.
 
-  *Ending Balance Value = Beginning Balance Value + Net Balance Value*
+  *Ending Balance Value = [Beginning Balance Value](#beginning-balance-value) + Net Balance Value*
 
 **Data Sources**
 - Value Entry
@@ -92,7 +92,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the difference between the total value of inventory to the general ledger and the total value of inventory at the end of a specified period.
 
-  *Variance = Ending Balance Posted to G/L - Ending Balance Value*
+  *Variance = [Ending Balance Posted to G/L](#ending-balance-posted-to-gl) - [Ending Balance Value](#ending-balance-value)*
 
 **Data Sources**
 - Value Entry
