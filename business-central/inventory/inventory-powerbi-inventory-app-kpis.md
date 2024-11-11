@@ -320,6 +320,33 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Requisition Line
 
 ---
+### Planned Order Releases
+**Formula**  
+- This measure shows the total quantity of items that are planned to be released through planned orders and purchase requisitions.
+
+  *Planned Order Releases = Planned Order Release (Qty.) + Purch. Req. Release (Qty.)*
+
+**Data Sources**
+- Production Order Line
+- Requisition Line
+
+---
+###  Net Qty. Purchased
+**Formula**  
+- This measure shows the total quantity of items that have been purchased and received by the company by calculating the quantity, filtered to only include item ledger entries that have an entry type of "Purchase".
+
+**Data Sources**
+- Item Ledger Entry
+
+---
+###  Net Qty. Sold
+**Formula**  
+- This measure shows the total quantity of items that have been sold by the company by calculating the quantity, filtered to only include item ledger entries that have an entry type of "Sale".
+
+**Data Sources**
+- Item Ledger Entry
+
+---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
