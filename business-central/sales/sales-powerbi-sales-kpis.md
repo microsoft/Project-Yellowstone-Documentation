@@ -192,7 +192,7 @@ Sum of Sales Amount column from the Sales Budget table.
 
 ### Budget Amount Variance
 **Formula**  
-[Sales Amount] - [Budget Amount]
+- *Budget Amount Variance = [Sales Amount](#sales-amount) - [Budget Amount](#budget-amount)*
 
 **Data Sources**
 - Item Budget Entries
@@ -201,7 +201,7 @@ Sum of Sales Amount column from the Sales Budget table.
 
 ### Budget Amount Variance Percent
 **Formula**  
-[Budget Amount Variance] - [Budget Amount]
+- *Budget Amount Variance Percent = [Budget Amount Variance](#budget-amount-variance) / [Budget Amount](#budget-amount)*
 
 **Data Sources**
 - Item Budget Entries
@@ -217,7 +217,7 @@ Sum of Quantity column from the Sales Budget table.
 
 ### Budget Quantity Variance
 **Formula**  
-[Sales Quantity] - [Budget Quantity]
+- *Budget Quantity Variance = [Sales Quantity](#sales-quantity) - [Budget Quantity](#budget-quantity)*
 
 **Data Sources**
 - Item Budget Entries
@@ -226,7 +226,7 @@ Sum of Quantity column from the Sales Budget table.
 
 ### Budget Quantity Variance Percent
 **Formula**  
-[Budget Quantity Variance] - [Budget Quantity]
+- *Budget Quantity Variance Percent = [Budget Quantity Variance](#budget-quantity-variance) / [Budget Quantity](#budget-quantity)*
 
 **Data Sources**
 - Item Budget Entries
@@ -284,7 +284,7 @@ Sum of Cost Amt. Non-Invtbl. (LCY) column from the Sales table.
 
 ### Gross Profit
 **Formula**  
-[Sales Amount] - [Cost Amount] - [Cost Amount Non-Inv]
+- *Gross Profit = [Sales Amount](#sales-amount) - [Cost Amount](#cost-amount) - [Cost Amount Non-Inv](#cost-amount-non-inv)*
 
 **Data Sources**
 - Value Entries
@@ -302,7 +302,7 @@ This measure calculates month-to-date gross profit using the fiscal calendar, co
 
 ### Gross Profit Margin
 **Formula**  
-[Gross Profit] / [Sales Amount]
+- *Gross Profit Margin = [Gross Profit](#gross-profit) / [Sales Amount](#sales-amount)*
 
 **Data Sources**
 - Value Entries
