@@ -21,6 +21,7 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
+**Bins**
 - [Warehouse Quantity](#warehouse-quantity)  
 - [Quantity in Adjustment Bin](#quantity-in-adjustment-bin)  
 - [Available Qty. to Take](#available-qty-to-take)  
@@ -29,31 +30,58 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Put-away Quantity (Base)](#put-away-quantity-base)  
 - [Negative Adjmt. Qty. (Base)](#negative-adjmt-qty-base)  
 - [Positive Adjmt. Qty. (Base)](#positive-adjmt-qty-base)  
+
+**Items**
 - [Gross Requirement](#gross-requirement)  
-- [Projected Available Balance](#projected-available-balance)  
-- [Qty. on Sales Order](#qty-on-sales-order)  
-- [Qty. on Purch. Return](#qty-on-purch-return)  
-- [Qty. on Service Order](#qty-on-service-order)  
-- [Qty. on Projects](#qty-on-projects)  
-- [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines)  
-- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)  
-- [Planning Issues (Qty.)](#planning-issues-qty)  
-- [Qty. on Asm. Component](#qty-on-asm-component)  
-- [Qty. on Purch. Order](#qty-on-purch-order)  
-- [Qty. in Transit](#qty-in-transit)  
-- [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
-- [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)  
-- [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)  
-- [Qty. on Assembly Order](#qty-on-assembly-order)  
-- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty-1)  
-- [Inventory (Quantity)](#inventory-quantity)  
-- [Qty. on Prod. Order](#qty-on-prod-order)  
-- [Qty. on Sales Return Order](#qty-on-sales-return-order)  
-- [Quantity](#quantity)  
-- [Expired Inventory](#expired-inventory)  
-- [Scheduled Receipt](#scheduled-receipt)  
+- [Projected Available Balance](#projected-available-balance)
+- [Scheduled Receipt](#scheduled-receipt)
 - [Planned Order Receipt](#planned-order-receipt)  
 - [Planned Order Releases](#planned-order-releases)  
+
+
+**Sales Lines**
+- [Qty. on Sales Order](#qty-on-sales-order)
+- [Qty. on Sales Return Order](#qty-on-sales-return-order)  
+
+
+**Purchase Lines**
+- [Qty. on Purch. Order](#qty-on-purch-order)  
+- [Qty. on Purch. Return](#qty-on-purch-return)
+
+**Service Lines**
+- [Qty. on Service Order](#qty-on-service-order)  
+
+**Project Planning Lines**
+- [Qty. on Projects](#qty-on-projects)
+
+**Prod. Order Component Lines**  
+- [Qty. on Prod. Order](#qty-on-prod-order)
+- [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines)  
+
+**Transfer Lines**
+- [Qty. in Transit](#qty-in-transit)  
+- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)
+- [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)
+- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty-1)  
+
+
+**Planning Component Lines**
+- [Planning Issues (Qty.)](#planning-issues-qty)  
+
+**Assembly Headers**
+- [Qty. on Assembly Order](#qty-on-assembly-order)
+
+**Assembly Lines**
+- [Qty. on Asm. Component](#qty-on-asm-component)  
+
+**Production Order Lines**
+- [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
+- [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)
+
+ **Item Ledger Entries**
+- [Quantity](#quantity)  
+- [Inventory (Quantity)](#inventory-quantity)  
+- [Expired Inventory](#expired-inventory) 
 - [Net Qty. Purchased](#net-qty-purchased)  
 - [Net Qty. Sold](#net-qty-sold)
 
