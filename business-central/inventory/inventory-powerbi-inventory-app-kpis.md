@@ -21,7 +21,7 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
-**Bins**
+## Bins
 - [Warehouse Quantity](#warehouse-quantity)  
 - [Quantity in Adjustment Bin](#quantity-in-adjustment-bin)  
 - [Available Qty. to Take](#available-qty-to-take)  
@@ -31,7 +31,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Negative Adjmt. Qty. (Base)](#negative-adjmt-qty-base)  
 - [Positive Adjmt. Qty. (Base)](#positive-adjmt-qty-base)  
 
-**Items**
+## Items
 - [Gross Requirement](#gross-requirement)  
 - [Projected Available Balance](#projected-available-balance)
 - [Scheduled Receipt](#scheduled-receipt)
@@ -39,46 +39,46 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Planned Order Releases](#planned-order-releases)  
 
 
-**Sales Lines**
+## Sales Lines
 - [Qty. on Sales Order](#qty-on-sales-order)
 - [Qty. on Sales Return Order](#qty-on-sales-return-order)  
 
 
-**Purchase Lines**
+## Purchase Lines
 - [Qty. on Purch. Order](#qty-on-purch-order)  
 - [Qty. on Purch. Return](#qty-on-purch-return)
 
-**Service Lines**
+## Service Lines
 - [Qty. on Service Order](#qty-on-service-order)  
 
-**Project Planning Lines**
+## Project Planning Lines
 - [Qty. on Projects](#qty-on-projects)
 
-**Prod. Order Component Lines**  
+## Prod. Order Component Lines  
 - [Qty. on Prod. Order](#qty-on-prod-order)
 - [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines)  
 
-**Transfer Lines**
+## Transfer Lines
 - [Qty. in Transit](#qty-in-transit)  
 - [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)
 - [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)
 - [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty-1)  
 
 
-**Planning Component Lines**
+## Planning Component Lines
 - [Planning Issues (Qty.)](#planning-issues-qty)  
 
-**Assembly Headers**
+## Assembly Headers
 - [Qty. on Assembly Order](#qty-on-assembly-order)
 
-**Assembly Lines**
+## Assembly Lines
 - [Qty. on Asm. Component](#qty-on-asm-component)  
 
-**Production Order Lines**
+## Production Order Lines
 - [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
 - [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)
 
- **Item Ledger Entries**
+## Item Ledger Entries
 - [Quantity](#quantity)  
 - [Inventory (Quantity)](#inventory-quantity)  
 - [Expired Inventory](#expired-inventory) 
