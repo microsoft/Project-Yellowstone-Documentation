@@ -1,6 +1,6 @@
 ---
-title: Finance App KPI's
-description: 
+title: Finance App KPIs and measures (Power BI)
+description: Get an overview of all the KPIs and measures in the semantic model for the Finance Power BI app.
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
@@ -11,13 +11,20 @@ ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
 ---
 
-# KPIs in the Finance App
+# Power BI Finance app KPIs and measures
 
-## Overview
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The following sections provide an overview of all the available KPIs that are shown on the Power BI reports for finance:
+This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Finance report. 
 
-- [Acitvity KPIs](#activity-kpis)
+Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
+
+Each KPI is described, including how it is calculated and what data was used in the calculations.
+
+---
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+- [Activity KPIs](#activity-kpis)
 - [Balance Sheet Measures](#balance-sheet-measures)
 - [Income Statement Measures](#income-statement-measures)
 - [Liquidity KPIs](#liquidity-kpis)
@@ -27,159 +34,342 @@ The following sections provide an overview of all the available KPIs that are sh
 - [G/L Entry Meaures](#gl-entry-measures)
 - [G/L Budget Entry Meaures](#gl-budget-entry-measures)
 
-#### Activity KPIs
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| % Change in Operating Profit - EBIT | - | - | TODO |
-| % Change in Revenue | - | - | TODO |
-| Asset Turnover Ratio | - | - | TODO |
-| Average Collection Period (Days) | - | - | TODO |
-| Cash Conversion Cycle - CCC | - | - | TODO |
-| Days Payable Outstanding - DPO | - | - | TODO |
-| Days Sales Of Inventory - DSI | - | - | TODO |
-| Days Sales Outstanding - DSO | - | - | TODO |
-| Degree Of Operating Leverage - DOL | - | - | TODO |
-| Inventory Turnover | - | - | TODO |
+## Activity KPIs
+
+- [% Change in Operating Profit - EBIT](#-change-in-operating-profit---ebit) 
+- [% Change in Revenue](#-change-in-revenue) 
+- [Asset Turnover Ratio](#asset-turnover-ratio)  
+- [Average Collection Period (Days)](#average-collection-period-days)  
+- [Cash Conversion Cycle - CCC](#cash-conversion-cycle---ccc)
+- [Days Payable Outstanding - DPO](#days-payable-outstanding---dpo)  
+- [Days Sales Of Inventory - DSI](#days-sales-of-inventory---dsi)  
+- [Days Sales Outstanding - DSO](#days-sales-outstanding---dso)  
+- [Degree Of Operating Leverage - DOL](#degree-of-operating-leverage---dol)  
+- [Inventory Turnover](#inventory-turnover)  
 
 
-#### Balance Sheet Measures
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Accounts Payable | - | - | TODO |
-| Accounts Payable (Neg) | - | - | TODO |
-| Accounts Receivable | - | - | TODO |
-| Accounts Receivable (Average) | - | - | TODO |
-| Accounts Receivable (Beginning Balance) | - | - | TODO |
-| Assets | - | [Finance overview](#finance-overview-report) | TODO |
-| Capital Employed | - | - | TODO |
-| Current Assets | - | - | TODO |
-| Equity | - | - | TODO |
-| Fixed Assets | - | - | TODO |
-| Inventory | - | - | TODO |
-| Inventory (Average) | - | - | TODO |
-| Inventory (Beginning Balance) | - | - | TODO |
-| Liabilities | - | [Finance overview](#finance-overview-report) | TODO |
-| Liabilities & Equity | - | - | TODO |
-| Liabilities (Neg) | - | - | TODO |
-| Liquid Assets | - | - | TODO |
-| Longterm Liabilities | - | - | TODO |
-| Payroll Liabilities | - | - | TODO |
-| Purchase Prepayments | - | - | TODO |
-| Shareholders' Equity | - | - | TODO |
-| Working Capital | - | - | TODO |
+### % Change in Operating Profit - EBIT
+**Formula**  
+( [Operating Profit - EBIT (Balance at Date)] - [Operating Profit - EBIT (Beginning Balance)] ) / [Operating Profit - EBIT (Beginning Balance)]
 
+**Data Sources**
+- G/L Entry
+- G/L Account Category
 
-#### Income Statement Measures
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Cost of Goods Sold | - | [Finance overview](#finance-overview-report) | [Cost of Goods Sold](#revenue) |
-| Depreciation and Amortization | TODO | - | - |
-| Expense | - | [Finance overview](#finance-overview-report) | [Expense](#revenue) |
-| Expense (Balance at Date) | - | - | [Expense](#revenue) |
-| Expense (Beginning Balance) | - | - | [Expense](#revenue) |
-| Extraordinary Expense | - | - | - |
-| Extraordinary Expense (Balance at Date) | - | - | - |
-| Extraordinary Expense (Beginning Balance) | - | - | - |
-| Extraordinary Revenue | - | - | - |
-| Extraordinary Revenue (Balance at Date) | - | - | - |
-| Extraordinary Revenue (Beginning Balance) | - | - | - |
-| FX Gains Revenue | - | - | - |
-| FX Gains Revenue (Balance at Date) | - | - | - |
-| FX Gains Revenue (Beginning Balance) | - | - | - |
-| FX Losses Expense | - | - | - |
-| FX Losses Expense (Balance at Date) | - | - | - |
-| FX Losses Expense (Beginning Balance) | - | - | - |
-| Interest Expense | - | - | - |
-| Interest Expense (Balance at Date) | - | - | - |
-| Interest Expense (Beginning Balance) | - | - | - |
-| Interest Revenue  | - | - | - |
-| Interest Revenue (Balance at Date) | - | - | - |
-| Interest Revenue (Beginning Balance) | - | - | - |
-| Operating Expense - OPEX | - | [Finance overview](#finance-overview-report) | [Operating Expense - OPEX](#revenue) |
-| Operating Expense - OPEX (Balance at Date) | - | - | - |
-| Operating Expense - OPEX (Beginning Balance)  | - | - | - |
-| Operating Revenue | - | - | - |
-| Operating Revenue (Balance at Date) | - | - | - |
-| Operating Revenue (Beginning Balance) | - | - | - |
-| Purchases | - | - | - |
-| Revenue | Revenue is used to measure overall performance and growth, as well as the effectiveness of sales and marketing strategies. | [Finance overview](#finance-overview-report) | [Revenue](#revenue) |
-| Revenue (Balance at Date) | - | [Finance overview](#finance-overview-report) | - | 
-| Revenue (Beginning Balance) | - | [Finance overview](#finance-overview-report) | - | 
-| Tax Expense | - | - | - |
-| Tax Expense (Balance at Date) | - | - | - |
-| Tax Expense (Beginning Balance) | - | - | - |
+### % Change in Revenue 
+**Formula**  
+( [Revenue (Balance at Date)] - [Revenue (Beginning Balance)] ) / [Revenue (Beginning Balance)]
 
-#### Liquidity KPIs
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Cash Ratio | - | - | - |
-| Current Ratio | - | - | - |
-| Quick Ratio | - | - | - |
+**Data Sources**
+- G/L Entry
+- G/L Account Category
 
-#### Profitability KPIs
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Debt Ratio | - | [Finance overview](#finance-overview-report) | TODO |
-| Debt/Equity Ratio | - | - | TODO |
-| EBITDA | - | [Finance overview](#finance-overview-report) | TODO |
-| Gross Profit | - | [Finance overview](#finance-overview-report) | TODO |
-| Gross Profit Margin | - | [Finance overview](#finance-overview-report) | [Gross Profit Margin](#gross-profit-margin) |
-| Net Profit | - | [Finance overview](#finance-overview-report) | TODO |
-| Net Profit Margin | - | [Finance overview](#finance-overview-report) | TODO |
-| Operating Profit - EBIT | - | [Finance overview](#finance-overview-report) | TODO |
-| Operating Profit Margin | - | - | TODO |
-| Return On Assets - ROA | - | - | TODO |
-| Return On Capital Employed - ROCE | - | - | TODO |
-| Return On Equity - ROE | - | - | TODO |
-| Return On Net Assets - RONA | - | - | TODO |
-| Shareholder Equity Ratio | - | - | TODO |
+### Asset Turnover Ratio 
+**Formula**  
+[Revenue] / [Assets]
 
-#### Customer Ledger Measures
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Amount Receivable (LCY) | - | - | TODO |
-| Balance (AR) | - | [Finance overview](#finance-overview-report) | TODO |
-| Original Amount (LCY) | - | - | TODO |
+**Data Sources**
+- G/L Entry
+- G/L Account Category
 
-#### Vendor Ledger Measures
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Amount Payable (LCY) | - | - | TODO |
-| Balance (AP) | - | [Finance overview](#finance-overview-report) | [Balance (AP)](#balance-ap) |
-| Original Amount | - | - | TODO |
+### Average Collection Period (Days) 
+**Formula**  
+( [No. of Days] * [Accounts Receivable (Average)] ) / [Revenue]
 
-#### G/L Entry Measures
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Amount | - | - | TODO |
-| Balance | - | - | TODO |
-| Balance at Date | - | [Balance Sheet by Month](#balance-sheet-report) | TODO |
-| Balance at Date (Neg) | - | - | TODO |
-| Net Change | - | <ul><li>[Income Statement by Month](#income-statement-report)</li><li>[Budget Comparison](#budget-comparison-report)</li></ul> | TODO |
-| Net Change (Neg) | - | - | TODO |
-| Variance to Budget | - | - | TODO |
-| Variance to Budget % | - | - | TODO |
+**Data Sources**
+- Date
+- G/L Entry
+- G/L Account Category
 
-#### G/L Budget Entry Measures
-| KPI | Usage example | Available on Report | Learn more | 
-| --- | ------------- | ------------------- | ---------- |
-| Budget Amount | - | - | TODO |
-| Budget Balance at Date | - | - | TODO |
+### Cash Conversion Cycle - CCC 
+**Formula**  
+[Days Sales Of Inventory - DSI] + [Days Sales Outstanding - DSO] - [Days Payable Outstanding - DPO]
 
-## Available Power BI reports for finance
+**Data Sources**
+- G/L Entry
+- G/L Account Category
 
-The following sections provide an overview of all the available Power BI reports for finance:
+### Days Payable Outstanding - DPO 
+**Formula**  
+ ( [Accounts Payable] / [Cost of Goods Sold] ) * [No. of Days]
 
-| Report | Usage examples | Learn more |
-| ------ | -------------- | ---------- |
-| Finance Overview | The Finance Overview can be used in executive decision-making, supporting financial analysis, and guiding operational monitoring to ensure the company's financial operations run smoothly and efficiently. | [Finance Overview](#finance-overview-report) |
-| Income Statement by Month | TODO | [Income Statement by Month](#income-statement-report) |
-| Balance Sheet by Month | TODO | [Balance Sheet by Month](#balance-sheet-report) |
-| Budget Comparison | TODO | [Budget Comparison](#budget-comparison-report) |
-| Liquidity KPIs | TODO | [Liquidity KPIs](#liquidity-kpis-report) |
-| Profitability | TODO | [Profitability](#profitability-report) |
-| Liabilities | TODO | [Liabilities](#liabilities-report) |
-| EBITDA | TODO | [EBITDA](#ebitda-report) |
-| Average Collection Period | TODO | [Average Collection Period](#average-collection-period-report) |
-| Aged Receivables (Back Dating) | TODO | [Aged Receivables (Back Dating)](#aged-receivables-back-dating-report) |
-| Aged Payables (Back Dating) | TODO | [Aged Payables (Back Dating)](#aged-payables-back-dating-report) |
+**Data Sources**
+- Date
+- G/L Entry
+- G/L Account Category
+
+ 
+### Days Sales Of Inventory - DSI 
+**Formula**  
+( [Inventory] / [Cost of Goods Sold] ) * [No. of Days]
+
+**Data Sources**
+- Date
+- G/L Entry
+- G/L Account Category
+
+### Days Sales Outstanding - DSO 
+**Formula**  
+ ( [Accounts Receivable] / [Revenue] ) * [No. of Days]
+
+**Data Sources**
+- Date
+- G/L Entry
+- G/L Account Category
+
+### Degree Of Operating Leverage - DOL 
+**Formula**  
+[% Change in Operating Profit - EBIT] / [% Change in Revenue]
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+
+### Inventory Turnover
+**Formula**  
+[Cost of Goods Sold] / [Inventory (Average)]
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+## Balance Sheet Measures
+
+- [Accounts Payable](#accounts-payable)   
+- [Accounts Payable (Neg)](#accounts-payable-neg)   
+- [Accounts Receivable](#accounts-receivable)   
+- [Accounts Receivable (Average)](#accounts-receivable-average)   
+- [Accounts Receivable (Beginning Balance)](#accounts-receivable-beginning-balance)   
+- [Assets](#assets)
+- [Capital Employed](#capital-employed)   
+- [Current Assets](#current-assets)   
+- [Current Liabilities](#current-liabilities)
+- [Equity](#equity)   
+- [Fixed Assets](#fixed-assets)   
+- [Inventory](#inventory)   
+- [Inventory (Average)](#inventory-average)   
+- [Inventory (Beginning Balance)](#inventory-beginning-balance)   
+- [Liabilities](#liabilities)
+- [Liabilities & Equity](#liabilities--equity)   
+- [Liabilities (Neg)](#liabilities-neg)   
+- [Liquid Assets](#liquid-assets)   
+- [Longterm Liabilities](#longterm-liabilities)   
+- [Payroll Liabilities](#payroll-liabilities)   
+- [Purchase Prepayments](#purchase-prepayments)   
+- [Shareholders' Equity](#shareholders-equity)   
+- [Working Capital](#working-capital)   
+
+### Accounts Payable
+**Formula**  
+The Accounts Payable measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Accounts Payable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Payable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Accounts Payable (Neg)
+**Formula**  
+The Accounts Payable measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Accounts Payable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Payable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+ 
+### Accounts Receivable
+**Formula**  
+The Accounts Receivable measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Accounts Receivable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Receivable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Accounts Receivable (Average) 
+**Formula**  
+( [Accounts Receivable (Beginning Balance)](#accounts-receivable-beginning-balance) + [Accounts Receivable](#accounts-receivable) ) / 2
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Accounts Receivable (Beginning Balance) 
+**Formula**  
+The Accounts Receivable (Beginning Balance) measure calculates the `[Balance at Date]` for [accounts receivable](#accounts-receivable) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Assets
+**Formula**  
+The Assets measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Assets* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Assets (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Current Assets
+**Formula**  
+The Current Assets measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Current Assets* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Current Assets (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Fixed Assets
+**Formula**  
+The Fixed Assets measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Fixed Assets* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Fixed Assets (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Inventory
+**Formula**  
+The Inventory measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Inventory* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Inventory (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Inventory (Average)
+**Formula**  
+( [Inventory (Beginning Balance)](#inventory-beginning-balance) + [Inventory](#inventory) ) / 2
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Inventory (Beginning Balance) 
+**Formula**  
+The Inventory (Beginning Balance) measure calculates the `[Balance at Date]` for [Inventory](#inventory) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Liquid Assets
+**Formula**  
+The Liquid Assets measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Cash* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Liquid Assets (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Capital Employed
+**Formula**  
+[Assets](#assets) - [Current Liabilities](#current-liabilities)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+ 
+### Equity
+**Formula**  
+The Equity measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Equity* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Equity (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+
+### Current Liabilities
+**Formula**  
+The Current Liabilities measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Current Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Current Liabilities (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+### Liabilities
+
+**Formula**  
+The Liabilities measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Liabilities (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+ 
+### Liabilities (Neg)
+**Formula**  
+The Liabilities measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Liabilities (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+
+### Liabilities & Equity  
+**Formula**  
+[Liabilities](#liabilities) + [Equity](#equity)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+
+### Longterm Liabilities  
+**Formula**  
+The Longterm Liabilities measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Longterm Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Longterm Liabilities (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+ 
+### Payroll Liabilities   
+**Formula**  
+The Payroll Liabilities measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Payroll Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Payroll Liabilities (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+ 
+### Purchase Prepayments   
+**Formula**  
+The Purchase Prepayments measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Purchase Prepayments* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Purchase Prepayments (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+ 
+### Shareholders Equity   
+**Formula**  
+The Shareholders Equity measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Common Stock* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Shareholder's Equity (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+   
+### Working Capital 
+**Formula**  
+[Current Assets](#current-assets) + [Current Liabilities](#current-liabilities)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories 
+## See also
+
+[Track your business KPIs with Power BI metrics](#TODO)   
+[Ad-hoc analysis of projects data](#TODO)   
+[Built-in projects reports](#TODO)   
+[Projects analytics overview](#TODO)  
+[Projects overview](#TODO)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
