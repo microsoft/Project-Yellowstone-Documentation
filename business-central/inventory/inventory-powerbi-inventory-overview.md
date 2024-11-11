@@ -49,7 +49,7 @@ The *Inventory Overview* report includes the following KPIs:
 - [**FP Order Receipt (Qty.)**](inventory-powerbi-inventory-app-kpis.md#fp-order-receipt-qty)
 - [**Rel. Order Receipt (Qty.)**](inventory-powerbi-inventory-app-kpis.md#rel-order-receipt-qty)
 - [**Qty. on Purch. Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-purch-order)
-- [**Qty. in Transit**](inventory-powerbi-inventory-app-kpis.md#qty-on-transit)
+- [**Qty. in Transit**](inventory-powerbi-inventory-app-kpis.md#qty-in-transit)
 - [**Trans. Order Receipt (Qty.)**](inventory-powerbi-inventory-app-kpis.md#trans-order-receipt-qty)
 - [**Qty. on Assembly Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-assembly-order)
 - [**Qty. on Sales Return Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-sales-return-order)
