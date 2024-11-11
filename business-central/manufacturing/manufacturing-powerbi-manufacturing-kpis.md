@@ -63,7 +63,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure is calculates the percentage of available capacity that is currently being utilized, expressed as a percentage..
   
-  *Load % = Allocated Time (Hours) / Capacity Available (Hours)*
+  *Load % = [Allocated Time (Hours)](#allocated-time-hours) / [Capacity Available (Hours)](#capacity-available-hours)*
 
 **Data Sources**
 - Calendar Entry
@@ -91,7 +91,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the amount of time required to set up a machine or equipment for production.
 
-  *Setup Time per Unit (Hours) = Setup Time (Hours) / Finished Quantity (Base)*
+  *Setup Time per Unit (Hours) = Setup Time (Hours) / [Finished Quantity (Base)](#finished-quantity-base)*
 
 **Data Sources**
 - Capacity Ledger Entry
@@ -101,7 +101,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure is shows the amount of time required to produce a single unit of a product. 
 
-  *Run Time per Unit (Hours) = Run Time (Hours) / Finished Quantity (Base)*
+  *Run Time per Unit (Hours) = Run Time (Hours) / [Finished Quantity (Base)](#finished-quantity-base)*
 
 **Data Sources**
 - Capacity Ledger Entry
@@ -111,7 +111,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the amount of time lost due to equipment downtime or stoppages, per unit produced.
 
-  *Stop Time per Unit (Hours) = Stop Time (Hours) / Finished Quantity (Base)*
+  *Stop Time per Unit (Hours) = Stop Time (Hours) / [Finished Quantity (Base)](#finished-quantity-base)*
 
 **Data Sources**
 - Capacity Ledger Entry
@@ -121,7 +121,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the amount of capacity utilized to produce a single unit of a product.
 
-  *Capacity Used per Unit (Hours) = Capacity Used (Hours) / Finished Quantity (Base)*
+  *Capacity Used per Unit (Hours) = [Capacity Used (Hours)](#capacity-used-hours) / [Finished Quantity (Base)](#finished-quantity-base)*
 
 **Data Sources**
 - Capacity Ledger Entry
@@ -140,7 +140,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the deviation between the actual capacity cost amount and the expected capacity cost amount, expressed as a percentage.
 
-  *Capacity Cost Amt. Deviation % = (Capacity Cost Amt. (Actual) - Expected Capacity Cost Amount)/ Expected Capacity Cost Amount*
+  *Capacity Cost Amt. Deviation % = ([Capacity Cost Amt. (Actual)](#capacity-cost-amt-actual) - [Expected Capacity Cost Amount](#expected-capacity-cost-amount))/ [Expected Capacity Cost Amount](#expected-capacity-cost-amount)*
 
 **Data Sources**
 - Item Ledger Entry
@@ -172,7 +172,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the variance between the expected cost of capacity utilization and the actual cost of capacity utilization.
 
-  *Capacity Cost Amt. Variance = -(Expected Capacity Cost Amount - Capacity Cost Amt. (Actual))*
+  *Capacity Cost Amt. Variance = -([Expected Capacity Cost Amount](#expected-capacity-cost-amount) - [Capacity Cost Amt. (Actual)](#capacity-cost-amt-actual))*
 
 **Data Sources**
 - Capacity Ledger Entry
@@ -184,7 +184,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the deviation between the actual consumption cost amount and the expected consumption cost amount, expressed as a percentage.
 
-  *Consumption Cost Amt. Deviation % = (Consumed Cost Amount (Actual) - Expected Consumption Cost Amount) / Expected Consumption Cost Amount*
+  *Consumption Cost Amt. Deviation % = ([Consumed Cost Amount (Actual)](#consumed-cost-amount-actual) - [Expected Consumption Cost Amount](#expected-consumption-cost-amount)) / [Expected Consumption Cost Amount](#expected-consumption-cost-amount)*
 
 **Data Sources**
 - Item Ledger Entry
@@ -213,7 +213,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the variance between the expected cost of consumed items and the actual cost of consumed items. 
 
-  *Consumption Cost Amt. Variance = -(Expected Consumption Cost Amount - Consumed Cost Amount (Actual))*
+  *Consumption Cost Amt. Variance = -([Expected Consumption Cost Amount](#expected-consumption-cost-amount) - [Consumed Cost Amount (Actual)](#consumed-cost-amount-actual))*
 
 **Data Sources**
 - Prod. Order Component
@@ -233,7 +233,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the percentage of available capacity that was utilized.
 
-  *Utilization % = (Capacity Used (Hours) / Capacity Available (Hours)*
+  *Utilization % = ([Capacity Used (Hours)](#capacity-used-hours) / [Capacity Available (Hours)](#capacity-available-hours)*
 
 **Data Sources**
 - Capacity Ledger Entry
@@ -252,7 +252,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the variance between the expected capacity need and the actual capacity used.
 
-  *Capacity Used Variance (Hours) = -(Expected Capacity Need (Hours) - Capacity Used (Hours))*
+  *Capacity Used Variance (Hours) = -([Expected Capacity Need (Hours)](#expected-capacity-need-hours) - [Capacity Used (Hours)](#capacity-used-hours))*
 
 **Data Sources**
 - Prod. Order Routing Line
@@ -282,7 +282,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure shows the deviation between the expected quantity and the actual quantity produced, expressed as a percentage.
 
-  *Qty. Deviation % = (Finished Quantity (Base) - Expected Quantity (Base)) / [Expected Quantity (Base)*
+  *Qty. Deviation % = ([Finished Quantity (Base)](#finished-quantity-base) - [Expected Quantity (Base)](#expected-quantity-base)) / [[Expected Quantity (Base)](#expected-quantity-base)*
   
 **Data Sources**
 - Item Ledger Entry
@@ -313,7 +313,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the variance between the expected cost amount and the actual cost amount for finished goods produced.
 
-  *Cost Amt. Variance = -(Expected Cost Amt. - Finished Cost Amt. (Actual))*
+  *Cost Amt. Variance = -([Expected Cost Amt.](#expected-cost-amt) - [Finished Cost Amt. (Actual)](#finished-cost-amt-actual))*
   
 **Data Sources**
 - Item Ledger Entry
@@ -325,7 +325,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the deviation between the expected cost amount and the actual cost amount for finished goods produced, expressed as a percentage.
 
-  *Cost Amt. Deviation % = (Finished Cost Amt. (Actual) - Expected Cost Amt.) / Expected Cost Amt.*
+  *Cost Amt. Deviation % = ([Finished Cost Amt. (Actual)](#finished-cost-amt-actual) - [Expected Cost Amt.](#expected-cost-amt)) / [Expected Cost Amt.](#expected-cost-amt)*
   
 **Data Sources**
 - Item Ledger Entry
