@@ -21,41 +21,41 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
-- Warehouse Quantity
-- Quantity in Adjustment Bin
-- Available Qty. to Take
-- Pick Quantity (Base)
-- ATO Components Pick Qty.
-- Put-away Quantity (Base)
-- Negative Adjmt. Qty. (Base)
-- Positive Adjmt. Qty. (Base)
-- Gross Requirement
-- Projected Available Balance
-- Qty. on Sales Order
-- Qty. on Purch. Return
-- Qty. on Service Order
-- Qty. on Projects
-- Qty. on Prod. Order Comp. Lines
-- Trans. Order Shipment (Qty.)
-- Planning Issues (Qty.)
-- Qty. on Asm. Component
-- Qty. on Purch. Order
-- Qty. on Transit
-- FP Order Receipt (Qty.)
-- Rel. Order Receipt (Qty.)
-- Trans. Order Receipt (Qty.)
-- Qty. on Assembly Order
-- Trans. Order Shipment (Qty.)
-- Inventory (Quantity)
-- Qty. on Prod. Order
-- Qty. on Sales Return Order
-- Quantity
-- Expired Inventory
-- Scheduled Receipt
-- Planned Order Receipt
-- Planned Order Releases
-- Net Qty. Purchased
-- Net Qty. Sold
+- [Warehouse Quantity](#warehouse-quantity)  
+- [Quantity in Adjustment Bin](#quantity-in-adjustment-bin)  
+- [Available Qty. to Take](#available-qty-to-take)  
+- [Pick Quantity (Base)](#pick-quantity-base)  
+- [ATO Components Pick Qty.](#ato-components-pick-qty)  
+- [Put-away Quantity (Base)](#put-away-quantity-base)  
+- [Negative Adjmt. Qty. (Base)](#negative-adjmt-qty-base)  
+- [Positive Adjmt. Qty. (Base)](#positive-adjmt-qty-base)  
+- [Gross Requirement](#gross-requirement)  
+- [Projected Available Balance](#projected-available-balance)  
+- [Qty. on Sales Order](#qty-on-sales-order)  
+- [Qty. on Purch. Return](#qty-on-purch-return)  
+- [Qty. on Service Order](#qty-on-service-order)  
+- [Qty. on Projects](#qty-on-projects)  
+- [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines)  
+- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)  
+- [Planning Issues (Qty.)](#planning-issues-qty)  
+- [Qty. on Asm. Component](#qty-on-asm-component)  
+- [Qty. on Purch. Order](#qty-on-purch-order)  
+- [Qty. on Transit](#qty-on-transit)  
+- [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
+- [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)  
+- [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)  
+- [Qty. on Assembly Order](#qty-on-assembly-order)  
+- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty-1)  
+- [Inventory (Quantity)](#inventory-quantity)  
+- [Qty. on Prod. Order](#qty-on-prod-order)  
+- [Qty. on Sales Return Order](#qty-on-sales-return-order)  
+- [Quantity](#quantity)  
+- [Expired Inventory](#expired-inventory)  
+- [Scheduled Receipt](#scheduled-receipt)  
+- [Planned Order Receipt](#planned-order-receipt)  
+- [Planned Order Releases](#planned-order-releases)  
+- [Net Qty. Purchased](#net-qty-purchased)  
+- [Net Qty. Sold](#net-qty-sold)
 
 ---
 ### Warehouse Quantity
