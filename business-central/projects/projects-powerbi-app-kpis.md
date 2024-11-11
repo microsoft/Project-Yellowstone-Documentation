@@ -50,7 +50,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the percentage of billable amount that has been invoiced to customers.
 
-  *% Invoiced = Billable (Invoiced Price) / Billable (Total Price)*
+  *% Invoiced = [Billable (Invoiced Price)](#billable-invoiced-price) / [Billable (Total Price)](#billable-total-price)*
   
 **Data Sources**
 - Job Ledger Entry
@@ -93,7 +93,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the percentage of the project that has been completed based on the actual total cost and the budgeted total cost.
 
-  *% Complete = Actual (Total Cost) / Budget (Total Cost)*
+  *% Complete = [Actual (Total Cost)](#actual-total-cost) / [Budget (Total Cost)](#budget-total-cost)*
   
 **Data Sources**
 - Job Ledger Entry
@@ -104,7 +104,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the percentage of project invoiced price that has been realized based on the actual total cost.
 
-  *Realization % = Billable (Invoiced Price) / Actual (Total Price)*
+  *Realization % = [Billable (Invoiced Price)](#billable-invoiced-price) / [Actual (Total Price)](#actual-total-price)*
   
 **Data Sources**
 - Job Ledger Entry
@@ -114,7 +114,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure represents the actual profit of a project.
 
-  *Actual Profit = Billable (Invoiced Price) - Actual (Total Cost)*
+  *Actual Profit = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Cost)](#actual-total-cost)*
   
 **Data Sources**
 - Job Ledger Entry
@@ -124,7 +124,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure represents the actual profit margin percentage of a project.
 
-  *Actual Profit Margin % = Actual Profit / Billable (Invoiced Price)*
+  *Actual Profit Margin % = [Actual Profit Margin %](#actual-profit-margin-) / [Billable (Invoiced Price)](#billable-invoiced-price)*
   
 **Data Sources**
 - Job Ledger Entry
@@ -166,7 +166,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the variance between the actual total cost and the budgeted total cost of a project.
 
-  *Total Cost Variance to Budget = Actual (Total Cost) - Budget (Total Cost)*
+  *Total Cost Variance to Budget = [Actual (Total Cost)](#actual-total-cost) - [Budget (Total Cost)](#budget-total-cost)*
 
 **Data Sources**
 - Job Ledger Entry
@@ -176,7 +176,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the variance between the actual total cost and the budgeted total cost of a project, expressed as a percentage.
 
-  *Total Cost Variance to Budget % = Total Cost Variance to Budget / Budget (Total Cost)*
+  *Total Cost Variance to Budget % = [Total Cost Variance to Budget %](#total-cost-variance-to-budget-) / [Budget (Total Cost)](#budget-total-cost)*
 
 **Data Sources**
 - Job Ledger Entry
@@ -186,7 +186,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the profit margin percentage for a project based on the budgeted profit and the budgeted total price of the project.
 
-  *Budget Profit Margin % = Budget Profit / Budget (Total Price)*
+  *Budget Profit Margin % = Budget Profit / [Budget (Total Price)](#budget-total-price)*
 
 **Data Sources**
 - Job Ledger Entry
@@ -197,7 +197,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the variance between the billable amount and the actual total cost of a project.
 
-  *Realization Variance = Billable (Invoiced Price) - Actual (Total Price)*
+  *Realization Variance = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Price)](#actual-total-price)*
 
 **Data Sources**
 - Job Ledger Entry
