@@ -34,14 +34,14 @@ As a manager, you want to be able to track key items ins and outs. With the *Pur
 
 The *Purchase and Sales Quantity* report includes the following KPIs:
 
-- [**Net Qty. Purchased**](####)
-- [**Net Qty. Sold**](####)
-- [**Quantity**](####)
-- [**Inventory (Quantity)**](####)
-- [**Gross Requirement**](####)
-- [**Scheduled Receipt**](####)
-- [**Planned Order Receipt**](####)
-- [**Projected Available Balance**](####)
+- [**Net Qty. Purchased**](inventory-powerbi-inventory-app-kpis.md#net-qty-purchased)
+- [**Net Qty. Sold**](inventory-powerbi-inventory-app-kpis.md#net-qty-sold)
+- [**Quantity**](inventory-powerbi-inventory-app-kpis.md#quantity)
+- [**Inventory (Quantity)**](inventory-powerbi-inventory-app-kpis.md#inventory-quantity)
+- [**Gross Requirement**](inventory-powerbi-inventory-app-kpis.md#gross-requirement)
+- [**Scheduled Receipt**](inventory-powerbi-inventory-app-kpis.md#scheduled-receipt)
+- [**Planned Order Receipt**](inventory-powerbi-inventory-app-kpis.md#planned-order-receipt)
+- [**Projected Available Balance**](inventory-powerbi-inventory-app-kpis.md#projected-available-balance)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
