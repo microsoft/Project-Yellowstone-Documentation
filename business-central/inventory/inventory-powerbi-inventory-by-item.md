@@ -31,17 +31,17 @@ As a member of the Inventory Management team, you would use the *Inventory by It
 
 The *Inventory by Item* report includes the following KPIs:
 
-- [**Inventory (Quantity)**](####)
-- [**Qty. on Purch. Order**](####)
-- [**Qty. on Prod. Order**](####)
-- [**Qty. on Prod. Order Comp Lines**](####)
-- [**Qty. on Sales Order**](####)
-- [**Qty. on Sales Return Order**](####)
-- [**Qty. on Service Order**](####)
-- [**Qty. on Projects**](####)
-- [**Qty. on Assembly Order**](####)
-- [**Qty. on Asm. Component**](####)
-- [**Qty. in Transit**](###)
+- [**Inventory (Quantity)**](inventory-powerbi-inventory-app-kpis.md#inventory-quantity)
+- [**Qty. on Purch. Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-purch-order)
+- [**Qty. on Prod. Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-prod-order)
+- [**Qty. on Prod. Order Comp Lines**](inventory-powerbi-inventory-app-kpis.md#qty-on-prod-order-comp-lines)
+- [**Qty. on Sales Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-sales-order)
+- [**Qty. on Sales Return Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-sales-return-order)
+- [**Qty. on Service Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-service-order)
+- [**Qty. on Projects**](inventory-powerbi-inventory-app-kpis.md#qty-on-projects)
+- [**Qty. on Assembly Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-assembly-order)
+- [**Qty. on Asm. Component**](inventory-powerbi-inventory-app-kpis.md#qty-on-asm-component)
+- [**Qty. in Transit**](inventory-powerbi-inventory-app-kpis.md#qty-on-transit)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
