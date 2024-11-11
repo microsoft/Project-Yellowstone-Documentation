@@ -41,7 +41,7 @@ The *Inventory by Item* report includes the following KPIs:
 - [**Qty. on Projects**](inventory-powerbi-inventory-app-kpis.md#qty-on-projects)
 - [**Qty. on Assembly Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-assembly-order)
 - [**Qty. on Asm. Component**](inventory-powerbi-inventory-app-kpis.md#qty-on-asm-component)
-- [**Qty. in Transit**](inventory-powerbi-inventory-app-kpis.md#qty-on-transit)
+- [**Qty. in Transit**](inventory-powerbi-inventory-app-kpis.md#qty-in-transit)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
