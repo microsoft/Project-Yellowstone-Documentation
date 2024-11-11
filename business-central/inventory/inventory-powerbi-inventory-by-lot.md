@@ -34,9 +34,9 @@ As a Warehouse staff member, the *Inventory by Lot* report assists in providing 
 
 The *Inventory by Lot No.* report includes the following KPIs:
 
-- [**Quantity**](####)
-- [**Inventory (Quantity)**](####)
-- [**Expired Inventory**](###)
+- [**Quantity**](inventory-powerbi-inventory-app-kpis.md#quantity)
+- [**Inventory (Quantity)**](inventory-powerbi-inventory-app-kpis.md#inventory-quantity)
+- [**Expired Inventory**](inventory-powerbi-inventory-app-kpis.md#expired-inventory)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
