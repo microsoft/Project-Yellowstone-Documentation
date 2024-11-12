@@ -29,7 +29,7 @@ As a finance administrator you might use the Income Statement by Month report to
 
 ## Key Performance Indicators (KPIs)
 
-- [**Net Change**](####)
+- [**Net Change**](finance-powerbi-kpi.md#net-change)
 
 ## Data used in the report
 
