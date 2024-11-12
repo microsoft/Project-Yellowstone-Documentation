@@ -395,13 +395,13 @@ The Shareholders Equity measure calculates the [Balance at Date](#balance-at-dat
 - [Operating Revenue](#operating-revenue)   
 - [Operating Revenue (Balance at Date)](#operating-revenue-balance-at-date)   
 - [Operating Revenue (Beginning Balance)](#operating-revenue-beginning-balance)   
-- Purchases   
+- [Purchases](#purchases)  
 - [Revenue](#revenue) 
 - [Revenue (Balance at Date)](#revenue-balance-at-date) 
 - [Revenue (Beginning Balance)](#revenue-beginning-balance) 
-- Tax Expense   
-- Tax Expense (Balance at Date)   
-- Tax Expense (Beginning Balance)   
+- [Tax Expense](#tax-expense)   
+- [Tax Expense (Balance at Date)](#tax-expense-balance-at-date)   
+- [Tax Expense (Beginning Balance)](#tax-expense-beginning-balance)   
 
 ### Cost of Goods Sold
 **Formula**  
@@ -665,6 +665,15 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 - G/L Account Category
 - Account Categories
 
+### Purchases
+**Formula**  
+The Purchases measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Purchases* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Purchases (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
 ### Revenue
 **Formula**  
 The Revenue measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Income* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Revenue (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
@@ -692,6 +701,32 @@ The Revenue (Beginning Balance) measure calculates the [Balance at Date](#balanc
 - G/L Account Category
 - Account Categories
 
+### Tax Expense
+**Formula**  
+The Tax Expense measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Tax Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Tax Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Tax Expense (Balance at Date)  
+**Formula**  
+The Tax Expense measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Tax Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Tax Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Tax Expense (Beginning Balance)  
+**Formula**  
+The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Tax Expense](#tax-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
 
 
 
