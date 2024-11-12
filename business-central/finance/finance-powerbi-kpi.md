@@ -728,9 +728,37 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
+## Liquidity KPIs
+- [Cash Ratio](#cash-ratio) 
+- [Current Ratio](#current-ratio) 
+- [Quick Ratio](#quick-ratio) 
 
+### Cash Ratio
+**Formula**  
+[Liquid Assets](#liquid-assets) / [Current Liabilities](#current-liabilities)
 
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
 
+### Current Ratio
+**Formula**  
+[Current Assets](#current-assets) / [Current Liabilities](#current-liabilities)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Quick Ratio
+**Formula**  
+ ( [Current Assets](#current-assets) - [Inventory](#inventory) - [Purchase Prepayments](#purchase-prepayments) ) / [Current Liabilities](#current-liabilities)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
 
 ## Customer Ledger Measures
 - [Bucket 1 (Receivables)](#bucket-1-receivables)
