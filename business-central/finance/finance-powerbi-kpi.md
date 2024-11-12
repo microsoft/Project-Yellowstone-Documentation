@@ -50,7 +50,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### % Change in Operating Profit - EBIT
 **Formula**  
-( [Operating Profit - EBIT (Balance at Date)] - [Operating Profit - EBIT (Beginning Balance)] ) / [Operating Profit - EBIT (Beginning Balance)]
+( [Operating Profit - EBIT (Balance at Date)](#operating-profit---ebit-balance-at-date) - [Operating Profit - EBIT (Beginning Balance)](#operating-profit---ebit-beginning-balance) ) / [Operating Profit - EBIT (Beginning Balance)](#operating-profit---ebit-beginning-balance)
 
 **Data Sources**
 - G/L Entry
@@ -58,7 +58,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### % Change in Revenue 
 **Formula**  
-( [Revenue (Balance at Date)] - [Revenue (Beginning Balance)] ) / [Revenue (Beginning Balance)]
+( [Revenue (Balance at Date)](#revenue-balance-at-date) - [Revenue (Beginning Balance)](#revenue-beginning-balance) ) / [Revenue (Beginning Balance)](#revenue-beginning-balance)
 
 **Data Sources**
 - G/L Entry
@@ -66,7 +66,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Asset Turnover Ratio 
 **Formula**  
-[Revenue] / [Assets](#assets)
+[Revenue](#revenue) / [Assets](#assets)
 
 **Data Sources**
 - G/L Entry
@@ -74,7 +74,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Average Collection Period (Days) 
 **Formula**  
-( [No. of Days] * [Accounts Receivable (Average)] ) / [Revenue]
+( `[No. of Days]` * [Accounts Receivable (Average)](#accounts-receivable-average) ) / [Revenue](#revenue)
 
 **Data Sources**
 - Date
@@ -83,7 +83,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Cash Conversion Cycle - CCC 
 **Formula**  
-[Days Sales Of Inventory - DSI] + [Days Sales Outstanding - DSO] - [Days Payable Outstanding - DPO]
+[Days Sales Of Inventory - DSI](#days-sales-of-inventory---dsi) + [Days Sales Outstanding - DSO](#days-sales-outstanding---dso) - [Days Payable Outstanding - DPO](#days-payable-outstanding---dpo)
 
 **Data Sources**
 - G/L Entry
@@ -91,7 +91,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Days Payable Outstanding - DPO 
 **Formula**  
- ( [Accounts Payable](#accounts-payable) / [Cost of Goods Sold] ) * [No. of Days]
+ ( [Accounts Payable](#accounts-payable) / [Cost of Goods Sold](#cost-of-goods-sold) ) * `[No. of Days]`
 
 **Data Sources**
 - Date
@@ -101,7 +101,7 @@ Each KPI is described, including how it is calculated and what data was used in 
  
 ### Days Sales Of Inventory - DSI 
 **Formula**  
-( [Inventory](#inventory) / [Cost of Goods Sold] ) * [No. of Days]
+( [Inventory](#inventory) / [Cost of Goods Sold](#cost-of-goods-sold) ) * `[No. of Days]`
 
 **Data Sources**
 - Date
@@ -110,7 +110,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Days Sales Outstanding - DSO 
 **Formula**  
- ( [Accounts Receivable](#accounts-receivable) / [Revenue] ) * [No. of Days]
+ ( [Accounts Receivable](#accounts-receivable) / [Revenue](#revenue) ) * `[No. of Days]`
 
 **Data Sources**
 - Date
@@ -119,7 +119,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Degree Of Operating Leverage - DOL 
 **Formula**  
-[% Change in Operating Profit - EBIT] / [% Change in Revenue]
+[% Change in Operating Profit - EBIT](#-change-in-operating-profit---ebit) / [% Change in Revenue](#-change-in-revenue)
 
 **Data Sources**
 - G/L Entry
@@ -127,7 +127,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Inventory Turnover
 **Formula**  
-[Cost of Goods Sold] / [Inventory (Average)](#inventory-average)
+[Cost of Goods Sold](#cost-of-goods-sold) / [Inventory (Average)](#inventory-average)
 
 **Data Sources**
 - G/L Entry
@@ -613,7 +613,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 
 ### Operating Expense - OPEX
 **Formula**  
-[Expense](#expense) - [Interest Expense](#interest-expense) - [FX Losses Expense](#fx-losses-expense) - `[Tax Expense]` - [Extraordinary Expense](#extraordinary-expense)
+[Expense](#expense) - [Interest Expense](#interest-expense) - [FX Losses Expense](#fx-losses-expense) - [Tax Expense](#tax-expense) - [Extraordinary Expense](#extraordinary-expense)
 
 **Data Sources**
 - G/L Entry
@@ -622,7 +622,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 
 ### Operating Expense - OPEX (Balance at Date) 
 **Formula**  
-[Expense (Balance at Date)](#expense-balance-at-date) - [Interest Expense (Balance at Date)](#interest-expense-balance-at-date) - [FX Losses Expense (Balance at Date)](#fx-losses-expense-balance-at-date) - `[Tax Expense (Balance at Date)]` - [Extraordinary Expense (Balance at Date)](#extraordinary-expense-balance-at-date)
+[Expense (Balance at Date)](#expense-balance-at-date) - [Interest Expense (Balance at Date)](#interest-expense-balance-at-date) - [FX Losses Expense (Balance at Date)](#fx-losses-expense-balance-at-date) - [Tax Expense (Balance at Date)](#tax-expense-balance-at-date) - [Extraordinary Expense (Balance at Date)](#extraordinary-expense-balance-at-date)
 
 **Data Sources**
 - G/L Entry
@@ -631,7 +631,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 
 ### Operating Expense - OPEX (Beginning Balance)  
 **Formula**  
-[Expense (Beginning Balance)](#expense-beginning-balance) - [Interest Expense (Beginning Balance)](#interest-expense-beginning-balance) - [FX Losses Expense (Beginning Balance)](#fx-losses-expense-beginning-balance) - `[Tax Expense (Beginning Balance)]` - [Extraordinary Expense (Beginning Balance)](#extraordinary-expense-beginning-balance)
+[Expense (Beginning Balance)](#expense-beginning-balance) - [Interest Expense (Beginning Balance)](#interest-expense-beginning-balance) - [FX Losses Expense (Beginning Balance)](#fx-losses-expense-beginning-balance) - [Tax Expense (Beginning Balance)](#tax-expense-beginning-balance) - [Extraordinary Expense (Beginning Balance)](#extraordinary-expense-beginning-balance)
 
 **Data Sources**
 - G/L Entry
@@ -760,6 +760,168 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
+### Profitability KPIs
+- [Debt Ratio](#debt-ratio)
+- [Debt/Equity Ratio](#debtequity-ratio)  
+- [EBITDA](#ebitda)
+- [Gross Profit](#gross-profit)
+- [Gross Profit Margin](#gross-profit-margin)
+- [Net Profit](#net-profit)
+- [Net Profit Margin](#net-profit-margin)
+- [Operating Profit - EBIT](#operating-profit---ebit)
+- [Operating Profit - EBIT (Balance at Date)](#operating-profit---ebit-balance-at-date)
+- [Operating Profit - EBIT (Beginning Balance)](#operating-profit---ebit-beginning-balance)
+- [Operating Profit Margin](#operating-profit-margin) 
+- [Return On Assets - ROA](#return-on-assets---roa) 
+- [Return On Capital Employed - ROCE](#return-on-capital-employed---roce)
+- [Return On Equity - ROE](#return-on-equity---roe)
+- [Return On Net Assets - RONA](#return-on-net-assets---rona)  
+- [Shareholder Equity Ratio](#shareholder-equity-ratio)  
+
+### Debt Ratio 
+**Formula**  
+[Liabilities](#liabilities) / [Assets](#assets)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Debt/Equity Ratio 
+**Formula**  
+[Liabilities](#liabilities) / [Shareholder's Equity](#shareholders-equity)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### EBITDA
+**Formula**  
+[Operating Profit - EBIT](#operating-profit---ebit) + [Depreciation and Amortization](#depreciation-and-amortization)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Gross Profit
+**Formula**  
+[Revenue](#revenue) - [Cost of Goods Sold](#cost-of-goods-sold)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Gross Profit Margin
+**Formula**  
+[Gross Profit](#gross-profit) / [Revenue](#revenue)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Net Profit
+**Formula**  
+[Revenue](#revenue) - [Cost of Goods Sold](#cost-of-goods-sold) - [Expense](#expense)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Net Profit Margin
+**Formula**  
+[Net Profit](#net-profit) / [Revenue](#revenue)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Profit - EBIT
+**Formula**  
+[Operating Revenue](#operating-revenue) - [Operating Expense - OPEX](#operating-expense---opex)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Profit - EBIT (Balance at Date)
+**Formula**  
+[Operating Revenue (Balance at Date)](#operating-revenue-balance-at-date) - [Operating Expense - OPEX (Balance at Date)](#operating-expense---opex-balance-at-date)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Profit - EBIT (Beginning Balance)
+**Formula**  
+[Operating Revenue (Beginning Balance)](#operating-revenue-balance-at-date) - [Operating Expense - OPEX (Beginning Balance)](#operating-expense---opex-balance-at-date)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Profit Margin
+**Formula**  
+[Operating Profit - EBIT](#operating-profit---ebit) / [Operating Revenue](#operating-revenue)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Return On Assets - ROA
+**Formula**  
+[Net Profit](#net-profit) / [Assets](#assets)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Return On Capital Employed - ROCE 
+**Formula**  
+[Operating Profit - EBIT](#operating-profit---ebit) / [Capital Employed](#capital-employed)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Return On Equity - ROE 
+**Formula**  
+[Net Profit](#net-profit) / [Shareholder's Equity](#shareholders-equity)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Return On Net Assets - RONA
+**Formula**  
+[Net Profit](#net-profit) / ( [Fixed Assets](#fixed-assets) + [Working Capital](#working-capital) )
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Shareholder Equity Ratio
+**Formula**  
+[Shareholder's Equity](#shareholders-equity) / [Assets](#assets)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
 ## Customer Ledger Measures
 - [Bucket 1 (Receivables)](#bucket-1-receivables)
 - [Bucket 2 (Receivables)](#bucket-2-receivables)
@@ -770,74 +932,74 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [Balance (Accounts Receivable)](#balance-accounts-receivable)
 - [Original Amount (LCY)](#original-amount-lcy)
 
----
 ### Bucket 1 (Receivables)
 **Formula**   
-The Bucket 1 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the first aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 1 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the first aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 
----
 ### Bucket 2 (Receivables)
 **Formula**   
-The Bucket 2 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the second aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 2 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the second aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 - Date
 
----
 ### Bucket 3 (Receivables)
 **Formula**   
-The Bucket 3 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the third aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 3 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the third aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 - Date
 
----
 ### Bucket 4 (Receivables)
 **Formula**   
-The Bucket 4 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the fourth aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 4 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the fourth aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 - Date
 
----
 ### Bucket 5 (Receivables)
 **Formula**   
-The Bucket 4 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the fifth aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 4 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the fifth aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 - Date
 
----
 ### Amount Receivable (LCY)
 **Formula**   
 The Amount Receivable (LCY) measure calculates the total amount of receivables in the local currency for a given period. The measure sums up the amount (in local currency) of the Customer Ledger Entries table to determine the total amount of receivables.
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 
----
 ### Balance (Accounts Receivable)
 **Formula**   
-The Balance (Accounts Receivable) measure calculates the total balance of accounts receivable up to a specific date. The measure uses the Amount Receivable (LCY) measure and applies a filter to only include transactions on or before the selected date.
+The Balance (Accounts Receivable) measure calculates the total balance of accounts receivable up to a specific date. The measure uses the [Amount Receivable (LCY)](#amount-receivable-lcy) measure and applies a filter to only include transactions on or before the selected date.
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 - Date
 
----
 ### Original Amount (LCY)
 **Formula**   
 The Original Amount (LCY) measure calculates the total amount of original entries for customers in the local currency. The measure sums up the amount (in local currency) of the Customer Ledger Entries table, but only includes entries with the entry type of "Initial Entry".
 
 **Data Sources**
 - Customer Ledger Entry
+- Detailed Customer Ledger Entry
 
 ## Vendor Ledger Measures
 - [Bucket 1 (Payables)](#bucket-1-payables)
@@ -849,75 +1011,75 @@ The Original Amount (LCY) measure calculates the total amount of original entrie
 - [Balance (Accounts Payable)](#balance-accounts-payable)
 - [Original Amount](#original-amount)
 
----
 ### Bucket 1 (Payables)
 **Formula**   
-The Bucket 1 (Payables) measure calculates the total amount of payables that fall within the first aging bucket. The first uses the Aging Bucket Period table to determine the length of the first aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 1 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the first aging bucket. The first uses the `Aging Bucket Period` to determine the length of the first aging bucket and calculates the starting date for the bucket based on the current date.
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 - Date
 
----
 ### Bucket 2 (Payables)
 **Formula**   
-The Bucket 2 (Payables) measure calculates the total amount of payables that fall within the second aging bucket. The second uses the Aging Bucket Period table to determine the length of the second aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 2 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the second aging bucket. The second uses the `Aging Bucket Period` to determine the length of the second aging bucket and calculates the starting date for the bucket based on the current date.
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 - Date
 
----
 ### Bucket 3 (Payables)
 **Formula**   
-The Bucket 3 (Payables) measure calculates the total amount of payables that fall within the third aging bucket. The third uses the Aging Bucket Period table to determine the length of the third aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 3 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the third aging bucket. The third uses the `Aging Bucket Period` to determine the length of the third aging bucket and calculates the starting date for the bucket based on the current date.
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 - Date
 
----
 ### Bucket 4 (Payables)
 **Formula**   
-The Bucket 4 (Payables) measure calculates the total amount of payables that fall within the fourth aging bucket. The fourth uses the Aging Bucket Period table to determine the length of the fourth aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 4 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the fourth aging bucket. The fourth uses the `Aging Bucket Period` to determine the length of the fourth aging bucket and calculates the starting date for the bucket based on the current date.
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 - Date
 
----
 ### Bucket 5 (Payables)
 **Formula**   
-The Bucket 5 (Payables) measure calculates the total amount of payables that fall within the fifth aging bucket. The fifth uses the Aging Bucket Period table to determine the length of the fifth aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 5 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the fifth aging bucket. The fifth uses the `Aging Bucket Period` to determine the length of the fifth aging bucket and calculates the starting date for the bucket based on the current date.
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 - Date
 
----
 ### Amount Payable (LCY)
 **Formula**   
 The Amount Payable (LCY) measure calculates the total amount of payables in the local currency for a given period. The measure sums up the values in the amount (in local currency) column of the Vendor Ledger Entry table to determine the total amount of payables.
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 - Date
 
----
 ### Balance (Accounts Payable)
 **Formula**   
-The Balance (Accounts Payable) measure  calculates the total balance of accounts payable up to a specific date. The measure uses the Amount Payable (LCY) measure and applies a filter to only include transactions on or before the selected date.
+The Balance (Accounts Payable) measure  calculates the total balance of accounts payable up to a specific date. The measure uses the [Amount Payable (LCY)](#amount-payable-lcy) measure and applies a filter to only include transactions on or before the selected date.
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 
----
 ### Original Amount
 **Formula**   
-The Original Amount measure calculates the total amount of original entries for vendors. The measure uses the Amount Payable (LCY) measure and applies a filter to the Vendor Ledger Entries table to only include entries with the Entry Type equal to "Initial Entry".
+The Original Amount measure calculates the total amount of original entries for vendors. The measure uses the [Amount Payable (LCY)](#amount-payable-lcy) measure and applies a filter to the Vendor Ledger Entries table to only include entries with the Entry Type equal to "Initial Entry".
 
 **Data Sources**
 - Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
 
 ## G/L Entry Measures
 - [Amount](#amount)
@@ -929,7 +1091,6 @@ The Original Amount measure calculates the total amount of original entries for 
 - [Variance to Budget](#variance-to-budget)
 - [Variance to Budget %](#variance-to-budget-)
 
----
 ### Amount
 **Formula**   
 The Amount measure sums all values in the amount column of the G/L Entry table.
@@ -937,7 +1098,6 @@ The Amount measure sums all values in the amount column of the G/L Entry table.
 **Data Sources**
 - G/L Entry
 
----
 ### Balance
 **Formula**   
 The Balance measure calculates the total [Amount](#amount) across all dates, ignoring any filters on the `Date` table. By removing date-based filtering, this measure provides the full balance from the start to the end of the dataset, regardless of any date selections applied in the report.
@@ -945,7 +1105,6 @@ The Balance measure calculates the total [Amount](#amount) across all dates, ign
 **Data Sources**
 - G/L Entry
 
----
 ### Balance at Date
 **Formula**   
 The Balance at Date measure calculates the cumulative [Amount](#amount) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
@@ -953,7 +1112,6 @@ The Balance at Date measure calculates the cumulative [Amount](#amount) up to th
 **Data Sources**
 - G/L Entry
 
----
 ### Balance at Date (Neg)
 **Formula**   
 The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), shows the [Balance at Date](#balance-at-date) measure as a negative value.
@@ -963,7 +1121,6 @@ The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), s
 **Data Sources**
 - G/L Entry
 
----
 ### Net Change
 **Formula**   
 The Net Change measure is a filtered version of [Amount](#amount), focusing on non-closing entries to show only the net activity. Net Change filters out entries where **Closing Entry** is TRUE, excluding closing entries from its calculation.
@@ -971,7 +1128,6 @@ The Net Change measure is a filtered version of [Amount](#amount), focusing on n
 **Data Sources**
 - G/L Entry
 
----
 ### Net Change (Neg)
 **Formula**   
 The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the [Net Change](#net-change) measure as a negative value.
@@ -981,7 +1137,6 @@ The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the [
 **Data Sources**
 - G/L Entry
 
----
 ### Variance to Budget
 **Formula**   
 The Variance to Budget measure calculates the difference between the actual net change and the budget amount.
@@ -992,7 +1147,6 @@ The Variance to Budget measure calculates the difference between the actual net 
 - G/L Entry
 - G/L Budget Entry
 
----
 ### Variance to Budget %
 **Formula**   
 *Variance to Budget % = [Variance to Budget](#variance-to-budget) / [Net Change](#net-change)*
@@ -1005,7 +1159,6 @@ The Variance to Budget measure calculates the difference between the actual net 
 - [Budget Amount](#budget-amount)
 - [Budget Balance at Date](#budget-balance-at-date)
 
----
 ### Budget Amount
 **Formula**   
 The Budget Amount measure sums up all the budgeted amounts from the G/L Budget Entry table.
@@ -1013,7 +1166,6 @@ The Budget Amount measure sums up all the budgeted amounts from the G/L Budget E
 **Data Sources**
 - G/L Budget Entry
 
----
 ### Budget Amount at Date
 **Formula**   
 The Budget Balance at Date measure calculates the budgeted balance at a specific date.
