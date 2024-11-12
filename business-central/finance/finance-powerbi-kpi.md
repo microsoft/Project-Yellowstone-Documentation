@@ -583,7 +583,7 @@ The FX Losses Expense (Beginning Balance) measure calculates the `[Balance at Da
 - Original Amount (LCY)
 
 ---
-## Bucket 1 (Receivables)
+### Bucket 1 (Receivables)
 **Formula**   
 The Bucket 1 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the first aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
@@ -591,7 +591,7 @@ The Bucket 1 (Receivables) measure  calculates the amount of outstanding receiva
 - Customer Ledger Entry
 
 ---
-## Bucket 2 (Receivables)
+### Bucket 2 (Receivables)
 **Formula**   
 The Bucket 2 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the second aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
@@ -600,7 +600,7 @@ The Bucket 2 (Receivables) measure  calculates the amount of outstanding receiva
 - Date
 
 ---
-## Bucket 3 (Receivables)
+### Bucket 3 (Receivables)
 **Formula**   
 The Bucket 3 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the third aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
@@ -609,7 +609,7 @@ The Bucket 3 (Receivables) measure  calculates the amount of outstanding receiva
 - Date
 
 ---
-## Bucket 4 (Receivables)
+### Bucket 4 (Receivables)
 **Formula**   
 The Bucket 4 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the fourth aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
@@ -618,7 +618,7 @@ The Bucket 4 (Receivables) measure  calculates the amount of outstanding receiva
 - Date
 
 ---
-## Bucket 5 (Receivables)
+### Bucket 5 (Receivables)
 **Formula**   
 The Bucket 4 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the fifth aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
@@ -627,7 +627,7 @@ The Bucket 4 (Receivables) measure  calculates the amount of outstanding receiva
 - Date
 
 ---
-## Amount Receivable (LCY)
+### Amount Receivable (LCY)
 **Formula**   
 The Amount Receivable (LCY) measure calculates the total amount of receivables in the local currency for a given period. The measure sums up the amount (in local currency) of the Customer Ledger Entries table to determine the total amount of receivables.
 
@@ -635,7 +635,7 @@ The Amount Receivable (LCY) measure calculates the total amount of receivables i
 - Customer Ledger Entry
 
 ---
-## Balance (Accounts Receivable)
+### Balance (Accounts Receivable)
 **Formula**   
 The Balance (Accounts Receivable) measure calculates the total balance of accounts receivable up to a specific date. The measure uses the Amount Receivable (LCY) measure and applies a filter to only include transactions on or before the selected date.
 
@@ -644,7 +644,7 @@ The Balance (Accounts Receivable) measure calculates the total balance of accoun
 - Date
 
 ---
-## Original Amount (LCY)
+### Original Amount (LCY)
 **Formula**   
 The Original Amount (LCY) measure calculates the total amount of original entries for customers in the local currency. The measure sums up the amount (in local currency) of the Customer Ledger Entries table, but only includes entries with the entry type of "Initial Entry".
 
@@ -662,7 +662,7 @@ The Original Amount (LCY) measure calculates the total amount of original entrie
 - Original Amount
 
 ---
-## Bucket 1 (Payables)
+### Bucket 1 (Payables)
 **Formula**   
 The Bucket 1 (Payables) measure calculates the total amount of payables that fall within the first aging bucket. The first uses the Aging Bucket Period table to determine the length of the first aging bucket and calculates the starting date for the bucket based on the current date.
 
@@ -671,7 +671,7 @@ The Bucket 1 (Payables) measure calculates the total amount of payables that fal
 - Date
 
 ---
-## Bucket 2 (Payables)
+### Bucket 2 (Payables)
 **Formula**   
 The Bucket 2 (Payables) measure calculates the total amount of payables that fall within the second aging bucket. The second uses the Aging Bucket Period table to determine the length of the second aging bucket and calculates the starting date for the bucket based on the current date.
 
@@ -680,7 +680,7 @@ The Bucket 2 (Payables) measure calculates the total amount of payables that fal
 - Date
 
 ---
-## Bucket 3 (Payables)
+### Bucket 3 (Payables)
 **Formula**   
 The Bucket 3 (Payables) measure calculates the total amount of payables that fall within the third aging bucket. The third uses the Aging Bucket Period table to determine the length of the third aging bucket and calculates the starting date for the bucket based on the current date.
 
@@ -689,7 +689,7 @@ The Bucket 3 (Payables) measure calculates the total amount of payables that fal
 - Date
 
 ---
-## Bucket 4 (Payables)
+### Bucket 4 (Payables)
 **Formula**   
 The Bucket 4 (Payables) measure calculates the total amount of payables that fall within the fourth aging bucket. The fourth uses the Aging Bucket Period table to determine the length of the fourth aging bucket and calculates the starting date for the bucket based on the current date.
 
@@ -698,7 +698,7 @@ The Bucket 4 (Payables) measure calculates the total amount of payables that fal
 - Date
 
 ---
-## Bucket 5 (Payables)
+### Bucket 5 (Payables)
 **Formula**   
 The Bucket 5 (Payables) measure calculates the total amount of payables that fall within the fifth aging bucket. The fifth uses the Aging Bucket Period table to determine the length of the fifth aging bucket and calculates the starting date for the bucket based on the current date.
 
@@ -707,7 +707,7 @@ The Bucket 5 (Payables) measure calculates the total amount of payables that fal
 - Date
 
 ---
-## Amount Payable (LCY)
+### Amount Payable (LCY)
 **Formula**   
 The Amount Payable (LCY) measure calculates the total amount of payables in the local currency for a given period. The measure sums up the values in the amount (in local currency) column of the Vendor Ledger Entry table to determine the total amount of payables.
 
@@ -716,7 +716,7 @@ The Amount Payable (LCY) measure calculates the total amount of payables in the 
 - Date
 
 ---
-## Balance (Accounts Payable)
+### Balance (Accounts Payable)
 **Formula**   
 The Balance (Accounts Payable) measure  calculates the total balance of accounts payable up to a specific date. The measure uses the Amount Payable (LCY) measure and applies a filter to only include transactions on or before the selected date.
 
@@ -724,7 +724,7 @@ The Balance (Accounts Payable) measure  calculates the total balance of accounts
 - Vendor Ledger Entry
 
 ---
-## Original Amount
+### Original Amount
 **Formula**   
 The Original Amount measure calculates the total amount of original entries for vendors. The measure uses the Amount Payable (LCY) measure and applies a filter to the Vendor Ledger Entries table to only include entries with the Entry Type equal to "Initial Entry".
 
@@ -742,7 +742,7 @@ The Original Amount measure calculates the total amount of original entries for 
 - Variance to Budget %
 
 ---
-## Amount
+### Amount
 **Formula**   
 The Amount measure sums up all the values of the Amount column in the G/L Entry table.
 
@@ -750,7 +750,7 @@ The Amount measure sums up all the values of the Amount column in the G/L Entry 
 - G/L Entry
 
 ---
-## Balance
+### Balance
 **Formula**
 The Balance measure calculates the balance of the Amount measure at the latest date.
 
@@ -758,7 +758,7 @@ The Balance measure calculates the balance of the Amount measure at the latest d
 - G/L Entry
 
 ---
-## Balance at Date
+### Balance at Date
 **Formula**
 The Balance at Date measure calculates the balance of the Amount measure at a specific date.
 
@@ -766,7 +766,7 @@ The Balance at Date measure calculates the balance of the Amount measure at a sp
 - G/L Entry
 
 ---
-## Balance at Date (Neg)
+### Balance at Date (Neg)
 **Formula**
 The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), shows the Balance at Date measure as a negative value.
 
@@ -776,7 +776,7 @@ The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), s
 - G/L Entry
 
 ---
-## Net Change
+### Net Change
 **Formula**
 The Net Change measure calculates the net change in the Amount measure for a given period.
 
@@ -784,7 +784,7 @@ The Net Change measure calculates the net change in the Amount measure for a giv
 - G/L Entry
 
 ---
-## Net Change (Neg)
+### Net Change (Neg)
 **Formula**
 The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the Net Change measure as a negative value.
 
@@ -794,7 +794,7 @@ The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the N
 - G/L Entry
 
 ---
-## Variance to Budget
+### Variance to Budget
 **Formula**
 The Variance to Budget measure calculates the difference between the actual net change and the budget amount.
 
@@ -805,7 +805,7 @@ The Variance to Budget measure calculates the difference between the actual net 
 - G/L Budget Entry
 
 ---
-## Variance to Budget %
+### Variance to Budget %
 **Formula**
 *Variance to Budget % = Variance to Budget / Net Change*
 
