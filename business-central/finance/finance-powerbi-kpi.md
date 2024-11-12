@@ -869,7 +869,7 @@ The Original Amount measure calculates the total amount of original entries for 
 ---
 ### Amount
 **Formula**   
-The Amount measure sums all values in the amount column of the G/L Entries table.
+The Amount measure sums all values in the amount column of the G/L Entry table.
 
 **Data Sources**
 - G/L Entry
@@ -903,7 +903,7 @@ The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), s
 ---
 ### Net Change
 **Formula**   
-The Net Change meassure is a filtered version of [Amount](#amount), focusing on non-closing entries to show only the net activity. Net Change filters out entries where **Closing Entry** is TRUE, excluding closing entries from its calculation.
+The Net Change measure is a filtered version of [Amount](#amount), focusing on non-closing entries to show only the net activity. Net Change filters out entries where **Closing Entry** is TRUE, excluding closing entries from its calculation.
 
 **Data Sources**
 - G/L Entry
