@@ -25,7 +25,7 @@ As an executive or senior leader you can use the balance sheet by month report t
 
 ## Key Performance Indicators (KPIs)
 
-- [**Balance at Date**](####)
+- [**Balance at Date**](finance-powerbi-kpi.md#balance-at-date)
 
 ## Data used in the report
 

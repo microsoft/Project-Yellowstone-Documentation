@@ -40,11 +40,11 @@ The *Liquidity* report includes the following KPIs and measures:
 - [**Current Ratio**](####)
 - [**Quick Ratio**](####)
 - [**Cash Ratio**](####)
-- [**Current Assets**](####)
-- [**Current Liabilities**](####)
-- [**Inventory**](####)
-- [**Purchase Prepayments**](####)
-- [**Liquid Assets**](####)
+- [**Current Assets**](finance-powerbi-kpi.md#current-assets)
+- [**Current Liabilities**](finance-powerbi-kpi.md#current-liabilities)
+- [**Inventory**](finance-powerbi-kpi.md#inventory)
+- [**Purchase Prepayments**](finance-powerbi-kpi.md#purchase-prepayments)
+- [**Liquid Assets**](finance-powerbi-kpi.md#liquid-assets)
 
 
 ## Data used in the report

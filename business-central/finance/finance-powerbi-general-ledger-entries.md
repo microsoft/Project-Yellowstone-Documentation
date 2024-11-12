@@ -31,7 +31,7 @@ As a finance manager, you can use the General Ledger Entries report to reconcile
 
 The *General Ledger Entries* report includes the following KPIs and measures: 
 
-- [**Amount**](####)
+- [**Amount**](finance-powerbi-kpi.md#amount)
 
 ## Data used in the report
 
