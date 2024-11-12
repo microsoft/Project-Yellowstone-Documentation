@@ -506,16 +506,39 @@ The FX Losses Expense (Beginning Balance) measure calculates the `[Balance at Da
 - G/L Account Category
 - Account Categories
 
+## Customer Ledger Measures
+- Budget 1 (Receivables)
+- Budget 2 (Receivables)
+- Budget 3 (Receivables)
+- Budget 4 (Receivables)
+- Budget 5 (Receivables)
+- Amount Receivable (LCY)
+- Balance (Accounts Receivable)
+- Original Amount (LCY)
 
+## Vendor Ledger Measures
+- Budget 1 (Payables)
+- Budget 2 (Payables)
+- Budget 3 (Payables)
+- Budget 4 (Payables)
+- Budget 5 (Payables)
+- Amount Payable (LCY)
+- Balance (Accounts Payable)
+- Original Amount
 
+## G/L Entry Measures
+- Amount
+- Balance
+- Balance at Date
+- Balance at Date (Neg)
+- Net Change
+- Net Change (Neg)
+- Variance to Budget
+- Variance to Budget %
 
-
-
-
-
-
-
-
+## G/L Budget Entry Meaures
+- Budget Amount
+- Budget Balance at Date
 
 
 ## See also
