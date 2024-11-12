@@ -741,6 +741,79 @@ The Original Amount measure calculates the total amount of original entries for 
 - Variance to Budget
 - Variance to Budget %
 
+---
+## Amount
+**Formula**   
+The Amount measure sums up all the values of the Amount column in the G/L Entry table.
+
+**Data Sources**
+- G/L Entry
+
+---
+## Balance
+**Formula**
+The Balance measure calculates the balance of the Amount measure at the latest date.
+
+**Data Sources**
+- G/L Entry
+
+---
+## Balance at Date
+**Formula**
+The Balance at Date measure calculates the balance of the Amount measure at a specific date.
+
+**Data Sources**
+- G/L Entry
+
+---
+## Balance at Date (Neg)
+**Formula**
+The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), shows the Balance at Date measure as a negative value.
+
+*Balance at Date (Neg) = Balance at Date x -1*
+
+**Data Sources**
+- G/L Entry
+
+---
+## Net Change
+**Formula**
+The Net Change measure calculates the net change in the Amount measure for a given period.
+
+**Data Sources**
+- G/L Entry
+
+---
+## Net Change (Neg)
+**Formula**
+The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the Net Change measure as a negative value.
+
+*Net Change (Neg) = Net Change x -1*
+
+**Data Sources**
+- G/L Entry
+
+---
+## Variance to Budget
+**Formula**
+The Variance to Budget measure calculates the difference between the actual net change and the budget amount.
+
+*Variance to Budget = Net Change - Budget Amount*
+
+**Data Sources**
+- G/L Entry
+- G/L Budget Entry
+
+---
+## Variance to Budget %
+**Formula**
+*Variance to Budget % = Variance to Budget / Net Change*
+
+**Data Sources**
+- G/L Entry
+- G/L Budget Entry
+
+
 ## G/L Budget Entry Meaures
 - Budget Amount
 - Budget Balance at Date
