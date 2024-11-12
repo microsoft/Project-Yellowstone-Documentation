@@ -37,9 +37,9 @@ Finally, you could review the Cash Ratio which focuses on liquid assets to meet 
 
 The *Liquidity* report includes the following KPIs and measures: 
 
-- [**Current Ratio**](####)
-- [**Quick Ratio**](####)
-- [**Cash Ratio**](####)
+- [**Current Ratio**](finance-powerbi-kpi.md#current-ratio)
+- [**Quick Ratio**](finance-powerbi-kpi.md#quick-ratio)
+- [**Cash Ratio**](finance-powerbi-kpi.md#cash-ratio)
 - [**Current Assets**](finance-powerbi-kpi.md#current-assets)
 - [**Current Liabilities**](finance-powerbi-kpi.md#current-liabilities)
 - [**Inventory**](finance-powerbi-kpi.md#inventory)
