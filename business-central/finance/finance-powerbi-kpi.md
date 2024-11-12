@@ -927,7 +927,6 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [Bucket 2 (Receivables)](#bucket-2-receivables)
 - [Bucket 3 (Receivables)](#bucket-3-receivables)
 - [Bucket 4 (Receivables)](#bucket-4-receivables)
-- [Bucket 5 (Receivables)](#bucket-5-receivables)
 - [Current (Receivables)](#current-receivables)
 - [Amount Receivable (LCY)](#amount-receivable-lcy)
 - [Balance (Accounts Receivable)](#balance-accounts-receivable)
@@ -962,15 +961,6 @@ The Bucket 3 (Receivables) measure  calculates the [Amount Receivable (LCY)](#am
 ### Bucket 4 (Receivables)
 **Formula**   
 The Bucket 4 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the fourth aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
-
-**Data Sources**
-- Customer Ledger Entry
-- Detailed Customer Ledger Entry
-- Date
-
-### Bucket 5 (Receivables)
-**Formula**   
-The Bucket 4 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the fifth aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
 
 **Data Sources**
 - Customer Ledger Entry
@@ -1016,7 +1006,6 @@ The Original Amount (LCY) measure calculates the total amount of original entrie
 - [Bucket 2 (Payables)](#bucket-2-payables)
 - [Bucket 3 (Payables)](#bucket-3-payables)
 - [Bucket 4 (Payables)](#bucket-4-payables)
-- [Bucket 5 (Payables)](#bucket-5-payables)
 - [Current (Payables)](#current-payables)
 - [Amount Payable (LCY)](#amount-payable-lcy)
 - [Balance (Accounts Payable)](#balance-accounts-payable)
@@ -1052,15 +1041,6 @@ The Bucket 3 (Payables) measure calculates the [Amount Payable (LCY)](#amount-pa
 ### Bucket 4 (Payables)
 **Formula**   
 The Bucket 4 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the fourth aging bucket. The fourth uses the `Aging Bucket Period` to determine the length of the fourth aging bucket and calculates the starting date for the bucket based on the current date.
-
-**Data Sources**
-- Vendor Ledger Entry
-- Detailed Vendor Ledger Entry
-- Date
-
-### Bucket 5 (Payables)
-**Formula**   
-The Bucket 5 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the fifth aging bucket. The fifth uses the `Aging Bucket Period` to determine the length of the fifth aging bucket and calculates the starting date for the bucket based on the current date.
 
 **Data Sources**
 - Vendor Ledger Entry
