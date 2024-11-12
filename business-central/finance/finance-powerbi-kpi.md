@@ -869,7 +869,7 @@ The Original Amount measure calculates the total amount of original entries for 
 ---
 ### Amount
 **Formula**   
-The Amount measure sums up all the values of the Amount column in the G/L Entry table.
+The Amount measure sums all values in the amount column of the G/L Entry table.
 
 **Data Sources**
 - G/L Entry
@@ -877,7 +877,7 @@ The Amount measure sums up all the values of the Amount column in the G/L Entry 
 ---
 ### Balance
 **Formula**   
-The Balance measure calculates the balance of the [Amount](#amount) measure at the latest date.
+The Balance measure calculates the total [Amount](#amount) across all dates, ignoring any filters on the `Date` table. By removing date-based filtering, this measure provides the full balance from the start to the end of the dataset, regardless of any date selections applied in the report.
 
 **Data Sources**
 - G/L Entry
@@ -885,7 +885,7 @@ The Balance measure calculates the balance of the [Amount](#amount) measure at t
 ---
 ### Balance at Date
 **Formula**   
-The Balance at Date measure calculates the balance of the [Amount](#amount) measure at a specific date.
+The Balance at Date measure calculates the cumulative [Amount](#amount) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - G/L Entry
@@ -903,7 +903,7 @@ The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), s
 ---
 ### Net Change
 **Formula**   
-The Net Change measure calculates the net change in the Amount measure for a given period.
+The Net Change measure is a filtered version of [Amount](#amount), focusing on non-closing entries to show only the net activity. Net Change filters out entries where **Closing Entry** is TRUE, excluding closing entries from its calculation.
 
 **Data Sources**
 - G/L Entry
