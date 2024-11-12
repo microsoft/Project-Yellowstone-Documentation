@@ -36,9 +36,9 @@ The *Profitability* report includes the following KPIs and measures:
 - [**Gross Profit Margin**](####)
 - [**Net Profit**](####)
 - [**Net Profit Margin**](####)
-- [**Revenue**](####)
-- [**Cost of Goods Sold**](####)
-- [**Expense**](####)
+- [**Revenue**](finance-powerbi-kpi.md#revenue)
+- [**Cost of Goods Sold**](finance-powerbi-kpi.md#cost-of-goods-sold)
+- [**Expense**](finance-powerbi-kpi.md#expense)
 
 ## Data used in the report
 
