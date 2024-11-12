@@ -374,15 +374,15 @@ The Shareholders Equity measure calculates the `[Balance at Date]` for general l
 - [Extraordinary Expense](#extraordinary-expense)   
 - [Extraordinary Expense (Balance at Date)](#extraordinary-expense-balance-at-date)   
 - [Extraordinary Expense (Beginning Balance)](#extraordinary-expense-beginning-balance)   
-- Extraordinary Revenue   
-- Extraordinary Revenue (Balance at Date)   
-- Extraordinary Revenue (Beginning Balance)   
-- [FX Gains Revenue](#fx-losses-expense)   
-- [FX Gains Revenue (Balance at Date)](#fx-losses-expense-balance-at-date)   
-- [FX Gains Revenue (Beginning Balance)](#fx-losses-expense-beginning-balance)   
-- FX Losses Expense   
-- FX Losses Expense (Balance at Date)   
-- FX Losses Expense (Beginning Balance)   
+- [Extraordinary Revenue](#extraordinary-revenue)   
+- [Extraordinary Revenue (Balance at Date)](#extraordinary-revenue-balance-at-date)   
+- [Extraordinary Revenue (Beginning Balance)](#extraordinary-revenue-beginning-balance)   
+- [FX Gains Revenue](#fx-gains-revenue) 
+- [FX Gains Revenue (Balance at Date)](#fx-gains-revenue-balance-at-date) 
+- [FX Gains Revenue (Beginning Balance)](#fx-gains-revenue-beginning-balance)  
+- [FX Losses Expense](#fx-losses-expense)     
+- [FX Losses Expense (Balance at Date)](#fx-losses-expense-balance-at-date)     
+- [FX Losses Expense (Beginning Balance)](#fx-losses-expense-beginning-balance)    
 - Interest Expense   
 - Interest Expense (Balance at Date)   
 - Interest Expense (Beginning Balance)   
@@ -459,7 +459,7 @@ The Extraordinary Expense measure calculates the `[Net Change]` for general ledg
 
 ### Extraordinary Expense (Balance at Date)
 **Formula**  
-The Extraordinary Expense measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Extraordinary Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+The Extraordinary Expense (Balance at Date) measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Extraordinary Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
 **Data Sources**
 - G/L Entry
@@ -474,6 +474,72 @@ The Extraordinary Expense (Beginning Balance) measure calculates the `[Balance a
 - G/L Entry
 - G/L Account Category
 - Account Categories
+
+### Extraordinary Revenue
+**Formula**  
+The Extraordinary Revenue measure calculates the `[Net Change]` for general ledger accounts categorized as *Extraordinary Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Extraordinary Revenue (Balance at Date)
+**Formula**  
+The Extraordinary Revenue (Balance at Date) measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Extraordinary Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Extraordinary Revenue (Beginning Balance)  
+**Formula**  
+The Extraordinary Revenue (Beginning Balance) measure calculates the `[Balance at Date]` for [Extraordinary Revenue](#extraordinary-revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period. It then multiplies the result by -1 to display the balance as a positive value.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+
+### FX Gains Revenue
+**Formula**  
+The FX Gains Revenue measure calculates the `[Net Change]` for general ledger accounts categorized as *FX Gains Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Gains Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### FX Gains Revenue (Balance at Date)
+**Formula**  
+The FX Gains Revenue measure calculates the `[Balance at Date]` for general ledger accounts categorized as *FX Gains Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Gains Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### FX Gains Revenue (Beginning Balance)  
+**Formula**  
+The FX Gains Revenue (Beginning Balance) measure calculates the `[Balance at Date]` for [FX Gains Revenue](#fx-gains-revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+
+
+
+
+
+
+
+
+
+
 
 
 
