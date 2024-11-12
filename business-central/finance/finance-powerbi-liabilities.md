@@ -38,14 +38,14 @@ Next you could asses the debt ratio and debt-to-equity ratios. These key perform
 
 The *Liabilities* report includes the following KPIs and measures: 
 
-- [**Liabilities**](####)
-- [**Current Liabilities**](####)
-- [**Payroll Liabilities**](####)
+- [**Liabilities**](finance-powerbi-kpi.md#liabilities)
+- [**Current Liabilities**](finance-powerbi-kpi.md#current-liabilities)
+- [**Payroll Liabilities**](finance-powerbi-kpi.md#payroll-liabilities)
 - [**Longterm Liabilities**](####)
 - [**Debt Ratio**](####)
 - [**Debt/Equity Ratio**](####)
-- [**Assets**](####)
-- [**Balance at Date (Neg)**](####)
+- [**Assets**](finance-powerbi-kpi.md#assets)
+- [**Balance at Date (Neg)**](finance-powerbi-kpi.md#balance-at-date-neg)
 
 ## Data used in the report
 
