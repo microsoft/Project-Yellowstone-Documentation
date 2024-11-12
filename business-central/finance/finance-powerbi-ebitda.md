@@ -43,7 +43,7 @@ The *EBITDA* report includes the following KPIs and measures:
 - [**Expense**](finance-powerbi-kpi.md#expense)
 - [**Interest Expense**](finance-powerbi-kpi.md#interest-expense)
 - [**FX Losses Expense**](finance-powerbi-kpi.md#fx-losses-expense)
-- [**Tax Expense**](####)
+- [**Tax Expense**](finance-powerbi-kpi.md#tax-expense)
 - [**Extraordinary Expense**](finance-powerbi-kpi.md#extraordinary-expense)
 - [**Depreciation and Amortization**](finance-powerbi-kpi.md#depreciation-and-amortization)
 

@@ -32,10 +32,10 @@ As an executive, you would use the Profitability report to analyze gross and net
 
 The *Profitability* report includes the following KPIs and measures: 
 
-- [**Gross Profit**](####)
-- [**Gross Profit Margin**](####)
-- [**Net Profit**](####)
-- [**Net Profit Margin**](####)
+- [**Gross Profit**](finance-powerbi-kpi.md#gross-profit)
+- [**Gross Profit Margin**](finance-powerbi-kpi.md#gross-profit-margin)
+- [**Net Profit**](finance-powerbi-kpi.md#net-profit)
+- [**Net Profit Margin**](finance-powerbi-kpi.md#net-profit-margin)
 - [**Revenue**](finance-powerbi-kpi.md#revenue)
 - [**Cost of Goods Sold**](finance-powerbi-kpi.md#cost-of-goods-sold)
 - [**Expense**](finance-powerbi-kpi.md#expense)

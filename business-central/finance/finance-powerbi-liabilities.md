@@ -41,9 +41,9 @@ The *Liabilities* report includes the following KPIs and measures:
 - [**Liabilities**](finance-powerbi-kpi.md#liabilities)
 - [**Current Liabilities**](finance-powerbi-kpi.md#current-liabilities)
 - [**Payroll Liabilities**](finance-powerbi-kpi.md#payroll-liabilities)
-- [**Longterm Liabilities**](####)
-- [**Debt Ratio**](####)
-- [**Debt/Equity Ratio**](####)
+- [**Longterm Liabilities**](finance-powerbi-kpi.md#longterm-liabilities)
+- [**Debt Ratio**](finance-powerbi-kpi.md#debt-ratio)
+- [**Debt/Equity Ratio**](finance-powerbi-kpi.md#debtequity-ratio)
 - [**Assets**](finance-powerbi-kpi.md#assets)
 - [**Balance at Date (Neg)**](finance-powerbi-kpi.md#balance-at-date-neg)
 

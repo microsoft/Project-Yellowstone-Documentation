@@ -32,7 +32,7 @@ As a finance administrator, you can use the Aged Payables (Back Dating) report t
 The *Aged Payables (Back Dating)* report includes the following KPIs and measures: 
 
 - [**Balance (Accounts Payable)**](finance-powerbi-kpi.md#balance-accounts-payable)
-- [**Current (Payables)**](####)
+- [**Current (Payables)**](finance-powerbi-kpi.md#current-payables)
 - [**Bucket 1 (Payables)**](finance-powerbi-kpi.md#bucket-1-payables)
 - [**Bucket 2 (Payables)**](finance-powerbi-kpi.md#bucket-2-payables)
 - [**Bucket 3 (Payables)**](finance-powerbi-kpi.md#bucket-3-payables)

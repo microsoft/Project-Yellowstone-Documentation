@@ -928,6 +928,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [Bucket 3 (Receivables)](#bucket-3-receivables)
 - [Bucket 4 (Receivables)](#bucket-4-receivables)
 - [Bucket 5 (Receivables)](#bucket-5-receivables)
+- [Current (Receivables)](#current-receivables)
 - [Amount Receivable (LCY)](#amount-receivable-lcy)
 - [Balance (Accounts Receivable)](#balance-accounts-receivable)
 - [Original Amount (LCY)](#original-amount-lcy)
@@ -976,6 +977,15 @@ The Bucket 4 (Receivables) measure  calculates the [Amount Receivable (LCY)](#am
 - Detailed Customer Ledger Entry
 - Date
 
+### Current (Receivables)
+**Formula**
+Current (Receivables) measure calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) for the given period where the data is on or before the last date in the period.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+- Date
+
 ### Amount Receivable (LCY)
 **Formula**   
 The Amount Receivable (LCY) measure calculates the total amount of receivables in the local currency for a given period. The measure sums up the amount (in local currency) of the Customer Ledger Entries table to determine the total amount of receivables.
@@ -1007,6 +1017,7 @@ The Original Amount (LCY) measure calculates the total amount of original entrie
 - [Bucket 3 (Payables)](#bucket-3-payables)
 - [Bucket 4 (Payables)](#bucket-4-payables)
 - [Bucket 5 (Payables)](#bucket-5-payables)
+- [Current (Payables)](#current-payables)
 - [Amount Payable (LCY)](#amount-payable-lcy)
 - [Balance (Accounts Payable)](#balance-accounts-payable)
 - [Original Amount](#original-amount)
@@ -1050,6 +1061,15 @@ The Bucket 4 (Payables) measure calculates the [Amount Payable (LCY)](#amount-pa
 ### Bucket 5 (Payables)
 **Formula**   
 The Bucket 5 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the fifth aging bucket. The fifth uses the `Aging Bucket Period` to determine the length of the fifth aging bucket and calculates the starting date for the bucket based on the current date.
+
+**Data Sources**
+- Vendor Ledger Entry
+- Detailed Vendor Ledger Entry
+- Date
+
+#### Current (Payables)
+**Formula**
+Current Payables measures calculates the [Amount Payable (LCY)](#amount-payable-lcy) where the Due Date is on or after the last date in period.
 
 **Data Sources**
 - Vendor Ledger Entry
