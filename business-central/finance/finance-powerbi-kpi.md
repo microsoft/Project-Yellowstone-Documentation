@@ -383,22 +383,22 @@ The Shareholders Equity measure calculates the `[Balance at Date]` for general l
 - [FX Losses Expense](#fx-losses-expense)     
 - [FX Losses Expense (Balance at Date)](#fx-losses-expense-balance-at-date)     
 - [FX Losses Expense (Beginning Balance)](#fx-losses-expense-beginning-balance)    
-- Interest Expense   
-- Interest Expense (Balance at Date)   
-- Interest Expense (Beginning Balance)   
-- Interest Revenue    
-- Interest Revenue (Balance at Date)   
-- Interest Revenue (Beginning Balance)   
-- Operating Expense - OPEX 
-- Operating Expense - OPEX (Balance at Date)   
-- Operating Expense - OPEX (Beginning Balance)    
-- Operating Revenue   
-- Operating Revenue (Balance at Date)   
-- Operating Revenue (Beginning Balance)   
+- [Interest Expense](#interest-expense)   
+- [Interest Expense (Balance at Date)](#interest-expense-balance-at-date)   
+- [Interest Expense (Beginning Balance)](#interest-expense-beginning-balance)   
+- [Interest Revenue](#interest-revenue)    
+- [Interest Revenue (Balance at Date)](#interest-revenue-balance-at-date)   
+- [Interest Revenue (Beginning Balance)](#interest-revenue-beginning-balance)   
+- [Operating Expense - OPEX](#operating-expense---opex) 
+- [Operating Expense - OPEX (Balance at Date)](#operating-expense---opex-balance-at-date)   
+- [Operating Expense - OPEX (Beginning Balance)](#operating-expense---opex-beginning-balance)    
+- [Operating Revenue](#operating-revenue)   
+- [Operating Revenue (Balance at Date)](#operating-revenue-balance-at-date)   
+- [Operating Revenue (Beginning Balance)](#operating-revenue-beginning-balance)   
 - Purchases   
-- Revenue 
-- Revenue (Balance at Date) 
-- Revenue (Beginning Balance) 
+- [Revenue](#revenue) 
+- [Revenue (Balance at Date)](#revenue-balance-at-date) 
+- [Revenue (Beginning Balance)](#revenue-beginning-balance) 
 - Tax Expense   
 - Tax Expense (Balance at Date)   
 - Tax Expense (Beginning Balance)   
@@ -530,21 +530,6 @@ The FX Gains Revenue (Beginning Balance) measure calculates the `[Balance at Dat
 - G/L Account Category
 - Account Categories
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### FX Losses Expense
 **Formula**  
 The FX Losses Expense measure calculates the `[Net Change]` for general ledger accounts categorized as *FX Losses Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Losses (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
@@ -571,6 +556,146 @@ The FX Losses Expense (Beginning Balance) measure calculates the `[Balance at Da
 - G/L Entry
 - G/L Account Category
 - Account Categories
+
+### Interest Expense
+**Formula**  
+The Interest Expense measure calculates the `[Net Change]` for general ledger accounts categorized as *Interest Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Interest Expense (Balance at Date)  
+**Formula**  
+The Interest Expense measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Interest Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Interest Expense (Beginning Balance)  
+**Formula**  
+The Interest Expense (Beginning Balance) measure calculates the `[Balance at Date]` for [Interest Expense](#interest-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Interest Revenue
+**Formula**  
+The Interest Revenue measure calculates the `[Net Change]` for general ledger accounts categorized as *Income, Interest* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Interest Revenue (Balance at Date)
+**Formula**  
+The Interest Revenue measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Income, Interest* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Interest Revenue (Beginning Balance)  
+**Formula**  
+The Interest Revenue (Beginning Balance) measure calculates the `[Balance at Date]` for [Interest Revenue](#interest-revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Expense - OPEX
+**Formula**  
+[Expense](#expense) - [Interest Expense](#interest-expense) - [FX Losses Expense](#fx-losses-expense) - `[Tax Expense]` - [Extraordinary Expense](#extraordinary-expense)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Expense - OPEX (Balance at Date) 
+**Formula**  
+[Expense (Balance at Date)](#expense-balance-at-date) - [Interest Expense (Balance at Date)](#interest-expense-balance-at-date) - [FX Losses Expense (Balance at Date)](#fx-losses-expense-balance-at-date) - `[Tax Expense (Balance at Date)]` - [Extraordinary Expense (Balance at Date)](#extraordinary-expense-balance-at-date)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Expense - OPEX (Beginning Balance)  
+**Formula**  
+[Expense (Beginning Balance)](#expense-beginning-balance) - [Interest Expense (Beginning Balance)](#interest-expense-beginning-balance) - [FX Losses Expense (Beginning Balance)](#fx-losses-expense-beginning-balance) - `[Tax Expense (Beginning Balance)]` - [Extraordinary Expense (Beginning Balance)](#extraordinary-expense-beginning-balance)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Revenue
+**Formula**  
+[Revenue](#revenue) - [Interest Revenue](#interest-revenue) - [FX Gains Revenue](#fx-gains-revenue) - [Extraordinary Revenue](#extraordinary-revenue)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Revenue (Balance at Date)  
+**Formula**  
+[Revenue (Balance at Date)](#revenue-balance-at-date) - [Interest Revenue (Balance at Date)](#interest-revenue-balance-at-date) - [FX Gains Revenue (Balance at Date)](#fx-gains-revenue-balance-at-date) - [Extraordinary Revenue (Balance at Date)](#extraordinary-revenue-balance-at-date)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Operating Revenue (Beginning Balance)  
+**Formula**  
+[Revenue (Beginning Balance)](#revenue-beginning-balance) - [Interest Revenue (Beginning Balance)](#interest-revenue-beginning-balance) - [FX Gains Revenue (Beginning Balance)](#fx-gains-revenue-beginning-balance) - [Extraordinary Revenue (Beginning Balance)](#extraordinary-revenue-beginning-balance)
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Revenue
+**Formula**  
+The Revenue measure calculates the `[Net Change]` for general ledger accounts categorized as *Income* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Revenue (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Revenue (Balance at Date)  
+**Formula**  
+The Revenue measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Income* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Revenue (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Revenue (Beginning Balance)  
+**Formula**  
+The Revenue (Beginning Balance) measure calculates the `[Balance at Date]` for [Revenue](#revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+
+
+
+
 
 ## Customer Ledger Measures
 - Budget 1 (Receivables)
