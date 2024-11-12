@@ -573,14 +573,14 @@ The FX Losses Expense (Beginning Balance) measure calculates the `[Balance at Da
 - Account Categories
 
 ## Customer Ledger Measures
-- Bucket 1 (Receivables)
-- Bucket 2 (Receivables)
-- Bucket 3 (Receivables)
-- Bucket 4 (Receivables)
-- Bucket 5 (Receivables)
-- Amount Receivable (LCY)
-- Balance (Accounts Receivable)
-- Original Amount (LCY)
+- [Bucket 1 (Receivables)](#bucket-1-receivables)
+- [Bucket 2 (Receivables)](#bucket-2-receivables)
+- [Bucket 3 (Receivables)](#bucket-3-receivables)
+- [Bucket 4 (Receivables)](#bucket-4-receivables)
+- [Bucket 5 (Receivables)](#bucket-5-receivables)
+- [Amount Receivable (LCY)](#amount-receivable-lcy)
+- [Balance (Accounts Receivable)](#balance-accounts-receivable)
+- [Original Amount (LCY)](#original-amount-lcy)
 
 ---
 ### Bucket 1 (Receivables)
@@ -652,14 +652,14 @@ The Original Amount (LCY) measure calculates the total amount of original entrie
 - Customer Ledger Entry
 
 ## Vendor Ledger Measures
-- Bucket 1 (Payables)
-- Bucket 2 (Payables)
-- Bucket 3 (Payables)
-- Bucket 4 (Payables)
-- Bucket 5 (Payables)
-- Amount Payable (LCY)
-- Balance (Accounts Payable)
-- Original Amount
+- [Bucket 1 (Payables)](#bucket-1-payables)
+- [Bucket 2 (Payables)](#bucket-2-payables)
+- [Bucket 3 (Payables)](#bucket-3-payables)
+- [Bucket 4 (Payables)](#bucket-4-payables)
+- [Bucket 5 (Payables)](#bucket-5-payables)
+- [Amount Payable (LCY)](#amount-payable-lcy)
+- [Balance (Accounts Payable)](#balance-accounts-payable)
+- [Original Amount](#original-amount)
 
 ---
 ### Bucket 1 (Payables)
@@ -732,14 +732,14 @@ The Original Amount measure calculates the total amount of original entries for 
 - Vendor Ledger Entry
 
 ## G/L Entry Measures
-- Amount
-- Balance
-- Balance at Date
-- Balance at Date (Neg)
-- Net Change
-- Net Change (Neg)
-- Variance to Budget
-- Variance to Budget %
+- [Amount](#amount)
+- [Balance](#balance)
+- [Balance at Date](#balance-at-date)
+- [Balance at Date (Neg)](#balance-at-date-neg)
+- [Net Change](#net-change)
+- [Net Change (Neg)](#net-change-neg)
+- [Variance to Budget](#variance-to-budget)
+- [Variance to Budget %](#variance-to-budget-)
 
 ---
 ### Amount
@@ -751,7 +751,7 @@ The Amount measure sums up all the values of the Amount column in the G/L Entry 
 
 ---
 ### Balance
-**Formula**
+**Formula**   
 The Balance measure calculates the balance of the Amount measure at the latest date.
 
 **Data Sources**
@@ -759,7 +759,7 @@ The Balance measure calculates the balance of the Amount measure at the latest d
 
 ---
 ### Balance at Date
-**Formula**
+**Formula**   
 The Balance at Date measure calculates the balance of the Amount measure at a specific date.
 
 **Data Sources**
@@ -767,17 +767,17 @@ The Balance at Date measure calculates the balance of the Amount measure at a sp
 
 ---
 ### Balance at Date (Neg)
-**Formula**
+**Formula**   
 The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), shows the Balance at Date measure as a negative value.
 
-*Balance at Date (Neg) = Balance at Date x -1*
+*Balance at Date (Neg) = [Balance at Date](#balance-at-date) x -1*
 
 **Data Sources**
 - G/L Entry
 
 ---
 ### Net Change
-**Formula**
+**Formula**   
 The Net Change measure calculates the net change in the Amount measure for a given period.
 
 **Data Sources**
@@ -785,20 +785,20 @@ The Net Change measure calculates the net change in the Amount measure for a giv
 
 ---
 ### Net Change (Neg)
-**Formula**
+**Formula**   
 The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the Net Change measure as a negative value.
 
-*Net Change (Neg) = Net Change x -1*
+*Net Change (Neg) = [Net Change](#net-change) x -1*
 
 **Data Sources**
 - G/L Entry
 
 ---
 ### Variance to Budget
-**Formula**
+**Formula**   
 The Variance to Budget measure calculates the difference between the actual net change and the budget amount.
 
-*Variance to Budget = Net Change - Budget Amount*
+*Variance to Budget = [Net Change](#net-change) - [Budget Amount](#budget-amount)*
 
 **Data Sources**
 - G/L Entry
@@ -806,17 +806,32 @@ The Variance to Budget measure calculates the difference between the actual net 
 
 ---
 ### Variance to Budget %
-**Formula**
-*Variance to Budget % = Variance to Budget / Net Change*
+**Formula**   
+*Variance to Budget % = [Variance to Budget](#variance-to-budget) / [Net Change](#net-change)*
 
 **Data Sources**
 - G/L Entry
 - G/L Budget Entry
 
+## G/L Budget Entry Measures
+- [Budget Amount](#budget-amount)
+- [Budget Balance at Date](#budget-balance-at-date)
 
-## G/L Budget Entry Meaures
-- Budget Amount
-- Budget Balance at Date
+---
+### Budget Amount
+**Formula**   
+The Budget Amount measure sums up all the budgeted amounts from the G/L Budget Entry table.
+
+**Data Sources**
+- G/L Budget Entry
+
+---
+### Budget Amount at Date
+**Formula**   
+The Budget Balance at Date measure calculates the budgeted balance at a specific date.
+
+**Data Sources**
+- G/L Budget Entry
 
 ## See also
 
