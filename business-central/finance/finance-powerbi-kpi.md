@@ -573,24 +573,147 @@ The FX Losses Expense (Beginning Balance) measure calculates the `[Balance at Da
 - Account Categories
 
 ## Customer Ledger Measures
-- Budget 1 (Receivables)
-- Budget 2 (Receivables)
-- Budget 3 (Receivables)
-- Budget 4 (Receivables)
-- Budget 5 (Receivables)
+- Bucket 1 (Receivables)
+- Bucket 2 (Receivables)
+- Bucket 3 (Receivables)
+- Bucket 4 (Receivables)
+- Bucket 5 (Receivables)
 - Amount Receivable (LCY)
 - Balance (Accounts Receivable)
 - Original Amount (LCY)
 
+## Bucket 1 (Receivables)
+**Formula**
+The Bucket 1 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the first aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+
+**Data Sources**
+- Customer Ledger Entry
+
+## Bucket 2 (Receivables)
+**Formula**
+The Bucket 2 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the second aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Date
+
+## Bucket 3 (Receivables)
+**Formula**
+The Bucket 3 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the third aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Date
+
+## Bucket 4 (Receivables)
+**Formula**
+The Bucket 4 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the fourth aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Date
+
+## Bucket 5 (Receivables)
+**Formula**
+The Bucket 4 (Receivables) measure  calculates the amount of outstanding receivables due, posted, or documented within the fifth aging bucket. The measure uses the value of the "Aging Bucket Period" to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Date
+
+## Amount Receivable (LCY)
+**Formula**
+The Amount Receivable (LCY) measure calculates the total amount of receivables in the local currency for a given period. The measure sums up the amount (in local currency) of the Customer Ledger Entries table to determine the total amount of receivables.
+
+**Data Sources**
+- Customer Ledger Entry
+
+## Balance (Accounts Receivable)
+**Formula**
+The Balance (Accounts Receivable) measure calculates the total balance of accounts receivable up to a specific date. The measure uses the Amount Receivable (LCY) measure and applies a filter to only include transactions on or before the selected date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Date
+
+## Original Amount (LCY)
+**Formula**
+The Original Amount (LCY) measure calculates the total amount of original entries for customers in the local currency. The measure sums up the amount (in local currency) of the Customer Ledger Entries table, but only includes entries with the entry type of "Initial Entry".
+
+**Data Sources**
+- Customer Ledger Entry
+
 ## Vendor Ledger Measures
-- Budget 1 (Payables)
-- Budget 2 (Payables)
-- Budget 3 (Payables)
-- Budget 4 (Payables)
-- Budget 5 (Payables)
+- Bucket 1 (Payables)
+- Bucket 2 (Payables)
+- Bucket 3 (Payables)
+- Bucket 4 (Payables)
+- Bucket 5 (Payables)
 - Amount Payable (LCY)
 - Balance (Accounts Payable)
 - Original Amount
+
+## Bucket 1 (Payables)
+**Formula**
+The Bucket 1 (Payables) measure calculates the total amount of payables that fall within the first aging bucket. The first uses the Aging Bucket Period table to determine the length of the first aging bucket and calculates the starting date for the bucket based on the current date.
+
+**Data Sources**
+- Vendor Ledger Entry
+- Date
+
+## Bucket 2 (Payables)
+**Formula**
+The Bucket 2 (Payables) measure calculates the total amount of payables that fall within the second aging bucket. The second uses the Aging Bucket Period table to determine the length of the second aging bucket and calculates the starting date for the bucket based on the current date.
+
+**Data Sources**
+- Vendor Ledger Entry
+- Date
+
+## Bucket 3 (Payables)
+**Formula**
+The Bucket 3 (Payables) measure calculates the total amount of payables that fall within the third aging bucket. The third uses the Aging Bucket Period table to determine the length of the third aging bucket and calculates the starting date for the bucket based on the current date.
+
+**Data Sources**
+- Vendor Ledger Entry
+- Date
+
+## Bucket 4 (Payables)
+**Formula**
+The Bucket 4 (Payables) measure calculates the total amount of payables that fall within the fourth aging bucket. The fourth uses the Aging Bucket Period table to determine the length of the fourth aging bucket and calculates the starting date for the bucket based on the current date.
+
+**Data Sources**
+- Vendor Ledger Entry
+- Date
+
+## Bucket 5 (Payables)
+**Formula**
+The Bucket 5 (Payables) measure calculates the total amount of payables that fall within the fifth aging bucket. The fifth uses the Aging Bucket Period table to determine the length of the fifth aging bucket and calculates the starting date for the bucket based on the current date.
+
+**Data Sources**
+- Vendor Ledger Entry
+- Date
+
+## Amount Payable (LCY)
+**Formula**
+The Amount Payable (LCY) measure calculates the total amount of payables in the local currency for a given period. The measure sums up the values in the amount (in local currency) column of the Vendor Ledger Entry table to determine the total amount of payables.
+
+**Data Sources**
+- Vendor Ledger Entry
+- Date
+
+## Balance (Accounts Payable)
+**Formula**
+The Balance (Accounts Payable) measure  calculates the total balance of accounts payable up to a specific date. The measure uses the Amount Payable (LCY) measure and applies a filter to only include transactions on or before the selected date.
+
+**Data Sources**
+- Vendor Ledger Entry
+
+## Original Amount
+**Formula**
+The Original Amount measure calculates the total amount of original entries for vendors. The measure uses the Amount Payable (LCY) measure and applies a filter to the Vendor Ledger Entries table to only include entries with the Entry Type equal to "Initial Entry".
+
+**Data Sources**
+- Vendor Ledger Entry
 
 ## G/L Entry Measures
 - Amount
@@ -605,7 +728,6 @@ The FX Losses Expense (Beginning Balance) measure calculates the `[Balance at Da
 ## G/L Budget Entry Meaures
 - Budget Amount
 - Budget Balance at Date
-
 
 ## See also
 
