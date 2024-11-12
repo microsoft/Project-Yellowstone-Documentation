@@ -752,7 +752,7 @@ The Amount measure sums up all the values of the Amount column in the G/L Entry 
 ---
 ### Balance
 **Formula**   
-The Balance measure calculates the balance of the Amount measure at the latest date.
+The Balance measure calculates the balance of the [Amount](#amount) measure at the latest date.
 
 **Data Sources**
 - G/L Entry
@@ -760,7 +760,7 @@ The Balance measure calculates the balance of the Amount measure at the latest d
 ---
 ### Balance at Date
 **Formula**   
-The Balance at Date measure calculates the balance of the Amount measure at a specific date.
+The Balance at Date measure calculates the balance of the [Amount](#amount) measure at a specific date.
 
 **Data Sources**
 - G/L Entry
@@ -768,7 +768,7 @@ The Balance at Date measure calculates the balance of the Amount measure at a sp
 ---
 ### Balance at Date (Neg)
 **Formula**   
-The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), shows the Balance at Date measure as a negative value.
+The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), shows the [Balance at Date](#balance-at-date) measure as a negative value.
 
 *Balance at Date (Neg) = [Balance at Date](#balance-at-date) x -1*
 
@@ -786,7 +786,7 @@ The Net Change measure calculates the net change in the Amount measure for a giv
 ---
 ### Net Change (Neg)
 **Formula**   
-The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the Net Change measure as a negative value.
+The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the [Net Change](#net-change) measure as a negative value.
 
 *Net Change (Neg) = [Net Change](#net-change) x -1*
 
