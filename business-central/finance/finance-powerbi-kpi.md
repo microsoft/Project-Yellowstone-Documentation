@@ -364,6 +364,160 @@ The Shareholders Equity measure calculates the `[Balance at Date]` for general l
 - G/L Entry
 - G/L Account Category
 - Account Categories 
+ 
+## Income Statement Measures
+- [Cost of Goods Sold](#cost-of-goods-sold)
+- [Depreciation and Amortization](#depreciation-and-amortization)
+- [Expense](#expense) 
+- [Expense (Balance at Date)](#expense-balance-at-date)  
+- [Expense (Beginning Balance)](#expense-beginning-balance)  
+- [Extraordinary Expense](#extraordinary-expense)   
+- [Extraordinary Expense (Balance at Date)](#extraordinary-expense-balance-at-date)   
+- [Extraordinary Expense (Beginning Balance)](#extraordinary-expense-beginning-balance)   
+- Extraordinary Revenue   
+- Extraordinary Revenue (Balance at Date)   
+- Extraordinary Revenue (Beginning Balance)   
+- [FX Gains Revenue](#fx-losses-expense)   
+- [FX Gains Revenue (Balance at Date)](#fx-losses-expense-balance-at-date)   
+- [FX Gains Revenue (Beginning Balance)](#fx-losses-expense-beginning-balance)   
+- FX Losses Expense   
+- FX Losses Expense (Balance at Date)   
+- FX Losses Expense (Beginning Balance)   
+- Interest Expense   
+- Interest Expense (Balance at Date)   
+- Interest Expense (Beginning Balance)   
+- Interest Revenue    
+- Interest Revenue (Balance at Date)   
+- Interest Revenue (Beginning Balance)   
+- Operating Expense - OPEX 
+- Operating Expense - OPEX (Balance at Date)   
+- Operating Expense - OPEX (Beginning Balance)    
+- Operating Revenue   
+- Operating Revenue (Balance at Date)   
+- Operating Revenue (Beginning Balance)   
+- Purchases   
+- Revenue 
+- Revenue (Balance at Date) 
+- Revenue (Beginning Balance) 
+- Tax Expense   
+- Tax Expense (Balance at Date)   
+- Tax Expense (Beginning Balance)   
+
+### Cost of Goods Sold
+**Formula**  
+The Cost of Goods Sold measure calculates the `[Net Change]` for general ledger accounts categorized as *Cost of Goods Sold* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Cost of Goods Sold (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Depreciation and Amortization
+**Formula**  
+The Depreciation and Amortization measure calculates the `[Net Change]` for general ledger accounts categorized as *Depreciation and Amortization* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Depreciation and Amortization Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Expense
+**Formula**  
+The Expense measure calculates the `[Net Change]` for general ledger accounts categorized as *Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Expense (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Expense (Balance at Date)  
+**Formula**  
+The Expense measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Expense (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Expense (Beginning Balance)  
+**Formula**  
+The Expense (Beginning Balance) measure calculates the `[Balance at Date]` for [Expense](#expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Extraordinary Expense
+**Formula**  
+The Extraordinary Expense measure calculates the `[Net Change]` for general ledger accounts categorized as *Extraordinary Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Extraordinary Expense (Balance at Date)
+**Formula**  
+The Extraordinary Expense measure calculates the `[Balance at Date]` for general ledger accounts categorized as *Extraordinary Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Extraordinary Expense (Beginning Balance)  
+**Formula**  
+The Extraordinary Expense (Beginning Balance) measure calculates the `[Balance at Date]` for [Extraordinary Expense](#extraordinary-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+
+
+
+
+### FX Losses Expense
+**Formula**  
+The FX Losses Expense measure calculates the `[Net Change]` for general ledger accounts categorized as *FX Losses Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Losses (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### FX Losses Expense (Balance at Date)
+**Formula**  
+The FX Losses Expense measure calculates the `[Balance at Date]` for general ledger accounts categorized as *FX Losses Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Losses Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### FX Losses Expense (Beginning Balance)  
+**Formula**  
+The FX Losses Expense (Beginning Balance) measure calculates the `[Balance at Date]` for [FX Losses Expense](#fx-losses-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## See also
 
 [Track your business KPIs with Power BI metrics](#TODO)   
