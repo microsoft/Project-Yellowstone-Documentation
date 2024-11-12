@@ -34,18 +34,18 @@ In short, you’ll find EBITDA ideal for comparing cash flow potential across si
 
 The *EBITDA* report includes the following KPIs and measures: 
 
-- [**Operating Profit - EBIT**](####)
-- [**EBITDA**](####)
-- [**Revenue**](####)
-- [**Interest Revenue**](####)
-- [**Extraordinary Revenue**](####)
-- [**FX Gains Revenue**](####)
-- [**Expense**](####)
-- [**Interest Expense**](####)
-- [**FX Losses Expense**](####)
+- [**Operating Profit - EBIT**](finance-powerbi-kpi.md#-change-in-operating-profit---ebit)
+- [**EBITDA**](finance-powerbi-kpi.md#ebitda)
+- [**Revenue**](finance-powerbi-kpi.md#revenue)
+- [**Interest Revenue**](finance-powerbi-kpi.md#interest-revenue)
+- [**Extraordinary Revenue**](finance-powerbi-kpi.md#extraordinary-revenue)
+- [**FX Gains Revenue**](finance-powerbi-kpi.md#fx-gains-revenue)
+- [**Expense**](finance-powerbi-kpi.md#expense)
+- [**Interest Expense**](finance-powerbi-kpi.md#interest-expense)
+- [**FX Losses Expense**](finance-powerbi-kpi.md#fx-losses-expense)
 - [**Tax Expense**](####)
-- [**Extraordinary Expense**](####)
-- [**Depreciation and Amortization**](####)
+- [**Extraordinary Expense**](finance-powerbi-kpi.md#extraordinary-expense)
+- [**Depreciation and Amortization**](finance-powerbi-kpi.md#depreciation-and-amortization)
 
 
 ## Data used in the report
