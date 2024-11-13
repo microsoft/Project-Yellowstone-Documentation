@@ -423,8 +423,8 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Prod. Order Component
 
 ## Output KPIs
-- % Finished
-- % Remaining
+- [% Finished](#finished)
+- [% Remaining](#remaining)
 - [Cost Amt. Deviation %](#cost-amt-deviation-)
 - [Cost Amt. Variance](#cost-amt-variance)
 - [Qty. Deviation %](#qty-deviation-)
@@ -436,6 +436,13 @@ Each KPI is described, including how it is calculated and what data was used in 
   
 **Data Sources**
 - Item Ledger Entry
+- Prod. Order Line
+
+### %Remaining
+**Formula**  
+  *% Remaining = ( `[Remaining Qty. (Base)]` / [Expected Quantity (Base)](#expected-quantity-base) )*
+  
+**Data Sources**
 - Prod. Order Line
 
 ### Cost Amt. Deviation %
