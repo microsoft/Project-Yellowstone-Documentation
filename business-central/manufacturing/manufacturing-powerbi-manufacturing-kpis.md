@@ -230,7 +230,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 - This measure calculates the expected cost of capacity utilization for a given period by summing up the Expected Operation Cost Amount and the Expected Capacity Overhead Cost. The Expected Operation Cost Amount represents the expected cost of operating the equipment or machinery used in production, while the Expected Capacity Overhead Cost represents the expected cost of indirect resources used in production, such as rent, utilities, and maintenance.
 
-  *Expected Capacity Cost Amount = Expected Operation Cost Amount + Expected Capacity Overhead Cost*
+  *Expected Capacity Cost Amount = [Expected Operation Cost Amount](#expected-operation-cost-amt) + [Expected Capacity Overhead Cost](#expected-capacity-ovhd-cost)*
 
 **Data Sources**
 - Prod. Order Routing Line
