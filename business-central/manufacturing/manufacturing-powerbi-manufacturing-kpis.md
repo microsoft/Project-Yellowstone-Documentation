@@ -28,7 +28,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Direct Cost Deviation %](#direct-cost-deviation)
 - [Direct Cost Variance](#direct-cost-variance)
 - [Expected Capacity Need %](#expected-capacity-need)
-- [Load %](#load-)
+- [Load %](#load)
 - [Overhead Cost Deviation %](#overhead-cost-deviation)
 - [Overhead Cost Variance](#overhead-cost-variance)
 - [Scrap %](#scrap)
@@ -98,7 +98,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Prod. Order Routing Line
 - Calendar Entry
 
-### Load %
+### Load%
 **Formula**  
 - This measure is calculates the percentage of available capacity that is currently being utilized, expressed as a percentage..
   
@@ -425,9 +425,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 ## Output KPIs
 - [% Finished](#finished)
 - [% Remaining](#remaining)
-- [Cost Amt. Deviation %](#cost-amt-deviation-)
+- [Cost Amt. Deviation %](#cost-amt-deviation)
 - [Cost Amt. Variance](#cost-amt-variance)
-- [Qty. Deviation %](#qty-deviation-)
+- [Qty. Deviation %](#qty-deviation)
 - [Qty. Variance](#qty-variance)
 
 ### %Finished
@@ -440,12 +440,12 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### %Remaining
 **Formula**  
-  *% Remaining = ( `[Remaining Qty. (Base)]` / [Expected Quantity (Base)](#expected-quantity-base) )*
+  *% Remaining = ( [Remaining Qty. (Base)](#remaining-qty-base) / [Expected Quantity (Base)](#expected-quantity-base) )*
   
 **Data Sources**
 - Prod. Order Line
 
-### Cost Amt. Deviation %
+### Cost Amt. Deviation%
 **Formula**  
 - This measure calculates the deviation between the expected cost amount and the actual cost amount for finished goods produced, expressed as a percentage.
 
@@ -465,7 +465,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Item Ledger Entry
 - Prod. Order Line
 
-### Qty. Deviation %
+### Qty. Deviation%
 **Formula**  
 - This measure shows the deviation between the expected quantity and the actual quantity produced, expressed as a percentage.
 
@@ -488,8 +488,8 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Expected Quantity (Base)](#expected-quantity-base)
 - [Finished Cost Amt. (Actual)](#finished-cost-amt-actual)
 - [Finished Quantity (Base)](#finished-quantity-base)
-- Remaining Cost Amt.
-- Remaining Qty. (Base)
+- [Remaining Cost Amt.](#remaining-cost-amt)
+- [Remaining Qty. (Base)](#remaining-qty-base)
 
 ### Expected Cost Amt.
 **Formula**  
@@ -519,12 +519,20 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Item Ledger Entry
 
+### Remaining Cost Amt.
+**Formula**
+- This measure calculates the total remaining cost for production order lines. It filters the Production Data Table to include only rows where [Data Source] is Prod. Order Line. For each of these rows, it multiplies [Remaining Qty. (Base)] by the [Unit Cost (LCY)] from the related Item table. 
 
+**Data Sources**
+- Prod. Order Line.
+- Item
 
+### Remaining Qty. (Base)
+**Formula**  
+- This measure calculates the total remaining quantity for production order lines. It sums the [Remaining Qty. (Base)] column in the Production Data Table, but only for rows where [Data Source] is Prod. Order Line. 
 
-
-
-
+**Data Sources**
+- Prod. Order Line
 
 
 
