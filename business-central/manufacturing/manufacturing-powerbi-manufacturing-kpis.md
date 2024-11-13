@@ -428,30 +428,87 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Prod. Order Component
 
-## Output
-- [Finished Quantity (Base)](#finished-quantity-base)
-- [Expected Quantity (Base)](#expected-quantity-base)
-- [Qty. Variance](#qty-variance)
-- [Qty. Deviation %](#qty-deviation-)
-- [Expected Cost Amt.](#expected-cost-amt)
-- [Finished Cost Amt. (Actual)](#finished-cost-amt-actual)
-- [Cost Amt. Variance](#cost-amt-variance)
+## Output KPIs
+- % Finished
+- % Remaining
 - [Cost Amt. Deviation %](#cost-amt-deviation-)
+- [Cost Amt. Variance](#cost-amt-variance)
+- [Qty. Deviation %](#qty-deviation-)
+- [Qty. Variance](#qty-variance)
 
+### Cost Amt. Deviation %
+**Formula**  
+- This measure calculates the deviation between the expected cost amount and the actual cost amount for finished goods produced, expressed as a percentage.
 
+  *Cost Amt. Deviation % = ([Finished Cost Amt. (Actual)](#finished-cost-amt-actual) - [Expected Cost Amt.](#expected-cost-amt)) / [Expected Cost Amt.](#expected-cost-amt)*
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
 
+### Cost Amt. Variance
+**Formula**  
+- This measure calculates the variance between the expected cost amount and the actual cost amount for finished goods produced.
 
+  *Cost Amt. Variance = -([Expected Cost Amt.](#expected-cost-amt) - [Finished Cost Amt. (Actual)](#finished-cost-amt-actual))*
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
 
+### Qty. Deviation %
+**Formula**  
+- This measure shows the deviation between the expected quantity and the actual quantity produced, expressed as a percentage.
 
+  *Qty. Deviation % = ([Finished Quantity (Base)](#finished-quantity-base) - [Expected Quantity (Base)](#expected-quantity-base)) / [[Expected Quantity (Base)](#expected-quantity-base)*
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
 
+### Qty. Variance
+**Formula**  
+- This measure calculates the variance between the expected quantity and the actual quantity produced.
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+- Location
 
+## Output Measures
+- [Expected Cost Amt.](#expected-cost-amt)
+- [Expected Quantity (Base)](#expected-quantity-base)
+- [Finished Cost Amt. (Actual)](#finished-cost-amt-actual)
+- [Finished Quantity (Base)](#finished-quantity-base)
+- Remaining Cost Amt.
+- Remaining Qty. (Base)
 
+### Expected Cost Amt.
+**Formula**  
+- This measure shows the total expected cost amount by multiplying the quantity (in base units) for each production order line from the Production Data Table by the unit cost (in local currency) for the corresponding item, and summing up the results.
+  
+**Data Sources**
+- Prod. Order Line
+- Location
 
+### Expected Quantity (Base)
+**Formula**  
+- This measure calculates the total expected quantity (in base units) for a given period by summing up the base quantity for each production order line from the Production Data table.
 
+**Data Sources**
+- Prod. Order Line
+- Location
 
-
-
-
+### Finished Cost Amt. (Actual)
+**Formula**  
+- This measure shows total actual cost amount for finished goods produced by summing up the actual cost amount for each output item ledger entry from the Production Data Table.
+  
+**Data Sources**
+- Item Ledger Entry
+- Location
 
 ### Finished Quantity (Base)
 **Formula**  
@@ -483,72 +540,18 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 
 
-### Expected Quantity (Base)
-**Formula**  
-- This measure calculates the total expected quantity (in base units) for a given period by summing up the base quantity for each production order line from the Production Data table.
-
-**Data Sources**
-- Prod. Order Line
-- Location
-
-### Qty. Variance
-**Formula**  
-- This measure calculates the variance between the expected quantity and the actual quantity produced.
-  
-**Data Sources**
-- Item Ledger Entry
-- Prod. Order Line
-- Location
-
-### Qty. Deviation %
-**Formula**  
-- This measure shows the deviation between the expected quantity and the actual quantity produced, expressed as a percentage.
-
-  *Qty. Deviation % = ([Finished Quantity (Base)](#finished-quantity-base) - [Expected Quantity (Base)](#expected-quantity-base)) / [[Expected Quantity (Base)](#expected-quantity-base)*
-  
-**Data Sources**
-- Item Ledger Entry
-- Prod. Order Line
-- Location
-
-### Expected Cost Amt.
-**Formula**  
-- This measure shows the total expected cost amount by multiplying the quantity (in base units) for each production order line from the Production Data Table by the unit cost (in local currency) for the corresponding item, and summing up the results.
-  
-**Data Sources**
-- Prod. Order Line
-- Location
 
 
-### Finished Cost Amt. (Actual)
-**Formula**  
-- This measure shows total actual cost amount for finished goods produced by summing up the actual cost amount for each output item ledger entry from the Production Data Table.
-  
-**Data Sources**
-- Item Ledger Entry
-- Location
 
-### Cost Amt. Variance
-**Formula**  
-- This measure calculates the variance between the expected cost amount and the actual cost amount for finished goods produced.
 
-  *Cost Amt. Variance = -([Expected Cost Amt.](#expected-cost-amt) - [Finished Cost Amt. (Actual)](#finished-cost-amt-actual))*
-  
-**Data Sources**
-- Item Ledger Entry
-- Prod. Order Line
-- Location
 
-### Cost Amt. Deviation %
-**Formula**  
-- This measure calculates the deviation between the expected cost amount and the actual cost amount for finished goods produced, expressed as a percentage.
 
-  *Cost Amt. Deviation % = ([Finished Cost Amt. (Actual)](#finished-cost-amt-actual) - [Expected Cost Amt.](#expected-cost-amt)) / [Expected Cost Amt.](#expected-cost-amt)*
-  
-**Data Sources**
-- Item Ledger Entry
-- Prod. Order Line
-- Location
+
+
+
+
+
+
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
