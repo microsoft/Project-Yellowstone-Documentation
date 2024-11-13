@@ -42,7 +42,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Item Ledger Entry
-- Location
 
 ### Capacity Cost Amt. Variance
 **Formula**  
@@ -53,7 +52,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Capacity Ledger Entry
 - Prod. Order Routing Line
-- Location
 
 ### Capacity Used Deviation%
 **Formula**
@@ -236,7 +234,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Prod. Order Routing Line
-- Location
 
 ### Expected Capacity Need (Hours)
 **Formula**  
@@ -346,7 +343,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Item Ledger Entry
-- Location
 - Prod. Order Component
 
 ### Consumption Cost Amt. Variance
@@ -358,7 +354,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Prod. Order Component
 - Item Ledger Entry
-- Location
 
 ### Consumption Qty. Deviation%
 **Formula**  
@@ -390,7 +385,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Item Ledger Entry
-- Location
 
 ### Expected Consumption Cost Amount
 **Formula**  
@@ -436,6 +430,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Qty. Deviation %](#qty-deviation-)
 - [Qty. Variance](#qty-variance)
 
+### %Finished
+**Formula**  
+  *% Finished = ( [Finished Quantity (Base)](#finished-quantity-base) / [Expected Quantity (Base)](#expected-quantity-base) )*
+  
+**Data Sources**
+- Item Ledger Entry
+- Prod. Order Line
+
 ### Cost Amt. Deviation %
 **Formula**  
 - This measure calculates the deviation between the expected cost amount and the actual cost amount for finished goods produced, expressed as a percentage.
@@ -445,7 +447,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Item Ledger Entry
 - Prod. Order Line
-- Location
 
 ### Cost Amt. Variance
 **Formula**  
@@ -456,7 +457,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Item Ledger Entry
 - Prod. Order Line
-- Location
 
 ### Qty. Deviation %
 **Formula**  
@@ -467,7 +467,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Item Ledger Entry
 - Prod. Order Line
-- Location
 
 ### Qty. Variance
 **Formula**  
@@ -476,7 +475,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Item Ledger Entry
 - Prod. Order Line
-- Location
 
 ## Output Measures
 - [Expected Cost Amt.](#expected-cost-amt)
@@ -492,7 +490,6 @@ Each KPI is described, including how it is calculated and what data was used in 
   
 **Data Sources**
 - Prod. Order Line
-- Location
 
 ### Expected Quantity (Base)
 **Formula**  
@@ -500,7 +497,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Prod. Order Line
-- Location
 
 ### Finished Cost Amt. (Actual)
 **Formula**  
@@ -508,7 +504,6 @@ Each KPI is described, including how it is calculated and what data was used in 
   
 **Data Sources**
 - Item Ledger Entry
-- Location
 
 ### Finished Quantity (Base)
 **Formula**  
@@ -516,7 +511,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Data Sources**
 - Item Ledger Entry
-- Location
 
 
 
