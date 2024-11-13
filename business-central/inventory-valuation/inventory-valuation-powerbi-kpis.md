@@ -33,7 +33,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Increases Quantity](#increases-quantity)  
 - [Decreases Quantity](#decreases-quantity)
 
----
 ### Ending Balance Quantity
 **Formula**  
 - This measure calculates the total quantity of items remaining at the end of a specific period.
@@ -43,7 +42,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry 
 
----
 ### Increases Value
 **Formula**  
 - This measure shows the total value of inventory increases during a specified period by calculating the actual cost amount and filtering only those item ledger entries that represent stock increases including purchases, positive adjustments, outputs, and assembly outputs.
@@ -51,7 +49,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Decreases Value
 **Formula**  
 - This measure shows the total value of inventory decreases during a specified period by calculating the actual cost amount and filtering only those item ledger entries that represent stock decreases including sales, negative adjustments, consumptions, and assembly consumptions.
@@ -59,7 +56,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Beginning Balance Value
 **Formula**  
 - This measure shows the total value of inventory at the beginning of a specified period by calculating the actual cost amount in the Value Entry table prior to the beginning of the specified period.
@@ -67,7 +63,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Ending Balance Value
 **Formula**  
 - This measure calculates calculates the total value of inventory at the end of a specific period.
@@ -77,7 +72,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Ending Balance Posted to G/L
 **Formula**  
 - This measure calculates the total value of inventory posted to the general ledger at the end of a specified period.
@@ -87,7 +81,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Variance
 **Formula**  
 - This measure calculates the difference between the total value of inventory to the general ledger and the total value of inventory at the end of a specified period.
@@ -97,7 +90,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Invoiced Quantity
 **Formula**  
 - This measure calculates the total quantity of inventory that has been invoiced during a specific period by summing the invoiced quantity in the Value Entry table.
@@ -105,7 +97,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Increases Quantity
 **Formula**  
 - This measure shows the total quantity of inventory increases during a specified period by calculating the invoiced quantity in the Value Entry table and filtering only those item ledger entries that represent quantity increases including purchases, positive adjustments, outputs, and assembly outputs.
@@ -113,7 +104,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 ### Decreases Quantity
 **Formula**  
 - This measure shows the total quantity of inventory decreases during a specified period by calculating the invoiced quantity in the Value Entry table and filtering only those item ledger entries that represent quantity decreases including sales, negative adjustments, consumptions, and assembly consumptions.
@@ -121,7 +111,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Value Entry
 
----
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
