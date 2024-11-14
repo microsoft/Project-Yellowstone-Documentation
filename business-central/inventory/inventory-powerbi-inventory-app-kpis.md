@@ -21,7 +21,7 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
-## Bins Table
+## Bins Measures
 - [Warehouse Quantity](#warehouse-quantity)  
 - [Quantity in Adjustment Bin](#quantity-in-adjustment-bin)  
 - [Available Qty. to Take](#available-qty-to-take)  
@@ -89,7 +89,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Warehouse Journal Line
 
 
-## Items Table
+## Items Availability Measures
 - [Gross Requirement](#gross-requirement)  
 - [Projected Available Balance](#projected-available-balance)
 - [Scheduled Receipt](#scheduled-receipt)
@@ -164,7 +164,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Production Order Line
 - Requisition Line
 
-## Sales Lines Table
+## Sales Line Measures
 - [Qty. on Sales Order](#qty-on-sales-order)
 - [Qty. on Sales Return Order](#qty-on-sales-return-order)  
 
@@ -182,7 +182,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Production Order Line
 
-## Purchase Lines Table
+## Purchase Line Measures
 - [Qty. on Purch. Order](#qty-on-purch-order)  
 - [Qty. on Purch. Return](#qty-on-purch-return)
 
@@ -200,7 +200,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Purchase Line
 
-## Service Lines Table
+## Service Line Measures
 - [Qty. on Service Order](#qty-on-service-order)  
 
 ### Qty. on Service Order
@@ -210,7 +210,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Service Line
 
-## Project Planning Lines Table
+## Project Planning Line Measures
 - [Qty. on Projects](#qty-on-projects)
 
 ### Qty. on Projects
@@ -220,7 +220,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Job Planning Line
 
-## Prod. Order Component Lines Table
+## Prod. Order Component Line Measures
 - [Qty. on Prod. Order](#qty-on-prod-order)
 - [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines)  
 
@@ -238,7 +238,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Prod. Order Component
 
-## Transfer Lines Table
+## Transfer Line Measures
 - [Qty. in Transit](#qty-in-transit)  
 - [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)
 - [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)
@@ -267,7 +267,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Location
 - Transfer Line
 
-## Planning Component Lines Table
+## Planning Component Line Measures
 - [Planning Issues (Qty.)](#planning-issues-qty)  
 
 ### Planning Issues (Qty.)
@@ -277,7 +277,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Planning Component
 
-## Assembly Headers Table
+## Assembly Header Measures
 - [Qty. on Assembly Order](#qty-on-assembly-order)
 
 ### Qty. on Assembly Order
@@ -287,7 +287,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Assembly Header
 
-## Assembly Lines Table
+## Assembly Line Measures
 - [Qty. on Asm. Component](#qty-on-asm-component)  
 
 ### Qty. on Asm. Component
@@ -297,7 +297,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Assembly Line
 
-## Production Order Lines Table
+## Production Order Line Measures
 - [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
 - [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)
 
@@ -315,7 +315,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Production Order Line
 
-## Item Ledger Entries Table
+## Item Ledger Entry Measures
 - [Quantity](#quantity)  
 - [Inventory (Quantity)](#inventory-quantity)  
 - [Expired Inventory](#expired-inventory) 
