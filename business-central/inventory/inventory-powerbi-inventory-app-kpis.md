@@ -22,28 +22,21 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
 ## Bins Measures
-- [Warehouse Quantity](#warehouse-quantity)  
-- [Quantity in Adjustment Bin](#quantity-in-adjustment-bin)  
-- [Available Qty. to Take](#available-qty-to-take)  
-- [Pick Quantity (Base)](#pick-quantity-base)  
 - [ATO Components Pick Qty.](#ato-components-pick-qty)  
-- [Put-away Quantity (Base)](#put-away-quantity-base)  
+- [Available Qty. to Take](#available-qty-to-take)
 - [Negative Adjmt. Qty. (Base)](#negative-adjmt-qty-base)  
-- [Positive Adjmt. Qty. (Base)](#positive-adjmt-qty-base)  
+- [Pick Quantity (Base)](#pick-quantity-base)
+- [Positive Adjmt. Qty. (Base)](#positive-adjmt-qty-base)
+- [Put-away Quantity (Base)](#put-away-quantity-base)
+- [Quantity in Adjustment Bin](#quantity-in-adjustment-bin)    
+- [Warehouse Quantity](#warehouse-quantity)  
 
-### Warehouse Quantity
+### ATO Components Pick Qty.
 **Formula**  
-- This measure calculates the total quantity of an item that is currently in the warehouse by summing the base quantity from the Warehouse Entry table.
+- This measure calculates the total quantity of an item that has been taken from the warehouse specifically for assembling products that are made to order. It only includes the quantity that has been picked for assembling, not received or moved within the warehouse.
 
 **Data Sources**
-- Warehouse Entry
-
-### Quantity in Adjustment Bin
-**Formula**  
-- This measure calculates the total quantity of an item that is currently in an adjustment bin by summing of the base quantity from the Warehouse Entry table only for the adjustment bins and filtering the Warehouse Entry table to only include entries for the adjustment bins.
-
-**Data Sources**
-- Warehouse Entry
+- Warehouse Activity Line
 
 ### Available Qty. to Take
 **Formula**  
@@ -53,6 +46,13 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Warehouse Entry
 - Bin
 
+### Negative Adjmt. Qty. (Base)
+**Formula**  
+- This measure calculates the total quantity of an item that has been removed from the warehouse due to adjustments. This includes any adjustments that result in inventory decreases in the Warehouse Journal Line table.
+
+**Data Sources**
+- Warehouse Journal Line
+
 ### Pick Quantity (Base)
 **Formula**  
 - This measure calculates the total quantity of an item that has been picked from the warehouse for sales or transfer orders. It only includes the quantity that has been picked, not received or moved within the warehouse.
@@ -60,12 +60,12 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Warehouse Activity Line
 
-### ATO Components Pick Qty.
+### Positive Adjmt. Qty. (Base)
 **Formula**  
-- This measure calculates the total quantity of an item that has been taken from the warehouse specifically for assembling products that are made to order. It only includes the quantity that has been picked for assembling, not received or moved within the warehouse.
+- This measure calculates the total quantity of an item that has been added to the warehouse due to adjustments. This includes any adjustments that result in inventory increases in the Warehouse Journal Line table.
 
 **Data Sources**
-- Warehouse Activity Line
+- Warehouse Journal Line
 
 ### Put-away Quantity (Base)
 **Formula**  
@@ -74,19 +74,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Warehouse Activity Line
 
-### Negative Adjmt. Qty. (Base)
+
+
+### Warehouse Quantity
 **Formula**  
-- This measure calculates the total quantity of an item that has been removed from the warehouse due to adjustments. This includes any adjustments that result in inventory decreases in the Warehouse Journal Line table.
+- This measure calculates the total quantity of an item that is currently in the warehouse by summing the base quantity from the Warehouse Entry table.
 
 **Data Sources**
-- Warehouse Journal Line
-
-### Positive Adjmt. Qty. (Base)
-**Formula**  
-- This measure calculates the total quantity of an item that has been added to the warehouse due to adjustments. This includes any adjustments that result in inventory increases in the Warehouse Journal Line table.
-
-**Data Sources**
-- Warehouse Journal Line
+- Warehouse Entry
 
 
 ## Items Availability Measures
