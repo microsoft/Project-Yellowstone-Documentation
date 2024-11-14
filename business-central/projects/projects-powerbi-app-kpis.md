@@ -317,11 +317,59 @@ The Planning Line Total Price (LCY) measure calculates the total price of all pr
 - Job Ledger Entry
 
 ## Purchase Measures
-- Amount on PO
-- Amount Rcvd. Not Invoiced
-- Outstanding Amt. on PO
-- Purchase Order Count
-- Quantity on PO
+- [Amount on PO](#amount-on-po)
+- [Amount Rcvd. Not Invoiced](#amount-rcvd-not-invoiced)
+- [Outstanding Amt. on PO](#outstanding-amt-on-po)
+- [Purchase Order Count](#purchase-order-count)
+- [Quantity on PO](#quantity-on-po)
+
+### Amount on PO
+
+**Formula**  
+The Amount on PO measure calculates the sum of the amount (in local currency) column in the Purchases table.
+
+**Data Sources**
+- Purchase Line
+
+### Amount Rcvd. Not Invoiced
+
+**Formula**  
+The Amount Rcvd. Not Invoiced measure calculates the total amount of purchases that have been received but not yet invoiced in the Purchases table.
+
+**Data Sources**
+- Purchase Line
+
+### Amount Rcvd. Not Invoiced
+
+**Formula**  
+The Amount Rcvd. Not Invoiced measure calculates the total amount of purchases that have been received but not yet invoiced in the Purchases table.
+
+**Data Sources**
+- Purchase Line
+
+### Outstanding Amt. on PO
+
+**Formula**  
+The Outstanding Amt. on PO measure calculates the total amount of outstanding purchase orders in the Purchases table.
+
+**Data Sources**
+- Purchase Line
+
+### Purchase Order Count
+
+**Formula**  
+The Purchase Order Count measure calculates the total number of purchase orders in the Purchases table. It uses the CALCULATE function to filter the table and returns the distinct count of the "Document No." column for the filtered rows.
+
+**Data Sources**
+- Purchase Line
+
+### Quantity on PO
+
+**Formula**  
+The Quantity on PO measure calculates the total quantity of items ordered in the Purchases table. It uses the SUM function to add up all the values in the Quantity (Base) column and returns the result.
+
+**Data Sources**
+- Purchase Line
 
 ## See also
 
