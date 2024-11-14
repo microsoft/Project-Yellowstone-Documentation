@@ -29,10 +29,10 @@ As someone in the leadership team, you want to see a high-level view of your pro
 
 ## Key Performance Indicators (KPIs)
 The *Project Invoiced Sales by Customer* reoprt includes the following KPIs:
-- [**% Invoiced**](projects-powerbi-app-kpis.md#-invoiced)
-- [**Quantity**](projects-powerbi-app-kpis.md#quantity)
-- [**Billable (Invoiced Price)**](projects-powerbi-app-kpis.md#billable-invoiced-price)
-- [**Billable (Total Price)**](projects-powerbi-app-kpis.md#billable-total-price)
+- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
+- [**Quantity**](projects-powerbi-kpis.md#quantity)
+- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
+- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
