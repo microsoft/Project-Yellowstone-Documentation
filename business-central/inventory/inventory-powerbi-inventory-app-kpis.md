@@ -52,14 +52,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### ATO Components Pick Qty.
 **Formula**  
-- This measure calculates the total quantity of an item that has been taken from the warehouse specifically for assembling products that are made to order. It only includes the quantity that has been picked for assembling, not received or moved within the warehouse.
+- This measure calculates the total quantity taken from the warehouse for "Assemble to Order" components by summing the qtyBase from Warehouse Activity Lines where actionType is Take, assembleToOrder is TRUE, and atoComponent is TRUE. This measure captures only the quantities picked specifically for assembling made-to-order products.
 
 **Data Sources**
 - Warehouse Activity Line
 
 ### Available Qty. to Take
 **Formula**  
-- This measure calculates the quantity of an item that is available to be picked for sales or transfer orders. It subtracts the Pick Quantity (Base), ATO Components Pick Qty., and Negative Adjmt. Qty. (Base) measures from the Warehouse Quantity measure, but only for the bins that are not marked as adjustment bins. This gives you the total quantity of the item that is available to be picked for sales or transfer orders.
+- This measure calculates the quantity of an item that is available to be picked. It subtracts the [Pick Quantity (Base)](#pick-quantity-base), [ATO Components Pick Qty.](#ato-components-pick-qty), and [Negative Adjmt. Qty. (Base)](#negative-adjmt-qty-base) measures from [Warehouse Quantity](#warehouse-quantity), but only for the bins that are not marked as adjustment bins.
 
 **Data Sources**
 - Warehouse Entry
@@ -180,148 +180,18 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Production Order Line
 
 
-## Sales Line Measures
-- [Qty. on Sales Order](#qty-on-sales-order)
-- [Qty. on Sales Return Order](#qty-on-sales-return-order)  
-
-### Qty. on Sales Order
-**Formula**  
-- This measure shows how many items have been ordered by customers but are yet to be delivered or shipped by summing up the total outstanding quantity of items on all sales order lines. 
-
-**Data Sources**
-- Sales Line
-
-### Qty. on Sales Return Order
-**Formula**  
-- This measure shows how many items are yet to be returned by customers for sales return orders by summing up the outstanding quantity of items on all sales lines that are associated with return orders.
-
-**Data Sources**
-- Production Order Line
-
-## Purchase Line Measures
-- [Qty. on Purch. Order](#qty-on-purch-order)  
-- [Qty. on Purch. Return](#qty-on-purch-return)
-
-### Qty. on Purch. Order
-**Formula**  
-- This measure shows how many items are yet to be received for purchase orders by summing up the outstanding quantity of items on all purchase order lines.
-
-**Data Sources**
-- Purchase Line
-
-### Qty. on Purch. Return
-**Formula**  
-- This measure shows how many items have been returned to the supplier but are yet to be received or credited by summing up the total outstanding quantity of items on all purchase return order lines.
-
-**Data Sources**
-- Purchase Line
-
-## Service Line Measures
-- [Qty. on Service Order](#qty-on-service-order)  
-
-### Qty. on Service Order
-**Formula**  
-- This measure represents how many service items or hours have been ordered by customers but are yet to be fulfilled by summing up the total outstanding quantity of items or hours on all service order lines.
-
-**Data Sources**
-- Service Line
-
-## Project Planning Line Measures
-- [Qty. on Projects](#qty-on-projects)
-
-### Qty. on Projects
-**Formula**  
-- This measure shows how many items or hours are yet to be completed on a project by summing up the total outstanding quantity of items or hours on all project lines.
-
-**Data Sources**
-- Job Planning Line
-
-## Prod. Order Component Line Measures
-- [Qty. on Prod. Order](#qty-on-prod-order)
-- [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines)  
-
-### Qty. on Prod. Order
-**Formula**  
-- This measure shows how many items are yet to be produced for production orders by summing up the remaining quantity of items on all planned, firm planned, and released production order lines.
-
-**Data Sources**
-- Production Order Line
-
-### Qty. on Prod. Order Comp. Lines
-**Formula**  
-- This measure shows how many items are yet to be completed on a production order by summing up the total remaining quantity of items on all production order component lines.
-
-**Data Sources**
-- Prod. Order Component
-
-## Transfer Line Measures
-- [Qty. in Transit](#qty-in-transit)  
-- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)
-- [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)
-
-### Qty. in Transit
-**Formula**  
-- This measure shows how many items are currently in transit between locations by summing up the quantity of items in transit on all transfer lines.
-
-**Data Sources**
-- Location
-- Transfer Line
-
-### Trans. Order Shipment (Qty.)
-**Formula**  
-- This measure shows how many items have been shipped between two locations by summing up the total outstanding quantity of items on all transfer order lines that are associated with the specified location codes and shipment date.
-
-**Data Sources**
-- Location
-- Transfer Line
-
-### Trans. Order Receipt (Qty.)
-**Formula**  
-- This measure shows how many items are expected to be received for transfer orders by summing up the outstanding quantity of items on all transfer lines.
-
-**Data Sources**
-- Location
-- Transfer Line
-
-## Planning Component Line Measures
-- [Planning Issues (Qty.)](#planning-issues-qty)  
-
-### Planning Issues (Qty.)
-**Formula**  
-- This measure shows how many items are expected to be consumed for planned production orders by summing up the expected quantity of items that are required for production.
-
-**Data Sources**
-- Planning Component
-
-
-## Production Order Line Measures
-- [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
-- [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)
-
-### FP Order Receipt (Qty.)
-**Formula**  
-- This measure is abbreviated for Firmed Planned Order Receipt (Qty.) and hows how many items are expected to be received for firm planned production orders by summing up the remaining quantity of items on all firm planned production order lines.
-
-**Data Sources**
-- Production Order Line
-
-### Rel. Order Receipt (Qty.)
-**Formula**  
-- This measure is abbreviated for Released Production Order Receipt (Qty.) and shows how many items are expected to be received for released production orders by summing up the remaining quantity of items on all released production order lines.
-
-**Data Sources**
-- Production Order Line
-
 ## Item Ledger Entry Measures
-- [Quantity](#quantity)  
-- [Inventory (Quantity)](#inventory-quantity)  
 - [Expired Inventory](#expired-inventory) 
+- [Inventory (Quantity)](#inventory-quantity)  
+- [Invoiced Quantity](#invoiced-quantity)
 - [Net Qty. Purchased](#net-qty-purchased)  
 - [Net Qty. Sold](#net-qty-sold)
+- [Quantity](#quantity)
+- [Remaining Quantity](#remaining-quantity)
 
-### Quantity
+### Expired Inventory
 **Formula**  
-- This measure shows the total quantity of items that have been processed through the item ledger by summing up the quantity of items on all item ledger entries including sales, purchases, adjustments, and other types of transactions.
+- This measure shows how much inventory has expired and is no longer available for sale or use by calculating the remaining quantity of items on all item ledger entries.
 
 **Data Sources**
 - Item Ledger Entry
@@ -333,9 +203,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Item Ledger Entry
 
-### Expired Inventory
+### Invoiced Quantity
 **Formula**  
-- This measure shows how much inventory has expired and is no longer available for sale or use by calculating the remaining quantity of items on all item ledger entries.
+- This measure calculates the total quantity that has been invoiced by summing all values in the [invoicedQuantity] column from the Item Ledger Entries table. 
 
 **Data Sources**
 - Item Ledger Entry
@@ -355,6 +225,170 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Item Ledger Entry
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+
+### Quantity
+**Formula**  
+- This measure shows the total quantity of items that have been processed through the item ledger by summing up the quantity of items on all item ledger entries including sales, purchases, adjustments, and other types of transactions.
+
+**Data Sources**
+- Item Ledger Entry
+
+### Remaining Quantity
+**Formula**  
+- This measure calculates the total remaining quantity of items by summing all values in the [Remaining Qty.] column from the Item Ledger Entries table.
+**Data Sources**
+- Item Ledger Entry
+
+## Planning Component Line Measures
+- [Planning Issues (Qty.)](#planning-issues-qty)  
+
+### Planning Issues (Qty.)
+**Formula**  
+- This measure shows how many items are expected to be consumed for planned production orders by summing up the expected quantity of items that are required for production.
+
+**Data Sources**
+- Planning Component
+
+
+## Prod. Order Component Line Measures
+- [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines)  
+
+### Qty. on Prod. Order Comp. Lines
+**Formula**  
+- This measure shows how many items are yet to be completed on a production order by summing up the total remaining quantity of items on all production order component lines.
+
+**Data Sources**
+- Prod. Order Component
+
+## Production Order Line Measures
+- [FP Order Receipt (Qty.)](#fp-order-receipt-qty) 
+- [Qty. on Prod. Order](#qty-on-prod-order) 
+- [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty)
+- [Scheduled Receipt (Qty.)](#scheduled-receipt-qty)
+
+### FP Order Receipt (Qty.)
+**Formula**  
+- This measure is abbreviated for Firmed Planned Order Receipt (Qty.) and hows how many items are expected to be received for firm planned production orders by summing up the remaining quantity of items on all firm planned production order lines.
+
+**Data Sources**
+- Production Order Line
+
+### Qty. on Prod. Order
+**Formula**  
+- This measure shows how many items are yet to be produced for production orders by summing up the remaining quantity of items on all planned, firm planned, and released production order lines.
+
+**Data Sources**
+- Production Order Line
+
+### Rel. Order Receipt (Qty.)
+**Formula**  
+- This measure is abbreviated for Released Production Order Receipt (Qty.) and shows how many items are expected to be received for released production orders by summing up the remaining quantity of items on all released production order lines.
+
+**Data Sources**
+- Production Order Line
+
+### Scheduled Receipt (Qty.)
+**Formula**
+- This measure calculates the total scheduled receipt quantity from production orders by summing the [remainingQtyBase] column in the Production Order Lines table. It includes only those orders where the [Status] is either "Firm Planned" or "Released," which represents production orders expected to be completed. This measure gives an overview of pending quantities that are scheduled for receipt in the near future.
+
+**Data Source**
+- Production Order Line
+
+## Project Planning Line Measures
+- [Qty. on Projects](#qty-on-projects)
+
+### Qty. on Projects
+**Formula**  
+- This measure shows how many items or hours are yet to be completed on a project by summing up the total outstanding quantity of items or hours on all project lines.
+
+**Data Sources**
+- Project Planning Line
+
+## Purchase Line Measures
+- [Qty. on Purch. Order](#qty-on-purch-order)  
+- [Qty. on Purch. Return](#qty-on-purch-return)
+
+### Qty. on Purch. Order
+**Formula**  
+- This measure shows how many items are yet to be received for purchase orders by summing up the outstanding quantity of items on all purchase order lines.
+
+**Data Sources**
+- Purchase Line
+
+### Qty. on Purch. Return
+**Formula**  
+- This measure shows how many items have been returned to the supplier but are yet to be received or credited by summing up the total outstanding quantity of items on all purchase return order lines.
+
+**Data Sources**
+- Purchase Line
+
+
+
+## Sales Line Measures
+- [Qty. on Sales Order](#qty-on-sales-order)
+- [Qty. on Sales Return Order](#qty-on-sales-return-order)  
+
+### Qty. on Sales Order
+**Formula**  
+- This measure shows how many items have been ordered by customers but are yet to be delivered or shipped by summing up the total outstanding quantity of items on all sales order lines. 
+
+**Data Sources**
+- Sales Line
+
+### Qty. on Sales Return Order
+**Formula**  
+- This measure shows how many items are yet to be returned by customers for sales return orders by summing up the outstanding quantity of items on all sales lines that are associated with return orders.
+
+**Data Sources**
+- Sales Line
+
+
+## Service Line Measures
+- [Qty. on Service Order](#qty-on-service-order)  
+
+### Qty. on Service Order
+**Formula**  
+- This measure represents how many service items or hours have been ordered by customers but are yet to be fulfilled by summing up the total outstanding quantity of items or hours on all service order lines.
+
+**Data Sources**
+- Service Line
+
+
+## Transfer Line Measures
+- [Qty. in Transit](#qty-in-transit)  
+- [Trans. Order Outstanding Qty.](#trans-order-outstanding-qty)
+- [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty)
+- [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty)
+
+### Qty. in Transit
+**Formula**  
+- This measure shows how many items are currently in transit between locations by summing up the quantity of items in transit on all transfer lines.
+
+**Data Sources**
+- Transfer Line
+
+### Trans. Order Outstanding Qty.
+**Formula**
+- This measure calculates the total outstanding quantity for transfer orders by summing all values in the [outstandingQtyBase] column from the Transfer Lines table. 
+
+**Data Sources**
+- Transfer Line
+
+### Trans. Order Shipment (Qty.)
+**Formula**  
+- This measure shows how many items have been shipped between two locations by summing up the total outstanding quantity of items on all transfer order lines that are associated with the specified location codes and shipment date.
+
+**Data Sources**
+- Transfer Line
+
+### Trans. Order Receipt (Qty.)
+**Formula**  
+- This measure shows how many items are expected to be received for transfer orders by summing up the outstanding quantity of items on all transfer lines.
+
+**Data Sources**
+- Transfer Line
+
 
 
 ## See also
