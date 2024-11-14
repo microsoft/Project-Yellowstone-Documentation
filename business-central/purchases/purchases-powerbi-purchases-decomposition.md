@@ -32,7 +32,7 @@ As a purchaser, you can use this report to analyze the purchasing activities for
 
 The *Purchases Decomposition* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
 
 ## Data used in the report
 

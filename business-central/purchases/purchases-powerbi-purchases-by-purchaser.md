@@ -30,10 +30,10 @@ As a purchaser, you can use this report to monitor your purchasing activities, i
 
 The *Purchases by Purchaser* report includes the following KPIs and measures:
 
-- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
-- [**Purchase Quantity**](purchases-powerbi-purchases-kpis.md#purchase-quantity)
-- [**% GT Purchase Amount**](purchases-powerbi-purchases-kpis.md#-gt-purchase-amount)
-- [**% GT Purchase Quantity**](purchases-powerbi-purchases-kpis.md#-gt-purchase-quantity)
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#-gt-purchase-quantity)
 
 ## Data used in the report
 

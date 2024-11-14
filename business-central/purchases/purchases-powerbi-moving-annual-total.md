@@ -31,11 +31,11 @@ As a purchasing manager, you can use this report to analyze the purchasing data 
 
 The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
-- [**Moving Annual Total (MAT)**](purchases-powerbi-purchases-kpis.md#purchase-amount-matg-fiscal)
-- [**Previous Year Moving Annual Total (PYMAT)**](purchases-powerbi-purchases-kpis.md#purchase-amount-pymat-fiscal)
-- [**Moving Annual Total Growth Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount-matg-fiscal)
-- [**Moving Annual Total Growth %**](purchases-powerbi-purchases-kpis.md#purchase-amount-matg--fiscal)
-- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
+- [**Moving Annual Total (MAT)**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
+- [**Previous Year Moving Annual Total (PYMAT)**](purchases-powerbi-kpis.md#purchase-amount-pymat-fiscal)
+- [**Moving Annual Total Growth Amount**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
+- [**Moving Annual Total Growth %**](purchases-powerbi-kpis.md#purchase-amount-matg--fiscal)
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
 
 ## Data used in the report
 

@@ -31,10 +31,10 @@ As a purchaser, you can use this report to monitor purchasing activities and ide
 
 The *Purchases by Vendor* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](purchases-powerbi-purchases-kpis.md#purchase-amount)
-- [**Purchase Quantity**](purchases-powerbi-purchases-kpis.md#purchase-quantity)
-- [**% GT Purchase Amount**](purchases-powerbi-purchases-kpis.md#-gt-purchase-amount)
-- [**% GT Purchase Amount PY (Fiscal)**](purchases-powerbi-purchases-kpis.md#-gt-purchase-amount-py-fiscal)
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Amount PY (Fiscal)**](purchases-powerbi-kpis.md#-gt-purchase-amount-py-fiscal)
 
 ## Data used in the report
 
