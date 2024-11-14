@@ -133,10 +133,10 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 ## Project Ledger Measures
 - [Actual (Total Price)](#actual-total-price)
 - [Billable (Invoiced Price)](#billable-invoiced-price)
-- Invoiced (Total Cost)
-- Invoiced (Total Price)
+- [Invoiced (Total Cost)](#invoiced-total-cost)
+- [Invoiced (Total Price)](#invoiced-total-price)
 - [Quantity](#quantity)
-- Total Price
+- [Total Price](#total-price)
 
 ### Actual (Total Price)
 
@@ -146,11 +146,26 @@ The Actual (Total Price) measure calculates the total actual cost of project ent
 **Data Sources**
 - Job Ledger Entry
 
-
 ### Billable (Invoiced Price)
 
 **Formula**  
 The Billable (Invoiced Price) measure shows the total invoiced price of billable project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Sale", which indicates that the project entry is billable.
+  
+**Data Sources**
+- Job Ledger Entry
+
+### Invoiced (Total Cost)
+
+**Formula**  
+The Invoiced (Total Cost) measure calculates the total cost of all project ledger entries where the entry type is "Sale" in the Project Ledger Entry table.
+  
+**Data Sources**
+- Job Ledger Entry
+
+### Invoiced (Total Price)
+
+**Formula**  
+The Invoiced (Total Price) measure calculates the total price of all project ledger entries where the entry type is "Sale" in the Project Ledger Entry table.
   
 **Data Sources**
 - Job Ledger Entry
@@ -160,6 +175,14 @@ The Billable (Invoiced Price) measure shows the total invoiced price of billable
 **Formula**  
 The Quantity measure calculates the total quantity of a product or service used in a project by summing the quantity in the Project Ledger Entry table and converting the measure to a postive value.
   
+**Data Sources**
+- Job Ledger Entry
+
+### Total Price
+
+**Formula**  
+The Total Price measure calculates the total price of all project ledger entries in the Project Ledger Entry table. It uses the SUMX function to iterate over each row in the table and multiply the quantity and unit price (in local currency) columns for each row. The results of each multiplication are then summed up to produce the total price.
+
 **Data Sources**
 - Job Ledger Entry
 
