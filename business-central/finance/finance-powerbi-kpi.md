@@ -19,20 +19,10 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 
 Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
 
-Each KPI is described, including how it is calculated and what data was used in the calculations.
+Each KPI and measure is described, including how it is calculated and what data was used in the calculations.
 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
-
-- [Activity KPIs](#activity-kpis)
-- [Balance Sheet Measures](#balance-sheet-measures)
-- [Income Statement Measures](#income-statement-measures)
-- [Liquidity KPIs](#liquidity-kpis)
-- [Profitability KPIs](#profitability-kpis)
-- [Customer Ledger Measures](#customer-ledger-measures)
-- [Vendor Ledger Measures](#vendor-ledger-measures)
-- [G/L Entry Meaures](#gl-entry-measures)
-- [G/L Budget Entry Meaures](#gl-budget-entry-measures)
 
 ## Activity KPIs
 
