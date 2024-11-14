@@ -33,16 +33,16 @@ As a procurement officer, this report allows you to see Sales and Production vol
 
 The *Gross Requirement* report includes the following KPIs:
 
-- [**Gross Requirement**](inventory-powerbi-inventory-app-kpis.md#gross-requirement)
-- [**Project Available Balance**](inventory-powerbi-inventory-app-kpis.md#projected-available-balance)
-- [**Qty. on Sales Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-sales-order)
-- [**Qty. on Purch. Return**](inventory-powerbi-inventory-app-kpis.md#qty-on-purch-return)
-- [**Qty. on Service Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-service-order)
-- [**Qty. on Projects**](inventory-powerbi-inventory-app-kpis.md#qty-on-projects)
-- [**Qty. on Prod. Order Comp Lines**](inventory-powerbi-inventory-app-kpis.md#qty-on-prod-order-comp-lines)
-- [**Trans. Order Shipment (Qty)**](inventory-powerbi-inventory-app-kpis.md#trans-order-shipment-qty)
-- [**Planning Issues (Qty)**](inventory-powerbi-inventory-app-kpis.md#planning-issues-qty)
-- [**Qty. on Asm. Component**](inventory-powerbi-inventory-app-kpis.md#qty-on-asm-component)
+- [**Gross Requirement**](inventory-powerbi-kpis.md#gross-requirement)
+- [**Project Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
+- [**Qty. on Sales Order**](inventory-powerbi-kpis.md#qty-on-sales-order)
+- [**Qty. on Purch. Return**](inventory-powerbi-kpis.md#qty-on-purch-return)
+- [**Qty. on Service Order**](inventory-powerbi-kpis.md#qty-on-service-order)
+- [**Qty. on Projects**](inventory-powerbi-kpis.md#qty-on-projects)
+- [**Qty. on Prod. Order Comp Lines**](inventory-powerbi-kpis.md#qty-on-prod-order-comp-lines)
+- [**Trans. Order Shipment (Qty)**](inventory-powerbi-kpis.md#trans-order-shipment-qty)
+- [**Planning Issues (Qty)**](inventory-powerbi-kpis.md#planning-issues-qty)
+- [**Qty. on Asm. Component**](inventory-powerbi-kpis.md#qty-on-asm-component)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

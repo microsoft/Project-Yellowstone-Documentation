@@ -36,7 +36,7 @@ As a Warehouse or Inventory Manager, the *Bin Contents by Item Tracking* report 
 
 The *Bin Contents by Item Tracking* report includes the following KPIs:
 
-- [**Warehouse Quantity**](inventory-powerbi-inventory-app-kpis.md#warehouse-quantity)
+- [**Warehouse Quantity**](inventory-powerbi-kpis.md#warehouse-quantity)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

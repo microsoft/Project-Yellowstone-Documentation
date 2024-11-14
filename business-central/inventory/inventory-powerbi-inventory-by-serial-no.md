@@ -33,8 +33,8 @@ As a Warehouse staff member, the *Inventory by Serial* report assists in providi
 
 The *Inventory by Serial No.* report includes the following KPIs:
 
-- [**Quantity**](inventory-powerbi-inventory-app-kpis.md#quantity)
-- [**Inventory (Quantity)**](inventory-powerbi-inventory-app-kpis.md#inventory-quantity)
+- [**Quantity**](inventory-powerbi-kpis.md#quantity)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

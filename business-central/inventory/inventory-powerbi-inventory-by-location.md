@@ -33,7 +33,7 @@ As a Supply Chain Manager, the *Inventory by Location* report provides you with 
 
 The *Inventory by Location* report includes the following KPIs:
 
-- [**Inventory (Quantity)**](inventory-powerbi-inventory-app-kpis.md#inventory-quantity)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

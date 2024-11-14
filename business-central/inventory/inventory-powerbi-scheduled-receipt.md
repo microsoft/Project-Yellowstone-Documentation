@@ -33,15 +33,15 @@ As a Warehouse Receipt working, this report is crucial in having detailed inform
 
 The *Scheduled Receipt* report includes the following KPIs:
 
-- [**Scheduled Receipt**](inventory-powerbi-inventory-app-kpis.md#scheduled-receipt)
-- [**Projected Available Balance**](inventory-powerbi-inventory-app-kpis.md#projected-available-balance)
-- [**FP Order Receipt (Qty.)**](inventory-powerbi-inventory-app-kpis.md#fp-order-receipt-qty)
-- [**Rel. Order Receipt (Qty.)**](inventory-powerbi-inventory-app-kpis.md#rel-order-receipt-qty)
-- [**Qty. On Purchase Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-purch-order)
-- [**Qty. in Transit**](inventory-powerbi-inventory-app-kpis.md#qty-in-transit)
-- [**Trans. Order Receipt (Qty.)**](inventory-powerbi-inventory-app-kpis.md#trans-order-receipt-qty)
-- [**Qty. on Assembly Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-assembly-order)
-- [**Qty. on Sales Return Order**](inventory-powerbi-inventory-app-kpis.md#qty-on-sales-return-order)
+- [**Scheduled Receipt**](inventory-powerbi-kpis.md#scheduled-receipt)
+- [**Projected Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
+- [**FP Order Receipt (Qty.)**](inventory-powerbi-kpis.md#fp-order-receipt-qty)
+- [**Rel. Order Receipt (Qty.)**](inventory-powerbi-kpis.md#rel-order-receipt-qty)
+- [**Qty. On Purchase Order**](inventory-powerbi-kpis.md#qty-on-purch-order)
+- [**Qty. in Transit**](inventory-powerbi-kpis.md#qty-in-transit)
+- [**Trans. Order Receipt (Qty.)**](inventory-powerbi-kpis.md#trans-order-receipt-qty)
+- [**Qty. on Assembly Order**](inventory-powerbi-kpis.md#qty-on-assembly-order)
+- [**Qty. on Sales Return Order**](inventory-powerbi-kpis.md#qty-on-sales-return-order)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
