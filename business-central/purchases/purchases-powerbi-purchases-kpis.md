@@ -24,14 +24,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-- [Purchase Budget](#purchase-budget)
-   - [Budget Measures](#budget-measures) 
-- [Purchases](#purchases)
-   - [Counters](#counters)
-   - [Purchase Measures](#purchase-measures)
-      - [Invoiced](#invoiced)
-      - [Outstanding](#outstanding)
-      - [Received Not Invoiced](#received-not-invoiced)
+- [Budget Measures](#budget-measures) 
+- [Counters](#counters)
+- [Purchase Measures](#purchase-measures)
+- [Invoiced](#invoiced)
+- [Outstanding](#outstanding)
+- [Received Not Invoiced](#received-not-invoiced)
+
+## Budget Measures
 
 ## Purchases Table
 **Purchase Measures**
