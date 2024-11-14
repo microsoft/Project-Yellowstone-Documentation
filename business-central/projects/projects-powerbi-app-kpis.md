@@ -188,18 +188,42 @@ The Total Price measure calculates the total price of all project ledger entries
 
 ## Usage
 - [Actual (Total Cost)](#actual-total-cost)
-- Gen. Journal Usage (Total Cost)
-- Labour Usage (Total Cost)
-- Material Usage (Total Cost)
-
+- [Gen. Journal Usage (Total Cost)](#gen-journal-usage-total-cost)
+- [Labour Usage (Total Cost)](#labour-usage-total-cost)
+- [Material Usage (Total Cost)](#material-usage-total-cost)
 
 ### Actual (Total Cost)
 
 **Formula**  
-The Actual (Total Cost) measure represents the actual cost of resources used in the project by calculating the total cost (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage".
+The Actual (Total Cost) measure calculates the total cost (in local currency) of all project ledger entries where the type is "Usage" in the Project Ledger Entry table.
   
 **Data Sources**
 - Job Ledger Entry
+
+### Gen. Journal Usage (Total Cost)
+
+**Formula**  
+The Gen. Journal Usage (Total Cost) measure calculates the total cost of all project ledger entries where the type is "G/L Account" in the Project Ledger Entry table.
+  
+**Data Sources**
+- Job Ledger Entry
+
+### Labour Usage (Total Cost)
+
+**Formula**  
+The Labour Usage (Total Cost) measure calculates the total cost of all project ledger entries where the type is "Resource" in the Project Ledger Entry table.
+  
+**Data Sources**
+- Job Ledger Entry
+
+### Material Usage (Total Cost)
+
+**Formula**  
+The Material Usage (Total Cost) measure calculates the total cost of all project ledger entries where the type is "Item" in the Project Ledger Entry table.
+  
+**Data Sources**
+- Job Ledger Entry
+
 
 ## Planning Line Measures
 - Billable (Total Cost)
