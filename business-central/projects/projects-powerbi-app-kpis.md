@@ -21,191 +21,196 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
-## Projects Table
+---
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+## Project Measures
 - [% Invoiced](#-invoiced)
 - [% Complete](#-complete)
-- [Realization %](#realization-)
-- [Actual Profit](#actual-profit)
-- [Actual Profit Margin %](#actual-profit-margin-)
+- Duration (Days)
 - [Project Count](#project-count)
-- [Budget Profit Margin %](#budget-profit-margin-)
+- [Realization %](#realization-)
 - [Realization Variance](#realization-variance)
+- Task Count
 
-## Project Ledger Entries Table
-- [Quantity](#quantity)
-- [Billable (Invoiced Price)](#billable-invoiced-price)
-- [Actual (Total Price)](#actual-total-price)
-- [Actual (Total Cost)](#actual-total-cost)
-
-
-## Project Planning Lines Table
-- [Billable (Total Price)](#billable-total-price)
-- [Budget (Total Cost)](#budget-total-cost)
-- [Budget (Total Price)](#budget-total-price)
-- [Total Cost Variance to Budget](#total-cost-variance-to-budget)
-- [Total Cost Variance to Budget %](#total-cost-variance-to-budget-)
-
----
 ### % Invoiced
-**Formula**  
-- This measure calculates the percentage of billable amount that has been invoiced to customers.
 
-  *% Invoiced = [Billable (Invoiced Price)](#billable-invoiced-price) / [Billable (Total Price)](#billable-total-price)*
+**Formula**  
+*% Invoiced = [Billable (Invoiced Price)](#billable-invoiced-price) / [Billable (Total Price)](#billable-total-price)*
   
 **Data Sources**
 - Job Ledger Entry
 - Job Planning Line
 
----
-### Quantity
-**Formula**  
-- This measure calculates the total quantity of a product or service used in a project by summing the quantity in the Project Ledger Entry table and converting the measure to a postive value.
-  
-**Data Sources**
-- Job Ledger Entry
-
----
-### Billable (Invoiced Price)
-**Formula**  
-- This measure shows the total invoiced price of billable project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Sale", which indicates that the project entry is billable.
-  
-**Data Sources**
-- Job Ledger Entry
-
----
-### Billable (Total Price)
-**Formula**  
-- This measure shows the total billable amount of project planning lines by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Billable" or "Both Budget and Billable", which indicates that the line is billable.
-  
-**Data Sources**
-- Job Planning Line
-
----
-### Actual (Total Price)
-**Formula**  
-- This measure calculates the total actual cost of project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage". The result of this calculation is then converted to a positive value.
-  
-**Data Sources**
-- Job Ledger Entry
-
----
 ### % Complete
-**Formula**  
-- This measure calculates the percentage of the project that has been completed based on the actual total cost and the budgeted total cost.
 
-  *% Complete = [Actual (Total Cost)](#actual-total-cost) / [Budget (Total Cost)](#budget-total-cost)*
+**Formula**  
+*% Complete = [Actual (Total Cost)](#actual-total-cost) / [Budget (Total Cost)](#budget-total-cost)*
   
 **Data Sources**
 - Job Ledger Entry
 - Job Planning Line
 
----
-### Realization %
-**Formula**  
-- This measure calculates the percentage of project invoiced price that has been realized based on the actual total cost.
-
-  *Realization % = [Billable (Invoiced Price)](#billable-invoiced-price) / [Actual (Total Price)](#actual-total-price)*
-  
-**Data Sources**
-- Job Ledger Entry
-
----
-### Actual Profit
-**Formula**  
-- This measure represents the actual profit of a project.
-
-  *Actual Profit = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Cost)](#actual-total-cost)*
-  
-**Data Sources**
-- Job Ledger Entry
-
----
-### Actual Profit Margin %
-**Formula**  
-- This measure represents the actual profit margin percentage of a project.
-
-  *Actual Profit Margin % = [Actual Profit Margin %](#actual-profit-margin-) / [Billable (Invoiced Price)](#billable-invoiced-price)*
-  
-**Data Sources**
-- Job Ledger Entry
-
----
-### Actual (Total Cost)
-**Formula**  
-- This measure represents the actual cost of resources used in the project by calculating the total cost (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage".
-  
-**Data Sources**
-- Job Ledger Entry
-
----
-### Budget (Total Cost)
-**Formula**  
-- This measure represents the budgeted cost of resources to be used in a project by calculating the total cost (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
-
-**Data Sources**
-- Job Ledger Entry
-
----
 ### Project Count
 **Formula**  
-- This measure counts the total number of projects in the Project table.
+The Project Count measure counts the total number of projects in the Project table.
 
 **Data Sources**
 - Job
 
----
-### Budget (Total Price)
+### Realization %
+
 **Formula**  
-- This measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
-
-**Data Sources**
-- Job Planning Line
-
----
-### Total Cost Variance to Budget
-**Formula**  
-- This measure calculates the variance between the actual total cost and the budgeted total cost of a project.
-
-  *Total Cost Variance to Budget = [Actual (Total Cost)](#actual-total-cost) - [Budget (Total Cost)](#budget-total-cost)*
-
+*Realization % = [Billable (Invoiced Price)](#billable-invoiced-price) / [Actual (Total Price)](#actual-total-price)*
+  
 **Data Sources**
 - Job Ledger Entry
 
----
-### Total Cost Variance to Budget %
-**Formula**  
-- This measure calculates the variance between the actual total cost and the budgeted total cost of a project, expressed as a percentage.
-
-  *Total Cost Variance to Budget % = [Total Cost Variance to Budget %](#total-cost-variance-to-budget-) / [Budget (Total Cost)](#budget-total-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
----
-### Budget Profit Margin %
-**Formula**  
-- This measure calculates the profit margin percentage for a project based on the budgeted profit and the budgeted total price of the project.
-
-  *Budget Profit Margin % = Budget Profit / [Budget (Total Price)](#budget-total-price)*
-
-**Data Sources**
-- Job Ledger Entry
-- Job Planning Line
-
----
 ### Realization Variance
-**Formula**  
-- This measure calculates the variance between the billable amount and the actual total cost of a project.
 
-  *Realization Variance = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Price)](#actual-total-price)*
+**Formula**  
+*Realization Variance = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Price)](#actual-total-price)*
 
 **Data Sources**
 - Job Ledger Entry
 - Job Planning Line
 
----
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+## Profit
+- [Actual Profit](#actual-profit)
+- [Actual Profit Margin %](#actual-profit-margin-)
+- Budget Profit
+- [Budget Profit Margin %](#budget-profit-margin-)
 
+### Actual Profit
+
+**Formula**  
+*Actual Profit = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Cost)](#actual-total-cost)*
+  
+**Data Sources**
+- Job Ledger Entry
+
+### Actual Profit Margin %
+
+**Formula**  
+*Actual Profit Margin % = [Actual Profit Margin %](#actual-profit-margin-) / [Billable (Invoiced Price)](#billable-invoiced-price)*
+  
+**Data Sources**
+- Job Ledger Entry
+
+### Budget Profit Margin %
+
+**Formula**  
+*Budget Profit Margin % = Budget Profit / [Budget (Total Price)](#budget-total-price)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+## Project Ledger Measures
+- [Actual (Total Price)](#actual-total-price)
+- [Billable (Invoiced Price)](#billable-invoiced-price)
+- Invoiced (Total Cost)
+- Invoiced (Total Price)
+- [Quantity](#quantity)
+- Total Price
+
+### Actual (Total Price)
+
+**Formula**  
+The Actual (Total Price) measure calculates the total actual cost of project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage". The result of this calculation is then converted to a positive value.
+  
+**Data Sources**
+- Job Ledger Entry
+
+
+### Billable (Invoiced Price)
+
+**Formula**  
+The Billable (Invoiced Price) measure shows the total invoiced price of billable project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Sale", which indicates that the project entry is billable.
+  
+**Data Sources**
+- Job Ledger Entry
+
+### Quantity
+
+**Formula**  
+The Quantity measure calculates the total quantity of a product or service used in a project by summing the quantity in the Project Ledger Entry table and converting the measure to a postive value.
+  
+**Data Sources**
+- Job Ledger Entry
+
+## Usage
+- [Actual (Total Cost)](#actual-total-cost)
+- Gen. Journal Usage (Total Cost)
+- Labour Usage (Total Cost)
+- Material Usage (Total Cost)
+
+
+### Actual (Total Cost)
+
+**Formula**  
+The Actual (Total Cost) measure represents the actual cost of resources used in the project by calculating the total cost (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage".
+  
+**Data Sources**
+- Job Ledger Entry
+
+## Planning Line Measures
+- Billable (Total Cost)
+- [Billable (Total Price)](#billable-total-price)
+- [Budget (Total Cost)](#budget-total-cost)
+- [Budget (Total Price)](#budget-total-price)
+- Planning Line Quantity
+- Planning Line Total Cost (LCY)
+- Planning Line Total Price (LCY)
+- [Total Cost Variance to Budget](#total-cost-variance-to-budget)
+- [Total Cost Variance to Budget %](#total-cost-variance-to-budget-)
+
+### Billable (Total Price)
+
+**Formula**  
+The Billable (Total Price) measure shows the total billable amount of project planning lines by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Billable" or "Both Budget and Billable", which indicates that the line is billable.
+  
+**Data Sources**
+- Job Planning Line
+
+### Budget (Total Cost)
+
+**Formula**  
+The Budget (Total Cost) measure represents the budgeted cost of resources to be used in a project by calculating the total cost (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Budget (Total Price)
+
+**Formula**  
+The Budget (Total Price) measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
+
+**Data Sources**
+- Job Planning Line
+
+### Total Cost Variance to Budget
+
+**Formula**  
+*Total Cost Variance to Budget = [Actual (Total Cost)](#actual-total-cost) - [Budget (Total Cost)](#budget-total-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Cost Variance to Budget %
+
+**Formula**  
+*Total Cost Variance to Budget % = [Total Cost Variance to Budget %](#total-cost-variance-to-budget-) / [Budget (Total Cost)](#budget-total-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+## Purchase Measures
+- Amount on PO
+- Amount Rcvd. Not Invoiced
+- Outstanding Amt. on PO
+- Purchase Order Count
+- Quantity on PO
 
 ## See also
 
