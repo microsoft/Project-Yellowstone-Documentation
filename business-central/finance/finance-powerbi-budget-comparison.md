@@ -31,10 +31,10 @@ As an executive or finance manager, you would use the Budget Comparison Report t
 
 The *Budget Comparison* report includes the following KPIs and measures: 
 
-- [**Net Change**](finance-powerbi-kpi.md#net-change)
-- [**Budget Amount**](finance-powerbi-kpi.md#budget-amount)
-- [**Variance to Budget**](finance-powerbi-kpi.md#variance-to-budget)
-- [**Variance to Budget %**](finance-powerbi-kpi.md#variance-to-budget-)
+- [**Net Change**](finance-powerbi-kpis.md#net-change)
+- [**Budget Amount**](finance-powerbi-kpis.md#budget-amount)
+- [**Variance to Budget**](finance-powerbi-kpis.md#variance-to-budget)
+- [**Variance to Budget %**](finance-powerbi-kpis.md#variance-to-budget-)
 
 ## Data used in the report
 

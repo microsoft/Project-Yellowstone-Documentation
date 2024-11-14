@@ -33,7 +33,7 @@ As a finance manager, you use the Detailed Customer Ledger Entries report during
 
 The *Detailed Customer Ledger Entries* report includes the following KPIs and measures: 
 
-- [**Amount Receivable (LCY)**](finance-powerbi-kpi.md#amount-receivable-lcy)
+- [**Amount Receivable (LCY)**](finance-powerbi-kpis.md#amount-receivable-lcy)
 
 ## Data used in the report
 

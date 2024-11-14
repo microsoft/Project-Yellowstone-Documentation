@@ -31,7 +31,7 @@ As a finance manager, you could use the Detailed Vendor Ledger Entries report du
 
 The *Detailed Vendor Ledger Entries* report includes the following KPIs and measures: 
 
-- [**Amount Payable (LCY)**](finance-powerbi-kpi.md#amount-payable-lcy)
+- [**Amount Payable (LCY)**](finance-powerbi-kpis.md#amount-payable-lcy)
 
 ## Data used in the report
 

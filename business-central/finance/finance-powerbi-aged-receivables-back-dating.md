@@ -31,12 +31,12 @@ As a finance administrator, you would use the Aged Receivables (Back Dating) rep
 
 The *Aged Receivables (Back Dating)* report includes the following KPIs and measures: 
 
-- [**Balance (Accounts Receivable)**](finance-powerbi-kpi.md#balance-accounts-receivable)
-- [**Current (Receivables)**](finance-powerbi-kpi.md#current-receivables)
-- [**Bucket 1 (Receivables)**](finance-powerbi-kpi.md#bucket-1-receivables)
-- [**Bucket 2 (Receivables)**](finance-powerbi-kpi.md#bucket-2-receivables)
-- [**Bucket 3 (Receivables)**](finance-powerbi-kpi.md#bucket-3-receivables)
-- [**Bucket 4 (Receivables)**](finance-powerbi-kpi.md#bucket-4-receivables)
+- [**Balance (Accounts Receivable)**](finance-powerbi-kpis.md#balance-accounts-receivable)
+- [**Current (Receivables)**](finance-powerbi-kpis.md#current-receivables)
+- [**Bucket 1 (Receivables)**](finance-powerbi-kpis.md#bucket-1-receivables)
+- [**Bucket 2 (Receivables)**](finance-powerbi-kpis.md#bucket-2-receivables)
+- [**Bucket 3 (Receivables)**](finance-powerbi-kpis.md#bucket-3-receivables)
+- [**Bucket 4 (Receivables)**](finance-powerbi-kpis.md#bucket-4-receivables)
 
 ## Data used in the report
 

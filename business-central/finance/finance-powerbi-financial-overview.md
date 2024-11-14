@@ -36,13 +36,13 @@ The target audience for the *Finance Overview* report is
 
 The *Financial Overview* report includes the following KPIs and measures: 
 
-- [**Revenue**](finance-powerbi-kpi.md#revenue)
-- [**Net Profit**](finance-powerbi-kpi.md#net-profit)
-- [**Net Profit Margin**](finance-powerbi-kpi.md#net-profit-margin)
-- [**Assets**](finance-powerbi-kpi.md#assets)
-- [**Days Sales Outstanding**](finance-powerbi-kpi.md#days-sales-outstanding---dso)
-- [**Days Sales Of Inventory**](finance-powerbi-kpi.md#days-sales-of-inventory---dsi)
-- [**Days Payable Outstanding**](finance-powerbi-kpi.md#days-payable-outstanding---dpo)
+- [**Revenue**](finance-powerbi-kpis.md#revenue)
+- [**Net Profit**](finance-powerbi-kpis.md#net-profit)
+- [**Net Profit Margin**](finance-powerbi-kpis.md#net-profit-margin)
+- [**Assets**](finance-powerbi-kpis.md#assets)
+- [**Days Sales Outstanding**](finance-powerbi-kpis.md#days-sales-outstanding---dso)
+- [**Days Sales Of Inventory**](finance-powerbi-kpis.md#days-sales-of-inventory---dsi)
+- [**Days Payable Outstanding**](finance-powerbi-kpis.md#days-payable-outstanding---dpo)
 
 ## Data used in the report
 
