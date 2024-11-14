@@ -94,7 +94,7 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 ## Profit
 - [Actual Profit](#actual-profit)
 - [Actual Profit Margin %](#actual-profit-margin-)
-- Budget Profit
+- [Budget Profit](#budget-profit)
 - [Budget Profit Margin %](#budget-profit-margin-)
 
 ### Actual Profit
@@ -113,10 +113,18 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 **Data Sources**
 - Job Ledger Entry
 
+### Budget Profit
+**Formula**  
+*Budget Profit = - [Budget (Total Price)](#budget-total-price) - [Budget (Total Cost)](#budget-total-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
 ### Budget Profit Margin %
 
 **Formula**  
-*Budget Profit Margin % = Budget Profit / [Budget (Total Price)](#budget-total-price)*
+*Budget Profit Margin % = [Budget Profit](#budget-profit) / [Budget (Total Price)](#budget-total-price)*
 
 **Data Sources**
 - Job Ledger Entry
