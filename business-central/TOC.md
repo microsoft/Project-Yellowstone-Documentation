@@ -619,7 +619,7 @@ ms.service: dynamics-365-business-central
 ##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
 ##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
 ##### [Sales by Item](sales-powerbi-sales-by-item.md)
-##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
+##### [Sales KPI overview](sales-powerbi-kpis.md) 
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)

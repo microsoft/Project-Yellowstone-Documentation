@@ -31,7 +31,7 @@ The target audience for the *Sales Overview* report is
 
 As a CEO, you regularly monitor the organization's sales operations to ensure the business is meeting its goals and operating efficiently. To get a quick, high-level overview, you turn to the Power BI Sales Overview Report. 
 
-This report gives you key performance indicators such as the [No. of Outstanding Sales Orders](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders), [No. of Shipped Not Invoiced Sales Orders](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales), and [No. of Posted Sales Invoices](sales-powerbi-sales-kpis.md#no-of-posted-sales-invoices) along with their associated monetary values. 
+This report gives you key performance indicators such as the [No. of Outstanding Sales Orders](sales-powerbi-kpis.md#no-of-outstanding-sales-orders), [No. of Shipped Not Invoiced Sales Orders](sales-powerbi-kpis.md#no-of-shipped-not-invoiced-sales), and [No. of Posted Sales Invoices](sales-powerbi-kpis.md#no-of-posted-sales-invoices) along with their associated monetary values. 
 
 :::image type="content" source="media/sales/sales-overview-kpis.png" alt-text="Screenshot of the Sales Overview KPIs Power BI report" lightbox="media/sales/sales-overview-kpis.png":::
 
@@ -40,16 +40,16 @@ This report gives you key performance indicators such as the [No. of Outstanding
 
 The *Sales Overview* report includes the following KPIs and measures: 
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Outstanding Amount**](sales-powerbi-sales-kpis.md#outstanding-amount)
-- [**Shipped Not Invoiced Amount**](sales-powerbi-sales-kpis.md#shipped-not-invoiced-amount)
-- [**Invoiced Amount**](sales-powerbi-sales-kpis.md#invoiced-amount)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
-- [**No. of New Customers**](sales-powerbi-sales-kpis.md#no-of-new-customers)
-- [**No. of Outstanding Sales Orders**](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders)
-- [**No. of Shipped Not Invoiced Orders**](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales)
-- [**No. of Posted Sales Invoices**](sales-powerbi-sales-kpis.md#no-of-posted-sales-invoices)
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)
+- [**Outstanding Amount**](sales-powerbi-kpis.md#outstanding-amount)
+- [**Shipped Not Invoiced Amount**](sales-powerbi-kpis.md#shipped-not-invoiced-amount)
+- [**Invoiced Amount**](sales-powerbi-kpis.md#invoiced-amount)
+- [**Gross Profit**](sales-powerbi-kpis.md#gross-profit)
+- [**Gross Profit Margin**](sales-powerbi-kpis.md#gross-profit-margin)
+- [**No. of New Customers**](sales-powerbi-kpis.md#no-of-new-customers)
+- [**No. of Outstanding Sales Orders**](sales-powerbi-kpis.md#no-of-outstanding-sales-orders)
+- [**No. of Shipped Not Invoiced Orders**](sales-powerbi-kpis.md#no-of-shipped-not-invoiced-sales)
+- [**No. of Posted Sales Invoices**](sales-powerbi-kpis.md#no-of-posted-sales-invoices)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

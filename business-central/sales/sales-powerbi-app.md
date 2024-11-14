@@ -47,7 +47,7 @@ Next, you review the [Sales by Customer](sales-powerbi-sales-by-customer.md) rep
 :::image type="content" source="media/sales/sales-by-customer-matrix.png" alt-text="Screenshot of the Sales by Customer matrix" lightbox="media/sales/sales-by-customer-matrix.png":::
 
 
-Finally, you review the [Moving Averages](sales-powerbi-moving-average.md) report, which visualizes [Sales Amount](sales-powerbi-sales-kpis.md#sales-amount) and [Sales Amount Average 30D](sales-powerbi-sales-kpis.md#sales-amount-avg-30d-fiscal). The 30 day average smoothes out the sales trend for the year and provides more good news for the company. This report reveals that on average, sales were stable through the first half of the year and then increased through the second half of the year. 
+Finally, you review the [Moving Averages](sales-powerbi-moving-average.md) report, which visualizes [Sales Amount](sales-powerbi-kpis.md#sales-amount) and [Sales Amount Average 30D](sales-powerbi-kpis.md#sales-amount-avg-30d-fiscal). The 30 day average smoothes out the sales trend for the year and provides more good news for the company. This report reveals that on average, sales were stable through the first half of the year and then increased through the second half of the year. 
 
 :::image type="content" source="media/sales/30-Day-Moving-Average.png" alt-text="Screenshot from the Moving Average Power BI report" lightbox="media/sales/30-Day-Moving-Average.png":::
 

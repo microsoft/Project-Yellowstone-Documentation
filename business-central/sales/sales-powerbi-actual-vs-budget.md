@@ -34,14 +34,14 @@ As a salesperson, you can monitor the variance metrics to ensure that you are me
 
 The *Actual vs Budget* report includes the following KPIs and measures: 
 
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)  
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)  
-- [**Budget Quantity**](sales-powerbi-sales-kpis.md#budget-quantity)  
-- [**Budget Amount**](sales-powerbi-sales-kpis.md#budget-amount)  
-- [**Budget Amount Variance**](sales-powerbi-sales-kpis.md#budget-amount-variance)  
-- [**Budget Amount Variance %**](sales-powerbi-sales-kpis.md#budget-amount-variance-percent)  
-- [**Budget Quantity Variance**](sales-powerbi-sales-kpis.md#budget-quantity-variance)  
-- [**Budget Quantity Variance %**](sales-powerbi-sales-kpis.md#budget-quantity-variance-percent)  
+- [**Sales Quantity**](sales-powerbi-kpis.md#sales-quantity)  
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)  
+- [**Budget Quantity**](sales-powerbi-kpis.md#budget-quantity)  
+- [**Budget Amount**](sales-powerbi-kpis.md#budget-amount)  
+- [**Budget Amount Variance**](sales-powerbi-kpis.md#budget-amount-variance)  
+- [**Budget Amount Variance %**](sales-powerbi-kpis.md#budget-amount-variance-percent)  
+- [**Budget Quantity Variance**](sales-powerbi-kpis.md#budget-quantity-variance)  
+- [**Budget Quantity Variance %**](sales-powerbi-kpis.md#budget-quantity-variance-percent)  
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

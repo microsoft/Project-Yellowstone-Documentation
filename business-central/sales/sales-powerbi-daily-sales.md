@@ -37,11 +37,11 @@ As a sales manager, with this report you can identify which days are high perfor
 
 The *Daily Sales* report includes the following KPIs and measures: 
 
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Cost Amount**](sales-powerbi-sales-kpis.md#cost-amount)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
+- [**Sales Quantity**](sales-powerbi-kpis.md#sales-quantity)
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)
+- [**Cost Amount**](sales-powerbi-kpis.md#cost-amount)
+- [**Gross Profit**](sales-powerbi-kpis.md#gross-profit)
+- [**Gross Profit Margin**](sales-powerbi-kpis.md#gross-profit-margin)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

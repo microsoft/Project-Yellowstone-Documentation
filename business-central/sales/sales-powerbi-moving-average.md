@@ -36,8 +36,8 @@ As a sales department head, you want to identify which products are selling well
 
 The *Moving Average* report includes the following KPIs and measures: 
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Sales Amount Average 30D**](sales-powerbi-sales-kpis.md#sales-amount-avg-30d-fiscal)
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)
+- [**Sales Amount Average 30D**](sales-powerbi-kpis.md#sales-amount-avg-30d-fiscal)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 

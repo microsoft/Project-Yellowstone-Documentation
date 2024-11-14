@@ -28,7 +28,7 @@ The report will showcase the Sales Amount MAT and compare this against the MAT f
 
 The *Moving Annual Total (MAT)* report is meant for business leaders and managers to identify how the MAT is performing across the period.
 
-As a CEO, you can use the *Moving Annual Total* report to monitor the overall sales performance of your organization over the last 12 months. By analyzing the [Moving Annual Total (MAT)](sales-powerbi-sales-kpis.md#sales-amount-mat-fiscal) and [Previous Year Moving Annual Total (PYMAT)](sales-powerbi-sales-kpis.md#sales-amount-pymat-fiscal) figures, you can identify trends in sales growth and compare your organization's performance to the previous year. You can also use the [Moving Annual Total Growth Amount](sales-powerbi-sales-kpis.md#sales-amount-matg-fiscal) and [Growth %](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal) figures to identify periods that performed well or did not meet the growth expectation. 
+As a CEO, you can use the *Moving Annual Total* report to monitor the overall sales performance of your organization over the last 12 months. By analyzing the [Moving Annual Total (MAT)](sales-powerbi-kpis.md#sales-amount-mat-fiscal) and [Previous Year Moving Annual Total (PYMAT)](sales-powerbi-kpis.md#sales-amount-pymat-fiscal) figures, you can identify trends in sales growth and compare your organization's performance to the previous year. You can also use the [Moving Annual Total Growth Amount](sales-powerbi-kpis.md#sales-amount-matg-fiscal) and [Growth %](sales-powerbi-kpis.md#sales-amount-matg--fiscal) figures to identify periods that performed well or did not meet the growth expectation. 
 
 For instance, if you notice that your organization's sales growth has been stagnant or declining, you can use this information to develop a strategic plan that focuses on improving sales and increasing marketing efforts during these periods.
 
@@ -41,11 +41,11 @@ By using the monthly analysis, you can identify when the sales started to declin
 
 The *Moving Annual Total* report includes the following KPIs and measures: 
 
-- [**Moving Annual Total (MAT)**](sales-powerbi-sales-kpis.md#sales-amount-mat-fiscal)
-- [**Previous Year Moving Annual Total (PYMAT)**](sales-powerbi-sales-kpis.md#sales-amount-pymat-fiscal)
-- [**Moving Annual Total Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-matg-fiscal)
-- [**Moving Annual Total Growth %**](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal)
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
+- [**Moving Annual Total (MAT)**](sales-powerbi-kpis.md#sales-amount-mat-fiscal)
+- [**Previous Year Moving Annual Total (PYMAT)**](sales-powerbi-kpis.md#sales-amount-pymat-fiscal)
+- [**Moving Annual Total Growth Amount**](sales-powerbi-kpis.md#sales-amount-matg-fiscal)
+- [**Moving Annual Total Growth %**](sales-powerbi-kpis.md#sales-amount-matg--fiscal)
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

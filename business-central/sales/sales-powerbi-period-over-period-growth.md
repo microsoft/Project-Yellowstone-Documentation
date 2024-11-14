@@ -39,10 +39,10 @@ As a sales manager who oversees the day-to-day sales activities, the *Period-Ove
 
 The *Period-Over-Period Growth* report includes the following KPIs and measures: 
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Previous Period**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
-- [**Period-over-Period Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-pop-fiscal)
-- [**Period-over-Period Growth %**](sales-powerbi-sales-kpis.md#sales-amount-pop--fiscal)
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)
+- [**Previous Period**](sales-powerbi-kpis.md#sales-amount-pp-fiscal)
+- [**Period-over-Period Growth Amount**](sales-powerbi-kpis.md#sales-amount-pop-fiscal)
+- [**Period-over-Period Growth %**](sales-powerbi-kpis.md#sales-amount-pop--fiscal)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

@@ -37,9 +37,9 @@ As a sales manager, you can use the *Month-to-Date (MTD)* report to analyze and 
 
 The *Month-to-Date (MTD)* report includes the following KPIs and measures: 
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)  
-- [**Sales Amount MTD (Fiscal)**](sales-powerbi-sales-kpis.md#sales-amount-mtd-fiscal)
-- [**Gross Profit MTD (Fiscal)**](sales-powerbi-sales-kpis.md#gross-profit-mtd-fiscal)
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)  
+- [**Sales Amount MTD (Fiscal)**](sales-powerbi-kpis.md#sales-amount-mtd-fiscal)
+- [**Gross Profit MTD (Fiscal)**](sales-powerbi-kpis.md#gross-profit-mtd-fiscal)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

@@ -36,10 +36,10 @@ For example, if you notice that a particular customer is contributing a signific
 
 The *Sales by Salesperson* report includes the following KPIs and measures: 
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
+- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)
+- [**Sales Quantity**](sales-powerbi-kpis.md#sales-quantity)
+- [**Gross Profit**](sales-powerbi-kpis.md#gross-profit)
+- [**Gross Profit Margin**](sales-powerbi-kpis.md#gross-profit-margin)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
