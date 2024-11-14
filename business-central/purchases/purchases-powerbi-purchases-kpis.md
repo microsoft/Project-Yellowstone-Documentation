@@ -24,20 +24,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 ---
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-- [Budget Measures](#budget-measures) 
-- [Counters](#counters)
-- [Purchase Measures](#purchase-measures)
-- [Invoiced](#invoiced)
-- [Outstanding](#outstanding)
-- [Received Not Invoiced](#received-not-invoiced)
-- [Time Intelligence](#time-intelligence)
-- [Purchase Amount Moving Annual Total](#purchase-amount-moving-annual-total)
-- [Purchase Amount Moving Averages](#purchase-amount-moving-averages)
-- [Purchase Amount Period-over-Period Growth](#purchase-amount-period-over-period-growth)
-- [Budget Amount Moving Annual Total](#budget-amount-moving-annual-total)
-- [Budget Amount Moving Averages](#budget-amount-moving-averages)
-- [Gross Totals](#gross-totals)
-
 ## Budget Measures
 - [Budget Amount](#budget-amount)
 - [Budget Amount Variance](#budget-amount-variance)
