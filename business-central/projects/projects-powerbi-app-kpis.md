@@ -27,11 +27,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 ## Project Measures
 - [% Invoiced](#-invoiced)
 - [% Complete](#-complete)
-- Duration (Days)
+- [Duration (Days)](#duration-days)
 - [Project Count](#project-count)
 - [Realization %](#realization-)
 - [Realization Variance](#realization-variance)
-- Task Count
+- [Tasks Count](#tasks-count)
 
 ### % Invoiced
 
@@ -50,6 +50,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Job Ledger Entry
 - Job Planning Line
+
+### Duration (Days)
+
+**Formula**  
+The Duration (Days) measure calculates the number of days between the earliest starting date and latest ending date for a given project in the Project table.
+  
+**Data Sources**
+- Job
 
 ### Project Count
 **Formula**  
@@ -74,6 +82,14 @@ The Project Count measure counts the total number of projects in the Project tab
 **Data Sources**
 - Job Ledger Entry
 - Job Planning Line
+
+### Tasks Count
+
+**Formula**  
+The Tasks Count measure counts the number of rows in the Tasks table that where the Project Task Type has a value of "Posting".
+
+**Data Sources**
+- Job Task
 
 ## Profit
 - [Actual Profit](#actual-profit)
