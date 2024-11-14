@@ -31,11 +31,11 @@ As a production supervisor, you can use this report to monitor the production ti
 
 The *Average Production Times* report includes the following KPIs and measures: 
 
-- [Setup Time per Unit (Hours)](manufacturing-powerbi-manufacturing-kpis.md#setup-time-per-unit-hours)
-- [Run Time per Unit (Hours)](manufacturing-powerbi-manufacturing-kpis.md#run-time-per-unit-hours)
-- [Stop Time per Unit (Hours)](manufacturing-powerbi-manufacturing-kpis.md#stop-time-per-unit-hours)
-- [Capacity Used per Unit (Hours)](manufacturing-powerbi-manufacturing-kpis.md#capacity-used-per-unit-hours)
-- [Finished Quantity (Base)](manufacturing-powerbi-manufacturing-kpis.md#finished-quantity-base)
+- [Setup Time per Unit (Hours)](manufacturing-powerbi-kpis.md#setup-time-per-unit-hours)
+- [Run Time per Unit (Hours)](manufacturing-powerbi-kpis.md#run-time-per-unit-hours)
+- [Stop Time per Unit (Hours)](manufacturing-powerbi-kpis.md#stop-time-per-unit-hours)
+- [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
+- [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
 
 ## Data used in the report
 
