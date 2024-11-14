@@ -20,6 +20,25 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
+## Assembly Header Measures
+- [Qty. on Assembly Order](#qty-on-assembly-order)
+
+### Qty. on Assembly Order
+**Formula**  
+- This measure shows how many items are yet to be assembled for assembly orders by summing up the remaining quantity of items on all assembly headers.
+
+**Data Sources**
+- Assembly Header
+
+## Assembly Line Measures
+- [Qty. on Asm. Component](#qty-on-asm-component)  
+
+### Qty. on Asm. Component
+**Formula**  
+- This measure shows how many items are yet to be assembled for a finished product by summing up the remaining quantity of items on all assembly lines.
+
+**Data Sources**
+- Assembly Line
 
 ## Bins Measures
 - [ATO Components Pick Qty.](#ato-components-pick-qty)  
@@ -85,11 +104,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 
 ## Items Availability Measures
-- [Gross Requirement](#gross-requirement)  
+- [Gross Requirement](#gross-requirement)
+- [Planned Order Receipt](#planned-order-receipt)  
+- [Planned Order Releases](#planned-order-releases)    
 - [Projected Available Balance](#projected-available-balance)
 - [Scheduled Receipt](#scheduled-receipt)
-- [Planned Order Receipt](#planned-order-receipt)  
-- [Planned Order Releases](#planned-order-releases)  
 
 ### Gross Requirement
 **Formula**  
@@ -106,6 +125,27 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Prod. Order Component
 - Planning Component
 - Assembly Line
+
+### Planned Order Receipt
+**Formula**  
+- This measure shows the total quantity of items that are planned to be received by the company through planned orders and purchase requisitions.
+
+  *Planned Order Receipt = Planned Order Receipt (Qty.) + Purch. Req. Receipt (Qty.)*
+
+**Data Sources**
+- Production Order Line
+- Requisition Line
+
+### Planned Order Releases
+**Formula**  
+- This measure shows the total quantity of items that are planned to be released through planned orders and purchase requisitions.
+
+  *Planned Order Releases = Planned Order Release (Qty.) + Purch. Req. Release (Qty.)*
+
+**Data Sources**
+- Production Order Line
+- Requisition Line
+
 
 ### Projected Available Balance
 **Formula**  
@@ -139,25 +179,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Assembly Header
 - Production Order Line
 
-### Planned Order Receipt
-**Formula**  
-- This measure shows the total quantity of items that are planned to be received by the company through planned orders and purchase requisitions.
-
-  *Planned Order Receipt = Planned Order Receipt (Qty.) + Purch. Req. Receipt (Qty.)*
-
-**Data Sources**
-- Production Order Line
-- Requisition Line
-
-### Planned Order Releases
-**Formula**  
-- This measure shows the total quantity of items that are planned to be released through planned orders and purchase requisitions.
-
-  *Planned Order Releases = Planned Order Release (Qty.) + Purch. Req. Release (Qty.)*
-
-**Data Sources**
-- Production Order Line
-- Requisition Line
 
 ## Sales Line Measures
 - [Qty. on Sales Order](#qty-on-sales-order)
@@ -272,25 +293,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Planning Component
 
-## Assembly Header Measures
-- [Qty. on Assembly Order](#qty-on-assembly-order)
-
-### Qty. on Assembly Order
-**Formula**  
-- This measure shows how many items are yet to be assembled for assembly orders by summing up the remaining quantity of items on all assembly headers.
-
-**Data Sources**
-- Assembly Header
-
-## Assembly Line Measures
-- [Qty. on Asm. Component](#qty-on-asm-component)  
-
-### Qty. on Asm. Component
-**Formula**  
-- This measure shows how many items are yet to be assembled for a finished product by summing up the remaining quantity of items on all assembly lines.
-
-**Data Sources**
-- Assembly Line
 
 ## Production Order Line Measures
 - [FP Order Receipt (Qty.)](#fp-order-receipt-qty)  
