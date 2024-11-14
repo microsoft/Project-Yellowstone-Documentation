@@ -31,6 +31,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Outstanding](#outstanding)
 - [Received Not Invoiced](#received-not-invoiced)
 - [Time Intelligence](#time-intelligence)
+- [Purchase Amount Moving Annual Total](#purchase-amount-moving-annual-total)
+- [Purchase Amount Moving Averages](#purchase-amount-moving-averages)
+- [Purchase Amount Period-over-Period Growth](#purchase-amount-period-over-period-growth)
+- [Budget Amount Moving Annual Total](#budget-amount-moving-annual-total)
+- [Budget Amount Moving Averages](#budget-amount-moving-averages)
 - [Gross Totals](#gross-totals)
 
 ## Budget Measures
@@ -220,17 +225,11 @@ The Quantity Rcd. Not Invd. measure calculates the sum of Purchase Qty. (Base) c
 **Data Sources**
 - Purchase Line
 
-## Time Intelligence
+## Purchase Amount Moving Annual Total
 - [Purchase Amount MAT (Fiscal)](#purchase-amount-mat-fiscal)  
 - [Purchase Amount PYMAT (Fiscal)](#purchase-amount-pymat-fiscal)  
 - [Purchase Amount MATG (Fiscal)](#purchase-amount-matg-fiscal)  
 - [Purchase Amount MATG % (Fiscal)](#purchase-amount-matg--fiscal)
-- [Purchase Amount AVG 30D (Fiscal)](#purchase-amount-avg-30d-fiscal)  
-- [Purchase Amount PP (Fiscal)](#purchase-amount-pp-fiscal)  
-- [Purchase Amount PY (Fiscal)](#purchase-amount-py-fiscal)  
-- [Purchase Amount POP (Fiscal)](#purchase-amount-pop-fiscal)  
-- [Purchase Amount POP % (Fiscal)](#purchase-amount-pop--fiscal)  
-- [Purchase Amount YOY (Fiscal)](#purchase-amount-yoy-fiscal)  
 
 ### Purchase Amount MAT (Fiscal)
 
@@ -272,8 +271,11 @@ The Purchase Amount MATG (Fiscal) measure compares the current period's moving a
 - Purchase Line
 - Date (Fiscal Calendar)
 
----
+## Purchase Amount Moving Averages
+- [Purchase Amount AVG 30D (Fiscal)](#purchase-amount-avg-30d-fiscal)  
+
 ### Purchase Amount AVG 30D (Fiscal)
+
 **Formula**  
 The Purchase Amount AVG 30D (Fiscal) measure calculates the average purchase amount for the past 30 days.
   
@@ -282,7 +284,15 @@ The Purchase Amount AVG 30D (Fiscal) measure calculates the average purchase amo
 - Purchase Line
 - Date (Fiscal Calendar)
 
+## Purchase Amount Period-over-Period Growth
+- [Purchase Amount PP (Fiscal)](#purchase-amount-pp-fiscal)  
+- [Purchase Amount PY (Fiscal)](#purchase-amount-py-fiscal)  
+- [Purchase Amount POP (Fiscal)](#purchase-amount-pop-fiscal)  
+- [Purchase Amount POP % (Fiscal)](#purchase-amount-pop--fiscal)  
+- [Purchase Amount YOY (Fiscal)](#purchase-amount-yoy-fiscal)  
+
 ### Purchase Amount PP (Fiscal)
+
 **Formula**  
 The Purchase Amount PP (Fiscal) measure calculates the purchase amount in the previous period. The period is based on the date range you select. For example, if you select a month, the measure will show the purchase amount in the previous month.
 
@@ -292,6 +302,7 @@ The Purchase Amount PP (Fiscal) measure calculates the purchase amount in the pr
 - Date (Fiscal Calendar)
 
 ### Purchase Amount PY (Fiscal)
+
 **Formula**  
 The Purchase Amount PY (Fiscal) measure calculates the purchase amount in the previous year.
 
@@ -299,7 +310,6 @@ The Purchase Amount PY (Fiscal) measure calculates the purchase amount in the pr
 - Value Entry
 - Purchase Line
 - Date (Fiscal Calendar)
-
 
 ### Purchase Amount POP (Fiscal)
 
@@ -331,11 +341,89 @@ The Purchase Amount YOY (Fiscal) measure shows the purchase amount of a specific
 - Purchase Line
 - Date (Fiscal Calendar)
 
+## Budget Amount Moving Annual Total
+- [Budget Amount MAT (Fiscal)](#budget-amount-mat-fiscal)
+- [Budget Amount MATG (Fiscal)](#budget-amount-matg-fiscal)
+- [Budget Amount MATG % (Fiscal)](#budget-amount-matg--fiscal)
+- [Budget Amount PYMAT (Fiscal)](#budget-amount-pymat-fiscal)
+
+### Budget Amount MAT (Fiscal)
+
+**Formula**  
+The Budget Amount MAT (Fiscal) measure calculates the purchases for the last 12 months (moving annual total) using the fiscal calendar by summing up the purchases between the calculated first and last days of the 365-day period.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+### Budget Amount MATG (Fiscal)
+
+**Formula**  
+The Budget Amount MATG (Fiscal) measure compares the current period's moving annual total purchases to the previous period's moving annual total purchases. If both values are not blank, it subtracts the previous period's purchases from the current period's purchases to determine the growth. The result is returned, representing the change in purchases between the two periods.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+### Budget Amount MATG % (Fiscal)
+
+**Formula**  
+*Budget Amount MATG % (Fiscal) = [Budget Amount MATG (Fiscal)](#budget-amount-matg-fiscal) / [Budget Amount PYMAT (Fiscal)](#budget-amount-pymat-fiscal)* 
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+### Budget Amount PYMAT (Fiscal)
+
+**Formula**  
+The Budget Amount PYMAT (Fiscal) measure calculates the previous year moving annual total (PYMAT) of the Budget Amount by subtracting one year from the current date.
+
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+## Budget Amount Moving Averages
+- [Budget Amount AVG 1Y (Fiscal)](#budget-amount-avg-1y-fiscal)
+- [Budget Amount AVG 30D (Fiscal)](#budget-amount-avg-30d-fiscal)
+- [Budget Amount AVG 3M (Fiscal)](#budget-amount-avg-30m-fiscal)
+
+### Budget Amount AVG 1Y (Fiscal)
+
+**Formula**  
+The Budget Amount AVG 1Y (Fiscal) measure calculates the average budet amount for the past year.
+  
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+### Budget Amount AVG 30D (Fiscal)
+**Formula**  
+The Budget Amount AVG 30D (Fiscal) measure calculates the average budet amount for the past 30 days.
+  
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
+### Budget Amount AVG 3M (Fiscal)
+**Formula**  
+The Budget Amount AVG 3M (Fiscal) measure calculates the average budet amount for the past 3 months.
+  
+**Data Sources**
+- Value Entry
+- Purchase Line
+- Date (Fiscal Calendar)
+
 ## Gross Totals
 - [% GT Purchase Amount](#-gt-purchase-amount)
 - [% GT Purchase Quantity](#-gt-purchase-quantity)
 - [% GT Purchase Amount PY (Fiscal)](#-gt-purchase-amount-py-fiscal)  
-
 
 ### % GT Purchase Amount
 
@@ -366,92 +454,6 @@ The Purchase Amount YOY (Fiscal) measure shows the purchase amount of a specific
 - Value Entry
 - Purchase Line
 - Date (Fiscal Calendar)
-
-**Moving Annual Total Growth**
-- [Budget Amount MAT (Fiscal)](#budget-amount-mat-fiscal)
-- [Budget Amount MATG (Fiscal)](#budget-amount-matg-fiscal)
-- [Budget Amount MATG % (Fiscal)](#budget-amount-matg--fiscal)
-- [Budget Amount PYMAT (Fiscal)](#budget-amount-pymat-fiscal)
-
-**Moving Averages**
-- [Budget Amount AVG 1Y (Fiscal)](#budget-amount-avg-1y-fiscal)
-- [Budget Amount AVG 30D (Fiscal)](#budget-amount-avg-30d-fiscal)
-- [Budget Amount AVG 3M (Fiscal)](#budget-amount-avg-30m-fiscal)
-
-
-
----
-### Budget Amount MAT (Fiscal)
-**Formula**  
-- This measure calculates the purchases for the last 12 months (moving annual total) using the fiscal calendar by summing up the purchases between the calculated first and last days of the 365-day period.
-
-**Data Sources**
-- Value Entry
-- Purchase Line
-- Date (Fiscal Calendar)
-
----
-### Budget Amount MATG (Fiscal)
-**Formula**  
-- This measure compares the current period's moving annual total purchases to the previous period's moving annual total purchases. If both values are not blank, it subtracts the previous period's purchases from the current period's purchases to determine the growth. The result is returned, representing the change in purchases between the two periods.
-
-**Data Sources**
-- Value Entry
-- Purchase Line
-- Date (Fiscal Calendar)
-
----
-### Budget Amount MATG % (Fiscal)
-**Formula**  
-- *Budget Amount MATG % (Fiscal) = [Budget Amount MATG (Fiscal)](#budget-amount-matg-fiscal) / [Budget Amount PYMAT (Fiscal)](#budget-amount-pymat-fiscal)* 
-
-**Data Sources**
-- Value Entry
-- Purchase Line
-- Date (Fiscal Calendar)
-
----
-### Budget Amount PYMAT (Fiscal)
-**Formula**  
-- This measure calculates the previous year moving annual total (PYMAT) of the Budget Amount by subtracting one year from the current date.
-
-**Data Sources**
-- Value Entry
-- Purchase Line
-- Date (Fiscal Calendar)
-
----
-### Budget Amount AVG 1Y (Fiscal)
-**Formula**  
-- This measure calculates the average budet amount for the past year.
-  
-**Data Sources**
-- Value Entry
-- Purchase Line
-- Date (Fiscal Calendar)
-
----
-### Budget Amount AVG 30D (Fiscal)
-**Formula**  
-- This measure calculates the average budet amount for the past 30 days.
-  
-**Data Sources**
-- Value Entry
-- Purchase Line
-- Date (Fiscal Calendar)
-
----
-### Budget Amount AVG 3M (Fiscal)
-**Formula**  
-- This measure calculates the average budet amount for the past 3 months.
-  
-**Data Sources**
-- Value Entry
-- Purchase Line
-- Date (Fiscal Calendar)
-
----
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
 ## See also
