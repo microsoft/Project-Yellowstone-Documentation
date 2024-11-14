@@ -226,20 +226,28 @@ The Material Usage (Total Cost) measure calculates the total cost of all project
 
 
 ## Planning Line Measures
-- Billable (Total Cost)
+- [Billable (Total Cost)](#billable-total-cost)
 - [Billable (Total Price)](#billable-total-price)
 - [Budget (Total Cost)](#budget-total-cost)
 - [Budget (Total Price)](#budget-total-price)
-- Planning Line Quantity
-- Planning Line Total Cost (LCY)
-- Planning Line Total Price (LCY)
+- [Planning Line Quantity](#planning-line-quantity)
+- [Planning Line Total Cost (LCY)](#planning-line-total-cost-lcy)
+- [Planning Line Total Price (LCY)](#planning-line-total-price-lcy)
 - [Total Cost Variance to Budget](#total-cost-variance-to-budget)
 - [Total Cost Variance to Budget %](#total-cost-variance-to-budget-)
+
+### Billable (Total Cost)
+
+**Formula**  
+The Billable (Total Cost) measure calculates the total cost (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
+  
+**Data Sources**
+- Job Planning Line
 
 ### Billable (Total Price)
 
 **Formula**  
-The Billable (Total Price) measure shows the total billable amount of project planning lines by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Billable" or "Both Budget and Billable", which indicates that the line is billable.
+The Billable (Total Price) measure calculates the total price (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
   
 **Data Sources**
 - Job Planning Line
@@ -256,6 +264,38 @@ The Budget (Total Cost) measure represents the budgeted cost of resources to be 
 
 **Formula**  
 The Budget (Total Price) measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
+
+**Data Sources**
+- Job Planning Line
+
+### Planning Line Quantity
+
+**Formula**  
+The Planning Line Quantity measure calculates the sum of the quantity column in the Project Planning Line table.
+
+**Data Sources**
+- Job Planning Line
+
+### Planning Line Quantity
+
+**Formula**  
+The Planning Line Quantity measure calculates the sum of the quantity column in the Project Planning Line table.
+
+**Data Sources**
+- Job Planning Line
+
+### Planning Line Total Cost (LCY)
+
+**Formula**  
+The Planning Line Total Cost (LCY) measure calculates the total cost of all project planning lines in the Project Planning Line table. It uses the SUMX function to iterate over each row in the table and multiply the quantity and unit cost (in local currency) columns for each row. The results of each multiplication are then summed up to produce the total cost.
+
+**Data Sources**
+- Job Planning Line
+
+### Planning Line Total Price (LCY)
+
+**Formula**  
+The Planning Line Total Price (LCY) measure calculates the total price of all project planning lines in the Project Planning Line table. It uses the SUMX function to iterate over each row in the table and multiply the quantity and unit price (in local currency) columns for each row. The results of each multiplication are then summed up to produce the total price.
 
 **Data Sources**
 - Job Planning Line
