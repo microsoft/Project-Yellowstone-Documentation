@@ -31,7 +31,7 @@ As a production supervisor, you can use this report to monitor the performance o
 
 The *Capacity Variance* report includes the following KPIs and measures: 
 
-- [Capacity Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#capacity-cost-amt-deviation-)
+- [Capacity Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#capacity-cost-amt-deviation)
 - [Expected Capacity Cost Amount](manufacturing-powerbi-kpis.md#expected-capacity-cost-amount)
 - [Capacity Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#capacity-cost-amt-actual)
 - [Capacity Cost Amt. Variance](manufacturing-powerbi-kpis.md#capacity-cost-amt-variance)
