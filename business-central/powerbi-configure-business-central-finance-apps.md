@@ -45,19 +45,21 @@ In this article, you learn how to configure the Power BI finance app for Busines
 ## Prerequisites
 
 Before configuring the Power BI finance app for Business Central, you must have:
-
-1. The **PowerBI Reports** app installed in Business Central:
-   - This app provides the APIs for data access, configuration pages, and embed pages. Make sure that the app is installed in your environment.
-2. The **Business Central Finance Power BI app** installed in your Power BI Service: 
-   - This app provides the semantic model and reports. Make sure that the app is installed in your Power BI workspace.
+1. The **PowerBI Reports** app installed in your environment:
+   - This app provides the APIs for data access, configuration pages, and embed pages.
+2. The **Business Central Finance Power BI app** (*Dynamics 365 Business Central Finance Reports*) installed in your [Power BI Service](https://app.powerbi.com): 
+   - This app provides the semantic model and reports.
+3. Completed the **Connect to Power BI** assisted setup guide.
 
 For more information, see [Install Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
 
 
+## Configure date filtering for the Finance App (semantic model)
 
-## Configure date filtering for the Finance Connector
+> [!NOTE]
+> Configuring date filtering for the Finance App is optional and is designed to help manage large datasets.
 
-This section describes how to configure the date filtering for the Finance Connector app. The Finance Report can be configured to load data based on the **Start Date** and **End Date**. This filter helps improve performance of your Business Central environment and reduce Power BI load times by only loading the data you intend to analyze.
+This section describes how to configure the date filtering for the Finance App. The Finance App can be configured to load data based on the **Start Date** and **End Date**. This filter helps improve performance of your Business Central environment and reduce Power BI load times by only loading the data you intend to analyze.
 
 The **Start Date** and **End Date** can be applied to the following tables:
 - G/L Entries (related to the Income Statement)
@@ -65,16 +67,16 @@ The **Start Date** and **End Date** can be applied to the following tables:
 - Customer Ledger Entries
 - Vendor Ledger Entries
 
-
 ### Setup Procedure
-1. Search and open the **Setup for Power BI Connector** page.
+1. Search and open the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
 2. Expand the **Finance Report** section in this page.
 3. Set **Start Date** and **End Date** under the **Income Statement & G/L Budget Entry Filters** group.
 
 Repeat steps 2-3 for the date setup under **Customer Ledger Entry Filters** and **Vendor Ledger Entry Filters**.
 
+![alt text](image.png)
 
-The following fields are available on the **Setup for Power BI Connector** page:
+The following fields are available under the **Finance Report** fast tab:
 
 
 |No.| Data Area                           | Field Name      | Description                                                                                               |
