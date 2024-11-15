@@ -93,7 +93,13 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Data Sources**
 - Warehouse Activity Line
 
+### Quantity in Adjustment Bin
+**Formula**
+- This measure calculates the total quantity located in bins that are marked as adjustment bins. It first identifies the bins flagged as adjustment bins by creating a filtered table (AdjustmentBins). Then, it sums the Qty. (Base) values from the Warehouse Entries table, applying this filter to include only adjustment bins. The measure ensures the quantity reflects only the specified adjustment bins by removing other bin filters.
 
+**Data Sources**
+- Warehouse Entry
+- Location
 
 ### Warehouse Quantity
 **Formula**  
