@@ -45,7 +45,7 @@ The *Inventory Overview* report includes the following KPIs:
 - [**Qty. on Prod. Order Comp Lines**](inventory-powerbi-kpis.md#qty-on-prod-order-comp-lines)
 - [**Trans Order Shipment**](inventory-powerbi-kpis.md#trans-order-shipment-qty)
 - [**Planning Issues**](inventory-powerbi-kpis.md#planning-issues-qty)
-- [**Qty. on Asm. Component**](inventory-powerbi-kpis.md#planning-issues-qty)
+- [**Qty. on Asm. Component**](inventory-powerbi-kpis.md#qty-on-asm-component)
 - [**FP Order Receipt (Qty.)**](inventory-powerbi-kpis.md#fp-order-receipt-qty)
 - [**Rel. Order Receipt (Qty.)**](inventory-powerbi-kpis.md#rel-order-receipt-qty)
 - [**Qty. on Purch. Order**](inventory-powerbi-kpis.md#qty-on-purch-order)
