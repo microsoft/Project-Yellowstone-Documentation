@@ -37,8 +37,8 @@ The *Inventory Valuation by Location* report includes the following KPIs:
 - [**Ending Balance Posted to G/L**](inventory-valuation-powerbi-kpis.md#ending-balance-posted-to-gl)
 - [**Variance**](inventory-valuation-powerbi-kpis.md#variance)
 - [**Invoiced Quantity**](inventory-valuation-powerbi-kpis.md#invoiced-quantity)
-- [**Increases Quantity**](inventory-valuation-powerbi-kpis.md#increases-quantity)
-- [**Decreases Quantity**](inventory-valuation-powerbi-kpis.md#decreases-quantity)
+- [**Increases Quantity**](inventory-valuation-powerbi-kpis.md#increases-qty)
+- [**Decreases Quantity**](inventory-valuation-powerbi-kpis.md#decreases-qty)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
 
