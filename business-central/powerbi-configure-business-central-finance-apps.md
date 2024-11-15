@@ -46,9 +46,9 @@ In this article, you learn how to configure the Power BI finance app for Busines
 
 Before configuring the Power BI finance app for Business Central, you must have:
 
-1. The **PowerBI Reports** extension in Business Central:
+1. The **PowerBI Reports** app installed in Business Central:
    - This app provides the APIs for data access, configuration pages, and embed pages. Make sure that the app is installed in your environment.
-2. The Finance Power BI app: 
+2. The **Business Central Finance Power BI app** installed in your Power BI Service: 
    - This app provides the semantic model and reports. Make sure that the app is installed in your Power BI workspace.
 
 For more information, see [Install Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
