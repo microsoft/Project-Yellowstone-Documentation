@@ -31,10 +31,14 @@ As a purchasing manager, you can use this report to identify areas where your or
 
 The *Purchases Overview* report includes the following KPIs and measures: 
 
-- [**Total Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
 - [**Outstanding Amount (excluding VAT)**](purchases-powerbi-kpis.md#outstanding-amount-excl-vat)
 - [**Amount Received but Not Invoiced (excluding VAT)**](purchases-powerbi-kpis.md#amt-rcd-not-invd-excl-vat)
 - [**Invoiced Amount**](purchases-powerbi-kpis.md#invoiced-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**No. of Outstanding Purchase Orders**](purchases-powerbi-kpis.md#no-of-outstanding-purchase-orders)
+- [**No. of Received Not Invd. Purchase Orders**](purchases-powerbi-kpis.md#no-of-received-not-invd-purchase-orders)
+- [**No. of Purchase Invoices**](purchases-powerbi-kpis.md#no-of-purchase-invoices)
 
 ## Data used in the report
 
