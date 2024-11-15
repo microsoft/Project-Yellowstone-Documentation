@@ -36,6 +36,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - [Days Sales Outstanding - DSO](#days-sales-outstanding---dso)  
 - [Degree Of Operating Leverage - DOL](#degree-of-operating-leverage---dol)  
 - [Inventory Turnover](#inventory-turnover)  
+- [No. of Days](#no-of-days)
 
 
 ### % Change in Operating Profit - EBIT
@@ -64,7 +65,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 
 ### Average Collection Period (Days) 
 **Formula**  
-( `[No. of Days]` * [Accounts Receivable (Average)](#accounts-receivable-average) ) / [Revenue](#revenue)
+( [No. of Days](#no-of-days) * [Accounts Receivable (Average)](#accounts-receivable-average) ) / [Revenue](#revenue)
 
 **Data Sources**
 - Date
@@ -81,7 +82,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 
 ### Days Payable Outstanding - DPO 
 **Formula**  
- ( [Accounts Payable](#accounts-payable) / [Cost of Goods Sold](#cost-of-goods-sold) ) * `[No. of Days]`
+ ( [Accounts Payable](#accounts-payable) / [Cost of Goods Sold](#cost-of-goods-sold) ) * [No. of Days](#no-of-days)
 
 **Data Sources**
 - Date
@@ -91,7 +92,7 @@ Each KPI and measure is described, including how it is calculated and what data 
  
 ### Days Sales Of Inventory - DSI 
 **Formula**  
-( [Inventory](#inventory) / [Cost of Goods Sold](#cost-of-goods-sold) ) * `[No. of Days]`
+( [Inventory](#inventory) / [Cost of Goods Sold](#cost-of-goods-sold) ) * [No. of Days](#no-of-days)
 
 **Data Sources**
 - Date
@@ -100,7 +101,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 
 ### Days Sales Outstanding - DSO 
 **Formula**  
- ( [Accounts Receivable](#accounts-receivable) / [Revenue](#revenue) ) * `[No. of Days]`
+ ( [Accounts Receivable](#accounts-receivable) / [Revenue](#revenue) ) * [No. of Days](#no-of-days)
 
 **Data Sources**
 - Date
@@ -122,6 +123,15 @@ Each KPI and measure is described, including how it is calculated and what data 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
+
+### No. of Days
+**Formula**
+
+The No. of Days measure calculates the total number of days within a selected period by counting the rows between the earliest (MIN) and latest (MAX) dates in the Date table. This measure provides a count of days for the specified date range in the context.
+
+**Date Sources**
+- Date
+
 ## Balance Sheet Measures
 
 - [Accounts Payable](#accounts-payable)   
