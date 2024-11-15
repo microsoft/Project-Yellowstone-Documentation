@@ -34,11 +34,11 @@ The *Finished Production Order Breakdown* report includes the following KPIs and
 - [Expected Quantity (Base)](manufacturing-powerbi-kpis.md#expected-quantity-base)
 - [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
 - [Qty. Variance](manufacturing-powerbi-kpis.md#qty-variance)
-- [Qty. Deviation %](manufacturing-powerbi-kpis.md#qty-deviation-)
-- [Expected Cost Amt.](manufacturing-powerbi-kpis.md#cost-amt-variance)
+- [Qty. Deviation %](manufacturing-powerbi-kpis.md#qty-deviation)
+- [Expected Cost Amt.](manufacturing-powerbi-kpis.md#expected-cost-amt)
 - [Finished Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#finished-cost-amt-actual)
 - [Cost Amt. Variance](manufacturing-powerbi-kpis.md#cost-amt-variance)
-- [Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#cost-amt-deviation-)
+- [Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#cost-amt-deviation)
 - [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
 
 
