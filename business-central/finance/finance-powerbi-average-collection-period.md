@@ -33,7 +33,7 @@ As an executive or finance manager, you could use this report to monitor and tra
 The *Average Collection Period* report includes the following KPIs and measures: 
 
 - [**Average Collection Period (Days)**](finance-powerbi-kpis.md#average-collection-period-days)
-- [**No. of Days**](finance-powerbi-kpis.md#no)
+- [**No. of Days**](finance-powerbi-kpis.md#no-of-days)
 - [**Revenue**](finance-powerbi-kpis.md#revenue)
 - [**Accounts Receivable (Average)**](finance-powerbi-kpis.md#accounts-receivable-average)
 
