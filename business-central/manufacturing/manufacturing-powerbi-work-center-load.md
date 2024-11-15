@@ -31,7 +31,7 @@ As a production supervisor, you can use this report to monitor the work center l
 
 The *Work Center Load* report includes the following KPIs and measures: 
 
-- [Load %](manufacturing-powerbi-kpis.md#load-)
+- [Load %](manufacturing-powerbi-kpis.md#load)
 - [Allocated Time (Hours)](manufacturing-powerbi-kpis.md#allocated-time-hours)
 - [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
 
