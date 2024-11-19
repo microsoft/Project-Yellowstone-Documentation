@@ -153,7 +153,7 @@ This standard configuration is the default mapping of the corresponding paramete
 ### Level 1 Categories
 Level 1 categories are the top-level categories without any indentation.
 
-| Parameter                                 | Business Central Category |
+| Power BI Account Category                                 | Business Central Category |
 | ---                                       | ---                       |
 | Assets (Level 1 Category)                 | Assets                    |
 | Liabilities (Level 1 Category)            | Liabilities               |
@@ -166,7 +166,7 @@ Level 1 categories are the top-level categories without any indentation.
 ### Level 2 Categories
 Level 2 categories are the second-level categories with indentation.
 
-| Parameter                                        	| Business Central Category     	   |
+| Power BI Account Category                                         	| Business Central Category     	   |
 |---	                                                |---	                              |
 | Current Assets (Level 2 Category)                	| Current Assets                	   |
 | Current Liabilities (Level 2 Category)           	| Current Liabilities           	   |
@@ -187,7 +187,7 @@ Level 2 categories are the second-level categories with indentation.
 ### Level 3 Categories
 Level 3 categories are the subcategories of Level 2 with indentation.
 
-| Parameter                                 | Business Central Category |
+| Power BI Account Category                                  | Business Central Category |
 | ---                                       | ---                       |
 | Inventory (Level 3 Category)              | Inventory                 |
 | Accounts Payable (Level 3 Category)       | Accounts Payable          |
