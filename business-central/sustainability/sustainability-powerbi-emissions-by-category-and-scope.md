@@ -12,3 +12,39 @@ ms.service: dynamics-365-business-central
 ---
 
 # Emissions by Category and Scope (Power BI Report)
+
+The *Emissions by Category and Scope*....
+
+:::image type="content" source="media/sustainability/co2e-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/co2e-analysis.png":::
+
+
+## How to use the report
+
+
+
+## Key Performance Indicators (KPIs)
+
+The *Emissions by Category and Scope* report includes the following KPIs and measures: 
+
+- [**Metric One**](sustainability-powerbi-kpis.md#metric-one)
+
+
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+
+## Data used in the report
+
+The *Emissions by Category and Scope* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+- Sustainability Ledger Entry
+- Sustainability Account Category
+
+## Try the report
+
+Try the report here: [Emissions by Category and Scope](https://businesscentral.dynamics.com?page=37071)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## See also

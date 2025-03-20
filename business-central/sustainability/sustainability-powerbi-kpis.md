@@ -12,3 +12,4 @@ ms.service: dynamics-365-business-central
 ---
 
 # Power BI Sustainability app KPIs and measures
+
