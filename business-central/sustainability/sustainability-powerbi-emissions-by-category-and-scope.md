@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The *Emissions by Category and Scope*....
 
-:::image type="content" source="media/sustainability/co2e-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/co2e-analysis.png":::
+:::image type="content" source="media/sustainability/emissions-by-category-and-scope.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/emissions-by-category-and-scope.png":::
 
 
 ## How to use the report

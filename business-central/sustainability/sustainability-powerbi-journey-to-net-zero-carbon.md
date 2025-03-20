@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The *Journey to Net Zero Carbon*....
 
-:::image type="content" source="media/sustainability/co2e-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/co2e-analysis.png":::
+:::image type="content" source="media/sustainability/journey-to-net-zero-carbon.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/journey-to-net-zero-carbon.png":::
 
 
 ## How to use the report

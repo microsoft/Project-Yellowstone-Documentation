@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The *Social Analysis*....
 
-:::image type="content" source="media/sustainability/co2e-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/co2e-analysis.png":::
+:::image type="content" source="media/sustainability/social-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/social-analysis.png":::
 
 
 ## How to use the report
