@@ -18,7 +18,7 @@ The *Project Timeline* report provides a visual representation of the all projec
 
 ## How to use the report
 
-The *Project Timeline* report is targeted towards project managers who want to monitor and plan the project timeline.
+The *Project Timeline* report is designed for project managers seeking to effectively monitor and plan project timelines.
 
 As a manager, you can leverage the *Project Timeline* report to monitor the duration of individual tasks within a project. By identifying potential bottlenecks and critical paths, you can proactively address issues, adjust timelines, and allocate resources effectively to ensure project success.
 
