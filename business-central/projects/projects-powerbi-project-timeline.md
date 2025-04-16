@@ -27,7 +27,7 @@ For team members involved in project execution, the *Project Timeline* report se
 ## Data used in the report
 Data from the following tables is used in the *Project Timeline* report [!INCLUDE[prod_short](includes/prod_short.md)]
 - Projects
-- Project Task Lines
+- Project Tasks
 
 ## Try the report
 Try the report here: [Project Timeline](https://businesscentral.dynamics.com?page=37106)
