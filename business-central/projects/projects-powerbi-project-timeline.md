@@ -25,12 +25,13 @@ As a manager, you can leverage the *Project Timeline* report to monitor the dura
 For team members involved in project execution, the *Project Timeline* report serves as a tool for understanding their task timelines and dependencies. By referring to this report, staff can prioritize their tasks, collaborate with other team members effectively, and meet project deadlines.
 
 ## Data used in the report
-Data from the following tables is used in the *Project Timeline* report [!INCLUDE[prod_short](includes/prod_short.md)]
+Data from the following tables is used in the *Project Timeline* report:
 - Projects
 - Project Tasks
 
 ## Try the report
 Try the report here: [Project Timeline](https://businesscentral.dynamics.com?page=37106)
+
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
