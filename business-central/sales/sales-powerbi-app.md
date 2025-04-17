@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 37060_Primary, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008
+ms.search.form: 37060_Primary, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37100
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
@@ -117,7 +117,7 @@ The following table describes the different Power BI reports in the sales app an
 | Analyze sales by salesperson and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Salesperson]( https://businesscentral.dynamics.com?page=37006) | [About Sales by Salesperson](sales-powerbi-sales-by-salesperson.md) |
 | Analyze sales by location and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Location]( https://businesscentral.dynamics.com?page=ID)  | [About Sales by Location](sales-powerbi-sales-by-location.md)  |
 | Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget]( https://businesscentral.dynamics.com?page=37008) | [About Actual vs. Budget](sales-powerbi-actual-vs-budget.md) | 
-
+| Analyze sales performance across different demographic segments, providing insights into customer behavior and preferences. | [Sales Demographics]( https://businesscentral.dynamics.com?page=37100) | [About Sales Demographics](sales-powerbi-sales-demographics.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
