@@ -1,6 +1,6 @@
 ---
 title: Project Timeline (Power BI report)
-description: The Project Timeline ...
+description: The Project Timeline monitors project timelines to ensure timely delivery, with insights into task durations, start and end dates, and critical paths.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 # Project Timeline (Power BI Report)
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The *Project Timeline* report provides a visual representation of the all project tasks along with their corresponding details. This report includes details about the project number, tasks number, description, starting and ending dates.
+The *Project Timeline* report monitors project timelines to ensure timely delivery, with insights into task durations, dates, and critical paths. This report includes details about the project number, tasks number, description, starting and ending dates.
 
 ## How to use the report
 
