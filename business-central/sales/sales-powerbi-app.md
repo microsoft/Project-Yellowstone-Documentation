@@ -118,6 +118,7 @@ The following table describes the different Power BI reports in the sales app an
 | Analyze sales by location and view key metrics like Sales Amount, Sales Quantity, Cost Amount, Gross Profit, Gross Profit Margin and Sales Amount as a percent of total sales.  | [Sales by Location]( https://businesscentral.dynamics.com?page=ID)  | [About Sales by Location](sales-powerbi-sales-by-location.md)  |
 | Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget]( https://businesscentral.dynamics.com?page=37008) | [About Actual vs. Budget](sales-powerbi-actual-vs-budget.md) | 
 | Analyze sales performance across different demographic segments, providing insights into customer behavior and preferences. | [Sales Demographics]( https://businesscentral.dynamics.com?page=37100) | [About Sales Demographics](sales-powerbi-sales-demographics.md) |
+| Analyze sales figures to understand contributing factors including location names, item categories, and countries and regions. | [Sales Decomposition]( https://businesscentral.dynamics.com?page=37101) | [About Sales Decomposition](sales-powerbi-sales-decomposition.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
