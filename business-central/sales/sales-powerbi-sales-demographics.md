@@ -19,9 +19,13 @@ The *Sales Demographics* report provides a comprehensive analysis of sales perfo
 ## How to use the report
 The *Sales Demographics* report is designed for business leaders and managers to gain a deeper understanding of sales performance based on demographic factors. This report can be used to analyze sales metrics by item category, customer posting group, document type, and geographical location to identify trends and opportunities for growth.
 
-As a CEO, you can utilize this report to assess the impact of demographic factors on sales performance. Gain insights into customer preferences, identify high-potential market segments, and gain visibility into the geographical distribution of your customer base worldwide.
+As the CEO of a furniture company, you want to understand how demographic factors including item categories, posting groups or geographical regions impact sales performance.
 
-As a sales manager, you can leverage this report to monitor sales performance across different demographic segments and tailor sales strategies accordingly. Analyze sales by customer posting group, track document types driving revenue, and optimize sales efforts based on customer demographics to maximize sales effectiveness.
+By analyzing the report, you discover that domestic customers in urban areas account for 60% of your total sales. Furthermore, the report highlights that the north-west region is underperforming compared to the south-east region, despite similar product offerings. Armed with this data, you decide to allocate more marketing budget and strategize a new promotional campaign to increase sales.
+
+As a sales manager, you are tasked with ensuring your team meets annual revenue targets. You want to monitor sales performance across different customer segments and make data-driven adjustments to your sales strategy.
+
+Using the report, you find out that customers in the Corporate customer posting group are contributing significantly more to overall revenue than retail customers. Additionally, you see that sales orders for ergonomic chairs are growing faster than leather office chairs. You use this information to direct your sales team to focus on upselling ergonomic chairs to corporate clients.
 
 ## Data used in the report
 Data from the following tables is used in the *Sales Demographics* report:
