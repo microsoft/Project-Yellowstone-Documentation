@@ -27,8 +27,12 @@ As the regional sales manager, the report helps you  monitor individual location
 
 ## Data used in the report
 Data from the following tables is used in the *Sales Decomposition* report:
+- Items
+- Locations
 - Value Entries
 - Sales Lines
+- Item Categories
+- Salespersons/Purchasers
 
 ## Key Performance Indicators (KPIs)
 The *Sales Decomposition* report includes the following KPIs and measures: 
