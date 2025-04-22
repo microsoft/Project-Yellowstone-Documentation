@@ -15,14 +15,20 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Key Sales Influencers* report helps you dive into insights and understand the key factors that influence sales figures in your organization. By analyzing the data, this report provides a deeper understanding of how different key variables impact sales performance, enabling better decision-making and strategic planning.
+The *Key Sales Influencers* report is designed to provide actionable insights into the factors that drive sales performance within your organization. By analyzing key variables, this report offers a deeper understanding of how these factors impact sales figures, enabling more informed decision-making and strategic planning.
 
-The Key Influencers visual leverages AI to show which factors most significantly impact sales across different sales document types. This visual breaks down the most influential segments within your sales data and helps you uncover how different metrics influence a specific dataset. The Top Segments tab provides a summary of the segments that have been anlyzed in the Key Influncers visual.
+The Key Influencers visual uses AI to identify the most significant factors affecting sales across various sales document types. It highlights the key metrics that influence specific datasets and breaks down the most impactful segments within your sales data.
+
+Additionally, the Top Segments tab summarizes the segments analyzed in the Key Influencers visual, giving you an overview of the areas that contribute most to your sales outcomes. Together, these tools provide a comprehensive view of sales drivers and help uncover opportunities for optimization.
 
 ## How to use the report
 The *Key Sales Influencers* report is designed for business leaders and sales teams to identify the primary drivers of sales performance and uncover actionable insights.
 
 As the CEO of a furniture company, this report can help you identify which furniture categories are driving the highest sales. For example, you might discover that ergonomic chairs are a major revenue contributor, with sales figures typically three times higher than other types of chairs. This insight can guide your investment decisions and provide valuable data to share with stakeholders.
+
+As a sales manager, thix report can help you identify customer demographics driving sales trends. For instance, the Key Influencers visual might reveal that a significant number of office desk orders are placed by customers located in the western states, with a higher likelihood of ordering quantities of 5 or more, twice as often as customers in other regions.
+
+Using this insight, you can develop targeted strategies such as bulk pricing discounts for office desks in the western states, encouraging larger purchases and strengthening customer loyalty. This allows you to optimize your pricing strategy while catering to regional buying behaviors.
 
 
 ## Key Performance Indicators (KPIs)
